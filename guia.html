@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guía del Entrenamiento con Clicker | GuíaCanina Abierta</title>
+    <title>La Guía Completa | GuíaCanina Abierta</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,38 +12,12 @@
         body {
             font-family: 'Inter', sans-serif;
         }
-        .prose h2 {
-            font-size: 1.875rem;
-            font-weight: 700;
-            margin-bottom: 1rem;
-            margin-top: 2.5rem;
-            color: #1e293b; /* slate-800 */
-            border-bottom: 2px solid #0ea5e9; /* sky-500 */
-            padding-bottom: 0.5rem;
+        .guide-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
-        .prose h3 {
-            font-size: 1.5rem;
-            font-weight: 600;
-            margin-bottom: 0.75rem;
-            margin-top: 2rem;
-            color: #334155; /* slate-700 */
-        }
-        .prose strong {
-            color: #0f172a; /* slate-900 */
-        }
-        .prose a {
-            color: #0284c7; /* sky-600 */
-            text-decoration: none;
-        }
-        .prose a:hover {
-            text-decoration: underline;
-        }
-        .prose blockquote {
-            border-left-color: #0ea5e9; /* sky-500 */
-            color: #1e293b;
-        }
-        .prose ul > li::before {
-             background-color: #0284c7; /* sky-600 */
+        .guide-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
         }
     </style>
 </head>
@@ -53,7 +27,7 @@
     <header class="bg-white/90 backdrop-blur-lg shadow-sm sticky top-0 z-50">
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
             <a href="index.html" class="text-2xl font-bold text-slate-900">GuíaCanina</a>
-             <div class="hidden md:flex space-x-8 items-center">
+            <div class="hidden md:flex space-x-8 items-center">
                 <a href="guia.html" class="text-sky-600 font-semibold transition duration-300">La Guía</a>
                 <a href="blog.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">Blog Científico</a>
                 <a href="servicios.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">Mis Servicios</a>
@@ -73,101 +47,86 @@
         </div>
     </header>
 
-    <main class="container mx-auto px-6 py-12 md:py-16">
-        <div class="grid lg:grid-cols-12 gap-8">
-            <!-- Contenido principal del artículo -->
-            <article class="lg:col-span-9 max-w-4xl mx-auto prose prose-lg">
-                <header>
-                    <p class="text-base font-semibold text-sky-600">GUÍA DE ENTRENAMIENTO AVANZADO</p>
-                    <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 mb-4">Guía Completa del Entrenamiento con Clicker</h1>
-                    <p class="text-xl text-slate-600">Una herramienta de precisión para construir comportamientos, confianza y una comunicación impecable con tu perro.</p>
-                </header>
-                
-                <figure class="mt-8">
-                    <img src="https://placehold.co/800x400/e0f2fe/0c4a6e?text=Click+%26+Premio" alt="Ilustración de una mano con un clicker y un perro recibiendo un premio" class="rounded-lg w-full">
-                    <figcaption class="text-center text-sm text-slate-500 mt-2">El clicker captura el momento exacto en que el perro realiza la acción correcta, creando un puente de comunicación claro.</figcaption>
-                </figure>
-                
-                <p>El entrenamiento con clicker es mucho más que una pequeña caja de plástico que hace "clic". Es una forma de comunicación basada en la ciencia del aprendizaje que permite marcar con una precisión asombrosa el comportamiento exacto que queremos reforzar. Al eliminar la ambigüedad, aceleramos el aprendizaje, fomentamos la creatividad del perro y fortalecemos nuestro vínculo a través de un diálogo claro y positivo.</p>
+    <main>
+        <!-- Sección de Héroe -->
+        <section class="bg-white">
+            <div class="container mx-auto px-6 py-16 text-center">
+                <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 mb-4">La Guía Completa para Entender a tu Perro</h1>
+                <p class="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto">
+                    Un recurso abierto y en constante crecimiento, basado en ciencia y empatía. Explora nuestras guías para construir una relación más fuerte y feliz con tu compañero canino.
+                </p>
+            </div>
+        </section>
 
-                <section id="ciencia">
-                    <h2>La Ciencia Detrás del "Click"</h2>
-                    <p>Para entender por qué el clicker es tan efectivo, debemos volver a nuestras <a href="principios-del-aprendizaje.html">Bases del Aprendizaje</a>. El clicker funciona combinando dos principios poderosos:</p>
-                    <ul>
-                        <li><strong>Condicionamiento Clásico:</strong> El "click" empieza siendo un sonido neutro. Al asociarlo repetidamente con algo que el perro ya valora (un premio de comida, un juguete), el sonido del clicker adquiere el valor del premio. El "click" se convierte en una promesa de que viene un refuerzo.</li>
-                        <li><strong>Condicionamiento Operante:</strong> Una vez que el "click" es significativo, lo usamos como un <strong>marcador de evento</strong>. Marca el instante preciso en que el perro ofrece el comportamiento deseado. Esto es seguido por un <strong>reforzador secundario</strong> (el premio). El perro aprende que su acción (el comportamiento) causa el "click" (la promesa), que a su vez trae el premio.</li>
-                    </ul>
-                    <blockquote>El clicker no es una orden. Es información. Le dice al perro: "¡Eso! ¡Justo lo que acabas de hacer es lo que te ha ganado un premio!".</blockquote>
-                </section>
+        <!-- Sección de Guías -->
+        <section class="py-16 md:py-24">
+            <div class="container mx-auto px-6">
+                 <h2 class="text-3xl font-bold text-center text-slate-900 mb-12">Pilares del Comportamiento y Aprendizaje</h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-                <section id="empezar">
-                    <h2>Guía Práctica: Empezando con el Clicker</h2>
-                    <h3>Paso 1: Cargar el Clicker (Asociación)</h3>
-                    <p>Antes de usar el clicker para entrenar, tu perro necesita entender qué significa. Este proceso se llama "cargar el clicker".</p>
-                    <ol>
-                        <li><strong>Prepara los premios:</strong> Usa premios de alto valor, pequeños y fáciles de tragar.</li>
-                        <li><strong>Sesiones cortas:</strong> En un lugar tranquilo, ten a tu perro cerca.</li>
-                        <li><strong>Click y Premio:</strong> Simplemente haz "click" e inmediatamente dale un premio a tu perro. No le pidas nada. El perro no tiene que hacer nada para ganárselo.</li>
-                        <li><strong>Repite:</strong> Haz esto unas 10-15 veces. Repite en varias sesiones cortas. Sabrás que tu perro entiende la asociación cuando, al oír el "click", te mire expectante buscando el premio.</li>
-                    </ol>
-                    <h3>Paso 2: Tu Primera Sesión de "Captura"</h3>
-                    <p>La "captura" consiste en marcar un comportamiento que tu perro ofrece de forma natural, sin que se lo pidas. Es la forma más pura de empezar.</p>
-                    <p><strong>Ejemplo: Capturar un "Sienta"</strong></p>
-                    <ol>
-                        <li>Espera a que tu perro, por sí mismo, se siente.</li>
-                        <li>En el instante EXACTO en que su trasero toca el suelo, haz "click".</li>
-                        <li>Dale un premio. Puedes lanzárselo un poco lejos para que tenga que levantarse, lo que te dará otra oportunidad para que se siente de nuevo.</li>
-                        <li>Repite. No digas "sienta". Simplemente espera, clickea y premia. Después de varias repeticiones, verás cómo tu perro empieza a ofrecer el comportamiento de sentarse para conseguir el "click".</li>
-                    </ol>
-                    <h3>Paso 3: Introduciendo el Moldeado (Shaping)</h3>
-                    <p>El moldeado es el proceso de construir un comportamiento complejo reforzando pequeñas aproximaciones sucesivas. Es como jugar al "frío o caliente" con tu perro.</p>
-                    <p><strong>Ejemplo: Enseñar al perro a tocar un post-it con la nariz</strong></p>
-                    <ol>
-                        <li><strong>Paso 1:</strong> Pega un post-it en el suelo. Clickea y premia a tu perro solo por mirar el post-it.</li>
-                        <li><strong>Paso 2:</strong> Una vez que lo mire de forma consistente, sube el criterio. Ahora solo clickeas si da un paso hacia el post-it.</li>
-                        <li><strong>Paso 3:</strong> Ahora, solo clickeas si se inclina hacia el post-it.</li>
-                        <li><strong>Paso 4:</strong> Finalmente, solo clickeas y premias cuando su nariz toca el post-it.</li>
-                    </ol>
-                    <p>A través de este proceso, tu perro aprende a resolver problemas y a ofrecer comportamientos activamente, lo que aumenta su confianza.</p>
-                </section>
+                    <!-- Tarjeta Guía: Lenguaje Canino -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg guide-card flex flex-col text-center">
+                        <h3 class="text-2xl font-bold text-slate-900 mb-2">El Lenguaje Canino</h3>
+                        <p class="text-slate-600 mb-6 flex-grow">Aprende a interpretar las señales de calma, el lenguaje corporal y las vocalizaciones para entender qué te dice tu perro.</p>
+                        <a href="lenguaje-canino.html" class="mt-auto bg-sky-600 text-white font-semibold py-3 px-6 rounded-lg hover:bg-sky-700 transition duration-300">Leer Guía</a>
+                    </div>
 
-                <section id="errores">
-                    <h2>Errores Comunes y Consejos de Oro</h2>
-                    <ul>
-                        <li><strong>No dar la orden y clickear:</strong> El clicker marca el comportamiento, no lo pide. La señal verbal (la orden) se añade mucho después, cuando el perro ya ofrece el comportamiento de forma fiable.</li>
-                        <li><strong>El "click" siempre termina en premio:</strong> ¡Siempre! Si haces "click" (incluso por accidente), tienes que darle un premio. Es una promesa que no se puede romper.</li>
-                        <li><strong>Timing, timing, timing:</strong> La precisión es la clave. Si clickeas demasiado pronto o demasiado tarde, estarás marcando el comportamiento equivocado.</li>
-                        <li><strong>Mantén las sesiones cortas y divertidas:</strong> Es mejor hacer 5 minutos de entrenamiento enfocado y exitoso que 30 minutos de frustración. Termina siempre con una nota positiva.</li>
-                    </ul>
-                </section>
+                    <!-- Tarjeta Guía: Principios del Aprendizaje -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg guide-card flex flex-col text-center">
+                        <h3 class="text-2xl font-bold text-slate-900 mb-2">Bases del Aprendizaje</h3>
+                        <p class="text-slate-600 mb-6 flex-grow">Descubre cómo aprenden los perros. Entiende el condicionamiento clásico y operante para entrenar de forma más efectiva y amable.</p>
+                        <a href="principios-del-aprendizaje.html" class="mt-auto bg-sky-600 text-white font-semibold py-3 px-6 rounded-lg hover:bg-sky-700 transition duration-300">Leer Guía</a>
+                    </div>
 
-                <section id="conclusion">
-                    <h2>Conclusión: Más que una Herramienta, un Diálogo</h2>
-                    <p>El entrenamiento con clicker transforma la forma en que te comunicas con tu perro. Te obliga a ser un observador más atento, a celebrar los pequeños éxitos y a dividir los grandes desafíos en pasos alcanzables. Es una técnica que fomenta un perro que piensa, que participa activamente en su aprendizaje y que confía en ti como su guía. Al dominar el clicker, no solo enseñas trucos, construyes un lenguaje común de precisión y positividad.</p>
-                </section>
-            </article>
+                    <!-- Tarjeta Guía: Problemas Comunes -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg guide-card flex flex-col text-center">
+                        <h3 class="text-2xl font-bold text-slate-900 mb-2">Problemas de Comportamiento</h3>
+                        <p class="text-slate-600 mb-6 flex-grow">Una guía para entender y abordar las causas de la reactividad, la ansiedad por separación, los miedos y otros desafíos comunes.</p>
+                        <a href="problemas-comunes.html" class="mt-auto bg-sky-600 text-white font-semibold py-3 px-6 rounded-lg hover:bg-sky-700 transition duration-300">Leer Guía</a>
+                    </div>
 
-            <!-- Menú Lateral -->
-            <aside class="lg:col-span-3">
-                <div class="sticky top-28">
-                    <div class="bg-white p-6 rounded-xl shadow-lg">
-                        <h3 class="text-xl font-bold text-slate-900 mb-4">En esta guía</h3>
-                        <ul class="space-y-3">
-                            <li><a href="#ciencia" class="font-medium text-slate-600 hover:text-sky-600">La Ciencia del "Click"</a></li>
-                            <li><a href="#empezar" class="font-medium text-slate-600 hover:text-sky-600">Guía Práctica para Empezar</a></li>
-                            <li><a href="#errores" class="font-medium text-slate-600 hover:text-sky-600">Errores Comunes y Consejos</a></li>
-                            <li><a href="#conclusion" class="font-medium text-slate-600 hover:text-sky-600">Conclusión: Un Diálogo</a></li>
-                        </ul>
+                    <!-- Tarjeta Guía: Bienestar y Enriquecimiento -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg guide-card flex flex-col text-center">
+                        <h3 class="text-2xl font-bold text-slate-900 mb-2">Bienestar y Enriquecimiento</h3>
+                        <p class="text-slate-600 mb-6 flex-grow">Ideas y estrategias para enriquecer la vida de tu perro, fomentar su bienestar físico y emocional y prevenir problemas de conducta.</p>
+                        <a href="bienestar-enriquecimiento.html" class="mt-auto bg-sky-600 text-white font-semibold py-3 px-6 rounded-lg hover:bg-sky-700 transition duration-300">Leer Guía</a>
+                    </div>
+
+                    <!-- Tarjeta Guía: Socialización -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg guide-card flex flex-col text-center">
+                        <h3 class="text-2xl font-bold text-slate-900 mb-2">Socialización del Cachorro</h3>
+                        <p class="text-slate-600 mb-6 flex-grow">La guía definitiva para socializar a tu cachorro de forma segura y positiva, sentando las bases de un adulto equilibrado y confiado.</p>
+                        <a href="socializacion.html" class="mt-auto bg-sky-600 text-white font-semibold py-3 px-6 rounded-lg hover:bg-sky-700 transition duration-300">Leer Guía</a>
                     </div>
                 </div>
-            </aside>
-        </div>
+
+                <!-- Nueva Sección: Entrenamiento Avanzado -->
+                <div class="mt-20">
+                    <h2 class="text-3xl font-bold text-center text-slate-900 mb-12">Entrenamiento Avanzado y Herramientas</h2>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                         <!-- Tarjeta Guía: Clicker -->
+                        <div class="bg-white p-8 rounded-xl shadow-lg guide-card flex flex-col text-center">
+                            <h3 class="text-2xl font-bold text-slate-900 mb-2">Entrenamiento con Clicker</h3>
+                            <p class="text-slate-600 mb-6 flex-grow">Domina esta herramienta de precisión para una comunicación impecable con tu perro.</p>
+                            <a href="clicker-training.html" class="mt-auto bg-sky-600 text-white font-semibold py-3 px-6 rounded-lg hover:bg-sky-700 transition duration-300">Leer Guía</a>
+                        </div>
+                         <!-- Tarjeta Guía: Placeholder -->
+                        <div class="bg-gray-200 p-8 rounded-xl flex flex-col text-center opacity-70">
+                            <h3 class="text-2xl font-bold text-slate-700 mb-2">Moldeado Libre (Shaping)</h3>
+                            <p class="text-slate-600 mb-6 flex-grow">Fomenta la creatividad y la capacidad de resolución de problemas de tu perro.</p>
+                            <span class="mt-auto bg-slate-400 text-white font-semibold py-3 px-6 rounded-lg cursor-not-allowed">Próximamente</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
     </main>
-    
+
     <!-- Footer -->
-    <footer class="bg-slate-800 text-slate-300 mt-16">
+    <footer class="bg-slate-800 text-slate-300">
         <div class="container mx-auto px-6 py-12">
-            <!-- Footer content here... -->
+           <!-- ... (footer content remains the same) ... -->
         </div>
     </footer>
 
@@ -175,9 +134,11 @@
         // Script para el menú móvil
         const mobileMenuButton = document.getElementById('mobile-menu-button');
         const mobileMenu = document.getElementById('mobile-menu');
+
         mobileMenuButton.addEventListener('click', () => {
             mobileMenu.classList.toggle('hidden');
         });
     </script>
 </body>
 </html>
+

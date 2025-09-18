@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bases del Aprendizaje Canino | GuíaCanina Abierta</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .prose h2 {
+            font-size: 1.875rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            margin-top: 2.5rem;
+            color: #1e293b; /* slate-800 */
+        }
+        .prose h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+            margin-top: 2rem;
+            color: #334155; /* slate-700 */
+        }
+        .prose strong {
+            color: #0f172a; /* slate-900 */
+        }
+        .prose a {
+            color: #0284c7; /* sky-600 */
+            text-decoration: none;
+        }
+        .prose a:hover {
+            text-decoration: underline;
+        }
+        .prose ul > li::before {
+             background-color: #0284c7; /* sky-600 */
+        }
+        .sticky-nav {
+            position: sticky;
+            top: 100px; /* Adjust based on header height */
+        }
+        .quadrant-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-top: 1.5rem;
+            border-radius: 0.5rem;
+            overflow: hidden;
+            border: 1px solid #e2e8f0;
+        }
+        .quadrant {
+            padding: 1.5rem;
+            text-align: center;
+        }
+        .quadrant h4 {
+            font-size: 1.125rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+        .quadrant p {
+            font-size: 0.875rem;
+            margin: 0;
+        }
+        .positive-reinforcement { background-color: #ecfdf5; color: #065f46; }
+        .negative-punishment { background-color: #fefce8; color: #854d0e; }
+        .positive-punishment { background-color: #fef2f2; color: #991b1b; }
+        .negative-reinforcement { background-color: #f0f9ff; color: #0c4a6e; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-700">
+
+    <!-- Header y Navegación -->
+    <header class="bg-white/90 backdrop-blur-lg shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-slate-900">GuíaCanina</a>
+            <div class="hidden md:flex space-x-8 items-center">
+                <a href="guia.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">La Guía</a>
+                <a href="blog.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">Blog Científico</a>
+                <a href="servicios.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">Mis Servicios</a>
+                <a href="sobre-mi.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">Sobre Mí</a>
+                <a href="apoyame.html" class="bg-emerald-500 text-white px-4 py-2 rounded-lg hover:bg-emerald-600 font-semibold transition duration-300 shadow">Apoya el Proyecto</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden text-slate-800">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" /></svg>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 space-y-3">
+             <a href="guia.html" class="block text-slate-600 hover:text-sky-600 font-medium">La Guía</a>
+             <a href="blog.html" class="block text-slate-600 hover:text-sky-600 font-medium">Blog Científico</a>
+             <a href="servicios.html" class="block text-slate-600 hover:text-sky-600 font-medium">Mis Servicios</a>
+             <a href="sobre-mi.html" class="block text-slate-600 hover:text-sky-600 font-medium">Sobre Mí</a>
+             <a href="apoyame.html" class="block bg-emerald-500 text-white px-4 py-2 rounded-lg text-center font-semibold hover:bg-emerald-600">Apoya el Proyecto</a>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 py-12 md:py-16">
+        <div class="flex flex-col lg:flex-row gap-12">
+            <!-- Columna de Navegación Izquierda (Sticky) -->
+            <aside class="lg:w-1/4">
+                <div class="sticky-nav">
+                    <h3 class="text-lg font-bold text-slate-900 mb-4">En esta guía</h3>
+                    <nav>
+                        <ul class="space-y-3">
+                            <li><a href="#introduccion" class="font-medium text-slate-600 hover:text-sky-600">Introducción: La Ciencia de Enseñar</a></li>
+                            <li><a href="#aprendizaje-no-asociativo" class="font-medium text-slate-600 hover:text-sky-600">1. Aprendizaje No Asociativo</a></li>
+                            <li><a href="#condicionamiento-clasico" class="font-medium text-slate-600 hover:text-sky-600">2. Condicionamiento Clásico</a></li>
+                            <li><a href="#condicionamiento-operante" class="font-medium text-slate-600 hover:text-sky-600">3. Condicionamiento Operante</a>
+                                <ul class="ml-4 mt-2 space-y-2 text-sm">
+                                    <li><a href="#operante-cuadrantes" class="text-slate-500 hover:text-sky-600">Los 4 Cuadrantes</a></li>
+                                    <li><a href="#operante-etica" class="text-slate-500 hover:text-sky-600">La Ética de la Elección</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#herramientas-practicas" class="font-medium text-slate-600 hover:text-sky-600">4. Herramientas Prácticas</a></li>
+                            <li><a href="#conceptos-clave" class="font-medium text-slate-600 hover:text-sky-600">5. Conceptos Clave para el Éxito</a></li>
+                            <li><a href="#conclusion" class="font-medium text-slate-600 hover:text-sky-600">Conclusión: Ser un Buen Maestro</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </aside>
+
+            <!-- Columna de Contenido Principal -->
+            <article class="lg:w-3/4 bg-white p-8 md:p-12 rounded-xl shadow-lg prose prose-lg max-w-none">
+                
+                <header>
+                    <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 mb-4">Bases del Aprendizaje Canino</h1>
+                    <p class="text-xl text-slate-600">Descubre cómo la ciencia del aprendizaje puede transformar tu forma de enseñar, comunicarte y convivir con tu perro.</p>
+                </header>
+                
+                <hr class="my-8">
+
+                <section id="introduccion">
+                    <h2>Introducción: La Ciencia de Enseñar</h2>
+                    <p>Entender cómo aprende un perro es como tener el manual de instrucciones de su cerebro. No se trata de trucos ni de dominancia, sino de comprender los procesos biológicos universales que rigen la forma en que todos los animales, incluidos los humanos y los perros, adquieren nueva información y modifican su comportamiento. Al dominar estos principios, dejamos de lado los mitos y las técnicas obsoletas para convertirnos en maestros claros, justos y eficaces.</p>
+                    <p>Esta guía te llevará a través de los conceptos fundamentales del aprendizaje, dándote el poder de construir comportamientos deseados de forma amable y de resolver problemas desde la raíz.</p>
+                </section>
+
+                <section id="aprendizaje-no-asociativo">
+                    <h2>1. Aprendizaje No Asociativo: El Primer Contacto con el Mundo</h2>
+                    <p>Es la forma más simple de aprendizaje. El perro no asocia un estímulo con otro, simplemente cambia su respuesta a un estímulo que se repite en el tiempo.</p>
+                    <ul>
+                        <li><strong>Habituación:</strong> Es el proceso de acostumbrarse a algo. El perro aprende a ignorar un estímulo irrelevante y repetido. Por ejemplo, un cachorro que vive en la ciudad aprende a no sobresaltarse cada vez que escucha el tráfico. Es un aprendizaje pasivo y vital para no vivir en un estado de alerta constante.</li>
+                        <li><strong>Sensibilización:</strong> Es lo contrario a la habituación. La exposición repetida a un estímulo (especialmente si es intenso o desagradable) provoca una respuesta cada vez más fuerte. Por ejemplo, un perro que tiene miedo a los petardos puede reaccionar con más pánico cada año que los escucha.</li>
+                    </ul>
+                </section>
+
+                <section id="condicionamiento-clasico">
+                    <h2>2. Condicionamiento Clásico: El Poder de la Asociación</h2>
+                    <p>También conocido como condicionamiento pavloviano, es un aprendizaje basado en la <strong>asociación de estímulos</strong>. El perro aprende que una cosa predice la ocurrencia de otra, provocando una respuesta refleja e involuntaria.</p>
+                    <p>El ejemplo clásico de Pávlov era un perro que salivaba (respuesta involuntaria) al oír una campana que predecía la comida. En nuestro día a día:</p>
+                    <ul>
+                        <li><strong>Coger la correa (estímulo neutro)</strong> se asocia con <strong>salir de paseo (estímulo que provoca alegría)</strong>. Con el tiempo, el simple hecho de coger la correa provoca la misma alegría que el paseo en sí.</li>
+                        <li><strong>El sonido del clicker (estímulo neutro)</strong> se asocia con <strong>un trozo de comida (estímulo que provoca felicidad)</strong>. Pronto, el sonido del clicker por sí solo genera una emoción positiva.</li>
+                    </ul>
+                    <p>Este tipo de aprendizaje es fundamental para entender las <strong>respuestas emocionales</strong>. Muchos miedos y fobias se forman por condicionamiento clásico: si un perro es atacado por otro perro grande (evento traumático), puede empezar a sentir miedo (respuesta emocional) con solo ver a cualquier perro grande, aunque sea amistoso.</p>
+                </section>
+
+                <section id="condicionamiento-operante">
+                    <h2>3. Condicionamiento Operante: El Aprendizaje a través de las Consecuencias</h2>
+                    <p>Aquí es donde entramos en el corazón del entrenamiento. El condicionamiento operante, estudiado por B.F. Skinner, se basa en una premisa simple: <strong>el comportamiento se ve afectado por sus consecuencias</strong>. Si una conducta tiene una consecuencia agradable, es más probable que se repita. Si tiene una consecuencia desagradable, es menos probable que se repita.</p>
+                    <p>El perro es un "operador" activo que toma decisiones basadas en el resultado de sus acciones. Para entenderlo, usamos el modelo de los cuatro cuadrantes.</p>
+
+                    <h3 id="operante-cuadrantes">Los 4 Cuadrantes del Condicionamiento Operante</h3>
+                    <p>Los términos "positivo" y "negativo" no significan "bueno" o "malo". En este contexto, son términos matemáticos:</p>
+                    <ul>
+                        <li><strong>Positivo (+):</strong> Significa añadir algo al entorno.</li>
+                        <li><strong>Negativo (-):</strong> Significa quitar algo del entorno.</li>
+                    </ul>
+                    <p>Y "refuerzo" y "castigo" se refieren al efecto sobre el comportamiento:</p>
+                    <ul>
+                        <li><strong>Refuerzo:</strong> Aumenta la probabilidad de que la conducta se repita.</li>
+                        <li><strong>Castigo:</strong> Disminuye la probabilidad de que la conducta se repita.</li>
+                    </ul>
+
+                    <div class="quadrant-grid">
+                        <div class="quadrant positive-reinforcement">
+                            <h4>Refuerzo Positivo (R+)</h4>
+                            <p><strong>Añades algo bueno</strong> para que el comportamiento aumente. (Ej: Le das un premio cuando se sienta).</p>
+                        </div>
+                        <div class="quadrant negative-punishment">
+                            <h4>Castigo Negativo (P-)</h4>
+                            <p><strong>Quitas algo bueno</strong> para que el comportamiento disminuya. (Ej: Te vas del juego si muerde fuerte).</p>
+                        </div>
+                        <div class="quadrant positive-punishment">
+                            <h4>Castigo Positivo (P+)</h4>
+                            <p><strong>Añades algo malo</strong> para que el comportamiento disminuya. (Ej: Das un tirón de correa si tira).</p>
+                        </div>
+                        <div class="quadrant negative-reinforcement">
+                            <h4>Refuerzo Negativo (R-)</h4>
+                            <p><strong>Quitas algo malo</strong> para que el comportamiento aumente. (Ej: Dejas de presionar su grupa cuando se sienta).</p>
+                        </div>
+                    </div>
+                    
+                    <h3 id="operante-etica">La Ética de la Elección: Por qué nos centramos en el R+</h3>
+                    <p>Aunque los cuatro cuadrantes existen y funcionan, no son éticamente ni funcionalmente equivalentes. El entrenamiento moderno, respaldado por la ciencia, se centra en el <strong>Refuerzo Positivo (R+)</strong> por varias razones cruciales:</p>
+                    <ul>
+                        <li><strong>Construye una relación de confianza:</strong> El perro aprende que interactuar contigo trae cosas buenas.</li>
+                        <li><strong>Fomenta el entusiasmo por aprender:</strong> El perro se convierte en un participante activo y dispuesto, en lugar de alguien que actúa para evitar un castigo.</li>
+                        <li><strong>No tiene efectos secundarios dañinos:</strong> El uso del castigo (especialmente el positivo) está asociado con un aumento del miedo, la ansiedad y la agresión, y puede dañar gravemente el vínculo.</li>
+                    </ul>
+                    <p>Nuestro objetivo es usar principalmente el <strong>Refuerzo Positivo</strong> para enseñar lo que SÍ queremos que haga, y el <strong>Castigo Negativo</strong> (retirar la atención, el juego, etc.) para gestionar los comportamientos que NO queremos, siempre de forma calmada y justa.</p>
+                </section>
+                
+                <section id="herramientas-practicas">
+                    <h2>4. Herramientas Prácticas Basadas en el Aprendizaje</h2>
+                    <ul>
+                        <li><strong>Shaping (Moldeado):</strong> Consiste en reforzar pequeños pasos o aproximaciones sucesivas hacia un comportamiento final. Es como jugar a "frío o caliente". Es una herramienta potentísima para enseñar conductas complejas y fomenta la capacidad de resolución de problemas del perro.</li>
+                        <li><strong>Luring (Guiado con señuelo):</strong> Usar un señuelo (normalmente comida) para guiar físicamente al perro a una posición. Es útil para empezar, pero es crucial eliminar el señuelo lo antes posible para que el perro no se vuelva dependiente de él.</li>
+                        <li><strong>Capturing (Captura):</strong> Esperar a que el perro ofrezca un comportamiento de forma natural (ej: tumbarse) y reforzarlo en ese preciso instante. Es ideal para comportamientos que el perro ya hace a menudo.</li>
+                    </ul>
+                </section>
+
+                <section id="conceptos-clave">
+                    <h2>5. Conceptos Clave para el Éxito</h2>
+                    <ul>
+                        <li><strong>El Timing es Crucial:</strong> Un refuerzo o un marcador (como el clicker) debe ocurrir en el instante en que se produce el comportamiento deseado para que la asociación sea clara.</li>
+                        <li><strong>Gestión del Entorno:</strong> Es la base de todo. Prevenir comportamientos no deseados es mucho más fácil que corregirlos. Si no quieres que tu perro muerda los zapatos, no dejes los zapatos a su alcance.</li>
+                        <li><strong>Umbrales (Thresholds):</strong> Como describe Grisha Stewart en BAT, un perro tiene un umbral de estrés a partir del cual ya no puede aprender y solo puede reaccionar (ladrar, huir, etc.). Nuestro trabajo es enseñar siempre por debajo de ese umbral, donde su cerebro está receptivo.</li>
+                    </ul>
+                </section>
+
+                <section id="conclusion">
+                    <h2>Conclusión: Ser un Buen Maestro</h2>
+                    <p>La ciencia del aprendizaje nos enseña que ser un buen maestro no se trata de fuerza, sino de claridad, consistencia y empatía. Al entender cómo funciona la mente de tu perro, puedes comunicarte de una manera que él entienda, crear un ambiente de aprendizaje seguro y positivo, y construir una relación basada en la cooperación y la confianza mutua.</p>
+                    <p>Utiliza estos principios no como una receta rígida, sino como una caja de herramientas para observar, entender y adaptarte a las necesidades únicas de tu increíble compañero de vida.</p>
+                </section>
+
+            </article>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-800 text-slate-300">
+        <div class="container mx-auto px-6 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-lg font-bold text-white mb-4">GuíaCanina</h3>
+                    <p class="text-sm">Conocimiento abierto, basado en ciencia y empatía, para mejorar la vida de los perros.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-white mb-4">Explora</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="guia.html" class="hover:text-white">La Guía Completa</a></li>
+                        <li><a href="blog.html" class="hover:text-white">Blog Científico</a></li>
+                        <li><a href="servicios.html" class="hover:text-white">Mis Servicios</a></li>
+                        <li><a href="sobre-mi.html" class="hover:text-white">Sobre Mí</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-white mb-4">Apoya</h3>
+                     <ul class="space-y-2 text-sm">
+                        <li><a href="apoyame.html" class="hover:text-white">Haz una Donación</a></li>
+                        <li><a href="#" class="hover:text-white">Aviso Legal</a></li>
+                        <li><a href="#" class="hover:text-white">Política de Privacidad</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-white mb-4">Sígueme</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" aria-label="Instagram"><svg class="h-6 w-6 hover:text-white" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.024.06 1.378.06 3.808s-.012 2.784-.06 3.808c-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.024.048-1.378.06-3.808.06s-2.784-.012-3.808-.06c-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.048-1.024-.06-1.378-.06-3.808s.012-2.784.06-3.808c.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 016.08 2.525c.636-.247 1.363-.416 2.427.465C9.53 2.013 9.884 2 12.315 2zM12 0C9.58 0 9.22.01 8.16.06c-1.15.05-1.94.22-2.6.47a6.9 6.9 0 00-2.18 1.62A6.9 6.9 0 001.74 6.3c-.25.66-.42 1.45-.47 2.6C1.21 9.94 1.19 10.3 1.19 12.72s.02 2.78.07 3.84c.05 1.15.22 1.94.47 2.6a6.9 6.9 0 001.62 2.18 6.9 6.9 0 002.18 1.62c.66.25 1.45.42 2.6.47 1.06.05 1.42.06 3.84.06s2.78-.01 3.84-.06c1.15-.05 1.94-.22 2.6-.47a6.9 6.9 0 002.18-1.62 6.9 6.9 0 001.62-2.18c.25-.66.42-1.45.47-2.6.05-1.06.06-1.42.06-3.84s-.01-2.78-.06-3.84c-.05-1.15-.22-1.94-.47-2.6A6.9 6.9 0 0021.5 4.48a6.9 6.9 0 00-2.18-1.62c-.66-.25-1.45-.42-2.6-.47C15.56.01 15.2 0 12.72 0H12z" clip-rule="evenodd" /><path d="M12 6.865a5.135 5.135 0 100 10.27 5.135 5.135 0 000-10.27zM12 15a3 3 0 110-6 3 3 0 010 6z" /><path d="M16.862 6.225a1.238 1.238 0 100-2.475 1.238 1.238 0 000 2.475z" /></svg></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-slate-700 mt-8 pt-6 text-center text-sm">
+                <p>&copy; 2024 GuíaCanina. Un proyecto de [Tu Nombre].</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Script para el menú móvil
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Científico | GuíaCanina Abierta</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .article-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .article-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-700">
+
+    <!-- Header y Navegación -->
+    <header class="bg-white/90 backdrop-blur-lg shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-slate-900">GuíaCanina</a>
+            <div class="hidden md:flex space-x-8 items-center">
+                <a href="guia.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">La Guía</a>
+                <a href="blog.html" class="text-sky-600 font-semibold transition duration-300">Blog Científico</a>
+                <a href="servicios.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">Mis Servicios</a>
+                <a href="sobre-mi.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">Sobre Mí</a>
+                <a href="apoyame.html" class="bg-emerald-500 text-white px-4 py-2 rounded-lg hover:bg-emerald-600 font-semibold transition duration-300 shadow">Apoya el Proyecto</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden text-slate-800">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" /></svg>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 space-y-3">
+             <a href="guia.html" class="block text-slate-600 hover:text-sky-600 font-medium">La Guía</a>
+             <a href="blog.html" class="block text-sky-600 font-semibold">Blog Científico</a>
+             <a href="servicios.html" class="block text-slate-600 hover:text-sky-600 font-medium">Mis Servicios</a>
+             <a href="sobre-mi.html" class="block text-slate-600 hover:text-sky-600 font-medium">Sobre Mí</a>
+             <a href="apoyame.html" class="block bg-emerald-500 text-white px-4 py-2 rounded-lg text-center font-semibold hover:bg-emerald-600">Apoya el Proyecto</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Sección de Héroe -->
+        <section class="bg-white">
+            <div class="container mx-auto px-6 py-16 text-center">
+                <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 mb-4">Blog Científico Canino</h1>
+                <p class="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto">
+                    Análisis de las últimas investigaciones sobre comportamiento, cognición y bienestar canino, traducidas para que puedas aplicarlas en tu día a día.
+                </p>
+            </div>
+        </section>
+
+        <!-- Sección de Artículos -->
+        <section class="py-16 md:py-24">
+            <div class="container mx-auto px-6">
+                <div class="grid md:grid-cols-1 lg:grid-cols-3 gap-10">
+
+                    <!-- Tarjeta de Artículo 1 -->
+                    <article class="bg-white rounded-xl shadow-lg overflow-hidden flex flex-col article-card">
+                        <img src="https://placehold.co/600x400/0ea5e9/ffffff?text=Ojos+de+Cachorro" alt="Ilustración de un perro levantando las cejas" class="w-full h-48 object-cover">
+                        <div class="p-6 flex flex-col flex-grow">
+                            <p class="text-sm text-sky-600 font-semibold">Cognición y Evolución</p>
+                            <h3 class="text-xl font-bold text-slate-900 mt-2 mb-3">La Ciencia Detrás de los 'Ojos de Cachorro': Cómo los Perros Evolucionaron para Comunicarse Contigo</h3>
+                            <p class="text-slate-600 flex-grow">Un estudio revela la anatomía facial que permite a los perros hacer esa expresión irresistible y cómo esto ha sido clave en su domesticación.</p>
+                            <a href="articulo-kaminski.html" class="mt-6 inline-block text-sky-600 font-semibold hover:text-sky-800">Leer más &rarr;</a>
+                        </div>
+                    </article>
+
+                    <!-- Tarjeta de Artículo 2 (Placeholder) -->
+                    <article class="bg-white rounded-xl shadow-lg overflow-hidden flex flex-col article-card">
+                        <img src="https://placehold.co/600x400/10b981/ffffff?text=Olfato+Canino" alt="Ilustración de un perro olfateando" class="w-full h-48 object-cover">
+                        <div class="p-6 flex flex-col flex-grow">
+                            <p class="text-sm text-emerald-600 font-semibold">Sentidos y Percepción</p>
+                            <h3 class="text-xl font-bold text-slate-900 mt-2 mb-3">El Mundo a través de su Nariz: ¿Qué nos dice la ciencia sobre el olfato canino?</h3>
+                            <p class="text-slate-600 flex-grow">Exploramos las últimas investigaciones sobre la increíble capacidad olfativa de los perros y cómo podemos enriquecer sus vidas a través de ella.</p>
+                             <a href="#" class="mt-6 inline-block text-slate-400 font-semibold cursor-not-allowed">Próximamente...</a>
+                        </div>
+                    </article>
+
+                    <!-- Tarjeta de Artículo 3 (Placeholder) -->
+                    <article class="bg-white rounded-xl shadow-lg overflow-hidden flex flex-col article-card">
+                         <img src="https://placehold.co/600x400/f59e0b/ffffff?text=Juego+Canino" alt="Ilustración de dos perros jugando" class="w-full h-48 object-cover">
+                        <div class="p-6 flex flex-col flex-grow">
+                            <p class="text-sm text-amber-600 font-semibold">Comportamiento Social</p>
+                            <h3 class="text-xl font-bold text-slate-900 mt-2 mb-3">¿Es solo un juego? La importancia de la reciprocidad en las interacciones caninas</h3>
+                            <p class="text-slate-600 flex-grow">Un análisis sobre cómo los perros negocian las reglas del juego y por qué es vital para su desarrollo social y para prevenir conflictos.</p>
+                            <a href="#" class="mt-6 inline-block text-slate-400 font-semibold cursor-not-allowed">Próximamente...</a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-800 text-slate-300">
+        <div class="container mx-auto px-6 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-lg font-bold text-white mb-4">GuíaCanina</h3>
+                    <p class="text-sm">Conocimiento abierto, basado en ciencia y empatía, para mejorar la vida de los perros.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-white mb-4">Explora</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="guia.html" class="hover:text-white">La Guía Completa</a></li>
+                        <li><a href="blog.html" class="hover:text-white">Blog Científico</a></li>
+                        <li><a href="servicios.html" class="hover:text-white">Mis Servicios</a></li>
+                        <li><a href="sobre-mi.html" class="hover:text-white">Sobre Mí</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-white mb-4">Apoya</h3>
+                     <ul class="space-y-2 text-sm">
+                        <li><a href="apoyame.html" class="hover:text-white">Haz una Donación</a></li>
+                        <li><a href="#" class="hover:text-white">Aviso Legal</a></li>
+                        <li><a href="#" class="hover:text-white">Política de Privacidad</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-white mb-4">Sígueme</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" aria-label="Instagram"><svg class="h-6 w-6 hover:text-white" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.024.06 1.378.06 3.808s-.012 2.784-.06 3.808c-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.024.048-1.378.06-3.808.06s-2.784-.012-3.808-.06c-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.048-1.024-.06-1.378-.06-3.808s.012-2.784.06-3.808c.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 016.08 2.525c.636-.247 1.363-.416 2.427.465C9.53 2.013 9.884 2 12.315 2zM12 0C9.58 0 9.22.01 8.16.06c-1.15.05-1.94.22-2.6.47a6.9 6.9 0 00-2.18 1.62A6.9 6.9 0 001.74 6.3c-.25.66-.42 1.45-.47 2.6C1.21 9.94 1.19 10.3 1.19 12.72s.02 2.78.07 3.84c.05 1.15.22 1.94.47 2.6a6.9 6.9 0 001.62 2.18 6.9 6.9 0 002.18 1.62c.66.25 1.45.42 2.6.47 1.06.05 1.42.06 3.84.06s2.78-.01 3.84-.06c1.15-.05 1.94-.22 2.6-.47a6.9 6.9 0 002.18-1.62 6.9 6.9 0 001.62-2.18c.25-.66.42-1.45.47-2.6.05-1.06.06-1.42.06-3.84s-.01-2.78-.06-3.84c-.05-1.15-.22-1.94-.47-2.6A6.9 6.9 0 0021.5 4.48a6.9 6.9 0 00-2.18-1.62c-.66-.25-1.45-.42-2.6-.47C15.56.01 15.2 0 12.72 0H12z" clip-rule="evenodd" /><path d="M12 6.865a5.135 5.135 0 100 10.27 5.135 5.135 0 000-10.27zM12 15a3 3 0 110-6 3 3 0 010 6z" /><path d="M16.862 6.225a1.238 1.238 0 100-2.475 1.238 1.238 0 000 2.475z" /></svg></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-slate-700 mt-8 pt-6 text-center text-sm">
+                <p>&copy; 2024 GuíaCanina. Un proyecto de [Tu Nombre].</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Script para el menú móvil
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mí | GuíaCanina Abierta</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-700">
+
+    <!-- Header y Navegación -->
+    <header class="bg-white/90 backdrop-blur-lg shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-slate-900">GuíaCanina</a>
+            <div class="hidden md:flex space-x-8 items-center">
+                <a href="guia.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">La Guía</a>
+                <a href="blog.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">Blog Científico</a>
+                <a href="servicios.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">Mis Servicios</a>
+                <a href="sobre-mi.html" class="text-sky-600 font-semibold transition duration-300">Sobre Mí</a>
+                <a href="apoyame.html" class="bg-emerald-500 text-white px-4 py-2 rounded-lg hover:bg-emerald-600 font-semibold transition duration-300 shadow">Apoya el Proyecto</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden text-slate-800">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" /></svg>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 space-y-3">
+             <a href="guia.html" class="block text-slate-600 hover:text-sky-600 font-medium">La Guía</a>
+             <a href="blog.html" class="block text-slate-600 hover:text-sky-600 font-medium">Blog Científico</a>
+             <a href="servicios.html" class="block text-slate-600 hover:text-sky-600 font-medium">Mis Servicios</a>
+             <a href="sobre-mi.html" class="block text-sky-600 font-semibold">Sobre Mí</a>
+             <a href="apoyame.html" class="block bg-emerald-500 text-white px-4 py-2 rounded-lg text-center font-semibold hover:bg-emerald-600">Apoya el Proyecto</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Sección de Héroe -->
+        <section class="bg-white">
+            <div class="container mx-auto px-6 py-16 md:py-20">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div class="text-center md:text-left">
+                        <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 mb-4">Hola, soy [Tu Nombre]</h1>
+                        <p class="text-lg md:text-xl text-slate-600 max-w-xl mx-auto md:mx-0">
+                            Educadora canina certificada, apasionada por la ciencia del comportamiento y dedicada a mejorar la comunicación y el vínculo entre los perros y sus familias.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="https://placehold.co/500x500/e0f2fe/0c4a6e?text=Tu+Foto" alt="Retrato de [Tu Nombre]" class="rounded-full shadow-2xl mx-auto w-64 h-64 md:w-80 md:h-80 object-cover">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Mi Historia -->
+        <section class="py-16 md:py-24">
+            <div class="container mx-auto px-6">
+                <div class="max-w-3xl mx-auto">
+                    <div class="text-center mb-12">
+                         <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900">Mi Historia y el Porqué de GuíaCanina</h2>
+                    </div>
+                   
+                    <div class="prose prose-lg max-w-none text-slate-700 space-y-6">
+                        <p>Mi fascinación por los perros comenzó en la infancia, pero mi viaje profesional despegó realmente con la llegada de [Nombre de tu perro], un perro increíble que me desafió y me enseñó más de lo que jamás imaginé. Como muchos, al principio recurrí a métodos de adiestramiento tradicionales que me dejaron con una sensación de desconexión y conflicto. Sentía que debía haber una forma mejor, una que no se basara en la obediencia ciega, sino en la comprensión y el respeto mutuo.</p>
+                        <p>Esa búsqueda me llevó a sumergirme en el estudio de la <strong>etología, la neurociencia y la ciencia del aprendizaje animal</strong>. Descubrí un universo donde la empatía no solo era posible, sino que era la herramienta más poderosa. Comprendí que los "problemas" de comportamiento casi siempre son el resultado de necesidades no cubiertas, miedo o una comunicación fallida.</p>
+                        <p><strong>GuíaCanina nació de una convicción profunda:</strong> que el conocimiento científico de calidad debe ser accesible para todos. Decidí crear este espacio para compartir todo lo que he aprendido, para desmentir mitos dañinos y para ofrecer una alternativa amable y efectiva que pone el bienestar del perro en el centro de todo. Mi misión es empoderarte con el conocimiento para que puedas construir la relación que siempre soñaste con tu perro, una basada en la confianza, la comunicación y la alegría compartida.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Mi Filosofía y Formación -->
+        <section class="bg-white py-16 md:py-24">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900">Mi Formación y Filosofía</h2>
+                    <p class="text-lg text-slate-600 mt-4 max-w-2xl mx-auto">Mi compromiso es con la formación continua y la aplicación de métodos respaldados por la ciencia.</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+                    <!-- Valor 1 -->
+                    <div class="bg-slate-50 p-6 rounded-lg">
+                        <svg class="h-12 w-12 text-sky-500 mx-auto mb-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0l-1.07-1.07m1.07 1.07l1.07 1.07m0 0l-1.07 1.07m1.07-1.07l1.07-1.07m7.5-3.989l-1.07-1.07m1.07 1.07l1.07 1.07m0 0l-1.07 1.07m1.07-1.07l1.07-1.07m-1.07-1.07l-1.07-1.07m1.07 1.07l1.07 1.07" /></svg>
+                        <h3 class="text-xl font-bold text-slate-800">Basado en Ciencia</h3>
+                        <p class="text-slate-600 mt-2">Aplico los principios de la etología y el aprendizaje animal para crear planes efectivos y éticos.</p>
+                    </div>
+                    <!-- Valor 2 -->
+                    <div class="bg-slate-50 p-6 rounded-lg">
+                        <svg class="h-12 w-12 text-sky-500 mx-auto mb-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" /></svg>
+                        <h3 class="text-xl font-bold text-slate-800">Empatía Primero</h3>
+                        <p class="text-slate-600 mt-2">Busco entender la perspectiva del perro y las causas emocionales de su comportamiento.</p>
+                    </div>
+                    <!-- Valor 3 -->
+                    <div class="bg-slate-50 p-6 rounded-lg">
+                         <svg class="h-12 w-12 text-sky-500 mx-auto mb-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636" /></svg>
+                        <h3 class="text-xl font-bold text-slate-800">Libre de Castigo</h3>
+                        <p class="text-slate-600 mt-2">Jamás utilizo el dolor, el miedo o la intimidación como herramientas de enseñanza.</p>
+                    </div>
+                    <!-- Valor 4 -->
+                     <div class="bg-slate-50 p-6 rounded-lg">
+                         <svg class="h-12 w-12 text-sky-500 mx-auto mb-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0115.75 21H5.25A2.25 2.25 0 013 18.75V8.25A2.25 2.25 0 015.25 6H10" /></svg>
+                        <h3 class="text-xl font-bold text-slate-800">Formación Continua</h3>
+                        <p class="text-slate-600 mt-2">Me mantengo siempre actualizada a través de seminarios, libros y estudios científicos.</p>
+                    </div>
+                </div>
+                <div class="max-w-3xl mx-auto mt-12 text-center">
+                    <p class="italic text-slate-600">Algunas de mis certificaciones y cursos más relevantes incluyen: [Lista de 2-3 certificaciones importantes, ej: "Educador Canino Certificado por XYZ", "Seminario de Modificación de Conducta con Jane Doe", etc.]</p>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-800 text-slate-300">
+        <div class="container mx-auto px-6 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-lg font-bold text-white mb-4">GuíaCanina</h3>
+                    <p class="text-sm">Conocimiento abierto, basado en ciencia y empatía, para mejorar la vida de los perros.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-white mb-4">Explora</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="guia.html" class="hover:text-white">La Guía Completa</a></li>
+                        <li><a href="blog.html" class="hover:text-white">Blog Científico</a></li>
+                        <li><a href="servicios.html" class="hover:text-white">Mis Servicios</a></li>
+                        <li><a href="sobre-mi.html" class="hover:text-white">Sobre Mí</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-white mb-4">Apoya</h3>
+                     <ul class="space-y-2 text-sm">
+                        <li><a href="apoyame.html" class="hover:text-white">Haz una Donación</a></li>
+                        <li><a href="#" class="hover:text-white">Aviso Legal</a></li>
+                        <li><a href="#" class="hover:text-white">Política de Privacidad</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-white mb-4">Sígueme</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" aria-label="Instagram"><svg class="h-6 w-6 hover:text-white" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.024.06 1.378.06 3.808s-.012 2.784-.06 3.808c-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.024.048-1.378.06-3.808.06s-2.784-.012-3.808-.06c-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.048-1.024-.06-1.378-.06-3.808s.012-2.784.06-3.808c.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 016.08 2.525c.636-.247 1.363-.416 2.427.465C9.53 2.013 9.884 2 12.315 2zM12 0C9.58 0 9.22.01 8.16.06c-1.15.05-1.94.22-2.6.47a6.9 6.9 0 00-2.18 1.62A6.9 6.9 0 001.74 6.3c-.25.66-.42 1.45-.47 2.6C1.21 9.94 1.19 10.3 1.19 12.72s.02 2.78.07 3.84c.05 1.15.22 1.94.47 2.6a6.9 6.9 0 001.62 2.18 6.9 6.9 0 002.18 1.62c.66.25 1.45.42 2.6.47 1.06.05 1.42.06 3.84.06s2.78-.01 3.84-.06c1.15-.05 1.94-.22 2.6-.47a6.9 6.9 0 002.18-1.62 6.9 6.9 0 001.62-2.18c.25-.66.42-1.45.47-2.6.05-1.06.06-1.42.06-3.84s-.01-2.78-.06-3.84c-.05-1.15-.22-1.94-.47-2.6A6.9 6.9 0 0021.5 4.48a6.9 6.9 0 00-2.18-1.62c-.66-.25-1.45-.42-2.6-.47C15.56.01 15.2 0 12.72 0H12z" clip-rule="evenodd" /><path d="M12 6.865a5.135 5.135 0 100 10.27 5.135 5.135 0 000-10.27zM12 15a3 3 0 110-6 3 3 0 010 6z" /><path d="M16.862 6.225a1.238 1.238 0 100-2.475 1.238 1.238 0 000 2.475z" /></svg></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-slate-700 mt-8 pt-6 text-center text-sm">
+                <p>&copy; 2024 GuíaCanina. Un proyecto de [Tu Nombre].</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Script para el menú móvil
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>

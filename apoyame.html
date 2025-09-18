@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apoya el Proyecto | GuíaCanina Abierta</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-700">
+
+    <!-- Header y Navegación -->
+    <header class="bg-white/90 backdrop-blur-lg shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-slate-900">GuíaCanina</a>
+            <div class="hidden md:flex space-x-8 items-center">
+                <a href="guia.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">La Guía</a>
+                <a href="blog.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">Blog Científico</a>
+                <a href="servicios.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">Mis Servicios</a>
+                <a href="sobre-mi.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">Sobre Mí</a>
+                <a href="apoyame.html" class="bg-emerald-500 text-white px-4 py-2 rounded-lg hover:bg-emerald-600 font-semibold transition duration-300 shadow">Apoya el Proyecto</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden text-slate-800">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" /></svg>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 space-y-3">
+             <a href="guia.html" class="block text-slate-600 hover:text-sky-600 font-medium">La Guía</a>
+             <a href="blog.html" class="block text-slate-600 hover:text-sky-600 font-medium">Blog Científico</a>
+             <a href="servicios.html" class="block text-slate-600 hover:text-sky-600 font-medium">Mis Servicios</a>
+             <a href="sobre-mi.html" class="block text-slate-600 hover:text-sky-600 font-medium">Sobre Mí</a>
+             <a href="apoyame.html" class="block bg-emerald-500 text-white px-4 py-2 rounded-lg text-center font-semibold hover:bg-emerald-600">Apoya el Proyecto</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Sección de Héroe -->
+        <section class="bg-white">
+            <div class="container mx-auto px-6 py-16 text-center">
+                <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 mb-4">Haz Posible esta Guía Abierta</h1>
+                <p class="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto">
+                    Este proyecto es una labor de pasión y dedicación, creado para ofrecer el mejor conocimiento sobre perros, gratis y para todos. Tu apoyo me permite seguir creando contenido de alta calidad y mantener este recurso libre de publicidad.
+                </p>
+            </div>
+        </section>
+
+        <!-- Sección Principal de Donaciones -->
+        <section class="py-16 md:py-24">
+            <div class="container mx-auto px-6">
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="text-3xl font-bold text-center text-slate-900 mb-6">¿Por qué tu apoyo es importante?</h2>
+                    <p class="text-center text-lg text-slate-600 mb-12">
+                        Cada contribución, grande o pequeña, tiene un impacto directo. Me ayuda a cubrir los costes de mantenimiento de la web, dedicar más tiempo a la investigación de nuevos artículos y, lo más importante, asegurar que esta guía siga siendo un recurso gratuito y accesible para cualquier persona que quiera mejorar la vida de su perro.
+                    </p>
+
+                    <h3 class="text-2xl font-bold text-center text-slate-900 mb-8">Formas de Apoyar</h3>
+                    
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <!-- Opción 1: PayPal -->
+                        <div class="bg-white p-8 rounded-xl shadow-lg border border-slate-200 flex flex-col items-center text-center">
+                            <img src="https://placehold.co/100x100/ffffff/003087?text=PayPal" alt="Logo de PayPal" class="h-16 w-16 mb-4">
+                            <h4 class="text-xl font-bold text-slate-900 mb-2">Donación con PayPal</h4>
+                            <p class="text-slate-600 mb-6 flex-grow">La forma más rápida y segura de hacer una contribución puntual o recurrente. Serás redirigido a la plataforma de pago de PayPal.</p>
+                            <a href="#" class="mt-auto w-full bg-sky-600 text-white font-semibold py-3 px-6 rounded-lg hover:bg-sky-700 transition duration-300">Donar con PayPal</a>
+                        </div>
+                        
+                        <!-- Opción 2: Transferencia Bancaria -->
+                        <div class="bg-white p-8 rounded-xl shadow-lg border border-slate-200 flex flex-col">
+                            <h4 class="text-xl font-bold text-slate-900 mb-4 text-center">Transferencia Bancaria</h4>
+                            <p class="text-slate-600 mb-6">Si prefieres hacer una transferencia directa, puedes usar los siguientes datos. ¡Cada aporte cuenta!</p>
+                            <div class="space-y-3 text-left bg-slate-100 p-4 rounded-lg">
+                                <div>
+                                    <p class="font-semibold text-slate-800">Nombre del Titular:</p>
+                                    <p class="text-slate-700">[Tu Nombre Completo]</p>
+                                </div>
+                                <div>
+                                    <p class="font-semibold text-slate-800">IBAN:</p>
+                                    <p class="text-slate-700">[Tu Número de Cuenta IBAN]</p>
+                                </div>
+                                <div>
+                                    <p class="font-semibold text-slate-800">SWIFT/BIC:</p>
+                                    <p class="text-slate-700">[Tu Código SWIFT/BIC]</p>
+                                </div>
+                                <div>
+                                    <p class="font-semibold text-slate-800">Concepto:</p>
+                                    <p class="text-slate-700">Donación GuíaCanina</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- Otras formas de ayudar -->
+                    <div class="mt-16 text-center bg-emerald-50 border-l-4 border-emerald-500 p-8 rounded-r-lg">
+                        <h4 class="text-2xl font-bold text-slate-900 mb-2">Otras Formas de Ayudar</h4>
+                        <p class="text-slate-700 text-lg">
+                            ¿No puedes contribuir económicamente? ¡No hay problema! Compartir mis guías en tus redes sociales o con amigos y familiares es una forma de apoyo increíblemente valiosa que me ayuda a llegar a más gente.
+                        </p>
+                    </div>
+
+                    <!-- Mensaje de agradecimiento -->
+                    <div class="mt-16 text-center">
+                        <p class="text-2xl font-bold text-slate-900">¡Muchísimas gracias por tu apoyo!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-800 text-slate-300">
+        <div class="container mx-auto px-6 py-12">
+           <!-- ... (footer content remains the same) ... -->
+        </div>
+    </footer>
+
+    <script>
+        // Script para el menú móvil
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
+

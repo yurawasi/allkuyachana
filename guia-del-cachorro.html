@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía Esencial del Cachorro | GuíaCanina Abierta</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .prose h2 {
+            font-size: 1.875rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            margin-top: 2.5rem;
+            color: #1e293b; /* slate-800 */
+            border-bottom: 2px solid #0ea5e9; /* sky-500 */
+            padding-bottom: 0.5rem;
+        }
+        .prose h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+            margin-top: 2rem;
+            color: #334155; /* slate-700 */
+        }
+        .prose strong {
+            color: #0f172a; /* slate-900 */
+        }
+        .prose a {
+            color: #0284c7; /* sky-600 */
+            text-decoration: none;
+        }
+        .prose a:hover {
+            text-decoration: underline;
+        }
+        .prose blockquote {
+            border-left-color: #0ea5e9; /* sky-500 */
+            color: #1e293b;
+        }
+        .prose ul > li::before {
+             background-color: #0284c7; /* sky-600 */
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-700">
+
+    <!-- Header y Navegación -->
+    <header class="bg-white/90 backdrop-blur-lg shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-slate-900">GuíaCanina</a>
+             <div class="hidden md:flex space-x-8 items-center">
+                <a href="guia.html" class="text-sky-600 font-semibold transition duration-300">La Guía</a>
+                <a href="blog.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">Blog Científico</a>
+                <a href="servicios.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">Mis Servicios</a>
+                <a href="sobre-mi.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">Sobre Mí</a>
+                <a href="apoyame.html" class="bg-emerald-500 text-white px-4 py-2 rounded-lg hover:bg-emerald-600 font-semibold transition duration-300 shadow">Apoya el Proyecto</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden text-slate-800">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" /></svg>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 space-y-3">
+             <a href="guia.html" class="block text-sky-600 font-semibold">La Guía</a>
+             <a href="blog.html" class="block text-slate-600 hover:text-sky-600 font-medium">Blog Científico</a>
+             <a href="servicios.html" class="block text-slate-600 hover:text-sky-600 font-medium">Mis Servicios</a>
+             <a href="sobre-mi.html" class="block text-slate-600 hover:text-sky-600 font-medium">Sobre Mí</a>
+             <a href="apoyame.html" class="block bg-emerald-500 text-white px-4 py-2 rounded-lg text-center font-semibold hover:bg-emerald-600">Apoya el Proyecto</a>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 py-12 md:py-16">
+        <div class="grid lg:grid-cols-12 gap-8">
+            <!-- Contenido principal del artículo -->
+            <article class="lg:col-span-9 max-w-4xl mx-auto prose prose-lg">
+                <header>
+                    <p class="text-base font-semibold text-sky-600">GUÍA FUNDAMENTAL</p>
+                    <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 mb-4">La Guía Esencial del Cachorro</h1>
+                    <p class="text-xl text-slate-600">Todo lo que necesitas saber para empezar con el pie derecho y construir una vida feliz junto a tu nuevo compañero.</p>
+                </header>
+                
+                <figure class="mt-8">
+                    <img src="https://placehold.co/800x400/e0f2fe/0c4a6e?text=Bienvenido+a+Casa" alt="Un cachorro adorable explorando su nuevo hogar" class="rounded-lg w-full">
+                    <figcaption class="text-center text-sm text-slate-500 mt-2">Los primeros días son una mezcla de alegría y adaptación. La paciencia es tu mejor herramienta.</figcaption>
+                </figure>
+                
+                <p>La llegada de un cachorro a casa es uno de los momentos más emocionantes en la vida de una persona. Es el comienzo de una amistad incondicional. Pero también es un período de una enorme responsabilidad. Sentar las bases correctas durante estas primeras semanas y meses es la mejor inversión que puedes hacer para asegurar un perro adulto equilibrado, seguro de sí mismo y feliz.</p>
+
+                <section id="preparacion">
+                    <h2>Antes de la Llegada: Preparando el Nido</h2>
+                    <p>Anticiparte a las necesidades de tu cachorro hará que la transición sea mucho más suave para todos.</p>
+                    <ul>
+                        <li><strong>Zona Segura:</strong> Designa un espacio tranquilo para tu cachorro, como un parque para cachorros o una habitación pequeña, con su cama, agua y juguetes. Este será su refugio.</li>
+                        <li><strong>A Prueba de Cachorros:</strong> Revisa tu casa a la altura de un cachorro. Esconde cables eléctricos, guarda productos de limpieza y retira plantas tóxicas. Asegura los cubos de basura.</li>
+                        <li><strong>El Equipo Esencial:</strong> Necesitarás comederos, un collar o arnés cómodo, una correa, juguetes de diferentes texturas (especialmente mordedores), una cama cómoda y productos de limpieza enzimáticos para accidentes.</li>
+                    </ul>
+                </section>
+
+                <section id="primeros-dias">
+                    <h2>Los Primeros Días en Casa</h2>
+                    <p>El mundo es un lugar nuevo y abrumador para tu cachorro. Tu principal objetivo es transmitirle seguridad y calma.</p>
+                    <h3>La Primera Noche</h3>
+                    <p>Es probable que tu cachorro llore la primera noche. Es normal, acaba de ser separado de su madre y hermanos. Coloca su cama cerca de la tuya para que pueda olerte y oírte. Puedes ofrecerle una botella de agua tibia envuelta en una manta para simular el calor de su camada.</p>
+                    <h3>Estableciendo Rutinas</h3>
+                    <p>Los perros prosperan con las rutinas. Establece horarios predecibles para las comidas, las salidas al baño y los momentos de juego y descanso. Esto le dará a tu cachorro un marco de seguridad y le ayudará a entender qué esperar de su día.</p>
+                </section>
+                
+                <section id="esfinteres">
+                    <h2>El Gran Desafío: Control de Esfínteres</h2>
+                    <p>El entrenamiento para ir al baño requiere paciencia y consistencia. Los accidentes ocurrirán, y es crucial manejarlos sin regaños.</p>
+                    <ol>
+                        <li><strong>Salidas Frecuentes:</strong> Saca a tu cachorro cada 1-2 horas, y siempre después de despertarse, después de jugar y después de comer.</li>
+                        <li><strong>Elige un Lugar:</strong> Llévalo siempre al mismo sitio en el exterior. Usa una palabra clave como "al baño" con un tono calmado.</li>
+                        <li><strong>Premia el Éxito:</strong> Cuando haga sus necesidades en el lugar correcto, prémialo efusivamente con una golosina de alto valor y felicitaciones. ¡Haz una fiesta!</li>
+                        <li><strong>Manejo de Accidentes:</strong> Si ocurre un accidente dentro, no lo regañes. Simplemente límpialo a fondo con un limpiador enzimático para eliminar cualquier rastro de olor que pueda incitarlo a volver a usar ese lugar.</li>
+                    </ol>
+                </section>
+                
+                <section id="mordida">
+                    <h2>Manejo de la Mordida y el Juego Brusco</h2>
+                    <p>Morder es un comportamiento natural y necesario para un cachorro. Nuestro trabajo no es eliminarlo, sino enseñarle a inhibir la fuerza de su mordida.</p>
+                    <ul>
+                        <li><strong>Redirección:</strong> Ten siempre a mano un juguete apropiado. Cuando empiece a morderte las manos o los pies, redirige su boca hacia el juguete.</li>
+                        <li><strong>"¡Ay!":</strong> Si te muerde demasiado fuerte, emite un "¡Ay!" agudo y retira la mano por unos segundos. Esto imita la respuesta de sus hermanos de camada y le enseña que ha aplicado demasiada presión.</li>
+                        <li><strong>Fomenta el Juego Adecuado:</strong> Usa juguetes largos como mordedores de cuerda para mantener una distancia segura entre tus manos y su boca durante el juego.</li>
+                    </ul>
+                </section>
+
+                <section id="socializacion">
+                    <h2>La Ventana de Oportunidad: Socialización</h2>
+                    <blockquote>La socialización es el proceso de preparar a un perro para que se sienta cómodo y seguro en el mundo de los humanos. No se trata solo de jugar con otros perros.</blockquote>
+                    <p>El período más crítico para la socialización ocurre entre las 3 y las 16 semanas de vida. Durante este tiempo, es vital exponer a tu cachorro de forma positiva y controlada a todo tipo de personas, sonidos, lugares, superficies y otros animales. Para una guía completa sobre cómo hacerlo de forma segura, no te pierdas nuestra <a href="socializacion.html">Guía de Socialización del Cachorro</a>.</p>
+                </section>
+
+                <section id="conclusion">
+                    <h2>Conclusión: Disfruta del Viaje</h2>
+                    <p>Criar a un cachorro es un desafío, pero también es una de las experiencias más gratificantes. Cada cachorro es un individuo con su propio ritmo de aprendizaje. Sé paciente, sé consistente y, sobre todo, celebra los pequeños progresos. Estás construyendo los cimientos de una amistad que durará toda la vida. ¡Disfruta de cada momento!</p>
+                </section>
+            </article>
+
+            <!-- Menú Lateral -->
+            <aside class="lg:col-span-3">
+                <div class="sticky top-28">
+                    <div class="bg-white p-6 rounded-xl shadow-lg">
+                        <h3 class="text-xl font-bold text-slate-900 mb-4">En esta guía</h3>
+                        <ul class="space-y-3">
+                            <li><a href="#preparacion" class="font-medium text-slate-600 hover:text-sky-600">Preparando el Nido</a></li>
+                            <li><a href="#primeros-dias" class="font-medium text-slate-600 hover:text-sky-600">Los Primeros Días</a></li>
+                            <li><a href="#esfinteres" class="font-medium text-slate-600 hover:text-sky-600">Control de Esfínteres</a></li>
+                            <li><a href="#mordida" class="font-medium text-slate-600 hover:text-sky-600">Manejo de la Mordida</a></li>
+                            <li><a href="#socializacion" class="font-medium text-slate-600 hover:text-sky-600">Socialización</a></li>
+                            <li><a href="#conclusion" class="font-medium text-slate-600 hover:text-sky-600">Conclusión</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="bg-slate-800 text-slate-300 mt-16">
+        <div class="container mx-auto px-6 py-12">
+           <!-- ... (footer content remains the same) ... -->
+        </div>
+    </footer>
+
+    <script>
+        // Script para el menú móvil
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>

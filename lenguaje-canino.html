@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía Completa del Lenguaje Canino | GuíaCanina Abierta</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .prose h2 {
+            font-size: 1.875rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            margin-top: 2.5rem;
+            color: #1e293b; /* slate-800 */
+        }
+        .prose h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+            margin-top: 2rem;
+            color: #334155; /* slate-700 */
+        }
+        .prose strong {
+            color: #0f172a; /* slate-900 */
+        }
+        .prose a {
+            color: #0284c7; /* sky-600 */
+            text-decoration: none;
+        }
+        .prose a:hover {
+            text-decoration: underline;
+        }
+        .prose ul > li::before {
+             background-color: #0284c7; /* sky-600 */
+        }
+        .sticky-nav {
+            position: sticky;
+            top: 100px; /* Adjust based on header height */
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-700">
+
+    <!-- Header y Navegación -->
+    <header class="bg-white/90 backdrop-blur-lg shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-slate-900">GuíaCanina</a>
+            <div class="hidden md:flex space-x-8 items-center">
+                <a href="guia.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">La Guía</a>
+                <a href="blog.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">Blog Científico</a>
+                <a href="servicios.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">Mis Servicios</a>
+                <a href="sobre-mi.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">Sobre Mí</a>
+                <a href="apoyame.html" class="bg-emerald-500 text-white px-4 py-2 rounded-lg hover:bg-emerald-600 font-semibold transition duration-300 shadow">Apoya el Proyecto</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden text-slate-800">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" /></svg>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 space-y-3">
+             <a href="guia.html" class="block text-slate-600 hover:text-sky-600 font-medium">La Guía</a>
+             <a href="blog.html" class="block text-slate-600 hover:text-sky-600 font-medium">Blog Científico</a>
+             <a href="servicios.html" class="block text-slate-600 hover:text-sky-600 font-medium">Mis Servicios</a>
+             <a href="sobre-mi.html" class="block text-slate-600 hover:text-sky-600 font-medium">Sobre Mí</a>
+             <a href="apoyame.html" class="block bg-emerald-500 text-white px-4 py-2 rounded-lg text-center font-semibold hover:bg-emerald-600">Apoya el Proyecto</a>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 py-12 md:py-16">
+        <div class="flex flex-col lg:flex-row gap-12">
+            <!-- Columna de Navegación Izquierda (Sticky) -->
+            <aside class="lg:w-1/4">
+                <div class="sticky-nav">
+                    <h3 class="text-lg font-bold text-slate-900 mb-4">En esta guía</h3>
+                    <nav>
+                        <ul class="space-y-3">
+                            <li><a href="#introduccion" class="font-medium text-slate-600 hover:text-sky-600">Introducción: El Arte de Escuchar</a></li>
+                            <li><a href="#comunicacion-visual" class="font-medium text-slate-600 hover:text-sky-600">1. Comunicación Visual: El Cuerpo Habla</a>
+                                <ul class="ml-4 mt-2 space-y-2 text-sm">
+                                    <li><a href="#visual-cola" class="text-slate-500 hover:text-sky-600">La Cola: Un Barómetro Emocional</a></li>
+                                    <li><a href="#visual-orejas" class="text-slate-500 hover:text-sky-600">Las Orejas: Antenas de Intención</a></li>
+                                    <li><a href="#visual-ojos" class="text-slate-500 hover:text-sky-600">Los Ojos: Ventanas del Alma</a></li>
+                                    <li><a href="#visual-boca" class="text-slate-500 hover:text-sky-600">La Boca: Sonrisas, Tensión y Estrés</a></li>
+                                    <li><a href="#visual-postura" class="text-slate-500 hover:text-sky-600">La Postura Corporal General</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#senales-de-calma" class="font-medium text-slate-600 hover:text-sky-600">2. Las Señales de Calma</a></li>
+                            <li><a href="#comunicacion-vocal" class="font-medium text-slate-600 hover:text-sky-600">3. Comunicación Vocal</a></li>
+                            <li><a href="#comunicacion-olfativa" class="font-medium text-slate-600 hover:text-sky-600">4. Comunicación Olfativa</a></li>
+                            <li><a href="#conclusion" class="font-medium text-slate-600 hover:text-sky-600">Conclusión: Ser un Mejor Intérprete</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </aside>
+
+            <!-- Columna de Contenido Principal -->
+            <article class="lg:w-3/4 bg-white p-8 md:p-12 rounded-xl shadow-lg prose prose-lg max-w-none">
+                
+                <header>
+                    <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 mb-4">Guía Completa del Lenguaje Canino</h1>
+                    <p class="text-xl text-slate-600">Aprende a interpretar el complejo y sutil mundo de la comunicación de tu perro para construir un vínculo inquebrantable.</p>
+                </header>
+                
+                <hr class="my-8">
+
+                <section id="introduccion">
+                    <h2>Introducción: El Arte de Escuchar con los Ojos</h2>
+                    <p>Los perros se comunican constantemente, no solo entre ellos, sino también con nosotros. Sin embargo, su lenguaje principal no es verbal; es un complejo ballet de posturas corporales, expresiones faciales y señales sutiles. Aprender a "escuchar" este lenguaje es la piedra angular para una convivencia armoniosa, resolver problemas de comportamiento y, lo más importante, entender las necesidades y emociones de nuestro compañero.</p>
+                    <p>En esta guía, nos sumergiremos en el fascinante mundo de la comunicación canina, desglosando las señales clave para que puedas convertirte en un intérprete experto del lenguaje de tu perro.</p>
+                </section>
+
+                <section id="comunicacion-visual">
+                    <h2>1. Comunicación Visual: El Cuerpo Habla</h2>
+                    <p>La comunicación visual es el canal de información más rico y detallado de los perros. Desde la punta de la cola hasta la tensión de sus bigotes, cada parte de su cuerpo contribuye a la conversación.</p>
+                    
+                    <img src="https://placehold.co/800x400/a5b4fc/334155?text=Posturas+Caninas" alt="Esquema de posturas corporales caninas" class="rounded-lg shadow-md my-6">
+                    
+                    <h3 id="visual-cola">La Cola: Un Barómetro Emocional</h3>
+                    <p>Contrario a la creencia popular, un movimiento de cola no siempre significa felicidad. La altura, velocidad y rigidez del movimiento nos dan pistas mucho más precisas:</p>
+                    <ul>
+                        <li><strong>Posición alta y movimiento rápido:</strong> Excitación, estado de alerta alto. Si la cola está rígida y erguida, puede indicar una advertencia.</li>
+                        <li><strong>Posición media, movimiento relajado y amplio:</strong> Estado de ánimo neutral a feliz, amistoso. El famoso "saludo".</li>
+                        <li><strong>Posición baja o entre las patas:</strong> Inseguridad, miedo, sumisión. Un perro que esconde la cola está comunicando que no es una amenaza.</li>
+                        <li><strong>Movimiento circular ("helicóptero"):</strong> Generalmente una señal de extrema felicidad y amistad, común al saludar a personas muy queridas.</li>
+                    </ul>
+
+                    <h3 id="visual-orejas">Las Orejas: Antenas de Intención</h3>
+                    <p>La posición de las orejas es un indicador rápido del foco de atención y el estado emocional del perro:</p>
+                    <ul>
+                        <li><strong>Hacia adelante:</strong> Interés, atención, confianza. El perro está enfocado en algo frente a él.</li>
+                        <li><strong>Aplanadas hacia atrás:</strong> Miedo, apaciguamiento, intención amistosa. En un contexto de saludo, puede ser una señal de "vengo en son de paz". Si el cuerpo está tenso, indica miedo.</li>
+                        <li><strong>"Orejas de avión" (hacia los lados):</strong> Inseguridad, conflicto emocional o a veces simplemente relajación.</li>
+                    </ul>
+
+                    <h3 id="visual-ojos">Los Ojos: Ventanas del Alma (y del Estrés)</h3>
+                    <p>Los ojos de un perro pueden transmitir una cantidad asombrosa de información:</p>
+                    <ul>
+                        <li><strong>Mirada suave, pupilas normales:</strong> Relajación, confianza.</li>
+                        <li><strong>"Ojo de ballena" (se ve el blanco de los ojos):</strong> Ansiedad, estrés, miedo. El perro gira la cabeza pero mantiene la mirada en lo que le preocupa. Es una señal clara de incomodidad.</li>
+                        <li><strong>Mirada fija y dura, pupilas dilatadas:</strong> Amenaza, advertencia. Es una señal de que el perro está a punto de reaccionar defensivamente. Evita siempre el contacto visual directo y prolongado con un perro que no conoces.</li>
+                        <li><strong>Parpadeo, entrecerrar los ojos:</strong> Señal de apaciguamiento, busca calmar una situación.</li>
+                    </ul>
+
+                    <h3 id="visual-boca">La Boca: Sonrisas, Tensión y Estrés</h3>
+                    <ul>
+                        <li><strong>Boca relajada, ligeramente abierta:</strong> Un perro tranquilo y contento.</li>
+                        <li><strong>Boca cerrada, labios apretados:</strong> Tensión, alerta.</li>
+                        <li><strong>Lamerse el hocico (lip lick):</strong> Una de las señales de calma más comunes. Indica estrés o incomodidad. No es que tenga hambre.</li>
+                        <li><strong>Bostezo:</strong> Aunque puede ser por sueño, en contextos sociales es una señal de estrés o para calmar a otros.</li>
+                        <li><strong>Levantar los belfos (enseñar los dientes):</strong> Es una advertencia clara. Es crucial diferenciar entre una "sonrisa" sumisa (comisuras muy hacia atrás) y una amenaza (nariz arrugada, gruñido). <strong>Nunca castigues un gruñido</strong>; es una comunicación vital que previene una mordida.</li>
+                    </ul>
+                    
+                    <h3 id="visual-postura">La Postura Corporal General</h3>
+                    <p>La postura completa nos da el contexto final:</p>
+                    <ul>
+                        <li><strong>Postura confiada:</strong> Cuerpo erguido, peso hacia adelante, cabeza y cola altas.</li>
+                        <li><strong>Postura temerosa:</strong> Cuerpo agachado, peso hacia atrás, cola baja, cabeza gacha.</li>
+                        <li><strong>Invitación al juego (Play Bow):</strong> Parte delantera del cuerpo agachada con el trasero en alto. Es una señal universal y clara para iniciar el juego.</li>
+                    </ul>
+                </section>
+                
+                <section id="senales-de-calma">
+                    <h2>2. Las Señales de Calma: El Lenguaje de la Paz</h2>
+                    <p>Popularizadas por la etóloga Turid Rugaas, las "señales de calma" son un conjunto de gestos que los perros usan para evitar conflictos, calmarse a sí mismos y comunicar intenciones pacíficas a otros. Reconocerlas es fundamental.</p>
+                    <p>Además del bostezo y el lamido de hocico, algunas de las más importantes son:</p>
+                    <ul>
+                        <li><strong>Girar la cabeza:</strong> Desviar la mirada o girar completamente la cabeza para evitar la confrontación.</li>
+                        <li><strong>Olfatear el suelo:</strong> De repente, mostrar un gran interés en olfatear el suelo sin razón aparente, para ignorar una situación estresante.</li>
+                        <li><strong>Caminar en curva:</strong> Acercarse a otro perro o persona en un arco, en lugar de una línea recta, que es más amenazante.</li>
+                        <li><strong>Moverse lentamente:</strong> Ralentizar todos sus movimientos para mostrar que no es una amenaza.</li>
+                        <li><strong>Sentarse o tumbarse:</strong> Exponer su vulnerabilidad para calmar una situación tensa.</li>
+                    </ul>
+                </section>
+
+                <section id="comunicacion-vocal">
+                    <h2>3. Comunicación Vocal</h2>
+                    <p>Aunque secundaria, la comunicación vocal es importante:</p>
+                    <ul>
+                        <li><strong>Ladrido:</strong> Puede significar alerta, juego, demanda o soledad. La tonalidad y frecuencia varían. Un ladrido agudo y repetitivo suele ser de excitación, mientras que uno grave y espaciado es de advertencia.</li>
+                        <li><strong>Gruñido:</strong> Es una advertencia clara de "detente" o "aléjate". Es una comunicación esencial que debemos agradecer y respetar.</li>
+                        <li><strong>Lloriqueo/Gemido:</strong> Puede indicar dolor, ansiedad, necesidad o excitación.</li>
+                    </ul>
+                </section>
+
+                <section id="comunicacion-olfativa">
+                    <h2>4. Comunicación Olfativa: El Mundo en Olores</h2>
+                    <p>El olfato es el sentido más desarrollado del perro. A través de la orina, las heces y las glándulas corporales, dejan "mensajes" detallados para otros perros sobre su identidad, estado sexual y emocional. Permitir que tu perro olfatee durante el paseo es una necesidad fundamental; es su forma de leer las "noticias del barrio".</p>
+                </section>
+
+                <section id="conclusion">
+                    <h2>Conclusión: Conviértete en un Mejor Intérprete</h2>
+                    <p>Entender a tu perro es un viaje de observación constante. No hay un diccionario perfecto, ya que el contexto lo es todo. Una misma señal puede significar cosas diferentes dependiendo de la situación y del resto del lenguaje corporal.</p>
+                    <p><strong>Tu tarea como su compañero es simple: observa más.</strong> Observa en el parque, en casa, con visitas. Empieza a notar los pequeños detalles. Cuando tu perro se lame el hocico, ¿qué acaba de pasar? Cuando gira la cabeza, ¿a qué está respondiendo? Al hacerte estas preguntas, empezarás a ver patrones y a entender el increíblemente rico mundo interior de tu perro, fortaleciendo vuestro vínculo como nunca antes.</p>
+                </section>
+
+            </article>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-800 text-slate-300">
+        <div class="container mx-auto px-6 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-lg font-bold text-white mb-4">GuíaCanina</h3>
+                    <p class="text-sm">Conocimiento abierto, basado en ciencia y empatía, para mejorar la vida de los perros.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-white mb-4">Explora</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="guia.html" class="hover:text-white">La Guía Completa</a></li>
+                        <li><a href="blog.html" class="hover:text-white">Blog Científico</a></li>
+                        <li><a href="servicios.html" class="hover:text-white">Mis Servicios</a></li>
+                        <li><a href="sobre-mi.html" class="hover:text-white">Sobre Mí</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-white mb-4">Apoya</h3>
+                     <ul class="space-y-2 text-sm">
+                        <li><a href="apoyame.html" class="hover:text-white">Haz una Donación</a></li>
+                        <li><a href="#" class="hover:text-white">Aviso Legal</a></li>
+                        <li><a href="#" class="hover:text-white">Política de Privacidad</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-white mb-4">Sígueme</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" aria-label="Instagram"><svg class="h-6 w-6 hover:text-white" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.024.06 1.378.06 3.808s-.012 2.784-.06 3.808c-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.024.048-1.378.06-3.808.06s-2.784-.012-3.808-.06c-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.048-1.024-.06-1.378-.06-3.808s.012-2.784.06-3.808c.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 016.08 2.525c.636-.247 1.363-.416 2.427.465C9.53 2.013 9.884 2 12.315 2zM12 0C9.58 0 9.22.01 8.16.06c-1.15.05-1.94.22-2.6.47a6.9 6.9 0 00-2.18 1.62A6.9 6.9 0 001.74 6.3c-.25.66-.42 1.45-.47 2.6C1.21 9.94 1.19 10.3 1.19 12.72s.02 2.78.07 3.84c.05 1.15.22 1.94.47 2.6a6.9 6.9 0 001.62 2.18 6.9 6.9 0 002.18 1.62c.66.25 1.45.42 2.6.47 1.06.05 1.42.06 3.84.06s2.78-.01 3.84-.06c1.15-.05 1.94-.22 2.6-.47a6.9 6.9 0 002.18-1.62 6.9 6.9 0 001.62-2.18c.25-.66.42-1.45.47-2.6.05-1.06.06-1.42.06-3.84s-.01-2.78-.06-3.84c-.05-1.15-.22-1.94-.47-2.6A6.9 6.9 0 002.15 4.48a6.9 6.9 0 00-2.18-1.62c-.66-.25-1.45-.42-2.6-.47C15.56.01 15.2 0 12.72 0H12z" clip-rule="evenodd" /><path d="M12 6.865a5.135 5.135 0 100 10.27 5.135 5.135 0 000-10.27zM12 15a3 3 0 110-6 3 3 0 010 6z" /><path d="M16.862 6.225a1.238 1.238 0 100-2.475 1.238 1.238 0 000 2.475z" /></svg></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-slate-700 mt-8 pt-6 text-center text-sm">
+                <p>&copy; 2024 GuíaCanina. Un proyecto de [Tu Nombre].</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Script para el menú móvil
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>

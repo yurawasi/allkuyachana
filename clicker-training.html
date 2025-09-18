@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía del Entrenamiento con Clicker | GuíaCanina Abierta</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .prose h2 {
+            font-size: 1.875rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            margin-top: 2.5rem;
+            color: #1e293b; /* slate-800 */
+            border-bottom: 2px solid #0ea5e9; /* sky-500 */
+            padding-bottom: 0.5rem;
+        }
+        .prose h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+            margin-top: 2rem;
+            color: #334155; /* slate-700 */
+        }
+        .prose strong {
+            color: #0f172a; /* slate-900 */
+        }
+        .prose a {
+            color: #0284c7; /* sky-600 */
+            text-decoration: none;
+        }
+        .prose a:hover {
+            text-decoration: underline;
+        }
+        .prose blockquote {
+            border-left-color: #0ea5e9; /* sky-500 */
+            color: #1e293b;
+        }
+        .prose ul > li::before {
+             background-color: #0284c7; /* sky-600 */
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-700">
+
+    <!-- Header y Navegación -->
+    <header class="bg-white/90 backdrop-blur-lg shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-slate-900">GuíaCanina</a>
+             <div class="hidden md:flex space-x-8 items-center">
+                <a href="guia.html" class="text-sky-600 font-semibold transition duration-300">La Guía</a>
+                <a href="blog.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">Blog Científico</a>
+                <a href="servicios.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">Mis Servicios</a>
+                <a href="sobre-mi.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">Sobre Mí</a>
+                <a href="apoyame.html" class="bg-emerald-500 text-white px-4 py-2 rounded-lg hover:bg-emerald-600 font-semibold transition duration-300 shadow">Apoya el Proyecto</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden text-slate-800">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" /></svg>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 space-y-3">
+             <a href="guia.html" class="block text-sky-600 font-semibold">La Guía</a>
+             <a href="blog.html" class="block text-slate-600 hover:text-sky-600 font-medium">Blog Científico</a>
+             <a href="servicios.html" class="block text-slate-600 hover:text-sky-600 font-medium">Mis Servicios</a>
+             <a href="sobre-mi.html" class="block text-slate-600 hover:text-sky-600 font-medium">Sobre Mí</a>
+             <a href="apoyame.html" class="block bg-emerald-500 text-white px-4 py-2 rounded-lg text-center font-semibold hover:bg-emerald-600">Apoya el Proyecto</a>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 py-12 md:py-16">
+        <div class="grid lg:grid-cols-12 gap-8">
+            <!-- Contenido principal del artículo -->
+            <article class="lg:col-span-9 max-w-4xl mx-auto prose prose-lg">
+                <header>
+                    <p class="text-base font-semibold text-sky-600">GUÍA DE ENTRENAMIENTO AVANZADO</p>
+                    <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 mb-4">Guía Completa del Entrenamiento con Clicker</h1>
+                    <p class="text-xl text-slate-600">Una herramienta de precisión para construir comportamientos, confianza y una comunicación impecable con tu perro.</p>
+                </header>
+                
+                <figure class="mt-8">
+                    <img src="https://placehold.co/800x400/e0f2fe/0c4a6e?text=Click+%26+Premio" alt="Ilustración de una mano con un clicker y un perro recibiendo un premio" class="rounded-lg w-full">
+                    <figcaption class="text-center text-sm text-slate-500 mt-2">El clicker captura el momento exacto en que el perro realiza la acción correcta, creando un puente de comunicación claro.</figcaption>
+                </figure>
+                
+                <p>El entrenamiento con clicker es mucho más que una pequeña caja de plástico que hace "clic". Es una forma de comunicación basada en la ciencia del aprendizaje que permite marcar con una precisión asombrosa el comportamiento exacto que queremos reforzar. Al eliminar la ambigüedad, aceleramos el aprendizaje, fomentamos la creatividad del perro y fortalecemos nuestro vínculo a través de un diálogo claro y positivo.</p>
+
+                <section id="ciencia">
+                    <h2>La Ciencia Detrás del "Click"</h2>
+                    <p>Para entender por qué el clicker es tan efectivo, debemos volver a nuestras <a href="principios-del-aprendizaje.html">Bases del Aprendizaje</a>. El clicker funciona combinando dos principios poderosos:</p>
+                    <ul>
+                        <li><strong>Condicionamiento Clásico:</strong> El "click" empieza siendo un sonido neutro. Al asociarlo repetidamente con algo que el perro ya valora (un premio de comida, un juguete), el sonido del clicker adquiere el valor del premio. El "click" se convierte en una promesa de que viene un refuerzo.</li>
+                        <li><strong>Condicionamiento Operante:</strong> Una vez que el "click" es significativo, lo usamos como un <strong>marcador de evento</strong>. Marca el instante preciso en que el perro ofrece el comportamiento deseado. Esto es seguido por un <strong>reforzador secundario</strong> (el premio). El perro aprende que su acción (el comportamiento) causa el "click" (la promesa), que a su vez trae el premio.</li>
+                    </ul>
+                    <blockquote>El clicker no es una orden. Es información. Le dice al perro: "¡Eso! ¡Justo lo que acabas de hacer es lo que te ha ganado un premio!".</blockquote>
+                </section>
+
+                <section id="empezar">
+                    <h2>Guía Práctica: Empezando con el Clicker</h2>
+                    <h3>Paso 1: Cargar el Clicker (Asociación)</h3>
+                    <p>Antes de usar el clicker para entrenar, tu perro necesita entender qué significa. Este proceso se llama "cargar el clicker".</p>
+                    <ol>
+                        <li><strong>Prepara los premios:</strong> Usa premios de alto valor, pequeños y fáciles de tragar.</li>
+                        <li><strong>Sesiones cortas:</strong> En un lugar tranquilo, ten a tu perro cerca.</li>
+                        <li><strong>Click y Premio:</strong> Simplemente haz "click" e inmediatamente dale un premio a tu perro. No le pidas nada. El perro no tiene que hacer nada para ganárselo.</li>
+                        <li><strong>Repite:</strong> Haz esto unas 10-15 veces. Repite en varias sesiones cortas. Sabrás que tu perro entiende la asociación cuando, al oír el "click", te mire expectante buscando el premio.</li>
+                    </ol>
+                    <h3>Paso 2: Tu Primera Sesión de "Captura"</h3>
+                    <p>La "captura" consiste en marcar un comportamiento que tu perro ofrece de forma natural, sin que se lo pidas. Es la forma más pura de empezar.</p>
+                    <p><strong>Ejemplo: Capturar un "Sienta"</strong></p>
+                    <ol>
+                        <li>Espera a que tu perro, por sí mismo, se siente.</li>
+                        <li>En el instante EXACTO en que su trasero toca el suelo, haz "click".</li>
+                        <li>Dale un premio. Puedes lanzárselo un poco lejos para que tenga que levantarse, lo que te dará otra oportunidad para que se siente de nuevo.</li>
+                        <li>Repite. No digas "sienta". Simplemente espera, clickea y premia. Después de varias repeticiones, verás cómo tu perro empieza a ofrecer el comportamiento de sentarse para conseguir el "click".</li>
+                    </ol>
+                    <h3>Paso 3: Introduciendo el Moldeado (Shaping)</h3>
+                    <p>El moldeado es el proceso de construir un comportamiento complejo reforzando pequeñas aproximaciones sucesivas. Es como jugar al "frío o caliente" con tu perro.</p>
+                    <p><strong>Ejemplo: Enseñar al perro a tocar un post-it con la nariz</strong></p>
+                    <ol>
+                        <li><strong>Paso 1:</strong> Pega un post-it en el suelo. Clickea y premia a tu perro solo por mirar el post-it.</li>
+                        <li><strong>Paso 2:</strong> Una vez que lo mire de forma consistente, sube el criterio. Ahora solo clickeas si da un paso hacia el post-it.</li>
+                        <li><strong>Paso 3:</strong> Ahora, solo clickeas si se inclina hacia el post-it.</li>
+                        <li><strong>Paso 4:</strong> Finalmente, solo clickeas y premias cuando su nariz toca el post-it.</li>
+                    </ol>
+                    <p>A través de este proceso, tu perro aprende a resolver problemas y a ofrecer comportamientos activamente, lo que aumenta su confianza.</p>
+                </section>
+
+                <section id="errores">
+                    <h2>Errores Comunes y Consejos de Oro</h2>
+                    <ul>
+                        <li><strong>No dar la orden y clickear:</strong> El clicker marca el comportamiento, no lo pide. La señal verbal (la orden) se añade mucho después, cuando el perro ya ofrece el comportamiento de forma fiable.</li>
+                        <li><strong>El "click" siempre termina en premio:</strong> ¡Siempre! Si haces "click" (incluso por accidente), tienes que darle un premio. Es una promesa que no se puede romper.</li>
+                        <li><strong>Timing, timing, timing:</strong> La precisión es la clave. Si clickeas demasiado pronto o demasiado tarde, estarás marcando el comportamiento equivocado.</li>
+                        <li><strong>Mantén las sesiones cortas y divertidas:</strong> Es mejor hacer 5 minutos de entrenamiento enfocado y exitoso que 30 minutos de frustración. Termina siempre con una nota positiva.</li>
+                    </ul>
+                </section>
+
+                <section id="conclusion">
+                    <h2>Conclusión: Más que una Herramienta, un Diálogo</h2>
+                    <p>El entrenamiento con clicker transforma la forma en que te comunicas con tu perro. Te obliga a ser un observador más atento, a celebrar los pequeños éxitos y a dividir los grandes desafíos en pasos alcanzables. Es una técnica que fomenta un perro que piensa, que participa activamente en su aprendizaje y que confía en ti como su guía. Al dominar el clicker, no solo enseñas trucos, construyes un lenguaje común de precisión y positividad.</p>
+                </section>
+            </article>
+
+            <!-- Menú Lateral -->
+            <aside class="lg:col-span-3">
+                <div class="sticky top-28">
+                    <div class="bg-white p-6 rounded-xl shadow-lg">
+                        <h3 class="text-xl font-bold text-slate-900 mb-4">En esta guía</h3>
+                        <ul class="space-y-3">
+                            <li><a href="#ciencia" class="font-medium text-slate-600 hover:text-sky-600">La Ciencia del "Click"</a></li>
+                            <li><a href="#empezar" class="font-medium text-slate-600 hover:text-sky-600">Guía Práctica para Empezar</a></li>
+                            <li><a href="#errores" class="font-medium text-slate-600 hover:text-sky-600">Errores Comunes y Consejos</a></li>
+                            <li><a href="#conclusion" class="font-medium text-slate-600 hover:text-sky-600">Conclusión: Un Diálogo</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="bg-slate-800 text-slate-300 mt-16">
+        <div class="container mx-auto px-6 py-12">
+           <!-- ... (footer content remains the same) ... -->
+        </div>
+    </footer>
+
+    <script>
+        // Script para el menú móvil
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
+

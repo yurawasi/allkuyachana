@@ -214,197 +214,138 @@
     </footer>
 
     <script>
-        // --- Mobile Menu Script ---
-        const mobileMenuButton = document.getElementById('mobile-menu-button');
-        const mobileMenu = document.getElementById('mobile-menu');
-        mobileMenuButton.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
-        });
+    // --- Mobile Menu Script ---
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+    mobileMenuButton.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+    });
 
-        // --- Quiz Script ---
-        const allQuestions = [
-            {
-                question: "¿Qué es una 'señal de calma' en el lenguaje canino?",
-                answers: [
-                    { text: "Una orden para que el perro se tranquilice.", correct: false },
-                    { text: "Un gesto que el perro usa para evitar conflictos y comunicar estrés.", correct: true },
-                    { text: "El sonido que hace un perro antes de dormir.", correct: false },
-                    { text: "Una postura de juego.", correct: false }
-                ]
-            },
-            {
-                question: "En el entrenamiento con clicker, ¿qué representa el sonido del 'click'?",
-                answers: [
-                    { text: "Una orden para detener el comportamiento.", correct: false },
-                    { text: "Un castigo por un error.", correct: false },
-                    { text: "Un marcador que indica el momento exacto del comportamiento correcto.", correct: true },
-                    { text: "Una distracción para el perro.", correct: false }
-                ]
-            },
-            {
-                question: "¿Cuál es el periodo de socialización más crítico para un cachorro?",
-                answers: [
-                    { text: "De las 3 a las 16 semanas de edad.", correct: true },
-                    { text: "El primer año de vida.", correct: false },
-                    { text: "Cuando llega a la adolescencia (6-9 meses).", correct: false },
-                    { text: "Los primeros días en su nuevo hogar.", correct: false }
-                ]
-            },
-            {
-                question: "El 'moldeado' (shaping) es una técnica de entrenamiento que consiste en:",
-                answers: [
-                    { text: "Usar la correa para colocar al perro en la posición deseada.", correct: false },
-                    { text: "Repetir una orden hasta que el perro obedezca.", correct: false },
-                    { text: "Recompensar pequeñas aproximaciones sucesivas hacia un comportamiento final.", correct: true },
-                    { text: "Mostrarle al perro cómo hacer algo con un ejemplo.", correct: false }
-                ]
-            },
-            {
-                question: "Si un perro gruñe cuando te acercas a su comida, lo más recomendable es:",
-                answers: [
-                    { text: "Castigarlo para enseñarle quién manda.", correct: false },
-                    { text: "Ignorarlo y quitarle la comida de todas formas.", correct: false },
-                    { text: "Entender que es una comunicación de incomodidad y trabajar para cambiar su asociación emocional.", correct: true },
-                    { text: "Distraerlo con un juguete para que se olvide de la comida.", correct: false }
-                ]
-            },
-            {
-                question: "El sentido más desarrollado de un perro es:",
-                answers: [
-                    { text: "La vista", correct: false },
-                    { text: "El oído", correct: false },
-                    { text: "El olfato", correct: true },
-                    { text: "El gusto", correct: false }
-                ]
-            },
-             {
-                question: "La técnica de 'contracondicionamiento' se utiliza principalmente para:",
-                answers: [
-                    { text: "Enseñar trucos nuevos y divertidos.", correct: false },
-                    { text: "Cambiar la respuesta emocional de un perro ante un estímulo (de miedo a alegría).", correct: true },
-                    { text: "Hacer que un perro corra más rápido.", correct: false },
-                    { text: "Asegurarse de que el perro no se suba al sofá.", correct: false }
-                ]
-            }
-        ];
+    // --- Quiz Script ---
+    // The 'allQuestions' variable is now loaded from the 'quiz-questions.js' file
+    const startButton = document.getElementById('start-quiz-btn');
+    const restartButton = document.getElementById('restart-quiz-btn');
+    const playAgainButton = document.getElementById('play-again-btn');
+    const nextButton = document.getElementById('next-btn');
+    
+    const quizIntroDiv = document.getElementById('quiz-intro');
+    const quizMainDiv = document.getElementById('quiz-main');
+    const quizScoreScreenDiv = document.getElementById('quiz-score-screen');
+    const quizResultsMemoryDiv = document.getElementById('quiz-results-memory');
+    const quizStartAreaDiv = document.getElementById('quiz-start-area');
 
-        const startButton = document.getElementById('start-quiz-btn');
-        const restartButton = document.getElementById('restart-quiz-btn');
-        const playAgainButton = document.getElementById('play-again-btn');
-        const nextButton = document.getElementById('next-btn');
+    const questionElement = document.getElementById('question-text');
+    const answerButtonsElement = document.getElementById('answer-buttons');
+    const scoreElement = document.getElementById('score-text');
+    const previousScoreElement = document.getElementById('previous-score-text');
+    const progressText = document.getElementById('progress-text'); // Make sure you have an element with this ID
+
+    let shuffledQuestions, currentQuestionIndex, score;
+    const QUESTIONS_IN_QUIZ = 5;
+
+    function startQuiz() {
+        quizIntroDiv.classList.add('hidden');
+        quizScoreScreenDiv.classList.add('hidden');
+        quizMainDiv.classList.remove('hidden');
         
-        const quizIntroDiv = document.getElementById('quiz-intro');
-        const quizMainDiv = document.getElementById('quiz-main');
-        const quizScoreScreenDiv = document.getElementById('quiz-score-screen');
-        const quizResultsMemoryDiv = document.getElementById('quiz-results-memory');
-        const quizStartAreaDiv = document.getElementById('quiz-start-area');
+        shuffledQuestions = allQuestions.sort(() => Math.random() - 0.5).slice(0, QUESTIONS_IN_QUIZ);
+        currentQuestionIndex = 0;
+        score = 0;
+        nextButton.classList.add('hidden');
+        showQuestion();
+    }
 
-        const questionElement = document.getElementById('question-text');
-        const answerButtonsElement = document.getElementById('answer-buttons');
-        const scoreElement = document.getElementById('score-text');
-        const previousScoreElement = document.getElementById('previous-score-text');
+    function showQuestion() {
+        resetState();
+        let currentQuestion = shuffledQuestions[currentQuestionIndex];
+        let questionNo = currentQuestionIndex + 1;
+        
+        // Update progress text
+        if(progressText) {
+            progressText.innerText = `Pregunta ${questionNo} de ${QUESTIONS_IN_QUIZ}`;
+        }
+        
+        questionElement.innerHTML = currentQuestion.question;
 
-        let shuffledQuestions, currentQuestionIndex, score;
-        const QUESTIONS_IN_QUIZ = 5;
+        currentQuestion.answers.forEach(answer => {
+            const button = document.createElement('button');
+            button.innerHTML = answer.text;
+            button.classList.add('w-full', 'text-left', 'p-4', 'border', 'border-slate-300', 'rounded-lg', 'hover:bg-sky-100', 'transition', 'duration-200');
+            if (answer.correct) {
+                button.dataset.correct = answer.correct;
+            }
+            button.addEventListener('click', selectAnswer);
+            answerButtonsElement.appendChild(button);
+        });
+    }
 
-        function startQuiz() {
-            quizIntroDiv.classList.add('hidden');
-            quizScoreScreenDiv.classList.add('hidden');
-            quizMainDiv.classList.remove('hidden');
-            
-            shuffledQuestions = allQuestions.sort(() => Math.random() - 0.5).slice(0, QUESTIONS_IN_QUIZ);
-            currentQuestionIndex = 0;
-            score = 0;
-            nextButton.classList.add('hidden');
+    function resetState() {
+        nextButton.classList.add('hidden');
+        while (answerButtonsElement.firstChild) {
+            answerButtonsElement.removeChild(answerButtonsElement.firstChild);
+        }
+    }
+
+    function selectAnswer(e) {
+        const selectedBtn = e.target;
+        const isCorrect = selectedBtn.dataset.correct === "true";
+        if (isCorrect) {
+            score++;
+        }
+        Array.from(answerButtonsElement.children).forEach(button => {
+            setStatusClass(button, button.dataset.correct === "true");
+            button.disabled = true;
+        });
+        nextButton.classList.remove('hidden');
+    }
+
+    function setStatusClass(element, correct) {
+        if (correct) {
+            element.classList.add('btn-correct');
+        } else {
+            element.classList.add('btn-incorrect');
+        }
+    }
+
+    function showScore() {
+        quizMainDiv.classList.add('hidden');
+        quizScoreScreenDiv.classList.remove('hidden');
+        const scoreMessage = `Tu puntuación es ${score} de ${QUESTIONS_IN_QUIZ}`;
+        scoreElement.innerText = scoreMessage;
+        sessionStorage.setItem('lastQuizScore', scoreMessage);
+    }
+
+    function handleNextButton() {
+        currentQuestionIndex++;
+        if (currentQuestionIndex < shuffledQuestions.length) {
             showQuestion();
+        } else {
+            showScore();
         }
-
-        function showQuestion() {
-            resetState();
-            let currentQuestion = shuffledQuestions[currentQuestionIndex];
-            let questionNo = currentQuestionIndex + 1;
-            questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
-
-            currentQuestion.answers.forEach(answer => {
-                const button = document.createElement('button');
-                button.innerHTML = answer.text;
-                button.classList.add('w-full', 'text-left', 'p-4', 'border', 'border-slate-300', 'rounded-lg', 'hover:bg-sky-100', 'transition', 'duration-200');
-                if (answer.correct) {
-                    button.dataset.correct = answer.correct;
-                }
-                button.addEventListener('click', selectAnswer);
-                answerButtonsElement.appendChild(button);
-            });
+    }
+    
+    function checkSessionStorage() {
+        const lastScore = sessionStorage.getItem('lastQuizScore');
+        if(lastScore) {
+            quizStartAreaDiv.classList.add('hidden');
+            quizResultsMemoryDiv.classList.remove('hidden');
+            previousScoreElement.innerText = lastScore;
         }
+    }
 
-        function resetState() {
-            nextButton.classList.add('hidden');
-            while (answerButtonsElement.firstChild) {
-                answerButtonsElement.removeChild(answerButtonsElement.firstChild);
-            }
-        }
-
-        function selectAnswer(e) {
-            const selectedBtn = e.target;
-            const isCorrect = selectedBtn.dataset.correct === "true";
-            if (isCorrect) {
-                score++;
-            }
-            Array.from(answerButtonsElement.children).forEach(button => {
-                setStatusClass(button, button.dataset.correct === "true");
-                button.disabled = true;
-            });
-            nextButton.classList.remove('hidden');
-        }
-
-        function setStatusClass(element, correct) {
-            if (correct) {
-                element.classList.add('btn-correct');
-            } else {
-                element.classList.add('btn-incorrect');
-            }
-        }
-
-        function showScore() {
-            quizMainDiv.classList.add('hidden');
-            quizScoreScreenDiv.classList.remove('hidden');
-            const scoreMessage = `Tu puntuación es ${score} de ${QUESTIONS_IN_QUIZ}`;
-            scoreElement.innerText = scoreMessage;
-            sessionStorage.setItem('lastQuizScore', scoreMessage);
-        }
-
-        function handleNextButton() {
-            currentQuestionIndex++;
-            if (currentQuestionIndex < shuffledQuestions.length) {
-                showQuestion();
-            } else {
-                showScore();
-            }
-        }
-        
-        function checkSessionStorage() {
-            const lastScore = sessionStorage.getItem('lastQuizScore');
-            if(lastScore) {
-                quizStartAreaDiv.classList.add('hidden');
-                quizResultsMemoryDiv.classList.remove('hidden');
-                previousScoreElement.innerText = lastScore;
-            }
-        }
-
-        startButton.addEventListener('click', startQuiz);
-        nextButton.addEventListener('click', handleNextButton);
-        playAgainButton.addEventListener('click', startQuiz);
-        restartButton.addEventListener('click', () => {
-             sessionStorage.removeItem('lastQuizScore');
-             quizResultsMemoryDiv.classList.add('hidden');
-             quizStartAreaDiv.classList.remove('hidden');
-             startQuiz();
-        });
-        
-        // Check for previous score on page load
-        window.addEventListener('load', checkSessionStorage);
-
-    </script>
+    startButton.addEventListener('click', startQuiz);
+    nextButton.addEventListener('click', handleNextButton);
+    playAgainButton.addEventListener('click', startQuiz);
+    restartButton.addEventListener('click', () => {
+         sessionStorage.removeItem('lastQuizScore');
+         quizResultsMemoryDiv.classList.add('hidden');
+         quizStartAreaDiv.classList.remove('hidden');
+         startQuiz();
+    });
+    
+    // Check for previous score on page load
+    window.addEventListener('load', checkSessionStorage);
+</script>
 </body>
 </html>
 

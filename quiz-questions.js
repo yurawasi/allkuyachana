@@ -1,0 +1,948 @@
+const allQuestions = [
+    // --- LOTE 1 ---
+    // --- Categoría 1.1: Orígenes y Domesticación ---
+    {
+        question: "El ancestro directo del perro doméstico es:",
+        answers: [
+            { text: "El coyote.", correct: false },
+            { text: "El lobo gris (Canis lupus).", correct: true },
+            { text: "El chacal.", correct: false },
+            { text: "Una especie de cánido ya extinta.", correct: false }
+        ]
+    },
+    {
+        question: "Un cambio anatómico clave en la cara de los perros, en comparación con los lobos, les permite una mejor comunicación facial con los humanos. ¿Cuál es?",
+        answers: [
+            { text: "Dientes caninos más pequeños.", correct: false },
+            { text: "Orejas más caídas en muchas razas.", correct: false },
+            { text: "Un músculo para levantar la ceja interna ('ojos de cachorro').", correct: true },
+            { text: "Un hocico más corto.", correct: false }
+        ]
+    },
+    // --- Categoría 1.2: Lenguaje Canino y Señales de Calma ---
+    {
+        question: "Tu perro bosteza repetidamente mientras un niño se acerca a abrazarlo. ¿Qué es lo más probable que esté comunicando?",
+        answers: [
+            { text: "Está cansado y quiere dormir.", correct: false },
+            { text: "Está aburrido de la situación.", correct: false },
+            { text: "Está mostrando una señal de calma para indicar incomodidad o estrés.", correct: true },
+            { text: "Está anticipando un juego divertido.", correct: false }
+        ]
+    },
+    {
+        question: "¿Qué significa comúnmente que un perro se lama el hocico rápidamente cuando no hay comida cerca?",
+        answers: [
+            { text: "Tiene sed.", correct: false },
+            { text: "Es una señal de calma, indicando un leve estrés o apaciguamiento.", correct: true },
+            { text: "Se está limpiando.", correct: false },
+            { text: "Está a punto de vomitar.", correct: false }
+        ]
+    },
+    {
+        question: "Una cola que se mueve en un círculo amplio y relajado ('cola helicóptero') generalmente indica:",
+        answers: [
+            { text: "Miedo extremo.", correct: false },
+            { text: "Agresión inminente.", correct: false },
+            { text: "Un estado de felicidad y excitación muy alto.", correct: true },
+            { text: "Sumisión y apaciguamiento.", correct: false }
+        ]
+    },
+    {
+        question: "El marcaje con orina en perros tiene como función principal:",
+        answers: [
+            { text: "Simplemente vaciar la vejiga.", correct: false },
+            { text: "Dejar un 'mensaje' olfativo para otros perros.", correct: true },
+            { text: "Limpiar el área.", correct: false },
+            { text: "Mostrar enfado hacia su tutor.", correct: false }
+        ]
+    },
+     // --- Categoría 1.3: Comportamiento Social y Jerarquía ---
+    {
+        question: "La 'reverencia de juego' (play bow) es una señal que los perros usan para:",
+        answers: [
+            { text: "Estirar los músculos antes de correr.", correct: false },
+            { text: "Mostrar sumisión a un perro de mayor rango.", correct: false },
+            { text: "Invitar a jugar y comunicar que sus intenciones son amistosas.", correct: true },
+            { text: "Amenazar a otro perro antes de un conflicto.", correct: false }
+        ]
+    },
+    {
+        question: "La teoría de la 'dominancia' para explicar el comportamiento canino hacia los humanos ha sido:",
+        answers: [
+            { text: "Confirmada por estudios recientes como la base de la relación.", correct: false },
+            { text: "Ampliamente malinterpretada y refutada por la etología moderna en el contexto de la relación humano-perro.", correct: true },
+            { text: "Válida solo para razas de gran tamaño.", correct: false },
+            { text: "Reemplazada por la teoría del refuerzo negativo exclusivamente.", correct: false }
+        ]
+    },
+     // --- Categoría 1.4: Instintos y Comportamientos Innatos ---
+    {
+        question: "La secuencia depredadora completa incluye los siguientes pasos (en orden):",
+        answers: [
+            { text: "Acechar, perseguir, morder, buscar.", correct: false },
+            { text: "Buscar, acechar, perseguir, morder-matar, diseccionar, consumir.", correct: true },
+            { text: "Perseguir, morder, consumir, buscar.", correct: false },
+            { text: "Olfatear, perseguir, ladrar, morder.", correct: false }
+        ]
+    },
+    {
+        question: "Un Border Collie que se agacha y fija la mirada en un grupo de ovejas está mostrando una parte modificada de la secuencia depredadora, específicamente:",
+        answers: [
+            { text: "El consumo.", correct: false },
+            { text: "La disección.", correct: false },
+            { text: "El acecho ('stalking').", correct: true },
+            { text: "El mordisco de agarre.", correct: false }
+        ]
+    },
+    // --- Categoría 2.1: Principios Científicos del Aprendizaje ---
+    {
+        question: "Tu perro se emociona y saliva cada vez que coges su correa. Este es un ejemplo de:",
+        answers: [
+            { text: "Condicionamiento operante.", correct: false },
+            { text: "Condicionamiento clásico.", correct: true },
+            { text: "Habituación.", correct: false },
+            { text: "Aprendizaje por instinto.", correct: false }
+        ]
+    },
+    {
+        question: "Darle a tu perro un premio inmediatamente después de que se siente es un ejemplo de:",
+        answers: [
+            { text: "Refuerzo positivo.", correct: true },
+            { text: "Castigo negativo.", correct: false },
+            { text: "Refuerzo negativo.", correct: false },
+            { text: "Castigo positivo.", correct: false }
+        ]
+    },
+    {
+        question: "Dejar de tirar de la correa para aliviar la presión en el cuello de tu perro justo cuando se pone a tu lado es un ejemplo de:",
+        answers: [
+            { text: "Refuerzo positivo.", correct: false },
+            { text: "Castigo negativo.", correct: false },
+            { text: "Refuerzo negativo.", correct: true },
+            { text: "Castigo positivo.", correct: false }
+        ]
+    },
+    {
+        question: "Tu perro deja de saltarte encima porque cada vez que lo hace, te das la vuelta y le ignoras (quitando tu atención). Esto es un ejemplo de:",
+        answers: [
+            { text: "Refuerzo positivo.", correct: false },
+            { text: "Castigo negativo.", correct: true },
+            { text: "Refuerzo negativo.", correct: false },
+            { text: "Castigo positivo.", correct: false }
+        ]
+    },
+    {
+        question: "Tu cachorro al principio se asustaba con el ruido de la aspiradora, pero después de varias veces de verla sin que nada malo ocurra, ya no reacciona. Este proceso se llama:",
+        answers: [
+            { text: "Sensibilización.", correct: false },
+            { text: "Contracondicionamiento.", correct: false },
+            { text: "Habituación.", correct: true },
+            { text: "Generalización.", correct: false }
+        ]
+    },
+    // --- Categoría 2.2: Técnicas y Herramientas de Entrenamiento Moderno ---
+    {
+        question: "El propósito principal del 'click' en el entrenamiento con clicker es:",
+        answers: [
+            { text: "Llamar la atención del perro.", correct: false },
+            { text: "Marcar el instante preciso en que el perro realiza el comportamiento correcto.", correct: true },
+            { text: "Ser el premio en sí mismo.", correct: false },
+            { text: "Indicarle al perro que ha hecho algo mal.", correct: false }
+        ]
+    },
+    {
+        question: "La técnica de 'moldeado' o 'shaping' implica:",
+        answers: [
+            { text: "Guiar físicamente al perro para que haga un movimiento.", correct: false },
+            { text: "Recompensar pequeños pasos o aproximaciones sucesivas hacia un comportamiento final complejo.", correct: true },
+            { text: "Usar un señuelo de comida para guiar al perro.", correct: false },
+            { text: "Esperar a que el perro haga el comportamiento completo por casualidad.", correct: false }
+        ]
+    },
+     // --- Categoría 2.3: Cognición Canina ---
+    {
+        question: "Estudios sobre cognición social han demostrado que los perros son especialmente buenos para:",
+        answers: [
+            { text: "Reconocerse en un espejo.", correct: false },
+            { text: "Entender y seguir las señales de señalamiento de los humanos.", correct: true },
+            { text: "Usar herramientas complejas.", correct: false },
+            { text: "Contar objetos.", correct: false }
+        ]
+    },
+     // --- Categoría 3.1: Las Cinco Libertades del Bienestar Animal ---
+    {
+        question: "Una de las 'Cinco Libertades' del bienestar animal, adaptada a los perros, es 'Libre para expresar un comportamiento normal'. Un ejemplo práctico de esto sería:",
+        answers: [
+            { text: "Asegurarse de que el perro nunca ladre.", correct: false },
+            { text: "Permitirle olfatear libremente durante los paseos.", correct: true },
+            { text: "Darle de comer siempre a la misma hora.", correct: false },
+            { text: "Tener siempre su cama en el mismo sitio.", correct: false }
+        ]
+    },
+    // --- Categoría 3.2: Enriquecimiento Ambiental ---
+    {
+        question: "¿Cuál de las siguientes actividades es un excelente ejemplo de enriquecimiento mental y sensorial para un perro?",
+        answers: [
+            { text: "Correr en una cinta.", correct: false },
+            { text: "Juegos de olfato, como buscar premios en una alfombra olfativa.", correct: true },
+            { text: "Ver la televisión.", correct: false },
+            { text: "Estar en el jardín sin ninguna interacción.", correct: false }
+        ]
+    },
+
+    // --- LOTE 2 ---
+    // --- Categoría 3.3: Salud Física y Nutrición ---
+    {
+        question: "Un perro que come hierba de forma ocasional y luego no vomita, probablemente lo hace porque:",
+        answers: [
+            { text: "Tiene una deficiencia nutricional grave.", correct: false },
+            { text: "Es un comportamiento canino normal y no suele indicar un problema.", correct: true },
+            { text: "Está intentando purgarse por un malestar estomacal.", correct: false },
+            { text: "Está imitando a las vacas.", correct: false }
+        ]
+    },
+    {
+        question: "Al leer la etiqueta de un alimento para perros, el ingrediente más importante debería ser:",
+        answers: [
+            { text: "Harina de maíz o de trigo.", correct: false },
+            { text: "Una fuente de proteína animal de alta calidad (ej. pollo, cordero, pescado).", correct: true },
+            { text: "Subproductos de origen animal.", correct: false },
+            { text: "Colorantes y saborizantes artificiales.", correct: false }
+        ]
+    },
+    {
+        question: "¿Cuál de los siguientes alimentos es altamente tóxico para los perros?",
+        answers: [
+            { text: "Zanahorias.", correct: false },
+            { text: "Manzanas (sin semillas).", correct: false },
+            { text: "Xilitol (un edulcorante artificial).", correct: true },
+            { text: "Arroz cocido.", correct: false }
+        ]
+    },
+    {
+        question: "Un jadeo excesivo, babeo y caminar de un lado a otro en un perro pueden ser signos de:",
+        answers: [
+            { text: "Felicidad extrema.", correct: false },
+            { text: "Dolor o estrés.", correct: true },
+            { text: "Hambre.", correct: false },
+            { text: "Ganas de jugar.", correct: false }
+        ]
+    },
+    // --- Categoría 3.4: Etapas de Vida ---
+    {
+        question: "El objetivo principal de la socialización en un cachorro es:",
+        answers: [
+            { text: "Que juegue con el mayor número de perros posible.", correct: false },
+            { text: "Enseñarle a no tener miedo de nada.", correct: false },
+            { text: "Exponerlo de forma positiva y controlada a diferentes estímulos para que crezca seguro y resiliente.", correct: true },
+            { text: "Que aprenda a obedecer órdenes desde muy pequeño.", correct: false }
+        ]
+    },
+    {
+        question: "Durante la adolescencia canina (aprox. 6-18 meses), es común observar:",
+        answers: [
+            { text: "Un aumento repentino en la obediencia y la calma.", correct: false },
+            { text: "Una regresión en el entrenamiento y un aumento de comportamientos exploratorios.", correct: true },
+            { text: "Que el perro duerma más horas que un cachorro.", correct: false },
+            { text: "Una pérdida total del apetito.", correct: false }
+        ]
+    },
+    {
+        question: "Para un perro senior con artritis, una de las mejores formas de ejercicio es:",
+        answers: [
+            { text: "Jugar a la pelota de forma intensa para que no pierda agilidad.", correct: false },
+            { text: "Paseos cortos y frecuentes, y actividades de bajo impacto como la natación.", correct: true },
+            { text: "Dejar que descanse todo el día para que no sienta dolor.", correct: false },
+            { text: "Saltos y carreras en el parque.", correct: false }
+        ]
+    },
+    {
+        question: "El control de esfínteres en un cachorro se logra más eficazmente a través de:",
+        answers: [
+            { text: "Castigar los accidentes en casa para que entienda que está mal.", correct: false },
+            { text: "Limitar su acceso al agua.", correct: false },
+            { text: "Una rutina frecuente de salidas y recompensar abundantemente cuando hace sus necesidades fuera.", correct: true },
+            { text: "Esperar a que el cachorro lo aprenda por sí mismo.", correct: false }
+        ]
+    },
+    // --- Categoría 4.1: Fundamentos de la Modificación de Conducta ---
+    {
+        question: "El 'umbral' de un perro en una situación de estrés se refiere a:",
+        answers: [
+            { text: "La distancia máxima a la que puede oler un premio.", correct: false },
+            { text: "El punto en el que un estímulo pasa de ser tolerable a provocar una reacción de miedo o reactividad.", correct: true },
+            { text: "El número de órdenes que puede obedecer seguidas.", correct: false },
+            { text: "La altura máxima que puede saltar.", correct: false }
+        ]
+    },
+    {
+        question: "Para ayudar a un perro con miedo a los truenos, le das un premio muy sabroso cada vez que escucha un trueno a lo lejos. Esta técnica se llama:",
+        answers: [
+            { text: "Inundación (flooding).", correct: false },
+            { text: "Castigo positivo.", correct: false },
+            { text: "Contracondicionamiento.", correct: true },
+            { text: "Refuerzo negativo.", correct: false }
+        ]
+    },
+    {
+        question: "La Desensibilización Sistemática consiste en:",
+        answers: [
+            { text: "Exponer al perro al estímulo que le da miedo a máxima intensidad para que se acostumbre.", correct: false },
+            { text: "Exponer al perro al estímulo que le da miedo de forma gradual y controlada, empezando por una intensidad muy baja.", correct: true },
+            { text: "Ignorar por completo el miedo del perro.", correct: false },
+            { text: "Medicar al perro para que no sienta miedo.", correct: false }
+        ]
+    },
+    {
+        question: "La 'gestión del entorno' en modificación de conducta significa:",
+        answers: [
+            { text: "Enseñar al perro a gestionar sus propias emociones.", correct: false },
+            { text: "Reorganizar la casa para que sea más bonita.", correct: false },
+            { text: "Modificar el ambiente para prevenir que el perro practique el comportamiento indeseado.", correct: true },
+            { text: "Dejar que el perro se enfrente a sus problemas sin ayuda.", correct: false }
+        ]
+    },
+     // --- Categoría 4.2: Problemas Comunes y Soluciones ---
+    {
+        question: "Un signo clásico de la ansiedad por separación es:",
+        answers: [
+            { text: "Que el perro te ignore cuando llegas a casa.", correct: false },
+            { text: "Que el perro duerma tranquilamente mientras no estás.", correct: false },
+            { text: "Comportamientos destructivos, vocalizaciones o eliminación que ocurren exclusivamente cuando se queda solo.", correct: true },
+            { text: "Que el perro se alegre mucho al verte llegar.", correct: false }
+        ]
+    },
+    {
+        question: "La mejor estrategia inicial para un perro que protege sus juguetes (protección de recursos) es:",
+        answers: [
+            { text: "Quitarle el juguete a la fuerza para enseñarle quién manda.", correct: false },
+            { text: "Enseñarle la orden 'suelta' intercambiando el juguete por algo de mayor valor (un premio muy sabroso).", correct: true },
+            { text: "No volver a darle juguetes nunca más.", correct: false },
+            { text: "Gritarle cuando gruña.", correct: false }
+        ]
+    },
+    {
+        question: "Un perro reactivo con correa es aquel que:",
+        answers: [
+            { text: "Tira de la correa porque quiere llegar antes a un sitio.", correct: false },
+            { text: "Muestra una reacción exagerada (ladra, se lanza) hacia un estímulo (otro perro, persona) cuando va atado.", correct: true },
+            { text: "Muerde la correa cuando está aburrido.", correct: false },
+            { text: "Se niega a caminar con la correa puesta.", correct: false }
+        ]
+    },
+    {
+        question: "Para un perro con fobia a los fuegos artificiales, una medida de gestión útil durante una tormenta de petardos es:",
+        answers: [
+            { text: "Llevarlo al balcón para que vea que no pasa nada.", correct: false },
+            { text: "Crearle un 'refugio' seguro en la zona más aislada de la casa con música relajante o ruido blanco.", correct: true },
+            { text: "Ignorar su miedo por completo.", correct: false },
+            { text: "Sacarlo a pasear para distraerlo.", correct: false }
+        ]
+    },
+    // --- Categoría 4.3: Agresividad y Reactividad ---
+    {
+        question: "La 'escalera de la agresión' es un concepto que ilustra que:",
+        answers: [
+            { text: "Los perros se vuelven más agresivos con la edad.", correct: false },
+            { text: "Antes de morder, un perro suele mostrar una serie de señales de estrés e incomodidad más sutiles.", correct: true },
+            { text: "Hay razas más agresivas que otras.", correct: false },
+            { text: "La agresividad siempre va dirigida hacia arriba en la jerarquía.", correct: false }
+        ]
+    },
+    {
+        question: "La causa más común de la agresividad en perros es:",
+        answers: [
+            { text: "La dominancia.", correct: false },
+            { text: "El rencor.", correct: false },
+            { text: "El miedo.", correct: true },
+            { text: "La falta de inteligencia.", correct: false }
+        ]
+    },
+    // --- Categoría 5.1: Introducción a los Deportes ---
+    {
+        question: "El 'Nosework' o trabajo de olfato es un deporte canino que se basa en:",
+        answers: [
+            { text: "La habilidad del perro para correr rápido.", correct: false },
+            { text: "La obediencia perfecta del perro.", correct: false },
+            { text: "Aprovechar y entrenar la capacidad natural del perro para detectar y encontrar olores específicos.", correct: true },
+            { text: "La fuerza del perro para arrastrar objetos.", correct: false }
+        ]
+    },
+    {
+        question: "El Agility es un deporte que consiste en que el perro:",
+        answers: [
+            { text: "Siga un rastro de olor en el campo.", correct: false },
+            { text: "Recorra un circuito de obstáculos guiado por su manejador en el menor tiempo posible.", correct: true },
+            { text: "Obedezca una serie de órdenes estáticas.", correct: false },
+            { text: "Atrape un disco volador (frisbee).", correct: false }
+        ]
+    },
+
+    // --- LOTE 3 ---
+    // --- Categoría 5.2: Mitos Comunes y Realidades ---
+    {
+        question: "Mito: 'Un perro que mueve la cola siempre está contento'. La realidad es que:",
+        answers: [
+            { text: "Esto es completamente cierto.", correct: false },
+            { text: "El movimiento de la cola es un indicador de excitación y su significado depende del contexto y del resto del lenguaje corporal.", correct: true },
+            { text: "Solo significa que está contento si la mueve hacia la derecha.", correct: false },
+            { text: "Solo los cachorros mueven la cola por felicidad.", correct: false }
+        ]
+    },
+    {
+        question: "Mito: 'No se puede enseñar trucos nuevos a un perro viejo'. La realidad es que:",
+        answers: [
+            { text: "Los perros mayores pierden toda su capacidad de aprendizaje.", correct: false },
+            { text: "Aunque pueden aprender más lento, los perros pueden aprender a cualquier edad con paciencia y refuerzo positivo.", correct: true },
+            { text: "Solo pueden aprender si ya sabían trucos de jóvenes.", correct: false },
+            { text: "Este mito es cierto, es una pérdida de tiempo.", correct: false }
+        ]
+    },
+    {
+        question: "Mito: 'Hay que frotar el hocico del cachorro en su orina si tiene un accidente en casa'. La realidad es que esta acción:",
+        answers: [
+            { text: "Es la forma más efectiva de enseñarles a no hacerlo.", correct: false },
+            { text: "Solo genera miedo y puede dañar el vínculo, sin enseñar al cachorro dónde debe hacer sus necesidades.", correct: true },
+            { text: "Funciona, pero solo si se hace inmediatamente.", correct: false },
+            { text: "Es una técnica recomendada por veterinarios.", correct: false }
+        ]
+    },
+    {
+        question: "Mito: 'Los perros ven en blanco y negro'. La realidad es que:",
+        answers: [
+            { text: "Los perros ven el mundo en una gama de colores, principalmente en tonos de azul y amarillo.", correct: true },
+            { text: "Ven en blanco y negro, pero con muchos tonos de gris.", correct: false },
+            { text: "Este mito es completamente cierto.", correct: false },
+            { text: "Ven más colores que los humanos.", correct: false }
+        ]
+    },
+    // --- Categoría 5.3: Convivencia Humano-Perro ---
+    {
+        question: "La regla de oro para la interacción entre niños y perros es:",
+        answers: [
+            { text: "Dejar que se conozcan solos para que creen su propio vínculo.", correct: false },
+            { text: "Supervisar siempre activamente todas las interacciones, sin importar lo bueno que sea el perro.", correct: true },
+            { text: "Enseñar al niño a abrazar fuertemente al perro para demostrarle cariño.", correct: false },
+            { text: "Permitir que el niño juegue con el perro mientras come.", correct: false }
+        ]
+    },
+    {
+        question: "El 'consentimiento' en un perro para una caricia se puede observar cuando:",
+        answers: [
+            { text: "El perro se queda completamente quieto y rígido.", correct: false },
+            { text: "El perro se inclina activamente hacia tu mano, se relaja y busca más contacto si te detienes.", correct: true },
+            { text: "El perro te ignora y mira hacia otro lado.", correct: false },
+            { text: "El perro te da la pata sin que se lo pidas.", correct: false }
+        ]
+    },
+    {
+        question: "Al presentar dos perros adultos por primera vez, lo más recomendable es:",
+        answers: [
+            { text: "Hacerlo en un espacio cerrado y pequeño, como un pasillo.", correct: false },
+            { text: "Hacerlo en un territorio neutral (como un parque), con ambos perros con correa floja al principio.", correct: true },
+            { text: "Soltarlos juntos en el jardín de uno de ellos y dejar que se arreglen solos.", correct: false },
+            { text: "Sostenerlos frente a frente para que se huelan la cara.", correct: false }
+        ]
+    },
+    {
+        question: "El 'trigger stacking' o 'acumulación de estresores' se refiere a:",
+        answers: [
+            { text: "Apilar los juguetes del perro de una forma divertida.", correct: false },
+            { text: "Cómo el estrés de varios eventos pequeños puede sumarse y provocar una reacción exagerada en el perro.", correct: true },
+            { text: "Una técnica para enseñarle al perro a apilar aros.", correct: false },
+            { text: "El orden en el que se deben dar las comidas.", correct: false }
+        ]
+    },
+    // --- Categoría 5.4: Primeros Auxilios y Seguridad ---
+    {
+        question: "Si tu perro sufre un golpe de calor, una medida de primeros auxilios inmediata es:",
+        answers: [
+            { text: "Cubrirlo con mantas para que no se enfríe.", correct: false },
+            { text: "Mojarlo con agua fresca (no helada), especialmente en ingles y abdomen, y contactar a un veterinario de urgencia.", correct: true },
+            { text: "Darle de beber mucha agua de golpe.", correct: false },
+            { text: "Esperar a ver si se le pasa solo.", correct: false }
+        ]
+    },
+    {
+        question: "El número de teléfono de un centro de control de envenenamiento animal es útil tenerlo a mano porque:",
+        answers: [
+            { text: "Pueden recetar medicamentos por teléfono.", correct: false },
+            { text: "Pueden ofrecerte indicaciones vitales sobre qué hacer si tu perro ingiere una sustancia tóxica.", correct: true },
+            { text: "Te dan consejos de entrenamiento.", correct: false },
+            { text: "Solo sirven para animales de granja.", correct: false }
+        ]
+    },
+    {
+        question: "Para hacer una reanimación cardiopulmonar (RCP) a un perro, la ubicación correcta para las compresiones torácicas es:",
+        answers: [
+            { text: "Directamente sobre el estómago.", correct: false },
+            { text: "En la parte más ancha del pecho, justo detrás del codo.", correct: true },
+            { text: "En el cuello para estimular el flujo sanguíneo.", correct: false },
+            { text: "Sobre la columna vertebral.", correct: false }
+        ]
+    },
+     // --- Categoría 6.1: Ética y Legislación ---
+    {
+        question: "La 'Ley de Bienestar Animal' en muchos países establece que los tutores tienen la obligación de:",
+        answers: [
+            { text: "Proporcionar a sus animales las necesidades básicas de alimentación, refugio y cuidados veterinarios.", correct: true },
+            { text: "Entrenar a sus perros en obediencia avanzada.", correct: false },
+            { text: "Asegurar que su perro tenga al menos una camada.", correct: false },
+            { text: "Comprar solo alimentos de marcas premium.", correct: false }
+        ]
+    },
+    {
+        question: "El uso de herramientas de castigo positivo como collares de púas o eléctricos es controvertido porque:",
+        answers: [
+            { text: "Son la única forma de controlar a perros grandes.", correct: false },
+            { text: "Estudios han demostrado que pueden aumentar el miedo, la ansiedad y la agresividad, además de causar dolor.", correct: true },
+            { text: "Son muy baratos y accesibles.", correct: false },
+            { text: "Son recomendados por todos los educadores caninos.", correct: false }
+        ]
+    },
+    {
+        question: "Un 'Perro Potencialmente Peligroso' (PPP) según la legislación de muchos lugares se define por:",
+        answers: [
+            { text: "Su comportamiento agresivo individual.", correct: false },
+            { text: "Pertenecer a ciertas razas o tener ciertas características físicas, independientemente de su comportamiento.", correct: true },
+            { text: "El color de su pelaje.", correct: false },
+            { text: "Haber mordido a una persona, sin importar la raza.", correct: false }
+        ]
+    },
+    // --- Categoría Adicional: Miscelánea ---
+    {
+        question: "La neotenia en perros se refiere a:",
+        answers: [
+            { text: "Una enfermedad neurológica rara.", correct: false },
+            { text: "La retención de rasgos juveniles (físicos y de comportamiento) en la edad adulta.", correct: true },
+            { text: "La capacidad de aprender nuevos idiomas.", correct: false },
+            { text: "El proceso de envejecimiento acelerado.", correct: false }
+        ]
+    },
+    {
+        question: "El 'efecto Clever Hans' es un fenómeno que los investigadores deben evitar, donde:",
+        answers: [
+            { text: "El animal resuelve un problema de forma genuina.", correct: false },
+            { text: "El experimentador da pistas inconscientes al animal, influyendo en su respuesta.", correct: true },
+            { text: "El animal se niega a participar en el experimento.", correct: false },
+            { text: "El animal engaña al experimentador a propósito.", correct: false }
+        ]
+    },
+    {
+        question: "Un 'feromona de apaciguamiento canino' (DAP) es una sustancia sintética que imita:",
+        answers: [
+            { text: "El olor de la presa para estimular la caza.", correct: false },
+            { text: "Las feromonas que una madre lactante segrega para calmar a sus cachorros.", correct: true },
+            { text: "El olor de un perro rival para marcar territorio.", correct: false },
+            { text: "Un repelente de insectos.", correct: false }
+        ]
+    },
+    {
+        question: "¿Qué es la 'visión dicromática' en los perros?",
+        answers: [
+            { text: "Que pueden ver en la oscuridad total.", correct: false },
+            { text: "Que ven el mundo a través de dos tipos de conos receptores de color (principalmente azules y amarillos).", correct: true },
+            { text: "Que tienen el doble de agudeza visual que los humanos.", correct: false },
+            { text: "Que solo pueden ver objetos que se mueven.", correct: false }
+        ]
+    },
+    {
+        question: "El 'tapping' o golpeteo suave en el suelo delante de un perro puede ser usado para:",
+        answers: [
+            { text: "Asustarlo y que se aparte.", correct: false },
+            { text: "Llamar su atención de forma no amenazante o animarle a moverse en una dirección.", correct: true },
+            { text: "Castigarlo por estar en medio.", correct: false },
+            { text: "Limpiar el suelo antes de que se tumbe.", correct: false }
+        ]
+    },
+    {
+        question: "¿Cuál es el objetivo principal de los 'juegos de autocontrol'?",
+        answers: [
+            { text: "Hacer que el perro esté siempre quieto.", correct: false },
+            { text: "Enseñar al perro a pensar y a gestionar sus impulsos en situaciones de alta excitación.", correct: true },
+            { text: "Cansar al perro lo más rápido posible.", correct: false },
+            { text: "Demostrar que el perro es muy obediente.", correct: false }
+        ]
+    },
+
+    // --- LOTE 4 ---
+    // --- Categoría 1.5: Razas y Genética ---
+    {
+        question: "Las razas de perros de pastoreo, como el Border Collie, han sido seleccionadas genéticamente para tener:",
+        answers: [
+            { text: "Una secuencia depredadora completa y muy intensa.", correct: false },
+            { text: "Partes exageradas de la secuencia depredadora (como el acecho y la persecución) con un mordisco inhibido.", correct: true },
+            { text: "Una baja motivación para el trabajo.", correct: false },
+            { text: "Un instinto de protección de recursos muy alto.", correct: false }
+        ]
+    },
+    {
+        question: "Un 'perro mestizo' o 'sin raza' es:",
+        answers: [
+            { text: "Menos inteligente que un perro de raza pura.", correct: false },
+            { text: "Un perro con una mezcla de dos o más razas, lo que le confiere una herencia genética diversa.", correct: true },
+            { text: "Incapaz de aprender trucos complejos.", correct: false },
+            { text: "Siempre más sano que un perro de raza pura.", correct: false }
+        ]
+    },
+    {
+        question: "La herencia del comportamiento es 'poligénica', lo que significa que:",
+        answers: [
+            { text: "Un solo gen determina un rasgo de comportamiento complejo, como la amabilidad.", correct: false },
+            { text: "Múltiples genes, junto con factores ambientales, influyen en un rasgo de comportamiento.", correct: true },
+            { text: "La genética no tiene ningún papel en el comportamiento.", correct: false },
+            { text: "El comportamiento se hereda únicamente de la madre.", correct: false }
+        ]
+    },
+    // --- Categoría 2.4: Técnicas de Entrenamiento Avanzadas ---
+    {
+        question: "El 'encadenamiento hacia atrás' (back chaining) es una técnica útil para enseñar una secuencia de comportamientos. Consiste en:",
+        answers: [
+            { text: "Enseñar el primer paso de la secuencia, luego el segundo, y así sucesivamente.", correct: false },
+            { text: "Enseñar y reforzar primero el ÚLTIMO paso de la secuencia, luego el penúltimo, etc.", correct: true },
+            { text: "Repetir la secuencia sin premios.", correct: false },
+            { text: "Usar una cadena para guiar al perro.", correct: false }
+        ]
+    },
+    {
+        question: "¿Qué es un 'programa de refuerzo variable'?",
+        answers: [
+            { text: "Premiar al perro cada vez que realiza el comportamiento.", correct: false },
+            { text: "Premiar al perro de forma intermitente e impredecible una vez que el comportamiento está bien establecido.", correct: true },
+            { text: "Variar el tipo de premio que se le da al perro.", correct: false },
+            { text: "Solo premiar al perro al final de la sesión de entrenamiento.", correct: false }
+        ]
+    },
+    {
+        question: "El objetivo del protocolo 'Behavior Adjustment Training' (B.A.T.) de Grisha Stewart es:",
+        answers: [
+            { text: "Enseñar obediencia de competición.", correct: false },
+            { text: "Ayudar a perros con miedo, frustración o reactividad, permitiéndoles aprender a comunicarse y moverse de forma que se sientan seguros.", correct: true },
+            { text: "Entrenar perros para la detección de olores.", correct: false },
+            { text: "Aumentar la velocidad del perro en agility.", correct: false }
+        ]
+    },
+    // --- Categoría 1.2 Extensión: Comunicación Avanzada ---
+    {
+        question: "La 'piloerección' (pelo erizado en el lomo) en un perro indica:",
+        answers: [
+            { text: "Siempre agresividad.", correct: false },
+            { text: "Un estado de alta excitación o alerta, que puede ser por miedo, interés o enfado.", correct: true },
+            { text: "Que el perro tiene frío.", correct: false },
+            { text: "Que el perro está relajado.", correct: false }
+        ]
+    },
+    {
+        question: "Un 'corte' (cut-off signal) es una señal de comunicación sutil, como girar la cabeza o el cuerpo, que un perro usa para:",
+        answers: [
+            { text: "Ignorar deliberadamente una orden.", correct: false },
+            { text: "'cortar' o interrumpir una interacción social que le resulta incómoda o amenazante.", correct: true },
+            { text: "Indicar que quiere jugar.", correct: false },
+            { text: "Mostrar que está cansado.", correct: false }
+        ]
+    },
+    // --- Categoría 3.3 Extensión: Salud y Nutrición Avanzada ---
+    {
+        question: "La 'torsión gástrica' es una emergencia veterinaria grave que afecta más comúnmente a:",
+        answers: [
+            { text: "Razas pequeñas de hocico corto.", correct: false },
+            { text: "Razas grandes y gigantes con pecho profundo.", correct: true },
+            { text: "Cachorros de menos de 6 meses.", correct: false },
+            { text: "Perros senior de cualquier raza.", correct: false }
+        ]
+    },
+    {
+        question: "La displasia de cadera es una enfermedad:",
+        answers: [
+            { text: "Contagiosa que se transmite en los parques.", correct: false },
+            { text: "Con un fuerte componente genético, aunque factores como el peso y el ejercicio pueden influir en su desarrollo.", correct: true },
+            { text: "Causada únicamente por un exceso de ejercicio en cachorros.", correct: false },
+            { text: "Que solo afecta a las patas delanteras.", correct: false }
+        ]
+    },
+    {
+        question: "La 'coprofagia' (ingestión de heces) en perros es:",
+        answers: [
+            { text: "Siempre un signo de una deficiencia nutricional grave.", correct: false },
+            { text: "Un comportamiento que puede tener múltiples causas (médicas, de comportamiento, aprendidas) y no siempre es fácil de resolver.", correct: true },
+            { text: "Una forma de que el perro limpie su espacio.", correct: false },
+            { text: "Exclusivo de los cachorros.", correct: false }
+        ]
+    },
+    // --- Categoría 4.3 Extensión: Agresividad y Reactividad ---
+    {
+        question: "Un 'mordisco inhibido' se refiere a:",
+        answers: [
+            { text: "Un mordisco que no llega a tocar la piel.", correct: false },
+            { text: "La capacidad del perro de controlar la fuerza de su mandíbula para no causar daño, aprendida durante el juego con sus hermanos.", correct: true },
+            { text: "Un intento fallido de morder.", correct: false },
+            { text: "Un mordisco que ocurre en cámara lenta.", correct: false }
+        ]
+    },
+    {
+        question: "La 'agresión redirigida' ocurre cuando un perro:",
+        answers: [
+            { text: "Ataca a la persona que le está regañando.", correct: false },
+            { text: "Excitado o frustrado por un estímulo que no puede alcanzar, muerde a un individuo cercano (persona u otro perro).", correct: true },
+            { text: "Muerde en defensa propia.", correct: false },
+            { text: "Juega a morder de forma demasiado brusca.", correct: false }
+        ]
+    },
+    // --- Categoría 5.1 Extensión: Deportes y Actividades ---
+    {
+        question: "El 'Rally Obedience' o 'Rally O' es un deporte canino que se diferencia de la obediencia tradicional en que:",
+        answers: [
+            { text: "Es mucho más estricto y formal.", correct: false },
+            { text: "Permite una mayor comunicación y ánimo del manejador hacia el perro durante el recorrido, que consiste en seguir un circuito de señales.", correct: true },
+            { text: "No se permite el uso de premios.", correct: false },
+            { text: "Solo se compite en equipos.", correct: false }
+        ]
+    },
+    {
+        question: "El 'Treibball' es un deporte canino diseñado como una alternativa al pastoreo que consiste en que el perro:",
+        answers: [
+            { text: "Tire de un trineo.", correct: false },
+            { text: "'pastoree' y guíe grandes pelotas de ejercicio hasta una portería.", correct: true },
+            { text: "Nade para recoger objetos en el agua.", correct: false },
+            { text: "Siga un rastro de olor humano.", correct: false }
+        ]
+    },
+     // --- Categoría 6.1 Extensión: Ética y Ciencia ---
+    {
+        question: "La 'Hipótesis del Ojo Cooperativo' sugiere que la esclerótica (el blanco del ojo) visible de los humanos evolucionó para:",
+        answers: [
+            { text: "Ver mejor en la oscuridad.", correct: false },
+            { text: "Facilitar la comunicación y el seguimiento de la mirada en actividades cooperativas, una habilidad que los perros han aprendido a 'leer'.", correct: true },
+            { text: "Ser más atractivos para el sexo opuesto.", correct: false },
+            { text: "Proteger el ojo de infecciones.", correct: false }
+        ]
+    },
+    {
+        question: "Un 'doble ciego' en un estudio científico sobre comportamiento canino significa que:",
+        answers: [
+            { text: "Los perros utilizados en el estudio son ciegos.", correct: false },
+            { text: "Ni el dueño del perro ni el experimentador que interactúa con él saben a qué grupo experimental pertenece el perro.", correct: true },
+            { text: "El estudio se realiza en una habitación a oscuras.", correct: false },
+            { text: "Se usan dos perros idénticos.", correct: false }
+        ]
+    },
+     // --- Miscelánea Avanzada ---
+    {
+        question: "El 'órgano vomeronasal' o 'de Jacobson' en los perros está especializado en detectar:",
+        answers: [
+            { text: "Sonidos de alta frecuencia.", correct: false },
+            { text: "Feromonas y otras señales químicas importantes para la comunicación social y reproductiva.", correct: true },
+            { text: "Cambios en la presión barométrica.", correct: false },
+            { text: "Movimientos sutiles en la periferia de su visión.", correct: false }
+        ]
+    },
+    {
+        question: "El concepto de ' indefensión aprendida' (learned helplessness) en un perro ocurre cuando:",
+        answers: [
+            { text: "El perro aprende a pedir ayuda a su humano para todo.", correct: false },
+            { text: "Un perro expuesto repetidamente a una situación aversiva de la que no puede escapar, aprende a no intentar escapar, incluso cuando se le da la oportunidad.", correct: true },
+            { text: "El perro se vuelve dependiente de los premios para obedecer.", correct: false },
+            { text: "El perro aprende a abrir puertas por sí mismo.", correct: false }
+        ]
+    },
+    {
+        question: "En el contexto del entrenamiento, la 'latencia' se refiere a:",
+        answers: [
+            { text: "El tiempo que el perro puede mantener una posición de 'quieto'.", correct: false },
+            { text: "El tiempo que transcurre entre que se da la señal (orden) y el perro inicia la respuesta.", correct: true },
+            { text: "La distancia a la que el perro obedece una señal.", correct: false },
+            { text: "La fuerza con la que el perro realiza un comportamiento.", correct: false }
+        ]
+    },
+
+    // --- LOTE 5 ---
+    // --- Categoría 2.5: Neurociencia del Comportamiento ---
+    {
+        question: "¿Qué hormona, a menudo llamada 'la hormona del amor', juega un papel clave en el fortalecimiento del vínculo entre humanos y perros?",
+        answers: [
+            { text: "Adrenalina.", correct: false },
+            { text: "Cortisol.", correct: false },
+            { text: "Oxitocina.", correct: true },
+            { text: "Testosterona.", correct: false }
+        ]
+    },
+    {
+        question: "El estrés crónico puede llevar a niveles elevados de cortisol, lo cual puede:",
+        answers: [
+            { text: "Mejorar el sistema inmunológico del perro.", correct: false },
+            { text: "Suprimir el sistema inmunológico y afectar negativamente la salud y el comportamiento.", correct: true },
+            { text: "Hacer que el perro aprenda más rápido.", correct: false },
+            { text: "No tener ningún efecto a largo plazo.", correct: false }
+        ]
+    },
+    // --- Categoría 2.6: Teoría del Aprendizaje Avanzada ---
+    {
+        question: "Cuando dejas de premiar un comportamiento que antes reforzabas, es común que el perro lo realice con más intensidad antes de que desaparezca. Esto se llama:",
+        answers: [
+            { text: "Recuperación espontánea.", correct: false },
+            { text: "Generalización.", correct: false },
+            { text: "Explosión de extinción (extinction burst).", correct: true },
+            { text: "Latencia.", correct: false }
+        ]
+    },
+    {
+        question: "Un comportamiento que ha sido extinguido (ya no ocurre) reaparece de repente después de un tiempo sin entrenamiento. Este fenómeno se conoce como:",
+        answers: [
+            { text: "Recuperación espontánea.", correct: true },
+            { text: "Efecto de primacía.", correct: false },
+            { text: "Overshadowing (ensombrecimiento).", correct: false },
+            { text: "Contracondicionamiento.", correct: false }
+        ]
+    },
+    // --- Categoría 3.5: Salud y Prevención Avanzada ---
+    {
+        question: "La enfermedad de Lyme es una enfermedad zoonótica (transmisible a humanos) que es propagada principalmente por:",
+        answers: [
+            { text: "Mosquitos.", correct: false },
+            { text: "Pulgas.", correct: false },
+            { text: "Garrapatas.", correct: true },
+            { text: "El contacto directo con perros infectados.", correct: false }
+        ]
+    },
+    {
+        question: "La dirofilariosis o 'enfermedad del gusano del corazón' se previene más eficazmente mediante:",
+        answers: [
+            { text: "Vacunación anual.", correct: false },
+            { text: "Medicación preventiva regular (mensual o inyectable) prescrita por un veterinario.", correct: true },
+            { text: "Evitando que el perro beba agua estancada.", correct: false },
+            { text: "Una dieta de alta calidad.", correct: false }
+        ]
+    },
+    {
+        question: "La enfermedad dental en perros no es solo un problema estético, sino que puede llevar a infecciones graves en:",
+        answers: [
+            { text: "Las uñas y el pelaje.", correct: false },
+            { text: "El corazón, el hígado y los riñones.", correct: true },
+            { text: "El sistema digestivo únicamente.", correct: false },
+            { text: "Los ojos y los oídos.", correct: false }
+        ]
+    },
+    // --- Categoría 3.4 Extensión: Desarrollo Avanzado ---
+    {
+        question: "Los cachorros suelen experimentar un segundo 'periodo de miedo' durante el cual pueden mostrarse temerosos ante cosas que antes no les afectaban. ¿Cuándo ocurre esto?",
+        answers: [
+            { text: "Justo al nacer.", correct: false },
+            { text: "Durante la socialización primaria (3-5 semanas).", correct: false },
+            { text: "Durante la adolescencia (entre los 6 y 14 meses).", correct: true },
+            { text: "En la vejez.", correct: false }
+        ]
+    },
+    // --- Categoría 6.2: Figuras Clave y Estudios ---
+    {
+        question: "¿Qué científico es famoso por sus experimentos sobre condicionamiento clásico, usando campanas y la salivación de los perros?",
+        answers: [
+            { text: "B.F. Skinner.", correct: false },
+            { text: "Konrad Lorenz.", correct: false },
+            { text: "Ivan Pavlov.", correct: true },
+            { text: "Patricia McConnell.", correct: false }
+        ]
+    },
+    {
+        question: "Los principios del condicionamiento operante (refuerzo/castigo) y la 'caja de Skinner' están asociados al trabajo de:",
+        answers: [
+            { text: "Ivan Pavlov.", correct: false },
+            { text: "B.F. Skinner.", correct: true },
+            { text: "Jean Donaldson.", correct: false },
+            { text: "Turid Rugaas.", correct: false }
+        ]
+    },
+    // --- Categoría 6.1 Extensión: Ética Avanzada ---
+    {
+        question: "El acrónimo LIMA, un estándar ético en el entrenamiento animal moderno, significa:",
+        answers: [
+            { text: "Larga Intervención Mínimamente Aversiva.", correct: false },
+            { text: "La Intervención Menos Intrusiva y Mínimamente Aversiva.", correct: true },
+            { text: "Límite de Intensidad Máxima Aceptable.", correct: false },
+            { text: "Lógica Intuitiva de Modificación Animal.", correct: false }
+        ]
+    },
+    // --- Categoría 1.5 Extensión: Genética Avanzada ---
+    {
+        question: "El estudio de cómo el ambiente y las experiencias de un individuo pueden afectar la expresión de sus genes sin cambiar el ADN se llama:",
+        answers: [
+            { text: "Genómica.", correct: false },
+            { text: "Epigenética.", correct: true },
+            { text: "Clonación.", correct: false },
+            { text: "Selección natural.", correct: false }
+        ]
+    },
+     // --- Miscelánea Final ---
+    {
+        question: "Un perro que exagera un gruñido o da un mordisco suave al aire durante el juego está usando:",
+        answers: [
+            { text: "Una señal de amenaza real.", correct: false },
+            { text: "Metaseñales para comunicar que su comportamiento es parte de un juego.", correct: true },
+            { text: "Un intento de dominar a su compañero de juego.", correct: false },
+            { text: "Una señal de que el juego ha terminado.", correct: false }
+        ]
+    },
+    {
+        question: "La dieta BARF es un modelo de alimentación cruda que significa:",
+        answers: [
+            { text: "Básicamente Arroz, Res y Frutas.", correct: false },
+            { text: "Alimentos Biológicamente Apropiados y Crudos (o Huesos y Alimentos Crudos).", correct: true },
+            { text: "Balanceado, Altamente Reforzante y Fresco.", correct: false },
+            { text: "Comida Barata, Accesible y Rápida.", correct: false }
+        ]
+    },
+    {
+        question: "El 'Freestyle Canino' es un deporte que combina:",
+        answers: [
+            { text: "Agility y natación.", correct: false },
+            { text: "Obediencia, trucos y coreografías musicales.", correct: true },
+            { text: "Carreras y saltos de longitud.", correct: false },
+            { text: "Rastreo y detección de olores.", correct: false }
+        ]
+    },
+    {
+        question: "El concepto de 'permanencia del objeto' en perros se refiere a su habilidad para entender que:",
+        answers: [
+            { text: "Los objetos que son permanentes no se pueden romper.", correct: false },
+            { text: "Un objeto sigue existiendo aunque no lo puedan ver, oír o tocar.", correct: true },
+            { text: "Solo los objetos de su propiedad son permanentes.", correct: false },
+            { text: "Un objeto siempre permanecerá en el último lugar donde lo vieron.", correct: false }
+        ]
+    },
+    {
+        question: "Si tu perro sangra por una herida en la pata, el primer paso crucial de primeros auxilios es:",
+        answers: [
+            { text: "Lavar la herida con abundante agua y jabón.", correct: false },
+            { text: "Aplicar presión directa y firme sobre la herida con un paño limpio o gasa.", correct: true },
+            { text: "Hacer un torniquete por encima de la herida.", correct: false },
+            { text: "Aplicar hielo directamente sobre el corte.", correct: false }
+        ]
+    },
+    {
+        question: "En el aprendizaje, el 'ensombrecimiento' (overshadowing) ocurre cuando:",
+        answers: [
+            { text: "Un perro aprende mejor en la sombra que al sol.", correct: false },
+            { text: "Al presentar dos estímulos a la vez (ej. una luz y un sonido), el perro solo aprende a asociar el más intenso o saliente.", correct: true },
+            { text: "Un perro más viejo 'ensombrece' a un cachorro e impide que aprenda.", correct: false },
+            { text: "El premio es tan bueno que 'ensombrece' la orden.", correct: false }
+        ]
+    },
+    {
+        question: "Un error común al manejar a un perro con reactividad a la correa es:",
+        answers: [
+            { text: "Aumentar la distancia con el estímulo que le provoca la reacción.", correct: false },
+            { text: "Usar premios de alto valor para cambiar su asociación.", correct: false },
+            { text: "Tensionar la correa anticipando una reacción, lo que aumenta el estrés del perro.", correct: true },
+            { text: "Darle la oportunidad de olfatear para relajarse.", correct: false }
+        ]
+    },
+    {
+        question: "El concepto de que la boca de un perro es más limpia que la de un humano es:",
+        answers: [
+            { text: "Cierto, porque su saliva tiene propiedades antisépticas más potentes.", correct: false },
+            { text: "Un mito; ambas bocas albergan una gran cantidad de bacterias diferentes.", correct: true },
+            { text: "Cierto solo si el perro tiene una buena higiene dental.", correct: false },
+            { text: "Falso, la boca humana es estéril.", correct: false }
+        ]
+    }
+];
+

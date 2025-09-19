@@ -213,7 +213,11 @@
         </div>
     </footer>
 
-    <script>
+    <!-- PASO 1: Carga el archivo de preguntas PRIMERO -->
+<script src="quiz-questions.js"></script>
+
+<!-- PASO 2: Ahora ejecuta el script que usa esas preguntas -->
+<script>
     // --- Mobile Menu Script ---
     const mobileMenuButton = document.getElementById('mobile-menu-button');
     const mobileMenu = document.getElementById('mobile-menu');
@@ -222,7 +226,7 @@
     });
 
     // --- Quiz Script ---
-    // The 'allQuestions' variable is now loaded from the 'quiz-questions.js' file
+    // 'allQuestions' ahora se carga desde 'quiz-questions.js'
     const startButton = document.getElementById('start-quiz-btn');
     const restartButton = document.getElementById('restart-quiz-btn');
     const playAgainButton = document.getElementById('play-again-btn');
@@ -238,7 +242,7 @@
     const answerButtonsElement = document.getElementById('answer-buttons');
     const scoreElement = document.getElementById('score-text');
     const previousScoreElement = document.getElementById('previous-score-text');
-    const progressText = document.getElementById('progress-text'); // Make sure you have an element with this ID
+    const progressText = document.getElementById('progress-text');
 
     let shuffledQuestions, currentQuestionIndex, score;
     const QUESTIONS_IN_QUIZ = 5;
@@ -260,7 +264,6 @@
         let currentQuestion = shuffledQuestions[currentQuestionIndex];
         let questionNo = currentQuestionIndex + 1;
         
-        // Update progress text
         if(progressText) {
             progressText.innerText = `Pregunta ${questionNo} de ${QUESTIONS_IN_QUIZ}`;
         }

@@ -1135,6 +1135,197 @@ const allQuestions = [
         { text: "El código genético de una especie.", correct: false }
     ]
 },
+,
+// --- LOTE 8 ---
+// --- Categoría 7.1: Psicofarmacología Conductual ---
+{
+    question: "La Fluoxetina (Prozac) es un fármaco a veces usado para tratar la ansiedad en perros. ¿A qué clase de medicamento pertenece?",
+    answers: [
+        { text: "Benzodiazepina.", correct: false },
+        { text: "Inhibidor Selectivo de la Recaptación de Serotonina (ISRS).", correct: true },
+        { text: "Antidepresivo Tricíclico (ATC).", correct: false },
+        { text: "Inhibidor de la Monoaminooxidasa (IMAO).", correct: false }
+    ]
+},
+{
+    question: "La Trazodona se utiliza a menudo en el ámbito veterinario como un ansiolítico de acción rápida para situaciones específicas (ej. viajes, tormentas) porque:",
+    answers: [
+        { text: "Aumenta los niveles de dopamina.", correct: false },
+        { text: "Actúa como antagonista de los receptores de serotonina e inhibidor de su recaptación (SARI).", correct: true },
+        { text: "Es un antibiótico de amplio espectro.", correct: false },
+        { text: "Bloquea los receptores del dolor.", correct: false }
+    ]
+},
+// --- Categoría 2.3 Extensión: Cognición Numérica y Espacial ---
+{
+    question: "Estudios sobre la cognición numérica en perros sugieren que pueden tener una habilidad rudimentaria para:",
+    answers: [
+        { text: "Realizar sumas y restas complejas.", correct: false },
+        { text: "Diferenciar entre pequeñas cantidades de objetos (subitizing) y estimar cantidades mayores.", correct: true },
+        { text: "Entender el concepto de cero.", correct: false },
+        { text: "Contar secuencialmente como un humano.", correct: false }
+    ]
+},
+{
+    question: "La habilidad de un perro para encontrar el camino más corto a un objetivo, incluso si implica desviarse momentáneamente de la línea recta, demuestra:",
+    answers: [
+        { text: "Una comprensión de la geometría euclidiana.", correct: false },
+        { text: "Cognición espacial y la capacidad de planificar rutas.", correct: true },
+        { text: "Un sentido del olfato superior.", correct: false },
+        { text: "Un comportamiento puramente aleatorio.", correct: false }
+    ]
+},
+// --- Categoría 3.5 Extensión: El Eje Intestino-Cerebro ---
+{
+    question: "La investigación sobre el 'eje intestino-cerebro' en perros sugiere que la salud del microbioma intestinal puede influir en:",
+    answers: [
+        { text: "El color del pelaje del perro.", correct: false },
+        { text: "La longitud de la cola.", correct: false },
+        { text: "Comportamientos relacionados con la ansiedad y el estrés.", correct: true },
+        { text: "La agudeza visual.", correct: false }
+    ]
+},
+{
+    question: "Los probióticos y prebióticos en la dieta de un perro están destinados a:",
+    answers: [
+        { text: "Aumentar el contenido calórico del alimento.", correct: false },
+        { text: "Apoyar la salud de la flora bacteriana beneficiosa en el intestino.", correct: true },
+        { text: "Blanquear los dientes.", correct: false },
+        { text: "Mejorar el sabor de la comida exclusivamente.", correct: false }
+    ]
+},
+// --- Categoría 4.5 Extensión: Protocolos Avanzados ---
+{
+    question: "El protocolo 'Juego de 1-2-3' de Chirag Patel es una técnica de manejo que enseña a un perro a:",
+    answers: [
+        { text: "Contar hasta tres antes de comer.", correct: false },
+        { text: "Anticipar y cooperar con un procedimiento potencialmente aversivo (como una inyección) a cambio de un refuerzo predecible.", correct: true },
+        { text: "Realizar una secuencia de tres trucos.", correct: false },
+        { text: "Elegir entre tres juguetes diferentes.", correct: false }
+    ]
+},
+{
+    question: "El protocolo 'Say Please' o 'Nada en la vida es gratis' (NILIF) se centra en:",
+    answers: [
+        { text: "Hacer que el perro pague por todo lo que recibe.", correct: false },
+        { text: "Establecer una rutina predecible donde el perro aprende a ofrecer un comportamiento tranquilo (como sentarse) para obtener recursos.", correct: true },
+        { text: "Ignorar al perro a menos que esté trabajando.", correct: false },
+        { text: "Demostrar la dominancia del humano.", correct: false }
+    ]
+},
+// --- Categoría 2.5 Extensión: Neurobiología del Vínculo ---
+{
+    question: "Estudios de resonancia magnética funcional (fMRI) en perros despiertos han mostrado que el núcleo caudado, una región del cerebro asociada a la recompensa, se activa fuertemente ante:",
+    answers: [
+        { text: "El olor de la comida.", correct: false },
+        { text: "El olor de su humano familiar.", correct: true },
+        { text: "El olor de un perro desconocido.", correct: false },
+        { text: "El sonido de un coche.", correct: false }
+    ]
+},
+{
+    question: "El 'circuito mesolímbico de la dopamina', crucial para la motivación y la recompensa, se activa cuando un perro:",
+    answers: [
+        { text: "Está durmiendo profundamente.", correct: false },
+        { text: "Anticipa la obtención de un refuerzo (como ver a su dueño coger la bolsa de premios).", correct: true },
+        { text: "Siente dolor.", correct: false },
+        { text: "Está siendo castigado.", correct: false }
+    ]
+},
+// --- Categoría 1.2 Extensión: Fisiología Sensorial Avanzada ---
+{
+    question: "El 'tapetum lucidum' es una estructura en el ojo del perro que:",
+    answers: [
+        { text: "Le permite ver en color.", correct: false },
+        { text: "Mejora su visión en condiciones de poca luz al reflejar la luz a través de la retina.", correct: true },
+        { text: "Protege el ojo del polvo.", correct: false },
+        { text: "Enfoca las imágenes en la retina.", correct: false }
+    ]
+},
+{
+    question: "Los perros son más sensibles que los humanos a los sonidos de alta frecuencia. ¿Cuál es el rango auditivo aproximado de un perro?",
+    answers: [
+        { text: "20 - 20,000 Hz.", correct: false },
+        { text: "67 - 45,000 Hz.", correct: true },
+        { text: "100 - 10,000 Hz.", correct: false },
+        { text: "0 - 100,000 Hz.", correct: false }
+    ]
+},
+// --- Categoría 6.1 Extensión: Conceptos Científicos Clave ---
+{
+    question: "El 'Principio de Premack' establece que:",
+    answers: [
+        { text: "Un comportamiento debe ser premiado dentro de los 3 segundos para ser efectivo.", correct: false },
+        { text: "Un comportamiento de alta probabilidad (algo que el perro disfruta hacer) puede ser usado para reforzar un comportamiento de baja probabilidad (algo que le cuesta más).", correct: true },
+        { text: "Todos los perros de una misma raza se comportan igual.", correct: false },
+        { text: "El castigo es más efectivo que el refuerzo.", correct: false }
+    ]
+},
+{
+    question: "La 'navaja de Occam' o principio de parsimonia, aplicado a la etología, sugiere que al explicar un comportamiento debemos:",
+    answers: [
+        { text: "Elegir siempre la explicación más compleja y que atribuya emociones humanas.", correct: false },
+        { text: "Favorecer la explicación más simple que se ajuste a la evidencia.", correct: true },
+        { text: "Considerar únicamente las explicaciones genéticas.", correct: false },
+        { text: "Basar nuestras conclusiones en un único caso de estudio.", correct: false }
+    ]
+},
+// --- Categoría 4.6: Problemas de Comportamiento Complejos ---
+{
+    question: "El 'Pica' es un trastorno que se caracteriza por:",
+    answers: [
+        { text: "La agresión hacia otros perros del mismo hogar.", correct: false },
+        { text: "La ingestión persistente de sustancias no nutritivas (tierra, piedras, tela).", correct: true },
+        { text: "Un miedo irracional a salir al exterior.", correct: false },
+        { text: "Perseguir obsesivamente la propia cola.", correct: false }
+    ]
+},
+{
+    question: "El 'fly-biting' o 'morder al aire' es un comportamiento que puede estar asociado con:",
+    answers: [
+        { text: "Ganas de jugar.", correct: false },
+        { text: "Problemas neurológicos, gastrointestinales o compulsivos.", correct: true },
+        { text: "Un intento de llamar la atención.", correct: false },
+        { text: "Una mala visión.", correct: false }
+    ]
+},
+// --- Miscelánea Postdoctorado II ---
+{
+    question: "El 'efecto placebo' en estudios de comportamiento canino se controla mediante:",
+    answers: [
+        { text: "El uso de un grupo de control que no recibe ningún tratamiento.", correct: false },
+        { text: "Un grupo de control que recibe un tratamiento falso (ej. una pastilla de azúcar) sin que los dueños o investigadores sepan qué grupo recibe qué.", correct: true },
+        { text: "La repetición del experimento varias veces.", correct: false },
+        { text: "El uso de modelos estadísticos complejos.", correct: false }
+    ]
+},
+{
+    question: "La 'impronta' o 'imprinting' es un tipo de aprendizaje crítico que ocurre:",
+    answers: [
+        { text: "Durante toda la vida del animal.", correct: false },
+        { text: "En una fase sensible específica y temprana de la vida, y es relativamente irreversible.", correct: true },
+        { text: "Únicamente a través del refuerzo positivo.", correct: false },
+        { text: "Solo en aves, no en mamíferos.", correct: false }
+    ]
+},
+{
+    question: "El 'bloqueo' (blocking) en el condicionamiento clásico ocurre cuando:",
+    answers: [
+        { text: "Un perro está demasiado cansado para aprender.", correct: false },
+        { text: "La asociación previa de un Estímulo Condicionado (EC1) con un Estímulo Incondicionado (EI) impide la asociación de un segundo estímulo (EC2) con el mismo EI.", correct: true },
+        { text: "El perro bloquea físicamente el acceso del entrenador.", correct: false },
+        { text: "Se presentan demasiados premios a la vez.", correct: false }
+    ]
+},
+{
+    question: "¿Qué es la 'validez ecológica' en un experimento de comportamiento?",
+    answers: [
+        { text: "El grado en que los hallazgos de un estudio pueden generalizarse a entornos y condiciones naturales.", correct: true },
+        { text: "El uso de materiales ecológicos y reciclados en el laboratorio.", correct: false },
+        { text: "La cantidad de variables controladas en el experimento.", correct: false },
+        { text: "La publicación del estudio en una revista de ecología.", correct: false }
+    ]
+}
 
 ];
 

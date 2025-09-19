@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guía Canina Abierta | Entiende y Educa a tu Perro</title>
+    <title>Guía Canina Abierta | Inicio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,9 +13,19 @@
             font-family: 'Inter', sans-serif;
         }
         .hero-bg {
-            background-image: url('image/hero.png');
+            background-image: url('https://placehold.co/1920x1080/67e8f9/1e293b?text=Conexión');
             background-size: cover;
             background-position: center;
+        }
+        .btn-correct {
+            background-color: #10b981 !important; /* emerald-500 */
+            color: white !important;
+            border-color: #059669 !important;
+        }
+        .btn-incorrect {
+            background-color: #ef4444 !important; /* red-500 */
+            color: white !important;
+            border-color: #dc2626 !important;
         }
     </style>
 </head>
@@ -24,7 +34,7 @@
     <!-- Header y Navegación -->
     <header class="bg-white/90 backdrop-blur-lg shadow-sm sticky top-0 z-50">
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="index.html" class="text-2xl font-bold text-slate-900">Allku Yachana</a>
+            <a href="index.html" class="text-2xl font-bold text-slate-900">GuíaCanina</a>
             <div class="hidden md:flex space-x-8 items-center">
                 <a href="guia.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">La Guía</a>
                 <a href="blog.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">Blog Científico</a>
@@ -33,211 +43,369 @@
                 <a href="apoyame.html" class="bg-emerald-500 text-white px-4 py-2 rounded-lg hover:bg-emerald-600 font-semibold transition duration-300 shadow">Apoya el Proyecto</a>
             </div>
             <button id="mobile-menu-button" class="md:hidden text-slate-800">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
-                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" /></svg>
             </button>
         </nav>
-        <!-- Menú Móvil -->
         <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 space-y-3">
-            <a href="guia.html" class="block text-slate-600 hover:text-sky-600 font-medium">La Guía</a>
-            <a href="blog.html" class="block text-slate-600 hover:text-sky-600 font-medium">Blog Científico</a>
-            <a href="servicios.html" class="block text-slate-600 hover:text-sky-600 font-medium">Mis Servicios</a>
-            <a href="sobre-mi.html" class="block text-slate-600 hover:text-sky-600 font-medium">Sobre Mí</a>
-            <a href="apoyame.html" class="block bg-emerald-500 text-white px-4 py-2 rounded-lg text-center font-semibold hover:bg-emerald-600">Apoya el Proyecto</a>
+             <a href="guia.html" class="block text-slate-600 hover:text-sky-600 font-medium">La Guía</a>
+             <a href="blog.html" class="block text-slate-600 hover:text-sky-600 font-medium">Blog Científico</a>
+             <a href="servicios.html" class="block text-slate-600 hover:text-sky-600 font-medium">Mis Servicios</a>
+             <a href="sobre-mi.html" class="block text-slate-600 hover:text-sky-600 font-medium">Sobre Mí</a>
+             <a href="apoyame.html" class="block bg-emerald-500 text-white px-4 py-2 rounded-lg text-center font-semibold hover:bg-emerald-600">Apoya el Proyecto</a>
         </div>
     </header>
 
     <main>
-        <!-- 1. Hero Section -->
-        <section class="hero-bg text-white relative">
-            <div class="absolute inset-0 bg-slate-800/60"></div>
-            <div class="container mx-auto px-6 py-32 md:py-48 text-center relative z-10">
-                <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4 text-shadow-lg">La guía definitiva para entender y educar a tu perro.</h1>
-                <p class="text-lg md:text-xl text-slate-200 mb-8 max-w-3xl mx-auto">Todo nuestro conocimiento, basado en ciencia y empatía, abierto para ti y para siempre.</p>
-                <a href="guia.html" class="bg-sky-600 text-white px-10 py-4 rounded-lg text-lg font-bold hover:bg-sky-700 transition duration-300 shadow-xl transform hover:scale-105">Explora la Guía Completa</a>
+        <!-- Sección Héroe -->
+        <section class="hero-bg text-white">
+            <div class="bg-black/50 min-h-[60vh] flex items-center">
+                <div class="container mx-auto px-6 text-center">
+                    <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4">Entiende, Conecta, Transforma</h1>
+                    <p class="text-lg md:text-xl max-w-3xl mx-auto mb-8">La guía canina más completa, basada en ciencia y empatía, para construir una relación extraordinaria con tu perro.</p>
+                    <a href="guia.html" class="bg-sky-500 text-white font-bold py-4 px-8 rounded-lg hover:bg-sky-600 transition duration-300 text-lg">Explora La Guía</a>
+                </div>
             </div>
         </section>
 
-        <!-- 2. Introducción a la Guía -->
-        <section class="py-16 md:py-24 bg-white">
+        <!-- Nueva Sección: Test de Conocimiento Canino -->
+        <section id="quiz-section" class="py-16 md:py-24 bg-sky-50">
             <div class="container mx-auto px-6">
-                <div class="text-center mb-16">
-                    <h2 class="text-3xl md:text-4xl font-bold text-slate-900">Empieza tu viaje de aprendizaje</h2>
-                    <p class="max-w-2xl mx-auto text-slate-600 mt-4 text-lg">Sumérgete en los temas clave para construir una relación increíble con tu compañero.</p>
-                </div>
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-                    <!-- Card 1: Lenguaje -->
-                    <a href="lenguaje-canino.html" class="bg-slate-50 p-8 rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 text-center block">
-                        <div class="bg-sky-100 text-sky-600 rounded-full h-20 w-20 flex items-center justify-center mx-auto mb-6">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" /></svg>
+                <div id="quiz-app" class="max-w-2xl mx-auto bg-white rounded-xl shadow-2xl p-8 md:p-12">
+                    <div id="quiz-intro">
+                        <h2 class="text-3xl md:text-4xl font-bold text-slate-900 text-center mb-4">Pon a Prueba tu Conocimiento</h2>
+                        <p class="text-slate-600 text-center mb-8">¿Cuánto sabes realmente sobre el mundo canino? Descúbrelo con este breve test de 5 preguntas aleatorias.</p>
+                        <div id="quiz-start-area" class="text-center">
+                            <button id="start-quiz-btn" class="bg-sky-500 text-white font-bold py-3 px-8 rounded-lg hover:bg-sky-600 transition duration-300 text-lg">Empezar el Test</button>
                         </div>
-                        <h3 class="text-xl font-bold mb-2 text-slate-900">Lenguaje Canino</h3>
-                        <p class="text-slate-600">Aprende a interpretar sus señales y a comunicarte de forma efectiva.</p>
-                    </a>
-                    <!-- Card 2: Aprendizaje -->
-                    <a href="principios-del-aprendizaje.html" class="bg-slate-50 p-8 rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 text-center block">
-                        <div class="bg-green-100 text-green-600 rounded-full h-20 w-20 flex items-center justify-center mx-auto mb-6">
-                           <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" /></svg>
+                         <div id="quiz-results-memory" class="hidden text-center bg-emerald-100 border border-emerald-300 p-6 rounded-lg">
+                            <p class="font-semibold text-emerald-800">¡Ya completaste el test en esta sesión!</p>
+                            <p class="text-2xl font-bold text-emerald-900 mt-2" id="previous-score-text"></p>
+                            <button id="restart-quiz-btn" class="mt-4 bg-sky-500 text-white font-bold py-2 px-6 rounded-lg hover:bg-sky-600 transition duration-300">Intentar de Nuevo</button>
                         </div>
-                        <h3 class="text-xl font-bold mb-2 text-slate-900">Bases del Aprendizaje</h3>
-                        <p class="text-slate-600">Descubre cómo aprende tu perro para enseñarle de manera amable y eficaz.</p>
-                    </a>
-                    <!-- Card 3: Problemas -->
-                    <a href="problemas-comunes.html" class="bg-slate-50 p-8 rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 text-center block">
-                        <div class="bg-yellow-100 text-yellow-600 rounded-full h-20 w-20 flex items-center justify-center mx-auto mb-6">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                    </div>
+                    <div id="quiz-main" class="hidden">
+                        <h2 id="question-text" class="text-2xl font-semibold text-slate-800 mb-8">Question text</h2>
+                        <div id="answer-buttons" class="grid grid-cols-1 gap-4">
+                            <!-- Buttons will be dynamically inserted here -->
                         </div>
-                        <h3 class="text-xl font-bold mb-2 text-slate-900">Solución de Problemas</h3>
-                        <p class="text-slate-600">Guías para gestionar miedos, reactividad y otros desafíos comunes.</p>
-                    </a>
-                    <!-- Card 4: Cachorros -->
-                    <a href="guia-del-cachorro.html" class="bg-slate-50 p-8 rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 text-center block">
-                        <div class="bg-purple-100 text-purple-600 rounded-full h-20 w-20 flex items-center justify-center mx-auto mb-6">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                        <div class="flex justify-end mt-8">
+                            <button id="next-btn" class="bg-slate-700 text-white font-semibold py-2 px-6 rounded-lg hover:bg-slate-800 transition duration-300 hidden">Siguiente</button>
                         </div>
-                        <h3 class="text-xl font-bold mb-2 text-slate-900">La Etapa de Cachorro</h3>
-                        <p class="text-slate-600">Empieza con buen pie: socialización, habituación y prevención.</p>
-                    </a>
+                    </div>
+                     <div id="quiz-score-screen" class="hidden text-center">
+                        <h2 class="text-3xl font-bold text-slate-900 mb-4">¡Test Completado!</h2>
+                        <p id="score-text" class="text-4xl font-bold text-sky-600 mb-8">Tu puntuación es 0 de 5</p>
+                        <button id="play-again-btn" class="bg-sky-500 text-white font-bold py-3 px-8 rounded-lg hover:bg-sky-600 transition duration-300 text-lg">Jugar de Nuevo</button>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- 3. Nuestra Misión -->
+        <!-- Sección Bienvenida -->
+        <section class="py-16 md:py-24">
+            <div class="container mx-auto px-6">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <img src="https://placehold.co/600x400/e0f2fe/1e293b?text=Educador+y+Perro" alt="Educador canino con su perro" class="rounded-lg shadow-xl">
+                    </div>
+                    <div>
+                        <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Un Enfoque Basado en Ciencia y Corazón</h2>
+                        <p class="text-slate-600 mb-6 text-lg">Mi misión es simple: ayudarte a construir un vínculo inquebrantable con tu perro a través de la comprensión y el respeto. Aquí no encontrarás métodos obsoletos ni castigos, solo conocimiento actualizado, empatía y técnicas que funcionan porque se basan en cómo aprenden y sienten los perros.</p>
+                        <a href="sobre-mi.html" class="text-sky-600 font-bold hover:text-sky-700 transition duration-300">Conoce mi historia &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Guías Destacadas -->
         <section class="py-16 md:py-24 bg-slate-100">
-            <div class="container mx-auto px-6 text-center max-w-4xl">
-                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-6">Nuestra Misión: Conocimiento Abierto para Todos</h2>
-                <div class="prose prose-lg max-w-none mx-auto text-slate-600 mb-8">
-                    <p>Creo firmemente que el conocimiento no debería tener barreras. Mi misión es ofrecerte las mejores herramientas, basadas en ciencia y respeto, para que construyas una relación increíble con tu perro. Este proyecto es gratuito y siempre lo será, gracias al apoyo de una comunidad que, como tú, cree en un mundo mejor para ellos.</p>
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-2">Empieza tu viaje de aprendizaje</h2>
+                <p class="text-slate-600 max-w-2xl mx-auto mb-12">Sumérgete en los temas clave para construir una relación increíble con tu compañero.</p>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Guía 1: Lenguaje Canino -->
+                    <a href="lenguaje-canino.html" class="block bg-white p-8 rounded-lg shadow-lg text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+                        <div class="bg-sky-100 text-sky-600 rounded-full h-20 w-20 flex items-center justify-center mx-auto mb-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" /></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Lenguaje Canino</h3>
+                        <p class="text-slate-500">Aprende a interpretar sus señales y a comunicarte de forma efectiva.</p>
+                    </a>
+                    <!-- Guía 2: Bases del Aprendizaje -->
+                    <a href="principios-del-aprendizaje.html" class="block bg-white p-8 rounded-lg shadow-lg text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+                        <div class="bg-sky-100 text-sky-600 rounded-full h-20 w-20 flex items-center justify-center mx-auto mb-6">
+                             <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" /></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Bases del Aprendizaje</h3>
+                        <p class="text-slate-500">Descubre cómo aprende tu perro para enseñarle de manera amable y eficaz.</p>
+                    </a>
+                    <!-- Guía 3: Solución de Problemas -->
+                    <a href="problemas-comunes.html" class="block bg-white p-8 rounded-lg shadow-lg text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+                        <div class="bg-sky-100 text-sky-600 rounded-full h-20 w-20 flex items-center justify-center mx-auto mb-6">
+                             <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Solución de Problemas</h3>
+                        <p class="text-slate-500">Guías para gestionar miedos, reactividad y otros desafíos comunes.</p>
+                    </a>
+                    <!-- Guía 4: La Etapa de Cachorro -->
+                    <a href="guia-del-cachorro.html" class="block bg-white p-8 rounded-lg shadow-lg text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+                        <div class="bg-sky-100 text-sky-600 rounded-full h-20 w-20 flex items-center justify-center mx-auto mb-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 11l7-7 7 7M5 19l7-7 7 7" /></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">La Etapa de Cachorro</h3>
+                        <p class="text-slate-500">Empieza con buen pie: socialización, habituación y prevención.</p>
+                    </a>
                 </div>
-                <a href="apoyame.html" class="bg-emerald-500 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-emerald-600 transition duration-300 shadow-lg">Apoya este proyecto</a>
             </div>
         </section>
 
-        <!-- 4. Sección de Servicios -->
-        <section class="py-16 md:py-24 bg-white">
-            <div class="container mx-auto px-6">
-                <div class="text-center mb-16">
-                    <h2 class="text-3xl md:text-4xl font-bold text-slate-900">¿Necesitas ayuda personalizada?</h2>
-                    <p class="max-w-2xl mx-auto text-slate-600 mt-4 text-lg">La guía te da el conocimiento. Mis servicios, el acompañamiento práctico para vuestro caso particular.</p>
-                </div>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        <!-- Sección Servicios -->
+        <section class="py-16 md:py-24">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-2">¿Cómo Puedo Ayudarte?</h2>
+                <p class="text-slate-600 max-w-2xl mx-auto mb-12">Más allá de la guía, ofrezco servicios personalizados para acompañarte en tu camino.</p>
+                <div class="grid md:grid-cols-3 gap-8">
                     <!-- Servicio 1 -->
-                    <div class="bg-white p-8 rounded-xl border border-slate-200 text-center">
-                        <h3 class="text-xl font-bold mb-2 text-slate-900">Consultorías de Comportamiento</h3>
-                        <p class="text-slate-600">Para casos complejos que necesitan un plan a medida y un seguimiento experto.</p>
+                    <div class="bg-white p-8 rounded-lg shadow-lg text-center">
+                        <div class="bg-sky-100 text-sky-600 rounded-full h-16 w-16 flex items-center justify-center mx-auto mb-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a2 2 0 01-2-2V10a2 2 0 012-2h2m-2-4h2a2 2 0 012 2v2H9V6a2 2 0 012-2z" /></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Consultorías Personalizadas</h3>
+                        <p class="text-slate-500">Sesiones uno a uno para abordar los desafíos específicos de tu perro y crear un plan de acción a medida.</p>
                     </div>
                     <!-- Servicio 2 -->
-                    <div class="bg-white p-8 rounded-xl border border-slate-200 text-center">
-                        <h3 class="text-xl font-bold mb-2 text-slate-900">Guardería de Día</h3>
-                        <p class="text-slate-600">Socialización y bienestar en un entorno seguro, controlado y enriquecido.</p>
+                    <div class="bg-white p-8 rounded-lg shadow-lg text-center">
+                         <div class="bg-sky-100 text-sky-600 rounded-full h-16 w-16 flex items-center justify-center mx-auto mb-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2l-7 7-7-7M5 10V5a1 1 0 011-1h3m10 11a1 1 0 00-1-1h-3" /></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Guardería de Día</h3>
+                        <p class="text-slate-500">Un espacio seguro y enriquecedor donde tu perro socializará y aprenderá bajo supervisión profesional.</p>
                     </div>
                     <!-- Servicio 3 -->
-                    <div class="bg-white p-8 rounded-xl border border-slate-200 text-center">
-                        <h3 class="text-xl font-bold mb-2 text-slate-900">Paseos Educativos</h3>
-                        <p class="text-slate-600">Convertimos el paseo en una experiencia de aprendizaje, calma y disfrute.</p>
+                    <div class="bg-white p-8 rounded-lg shadow-lg text-center">
+                         <div class="bg-sky-100 text-sky-600 rounded-full h-16 w-16 flex items-center justify-center mx-auto mb-6">
+                           <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" viewBox="0 0 20 20" fill="currentColor"><path d="M10 12a2 2 0 100-4 2 2 0 000 4z"/><path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.022 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"/></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Paseos Educativos</h3>
+                        <p class="text-slate-500">Sesiones enfocadas en mejorar el manejo de la correa, la socialización y el bienestar mental de tu perro.</p>
                     </div>
-                </div>
-                 <div class="text-center mt-12">
-                     <a href="servicios.html" class="text-sky-600 font-semibold hover:underline text-lg">Conoce todos los servicios →</a>
                 </div>
             </div>
         </section>
 
-        <!-- 5. Últimos Artículos del Blog Científico -->
-        <section class="py-16 md:py-24 bg-slate-100">
-            <div class="container mx-auto px-6">
-                <div class="text-center mb-16">
-                    <h2 class="text-3xl md:text-4xl font-bold text-slate-900">Desde el Laboratorio a tu Hogar</h2>
-                    <p class="max-w-2xl mx-auto text-slate-600 mt-4 text-lg">Analizo las últimas investigaciones científicas y te las explico de forma clara y aplicable.</p>
-                </div>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <!-- Artículo 1 -->
-                    <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 flex flex-col">
-                        <img src="https://placehold.co/600x400/94a3b8/white?text=Ciencia" alt="Ilustración abstracta sobre ciencia" class="w-full h-48 object-cover">
-                        <div class="p-6 flex flex-col flex-grow">
-                            <span class="text-sm text-sky-600 font-semibold uppercase">Análisis Científico</span>
-                            <h3 class="text-lg font-bold my-2 text-slate-900 flex-grow">La evolución de los "ojos de cachorro" para comunicarse con nosotros</h3>
-                            <p class="text-slate-600 text-sm mb-4">Un vistazo al estudio de Kaminski et al. sobre cómo cambió la musculatura facial canina.</p>
-                            <a href="blog.html" class="font-semibold text-sky-600 hover:underline mt-auto">Leer análisis →</a>
-                        </div>
-                    </div>
-                    <!-- Artículo 2 -->
-                     <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 flex flex-col">
-                        <img src="https://placehold.co/600x400/67e8f9/white?text=Ciencia" alt="Ilustración abstracta sobre ciencia" class="w-full h-48 object-cover">
-                        <div class="p-6 flex flex-col flex-grow">
-                            <span class="text-sm text-sky-600 font-semibold uppercase">Análisis Científico</span>
-                            <h3 class="text-lg font-bold my-2 text-slate-900 flex-grow">El superpoder del olfato: ¿Qué nos dice la neurociencia?</h3>
-                            <p class="text-slate-600 text-sm mb-4">Exploramos la ciencia detrás del increíble mundo olfativo de los perros y su impacto en su bienestar.</p>
-                            <a href="blog.html" class="font-semibold text-sky-600 hover:underline mt-auto">Leer análisis →</a>
-                        </div>
-                    </div>
-                    <!-- Artículo 3 -->
-                     <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 flex flex-col">
-                        <img src="https://placehold.co/600x400/a5b4fc/white?text=Ciencia" alt="Ilustración abstracta sobre ciencia" class="w-full h-48 object-cover">
-                        <div class="p-6 flex flex-col flex-grow">
-                            <span class="text-sm text-sky-600 font-semibold uppercase">Análisis Científico</span>
-                            <h3 class="text-lg font-bold my-2 text-slate-900 flex-grow">Gestión del entorno: La clave olvidada en la reactividad canina</h3>
-                            <p class="text-slate-600 text-sm mb-4">Revisamos los principios de técnicas como BAT 2.0 y la importancia de no sobrepasar umbrales.</p>
-                            <a href="blog.html" class="font-semibold text-sky-600 hover:underline mt-auto">Leer análisis →</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-center mt-16">
-                     <a href="blog.html" class="bg-white text-slate-800 px-8 py-3 rounded-lg font-semibold hover:bg-slate-200 transition duration-300 border border-slate-300">Ir al Blog Científico</a>
-                </div>
+        <!-- Sección Comunidad -->
+        <section class="py-16 md:py-24 bg-emerald-600 text-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Un Proyecto Creado por y para la Comunidad</h2>
+                <p class="text-emerald-200 max-w-3xl mx-auto mb-8 text-lg">Esta guía es y será siempre de acceso gratuito. Si encuentras valor en este contenido, considera hacer una donación. Tu apoyo me permite dedicar más tiempo a crear recursos y mantener este proyecto vivo.</p>
+                <a href="apoyame.html" class="bg-white text-emerald-600 font-bold py-4 px-8 rounded-lg hover:bg-emerald-50 transition duration-300 text-lg">Apoya el Proyecto</a>
             </div>
         </section>
+
     </main>
-
+    
     <!-- Footer -->
     <footer class="bg-slate-800 text-slate-300">
         <div class="container mx-auto px-6 py-12">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-                <div>
-                    <h3 class="text-lg font-bold text-white mb-4">GuíaCanina</h3>
-                    <p class="text-sm">Conocimiento abierto, basado en ciencia y empatía, para mejorar la vida de los perros.</p>
-                </div>
-                <div>
-                    <h3 class="text-lg font-bold text-white mb-4">Explora</h3>
-                    <ul class="space-y-2 text-sm">
-                        <li><a href="guia.html" class="hover:text-white">La Guía Completa</a></li>
-                        <li><a href="blog.html" class="hover:text-white">Blog Científico</a></li>
-                        <li><a href="servicios.html" class="hover:text-white">Mis Servicios</a></li>
-                         <li><a href="sobre-mi.html" class="hover:text-white">Sobre Mí</a></li>
-                    </ul>
-                </div>
-                 <div>
-                    <h3 class="text-lg font-bold text-white mb-4">Apoya</h3>
-                     <ul class="space-y-2 text-sm">
-                        <li><a href="apoyame.html" class="hover:text-white">Haz una Donación</a></li>
-                        <li><a href="#" class="hover:text-white">Aviso Legal</a></li>
-                        <li><a href="#" class="hover:text-white">Política de Privacidad</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="text-lg font-bold text-white mb-4">Sígueme</h3>
-                    <div class="flex space-x-4">
-                        <!-- Reemplazar # con tus URLs reales -->
-                        <a href="#" aria-label="Instagram"><svg class="h-6 w-6 hover:text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.024.06 1.378.06 3.808s-.012 2.784-.06 3.808c-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.024.048-1.378.06-3.808.06s-2.784-.012-3.808-.06c-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.048-1.024-.06-1.378-.06-3.808s.012-2.784.06-3.808c.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 016.08 2.525c.636-.247 1.363-.416 2.427.465C9.53 2.013 9.884 2 12.315 2zM12 0C9.58 0 9.22.01 8.16.06c-1.15.05-1.94.22-2.6.47a6.9 6.9 0 00-2.18 1.62A6.9 6.9 0 001.74 6.3c-.25.66-.42 1.45-.47 2.6C1.21 9.94 1.19 10.3 1.19 12.72s.02 2.78.07 3.84c.05 1.15.22 1.94.47 2.6a6.9 6.9 0 001.62 2.18 6.9 6.9 0 002.18 1.62c.66.25 1.45.42 2.6.47 1.06.05 1.42.06 3.84.06s2.78-.01 3.84-.06c1.15-.05 1.94-.22 2.6-.47a6.9 6.9 0 002.18-1.62 6.9 6.9 0 001.62-2.18c.25-.66.42-1.45.47-2.6.05-1.06.06-1.42.06-3.84s-.01-2.78-.06-3.84c-.05-1.15-.22-1.94-.47-2.6A6.9 6.9 0 0021.5 4.48a6.9 6.9 0 00-2.18-1.62c-.66-.25-1.45-.42-2.6-.47C15.56.01 15.2 0 12.72 0H12z" clip-rule="evenodd" /><path d="M12 6.865a5.135 5.135 0 100 10.27 5.135 5.135 0 000-10.27zM12 15a3 3 0 110-6 3 3 0 010 6z" /><path d="M16.862 6.225a1.238 1.238 0 100-2.475 1.238 1.238 0 000 2.475z" /></svg></a>
-                    </div>
-                </div>
-            </div>
-            <div class="border-t border-slate-700 mt-8 pt-6 text-center text-sm">
-                <p>&copy; 2024 GuíaCanina. Un proyecto de [Tu Nombre].</p>
+            <div class="mt-8 pt-8 border-t border-slate-700 text-center text-slate-500 text-sm">
+                <p>&copy; 2024 GuíaCanina Abierta. Todos los derechos reservados.</p>
             </div>
         </div>
     </footer>
 
     <script>
-        // Script para el menú móvil
+        // --- Mobile Menu Script ---
         const mobileMenuButton = document.getElementById('mobile-menu-button');
         const mobileMenu = document.getElementById('mobile-menu');
-
         mobileMenuButton.addEventListener('click', () => {
             mobileMenu.classList.toggle('hidden');
         });
+
+        // --- Quiz Script ---
+        const allQuestions = [
+            {
+                question: "¿Qué es una 'señal de calma' en el lenguaje canino?",
+                answers: [
+                    { text: "Una orden para que el perro se tranquilice.", correct: false },
+                    { text: "Un gesto que el perro usa para evitar conflictos y comunicar estrés.", correct: true },
+                    { text: "El sonido que hace un perro antes de dormir.", correct: false },
+                    { text: "Una postura de juego.", correct: false }
+                ]
+            },
+            {
+                question: "En el entrenamiento con clicker, ¿qué representa el sonido del 'click'?",
+                answers: [
+                    { text: "Una orden para detener el comportamiento.", correct: false },
+                    { text: "Un castigo por un error.", correct: false },
+                    { text: "Un marcador que indica el momento exacto del comportamiento correcto.", correct: true },
+                    { text: "Una distracción para el perro.", correct: false }
+                ]
+            },
+            {
+                question: "¿Cuál es el periodo de socialización más crítico para un cachorro?",
+                answers: [
+                    { text: "De las 3 a las 16 semanas de edad.", correct: true },
+                    { text: "El primer año de vida.", correct: false },
+                    { text: "Cuando llega a la adolescencia (6-9 meses).", correct: false },
+                    { text: "Los primeros días en su nuevo hogar.", correct: false }
+                ]
+            },
+            {
+                question: "El 'moldeado' (shaping) es una técnica de entrenamiento que consiste en:",
+                answers: [
+                    { text: "Usar la correa para colocar al perro en la posición deseada.", correct: false },
+                    { text: "Repetir una orden hasta que el perro obedezca.", correct: false },
+                    { text: "Recompensar pequeñas aproximaciones sucesivas hacia un comportamiento final.", correct: true },
+                    { text: "Mostrarle al perro cómo hacer algo con un ejemplo.", correct: false }
+                ]
+            },
+            {
+                question: "Si un perro gruñe cuando te acercas a su comida, lo más recomendable es:",
+                answers: [
+                    { text: "Castigarlo para enseñarle quién manda.", correct: false },
+                    { text: "Ignorarlo y quitarle la comida de todas formas.", correct: false },
+                    { text: "Entender que es una comunicación de incomodidad y trabajar para cambiar su asociación emocional.", correct: true },
+                    { text: "Distraerlo con un juguete para que se olvide de la comida.", correct: false }
+                ]
+            },
+            {
+                question: "El sentido más desarrollado de un perro es:",
+                answers: [
+                    { text: "La vista", correct: false },
+                    { text: "El oído", correct: false },
+                    { text: "El olfato", correct: true },
+                    { text: "El gusto", correct: false }
+                ]
+            },
+             {
+                question: "La técnica de 'contracondicionamiento' se utiliza principalmente para:",
+                answers: [
+                    { text: "Enseñar trucos nuevos y divertidos.", correct: false },
+                    { text: "Cambiar la respuesta emocional de un perro ante un estímulo (de miedo a alegría).", correct: true },
+                    { text: "Hacer que un perro corra más rápido.", correct: false },
+                    { text: "Asegurarse de que el perro no se suba al sofá.", correct: false }
+                ]
+            }
+        ];
+
+        const startButton = document.getElementById('start-quiz-btn');
+        const restartButton = document.getElementById('restart-quiz-btn');
+        const playAgainButton = document.getElementById('play-again-btn');
+        const nextButton = document.getElementById('next-btn');
+        
+        const quizIntroDiv = document.getElementById('quiz-intro');
+        const quizMainDiv = document.getElementById('quiz-main');
+        const quizScoreScreenDiv = document.getElementById('quiz-score-screen');
+        const quizResultsMemoryDiv = document.getElementById('quiz-results-memory');
+        const quizStartAreaDiv = document.getElementById('quiz-start-area');
+
+        const questionElement = document.getElementById('question-text');
+        const answerButtonsElement = document.getElementById('answer-buttons');
+        const scoreElement = document.getElementById('score-text');
+        const previousScoreElement = document.getElementById('previous-score-text');
+
+        let shuffledQuestions, currentQuestionIndex, score;
+        const QUESTIONS_IN_QUIZ = 5;
+
+        function startQuiz() {
+            quizIntroDiv.classList.add('hidden');
+            quizScoreScreenDiv.classList.add('hidden');
+            quizMainDiv.classList.remove('hidden');
+            
+            shuffledQuestions = allQuestions.sort(() => Math.random() - 0.5).slice(0, QUESTIONS_IN_QUIZ);
+            currentQuestionIndex = 0;
+            score = 0;
+            nextButton.classList.add('hidden');
+            showQuestion();
+        }
+
+        function showQuestion() {
+            resetState();
+            let currentQuestion = shuffledQuestions[currentQuestionIndex];
+            let questionNo = currentQuestionIndex + 1;
+            questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
+
+            currentQuestion.answers.forEach(answer => {
+                const button = document.createElement('button');
+                button.innerHTML = answer.text;
+                button.classList.add('w-full', 'text-left', 'p-4', 'border', 'border-slate-300', 'rounded-lg', 'hover:bg-sky-100', 'transition', 'duration-200');
+                if (answer.correct) {
+                    button.dataset.correct = answer.correct;
+                }
+                button.addEventListener('click', selectAnswer);
+                answerButtonsElement.appendChild(button);
+            });
+        }
+
+        function resetState() {
+            nextButton.classList.add('hidden');
+            while (answerButtonsElement.firstChild) {
+                answerButtonsElement.removeChild(answerButtonsElement.firstChild);
+            }
+        }
+
+        function selectAnswer(e) {
+            const selectedBtn = e.target;
+            const isCorrect = selectedBtn.dataset.correct === "true";
+            if (isCorrect) {
+                score++;
+            }
+            Array.from(answerButtonsElement.children).forEach(button => {
+                setStatusClass(button, button.dataset.correct === "true");
+                button.disabled = true;
+            });
+            nextButton.classList.remove('hidden');
+        }
+
+        function setStatusClass(element, correct) {
+            if (correct) {
+                element.classList.add('btn-correct');
+            } else {
+                element.classList.add('btn-incorrect');
+            }
+        }
+
+        function showScore() {
+            quizMainDiv.classList.add('hidden');
+            quizScoreScreenDiv.classList.remove('hidden');
+            const scoreMessage = `Tu puntuación es ${score} de ${QUESTIONS_IN_QUIZ}`;
+            scoreElement.innerText = scoreMessage;
+            sessionStorage.setItem('lastQuizScore', scoreMessage);
+        }
+
+        function handleNextButton() {
+            currentQuestionIndex++;
+            if (currentQuestionIndex < shuffledQuestions.length) {
+                showQuestion();
+            } else {
+                showScore();
+            }
+        }
+        
+        function checkSessionStorage() {
+            const lastScore = sessionStorage.getItem('lastQuizScore');
+            if(lastScore) {
+                quizStartAreaDiv.classList.add('hidden');
+                quizResultsMemoryDiv.classList.remove('hidden');
+                previousScoreElement.innerText = lastScore;
+            }
+        }
+
+        startButton.addEventListener('click', startQuiz);
+        nextButton.addEventListener('click', handleNextButton);
+        playAgainButton.addEventListener('click', startQuiz);
+        restartButton.addEventListener('click', () => {
+             sessionStorage.removeItem('lastQuizScore');
+             quizResultsMemoryDiv.classList.add('hidden');
+             quizStartAreaDiv.classList.remove('hidden');
+             startQuiz();
+        });
+        
+        // Check for previous score on page load
+        window.addEventListener('load', checkSessionStorage);
+
     </script>
 </body>
 </html>
+
 

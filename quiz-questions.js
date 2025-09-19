@@ -945,6 +945,197 @@ const allQuestions = [
             { text: "Falso, la boca humana es estéril.", correct: false }
         ]
     }
+    // --- LOTE 7 ---
+// --- Categoría 4.4: Análisis Funcional del Comportamiento ---
+{
+    question: "En un Análisis Funcional del Comportamiento (ABC), la 'A' se refiere a:",
+    answers: [
+        { text: "La Acción que realiza el perro.", correct: false },
+        { text: "El Antecedente: lo que ocurre justo antes del comportamiento.", correct: true },
+        { text: "La Amplitud o intensidad del comportamiento.", correct: false },
+        { text: "El Análisis final del caso.", correct: false }
+    ]
+},
+{
+    question: "¿Cuál es la función más probable de un comportamiento de ladrido que ocurre consistentemente solo cuando el perro ve a otros perros a través de la ventana y se detiene cuando estos se van?",
+    answers: [
+        { text: "Obtener atención del tutor.", correct: false },
+        { text: "Escape o evitación (el perro cree que sus ladridos hacen que el 'intruso' se vaya).", correct: true },
+        { text: "Acceso a un recurso tangible (un juguete).", correct: false },
+        { text: "Autoestimulación sensorial.", correct: false }
+    ]
+},
+// --- Categoría 2.7: Programas de Refuerzo Diferencial ---
+{
+    question: "Estás enseñando a tu perro a no saltar para saludar. Decides reforzarlo solo cuando mantiene las cuatro patas en el suelo. ¿Qué tipo de refuerzo diferencial estás usando?",
+    answers: [
+        { text: "Refuerzo Diferencial de Comportamientos Incompatibles (DRI).", correct: true },
+        { text: "Refuerzo Diferencial de Tasas Bajas de Respuesta (DRL).", correct: false },
+        { text: "Refuerzo Diferencial de Otros Comportamientos (DRO).", correct: false },
+        { text: "Refuerzo Diferencial de Comportamientos Alternativos (DRA).", correct: false }
+    ]
+},
+{
+    question: "El Refuerzo Diferencial de Otros Comportamientos (DRO) consiste en premiar al perro por:",
+    answers: [
+        { text: "Realizar un comportamiento específico que le pedimos.", correct: false },
+        { text: "La ausencia del comportamiento problemático durante un intervalo de tiempo determinado.", correct: true },
+        { text: "Hacer el comportamiento problemático menos veces que antes.", correct: false },
+        { text: "Hacer cualquier cosa excepto el comportamiento problemático y otro más.", correct: false }
+    ]
+},
+// --- Categoría 2.5 Extensión: Neurobiología del Aprendizaje ---
+{
+    question: "La estructura cerebral que juega un papel central en el procesamiento del miedo y la formación de memorias de miedo es:",
+    answers: [
+        { text: "El cerebelo.", correct: false },
+        { text: "El hipocampo.", correct: false },
+        { text: "La amígdala.", correct: true },
+        { text: "El córtex prefrontal.", correct: false }
+    ]
+},
+{
+    question: "El neurotransmisor asociado con la motivación, la recompensa y el comportamiento de búsqueda es principalmente:",
+    answers: [
+        { text: "La serotonina.", correct: false },
+        { text: "La dopamina.", correct: true },
+        { text: "El GABA.", correct: false },
+        { text: "La noradrenalina.", correct: false }
+    ]
+},
+// --- Categoría 3.5 Extensión: Salud y Comportamiento Avanzado ---
+{
+    question: "Un cambio repentino de comportamiento, como irritabilidad o letargo en un perro adulto, podría estar relacionado con una condición médica subyacente como:",
+    answers: [
+        { text: "El hipotiroidismo.", correct: true },
+        { text: "Una alergia estacional.", correct: false },
+        { text: "El crecimiento excesivo de las uñas.", correct: false },
+        { text: "La muda de pelo.", correct: false }
+    ]
+},
+{
+    question: "El Síndrome de Disfunción Cognitiva en perros senior es análogo a qué enfermedad en humanos?",
+    answers: [
+        { text: "La enfermedad de Parkinson.", correct: false },
+        { text: "La esclerosis múltiple.", correct: false },
+        { text: "La enfermedad de Alzheimer.", correct: true },
+        { text: "La diabetes.", correct: false }
+    ]
+},
+// --- Categoría 2.3 Extensión: Cognición Comparada ---
+{
+    question: "El 'aprendizaje por observación' en perros, donde aprenden una tarea viendo a otro perro o a un humano realizarla, se conoce como:",
+    answers: [
+        { text: "Facilitación social.", correct: false },
+        { text: "Efecto de audiencia.", correct: false },
+        { text: "El paradigma 'Do as I Do' (Haz lo que yo hago).", correct: true },
+        { text: "Condicionamiento vicario.", correct: false }
+    ]
+},
+{
+    question: "La capacidad de un perro para hacer inferencias por exclusión (ej. si debe buscar un objeto nuevo entre varios familiares, escogerá el que no conoce) sugiere:",
+    answers: [
+        { text: "Una memoria fotográfica.", correct: false },
+        { text: "Un proceso de razonamiento simple.", correct: true },
+        { text: "Una habilidad telepática.", correct: false },
+        { text: "Un comportamiento puramente aleatorio.", correct: false }
+    ]
+},
+// --- Categoría 1.5 Extensión: Genética del Comportamiento ---
+{
+    question: "Un 'Estudio de Asociación del Genoma Completo' (GWAS) en perros busca:",
+    answers: [
+        { text: "Crear nuevas razas de perros.", correct: false },
+        { text: "Identificar marcadores genéticos (SNPs) asociados con rasgos específicos, como un comportamiento o una enfermedad.", correct: true },
+        { text: "Determinar el árbol genealógico de un perro.", correct: false },
+        { text: "Clonar un perro con rasgos deseables.", correct: false }
+    ]
+},
+{
+    question: "La heredabilidad de un rasgo de comportamiento como la reactividad al ruido es de 0.4. Esto significa que:",
+    answers: [
+        { text: "El 40% de la reactividad del perro está causada por sus genes.", correct: false },
+        { text: "El 40% de la variación de la reactividad al ruido en la población estudiada puede atribuirse a la variación genética.", correct: true },
+        { text: "El ambiente no tiene ningún efecto sobre la reactividad al ruido.", correct: false },
+        { text: "El perro tiene un 40% de probabilidades de ser reactivo al ruido.", correct: false }
+    ]
+},
+// --- Categoría 6.1 Extensión: Metodología de la Investigación ---
+{
+    question: "En un estudio observacional del comportamiento canino, la 'fiabilidad interobservador' se refiere a:",
+    answers: [
+        { text: "La confianza que los observadores tienen en los perros.", correct: false },
+        { text: "El grado de acuerdo entre dos o más observadores independientes que registran el mismo comportamiento.", correct: true },
+        { text: "La habilidad de un observador para predecir el comportamiento del perro.", correct: false },
+        { text: "La calidad de las cámaras utilizadas para grabar.", correct: false }
+    ]
+},
+{
+    question: "Un 'etograma' es una herramienta fundamental en la etología que consiste en:",
+    answers: [
+        { text: "Un gráfico que muestra la popularidad de las razas de perros.", correct: false },
+        { text: "Un catálogo detallado y objetivo de los comportamientos específicos de una especie.", correct: true },
+        { text: "El historial médico completo de un animal.", correct: false },
+        { text: "Un programa de software para analizar el ADN canino.", correct: false }
+    ]
+},
+// --- Categoría 4.5: Protocolos de Modificación de Conducta Avanzados ---
+{
+    question: "El protocolo 'Constructional Aggression Treatment' (CAT) se diferencia de otros métodos en que:",
+    answers: [
+        { text: "Se enfoca en premiar al perro por estar tranquilo.", correct: false },
+        { text: "Utiliza el refuerzo negativo (la retirada del estímulo aversivo) para enseñar un comportamiento social alternativo a la agresión.", correct: true },
+        { text: "Se basa exclusivamente en el castigo positivo.", correct: false },
+        { text: "Solo se puede usar con cachorros.", correct: false }
+    ]
+},
+{
+    question: "El 'Protocolo de Relajación' de Karen Overall está diseñado para:",
+    answers: [
+        { text: "Enseñar al perro a relajarse en una variedad de situaciones y en presencia de estímulos de baja intensidad.", correct: true },
+        { text: "Hacer que el perro duerma más horas.", correct: false },
+        { text: "Enseñar trucos de obediencia de forma relajada.", correct: false },
+        { text: "Medicar a los perros para que estén tranquilos.", correct: false }
+    ]
+},
+{
+    question: "El protocolo 'Look at That' (LAT) de Leslie McDevitt es un juego diseñado para:",
+    answers: [
+        { text: "Enseñar al perro a ignorar sus estímulos aversivos.", correct: false },
+        { text: "Cambiar la respuesta emocional de un perro hacia un estímulo, enseñándole a mirarlo y luego a mirar al humano para recibir un premio.", correct: true },
+        { text: "Hacer que el perro ladre a los estímulos que le dan miedo.", correct: false },
+        { text: "Enseñar al perro a buscar objetos específicos.", correct: false }
+    ]
+},
+// --- Miscelánea Postdoctorado ---
+{
+    question: "La 'lateralización cerebral' en perros sugiere que, de forma similar a los humanos, el hemisferio derecho está más implicado en:",
+    answers: [
+        { text: "El procesamiento de rutinas y comportamientos familiares.", correct: false },
+        { text: "El control del apetito y la sed.", correct: false },
+        { text: "La respuesta a estímulos novedosos y la expresión de emociones intensas como el miedo.", correct: true },
+        { text: "La planificación a largo plazo.", correct: false }
+    ]
+},
+{
+    question: "El 'efecto audiencia' en el comportamiento canino se refiere a cómo un perro:",
+    answers: [
+        { text: "Solo obedece si hay un público mirando.", correct: false },
+        { text: "Cambia su comportamiento (ej. obedece más rápido) dependiendo de si su tutor está prestando atención o no.", correct: true },
+        { text: "Se distrae fácilmente con los ruidos del público.", correct: false },
+        { text: "Le gusta ver programas de televisión con perros.", correct: false }
+    ]
+},
+{
+    question: "El término 'Umwelt', popularizado por Jakob von Uexküll, se refiere al:",
+    answers: [
+        { text: "Entorno físico objetivo en el que vive un animal.", correct: false },
+        { text: "Mundo perceptivo y subjetivo de un animal, formado por lo que sus sentidos le permiten experimentar.", correct: true },
+        { text: "La jerarquía social dentro de un grupo de animales.", correct: false },
+        { text: "El código genético de una especie.", correct: false }
+    ]
+},
+
 ];
 
 

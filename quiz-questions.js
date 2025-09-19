@@ -1,3 +1,4 @@
+
 const allQuestions = [
     // --- LOTE 1 ---
     // --- Categoría 1.1: Orígenes y Domesticación ---
@@ -945,4 +946,6 @@ const allQuestions = [
         ]
     }
 ];
+
+
 

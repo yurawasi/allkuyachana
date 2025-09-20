@@ -84,8 +84,8 @@
                         </div>
                     </div>
                     <div id="quiz-main" class="hidden">
-                        <!-- **** LA CORRECCIÓN ESTÁ AQUÍ **** -->
-                        <div class="flex justify-between items-center mb-2">
+                        <!-- **** LA CORRECCIÓN CLAVE ESTÁ AQUÍ **** -->
+                        <div class="flex justify-between items-center mb-4">
                            <span class="text-sm font-semibold text-slate-600">Test de Conocimiento</span>
                            <span id="progress-text" class="text-sm font-semibold text-slate-600"></span>
                         </div>
@@ -255,6 +255,8 @@
             // Verifica que allQuestions exista y tenga contenido
             if (typeof allQuestions === 'undefined' || allQuestions.length === 0) {
                 console.error("Error: El banco de preguntas (allQuestions) no se ha cargado o está vacío. Asegúrate de que quiz-questions.js esté enlazado correctamente y no tenga errores.");
+                quizIntroDiv.classList.add('hidden');
+                quizMainDiv.classList.remove('hidden');
                 questionElement.innerHTML = "Error al cargar las preguntas. Revisa que el archivo 'quiz-questions.js' exista y esté en la misma carpeta.";
                 return;
             }

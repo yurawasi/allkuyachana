@@ -84,7 +84,12 @@
                         </div>
                     </div>
                     <div id="quiz-main" class="hidden">
-                        <h2 id="question-text" class="text-2xl font-semibold text-slate-800 mb-8">Question text</h2>
+                        <!-- **** LA CORRECCIÓN ESTÁ AQUÍ **** -->
+                        <div class="flex justify-between items-center mb-2">
+                           <span class="text-sm font-semibold text-slate-600">Test de Conocimiento</span>
+                           <span id="progress-text" class="text-sm font-semibold text-slate-600"></span>
+                        </div>
+                        <h2 id="question-text" class="text-2xl font-semibold text-slate-800 mb-6">Question text</h2>
                         <div id="answer-buttons" class="grid grid-cols-1 gap-4">
                             <!-- Buttons will be dynamically inserted here -->
                         </div>
@@ -150,7 +155,7 @@
                     <!-- Guía 4: La Etapa de Cachorro -->
                     <a href="guia-del-cachorro.html" class="block bg-white p-8 rounded-lg shadow-lg text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
                         <div class="bg-sky-100 text-sky-600 rounded-full h-20 w-20 flex items-center justify-center mx-auto mb-6">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 11l7-7 7 7M5 19l7-7 7 7" /></svg>
+                             <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 11l7-7 7 7M5 19l7-7 7 7" /></svg>
                         </div>
                         <h3 class="text-xl font-bold text-slate-800 mb-3">La Etapa de Cachorro</h3>
                         <p class="text-slate-500">Empieza con buen pie: socialización, habituación y prevención.</p>
@@ -167,7 +172,7 @@
                 <div class="grid md:grid-cols-3 gap-8">
                     <!-- Servicio 1 -->
                     <div class="bg-white p-8 rounded-lg shadow-lg text-center">
-                        <div class="bg-sky-100 text-sky-600 rounded-full h-16 w-16 flex items-center justify-center mx-auto mb-6">
+                         <div class="bg-sky-100 text-sky-600 rounded-full h-16 w-16 flex items-center justify-center mx-auto mb-6">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a2 2 0 01-2-2V10a2 2 0 012-2h2m-2-4h2a2 2 0 012 2v2H9V6a2 2 0 012-2z" /></svg>
                         </div>
                         <h3 class="text-xl font-bold text-slate-800 mb-3">Consultorías Personalizadas</h3>
@@ -214,142 +219,147 @@
     </footer>
 
     <!-- PASO 1: Carga el archivo de preguntas PRIMERO -->
-<script src="quiz-questions.js"></script>
+    <script src="quiz-questions.js"></script>
 
-<!-- PASO 2: Ahora ejecuta el script que usa esas preguntas -->
-<script>
-    // --- Mobile Menu Script ---
-    const mobileMenuButton = document.getElementById('mobile-menu-button');
-    const mobileMenu = document.getElementById('mobile-menu');
-    mobileMenuButton.addEventListener('click', () => {
-        mobileMenu.classList.toggle('hidden');
-    });
+    <!-- PASO 2: Ahora ejecuta el script que usa esas preguntas -->
+    <script>
+        // --- Mobile Menu Script ---
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
 
-    // --- Quiz Script ---
-    // 'allQuestions' ahora se carga desde 'quiz-questions.js'
-    const startButton = document.getElementById('start-quiz-btn');
-    const restartButton = document.getElementById('restart-quiz-btn');
-    const playAgainButton = document.getElementById('play-again-btn');
-    const nextButton = document.getElementById('next-btn');
-    
-    const quizIntroDiv = document.getElementById('quiz-intro');
-    const quizMainDiv = document.getElementById('quiz-main');
-    const quizScoreScreenDiv = document.getElementById('quiz-score-screen');
-    const quizResultsMemoryDiv = document.getElementById('quiz-results-memory');
-    const quizStartAreaDiv = document.getElementById('quiz-start-area');
-
-    const questionElement = document.getElementById('question-text');
-    const answerButtonsElement = document.getElementById('answer-buttons');
-    const scoreElement = document.getElementById('score-text');
-    const previousScoreElement = document.getElementById('previous-score-text');
-    const progressText = document.getElementById('progress-text');
-
-    let shuffledQuestions, currentQuestionIndex, score;
-    const QUESTIONS_IN_QUIZ = 5;
-
-    function startQuiz() {
-        quizIntroDiv.classList.add('hidden');
-        quizScoreScreenDiv.classList.add('hidden');
-        quizMainDiv.classList.remove('hidden');
+        // --- Quiz Script ---
+        const startButton = document.getElementById('start-quiz-btn');
+        const restartButton = document.getElementById('restart-quiz-btn');
+        const playAgainButton = document.getElementById('play-again-btn');
+        const nextButton = document.getElementById('next-btn');
         
-        shuffledQuestions = allQuestions.sort(() => Math.random() - 0.5).slice(0, QUESTIONS_IN_QUIZ);
-        currentQuestionIndex = 0;
-        score = 0;
-        nextButton.classList.add('hidden');
-        showQuestion();
-    }
+        const quizIntroDiv = document.getElementById('quiz-intro');
+        const quizMainDiv = document.getElementById('quiz-main');
+        const quizScoreScreenDiv = document.getElementById('quiz-score-screen');
+        const quizResultsMemoryDiv = document.getElementById('quiz-results-memory');
+        const quizStartAreaDiv = document.getElementById('quiz-start-area');
 
-    function showQuestion() {
-        resetState();
-        let currentQuestion = shuffledQuestions[currentQuestionIndex];
-        let questionNo = currentQuestionIndex + 1;
-        
-        if(progressText) {
-            progressText.innerText = `Pregunta ${questionNo} de ${QUESTIONS_IN_QUIZ}`;
-        }
-        
-        questionElement.innerHTML = currentQuestion.question;
+        const questionElement = document.getElementById('question-text');
+        const answerButtonsElement = document.getElementById('answer-buttons');
+        const scoreElement = document.getElementById('score-text');
+        const previousScoreElement = document.getElementById('previous-score-text');
+        const progressText = document.getElementById('progress-text');
 
-        currentQuestion.answers.forEach(answer => {
-            const button = document.createElement('button');
-            button.innerHTML = answer.text;
-            button.classList.add('w-full', 'text-left', 'p-4', 'border', 'border-slate-300', 'rounded-lg', 'hover:bg-sky-100', 'transition', 'duration-200');
-            if (answer.correct) {
-                button.dataset.correct = answer.correct;
+        let shuffledQuestions, currentQuestionIndex, score;
+        const QUESTIONS_IN_QUIZ = 5;
+
+        function startQuiz() {
+            // Verifica que allQuestions exista y tenga contenido
+            if (typeof allQuestions === 'undefined' || allQuestions.length === 0) {
+                console.error("Error: El banco de preguntas (allQuestions) no se ha cargado o está vacío. Asegúrate de que quiz-questions.js esté enlazado correctamente y no tenga errores.");
+                questionElement.innerHTML = "Error al cargar las preguntas. Revisa que el archivo 'quiz-questions.js' exista y esté en la misma carpeta.";
+                return;
             }
-            button.addEventListener('click', selectAnswer);
-            answerButtonsElement.appendChild(button);
-        });
-    }
 
-    function resetState() {
-        nextButton.classList.add('hidden');
-        while (answerButtonsElement.firstChild) {
-            answerButtonsElement.removeChild(answerButtonsElement.firstChild);
-        }
-    }
-
-    function selectAnswer(e) {
-        const selectedBtn = e.target;
-        const isCorrect = selectedBtn.dataset.correct === "true";
-        if (isCorrect) {
-            score++;
-        }
-        Array.from(answerButtonsElement.children).forEach(button => {
-            setStatusClass(button, button.dataset.correct === "true");
-            button.disabled = true;
-        });
-        nextButton.classList.remove('hidden');
-    }
-
-    function setStatusClass(element, correct) {
-        if (correct) {
-            element.classList.add('btn-correct');
-        } else {
-            element.classList.add('btn-incorrect');
-        }
-    }
-
-    function showScore() {
-        quizMainDiv.classList.add('hidden');
-        quizScoreScreenDiv.classList.remove('hidden');
-        const scoreMessage = `Tu puntuación es ${score} de ${QUESTIONS_IN_QUIZ}`;
-        scoreElement.innerText = scoreMessage;
-        sessionStorage.setItem('lastQuizScore', scoreMessage);
-    }
-
-    function handleNextButton() {
-        currentQuestionIndex++;
-        if (currentQuestionIndex < shuffledQuestions.length) {
+            quizIntroDiv.classList.add('hidden');
+            quizScoreScreenDiv.classList.add('hidden');
+            quizMainDiv.classList.remove('hidden');
+            
+            shuffledQuestions = allQuestions.sort(() => Math.random() - 0.5).slice(0, QUESTIONS_IN_QUIZ);
+            currentQuestionIndex = 0;
+            score = 0;
+            nextButton.classList.add('hidden');
             showQuestion();
-        } else {
-            showScore();
         }
-    }
-    
-    function checkSessionStorage() {
-        const lastScore = sessionStorage.getItem('lastQuizScore');
-        if(lastScore) {
-            quizStartAreaDiv.classList.add('hidden');
-            quizResultsMemoryDiv.classList.remove('hidden');
-            previousScoreElement.innerText = lastScore;
-        }
-    }
 
-    startButton.addEventListener('click', startQuiz);
-    nextButton.addEventListener('click', handleNextButton);
-    playAgainButton.addEventListener('click', startQuiz);
-    restartButton.addEventListener('click', () => {
-         sessionStorage.removeItem('lastQuizScore');
-         quizResultsMemoryDiv.classList.add('hidden');
-         quizStartAreaDiv.classList.remove('hidden');
-         startQuiz();
-    });
-    
-    // Check for previous score on page load
-    window.addEventListener('load', checkSessionStorage);
-</script>
+        function showQuestion() {
+            resetState();
+            let currentQuestion = shuffledQuestions[currentQuestionIndex];
+            let questionNo = currentQuestionIndex + 1;
+            
+            if(progressText) {
+                progressText.innerText = `Pregunta ${questionNo} de ${QUESTIONS_IN_QUIZ}`;
+            }
+            
+            questionElement.innerHTML = currentQuestion.question;
+
+            currentQuestion.answers.forEach(answer => {
+                const button = document.createElement('button');
+                button.innerHTML = answer.text;
+                button.classList.add('w-full', 'text-left', 'p-4', 'border', 'border-slate-300', 'rounded-lg', 'hover:bg-sky-100', 'transition', 'duration-200');
+                if (answer.correct) {
+                    button.dataset.correct = answer.correct;
+                }
+                button.addEventListener('click', selectAnswer);
+                answerButtonsElement.appendChild(button);
+            });
+        }
+
+        function resetState() {
+            nextButton.classList.add('hidden');
+            while (answerButtonsElement.firstChild) {
+                answerButtonsElement.removeChild(answerButtonsElement.firstChild);
+            }
+        }
+
+        function selectAnswer(e) {
+            const selectedBtn = e.target;
+            const isCorrect = selectedBtn.dataset.correct === "true";
+            if (isCorrect) {
+                score++;
+            }
+            Array.from(answerButtonsElement.children).forEach(button => {
+                setStatusClass(button, button.dataset.correct === "true");
+                button.disabled = true;
+            });
+            nextButton.classList.remove('hidden');
+        }
+
+        function setStatusClass(element, correct) {
+            if (correct) {
+                element.classList.add('btn-correct');
+            } else {
+                element.classList.add('btn-incorrect');
+            }
+        }
+
+        function showScore() {
+            quizMainDiv.classList.add('hidden');
+            quizScoreScreenDiv.classList.remove('hidden');
+            const scoreMessage = `Tu puntuación es ${score} de ${QUESTIONS_IN_QUIZ}`;
+            scoreElement.innerText = scoreMessage;
+            sessionStorage.setItem('lastQuizScore', scoreMessage);
+        }
+
+        function handleNextButton() {
+            currentQuestionIndex++;
+            if (currentQuestionIndex < shuffledQuestions.length) {
+                showQuestion();
+            } else {
+                showScore();
+            }
+        }
+        
+        function checkSessionStorage() {
+            const lastScore = sessionStorage.getItem('lastQuizScore');
+            if(lastScore) {
+                quizStartAreaDiv.classList.add('hidden');
+                quizResultsMemoryDiv.classList.remove('hidden');
+                previousScoreElement.innerText = lastScore;
+            }
+        }
+
+        startButton.addEventListener('click', startQuiz);
+        nextButton.addEventListener('click', handleNextButton);
+        playAgainButton.addEventListener('click', startQuiz);
+        restartButton.addEventListener('click', () => {
+             sessionStorage.removeItem('lastQuizScore');
+             quizResultsMemoryDiv.classList.add('hidden');
+             quizStartAreaDiv.classList.remove('hidden');
+             startQuiz();
+        });
+        
+        // Check for previous score on page load
+        window.addEventListener('load', checkSessionStorage);
+    </script>
 </body>
 </html>
-
 

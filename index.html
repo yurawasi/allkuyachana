@@ -17,21 +17,10 @@
             background-size: cover;
             background-position: center;
         }
-        .btn-correct {
-            background-color: #10b981 !important; /* emerald-500 */
-            color: white !important;
-            border-color: #059669 !important;
-        }
-        .btn-incorrect {
-            background-color: #ef4444 !important; /* red-500 */
-            color: white !important;
-            border-color: #dc2626 !important;
-        }
     </style>
 </head>
 <body class="bg-slate-50 text-slate-700">
 
-    <!-- Header y Navegación -->
     <header class="bg-white/90 backdrop-blur-lg shadow-sm sticky top-0 z-50">
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
             <a href="index.html" class="text-2xl font-bold text-slate-900">GuíaCanina</a>
@@ -56,7 +45,6 @@
     </header>
 
     <main>
-        <!-- Sección Héroe -->
         <section class="hero-bg text-white">
             <div class="bg-black/50 min-h-[60vh] flex items-center">
                 <div class="container mx-auto px-6 text-center">
@@ -67,45 +55,16 @@
             </div>
         </section>
 
-        <!-- Nueva Sección: Test de Conocimiento Canino -->
-        <section id="quiz-section" class="py-16 md:py-24 bg-sky-50">
-            <div class="container mx-auto px-6">
-                <div id="quiz-app" class="max-w-2xl mx-auto bg-white rounded-xl shadow-2xl p-8 md:p-12">
-                    <div id="quiz-intro">
-                        <h2 class="text-3xl md:text-4xl font-bold text-slate-900 text-center mb-4">Pon a Prueba tu Conocimiento</h2>
-                        <p class="text-slate-600 text-center mb-8">¿Cuánto sabes realmente sobre el mundo canino? Descúbrelo con este breve test de 5 preguntas aleatorias.</p>
-                        <div id="quiz-start-area" class="text-center">
-                            <button id="start-quiz-btn" class="bg-sky-500 text-white font-bold py-3 px-8 rounded-lg hover:bg-sky-600 transition duration-300 text-lg">Empezar el Test</button>
-                        </div>
-                         <div id="quiz-results-memory" class="hidden text-center bg-emerald-100 border border-emerald-300 p-6 rounded-lg">
-                            <p class="font-semibold text-emerald-800">¡Ya completaste el test en esta sesión!</p>
-                            <p class="text-2xl font-bold text-emerald-900 mt-2" id="previous-score-text"></p>
-                            <button id="restart-quiz-btn" class="mt-4 bg-sky-500 text-white font-bold py-2 px-6 rounded-lg hover:bg-sky-600 transition duration-300">Intentar de Nuevo</button>
-                        </div>
-                    </div>
-                    <div id="quiz-main" class="hidden">
-                        <div class="flex justify-between items-center mb-4">
-                           <span class="text-sm font-semibold text-slate-600">Test de Conocimiento</span>
-                           <span id="progress-text" class="text-sm font-semibold text-slate-600"></span>
-                        </div>
-                        <h2 id="question-text" class="text-2xl font-semibold text-slate-800 mb-6">Question text</h2>
-                        <div id="answer-buttons" class="grid grid-cols-1 gap-4">
-                            <!-- Buttons will be dynamically inserted here -->
-                        </div>
-                        <div class="flex justify-end mt-8">
-                            <button id="next-btn" class="bg-slate-700 text-white font-semibold py-2 px-6 rounded-lg hover:bg-slate-800 transition duration-300 hidden">Siguiente</button>
-                        </div>
-                    </div>
-                     <div id="quiz-score-screen" class="hidden text-center">
-                        <h2 class="text-3xl font-bold text-slate-900 mb-4">¡Test Completado!</h2>
-                        <p id="score-text" class="text-4xl font-bold text-sky-600 mb-8">Tu puntuación es 0 de 5</p>
-                        <button id="play-again-btn" class="bg-sky-500 text-white font-bold py-3 px-8 rounded-lg hover:bg-sky-600 transition duration-300 text-lg">Jugar de Nuevo</button>
-                    </div>
+        <section id="quiz-cta-section" class="py-16 md:py-24 bg-sky-50">
+            <div class="container mx-auto px-6 text-center">
+                <div class="max-w-2xl mx-auto">
+                    <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Pon a Prueba tu Conocimiento</h2>
+                    <p class="text-slate-600 mb-8 text-lg">¿Cuánto sabes realmente sobre el mundo canino? Descúbrelo con nuestro test interactivo.</p>
+                    <a href="quiz.html" class="bg-sky-500 text-white font-bold py-3 px-8 rounded-lg hover:bg-sky-600 transition duration-300 text-lg shadow-lg">Empezar el Test</a>
                 </div>
             </div>
         </section>
 
-        <!-- Sección Bienvenida -->
         <section class="py-16 md:py-24">
             <div class="container mx-auto px-6">
                 <div class="grid md:grid-cols-2 gap-12 items-center">
@@ -121,94 +80,17 @@
             </div>
         </section>
 
-        <!-- Sección Guías Destacadas -->
         <section class="py-16 md:py-24 bg-slate-100">
-            <div class="container mx-auto px-6 text-center">
-                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-2">Empieza tu viaje de aprendizaje</h2>
-                <p class="text-slate-600 max-w-2xl mx-auto mb-12">Sumérgete en los temas clave para construir una relación increíble con tu compañero.</p>
-                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-                    <!-- Guía 1: Lenguaje Canino -->
-                    <a href="lenguaje-canino.html" class="block bg-white p-8 rounded-lg shadow-lg text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
-                        <div class="bg-sky-100 text-sky-600 rounded-full h-20 w-20 flex items-center justify-center mx-auto mb-6">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" /></svg>
-                        </div>
-                        <h3 class="text-xl font-bold text-slate-800 mb-3">Lenguaje Canino</h3>
-                        <p class="text-slate-500">Aprende a interpretar sus señales y a comunicarte de forma efectiva.</p>
-                    </a>
-                    <!-- Guía 2: Bases del Aprendizaje -->
-                    <a href="principios-del-aprendizaje.html" class="block bg-white p-8 rounded-lg shadow-lg text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
-                        <div class="bg-sky-100 text-sky-600 rounded-full h-20 w-20 flex items-center justify-center mx-auto mb-6">
-                             <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" /></svg>
-                        </div>
-                        <h3 class="text-xl font-bold text-slate-800 mb-3">Bases del Aprendizaje</h3>
-                        <p class="text-slate-500">Descubre cómo aprende tu perro para enseñarle de manera amable y eficaz.</p>
-                    </a>
-                    <!-- Guía 3: Solución de Problemas -->
-                    <a href="problemas-comunes.html" class="block bg-white p-8 rounded-lg shadow-lg text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
-                        <div class="bg-sky-100 text-sky-600 rounded-full h-20 w-20 flex items-center justify-center mx-auto mb-6">
-                             <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-                        </div>
-                        <h3 class="text-xl font-bold text-slate-800 mb-3">Solución de Problemas</h3>
-                        <p class="text-slate-500">Guías para gestionar miedos, reactividad y otros desafíos comunes.</p>
-                    </a>
-                    <!-- Guía 4: La Etapa de Cachorro -->
-                    <a href="guia-del-cachorro.html" class="block bg-white p-8 rounded-lg shadow-lg text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
-                        <div class="bg-sky-100 text-sky-600 rounded-full h-20 w-20 flex items-center justify-center mx-auto mb-6">
-                             <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 11l7-7 7 7M5 19l7-7 7 7" /></svg>
-                        </div>
-                        <h3 class="text-xl font-bold text-slate-800 mb-3">La Etapa de Cachorro</h3>
-                        <p class="text-slate-500">Empieza con buen pie: socialización, habituación y prevención.</p>
-                    </a>
-                </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- Sección Servicios -->
         <section class="py-16 md:py-24">
-            <div class="container mx-auto px-6 text-center">
-                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-2">¿Cómo Puedo Ayudarte?</h2>
-                <p class="text-slate-600 max-w-2xl mx-auto mb-12">Más allá de la guía, ofrezco servicios personalizados para acompañarte en tu camino.</p>
-                <div class="grid md:grid-cols-3 gap-8">
-                    <!-- Servicio 1 -->
-                    <div class="bg-white p-8 rounded-lg shadow-lg text-center">
-                         <div class="bg-sky-100 text-sky-600 rounded-full h-16 w-16 flex items-center justify-center mx-auto mb-6">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a2 2 0 01-2-2V10a2 2 0 012-2h2m-2-4h2a2 2 0 012 2v2H9V6a2 2 0 012-2z" /></svg>
-                        </div>
-                        <h3 class="text-xl font-bold text-slate-800 mb-3">Consultorías Personalizadas</h3>
-                        <p class="text-slate-500">Sesiones uno a uno para abordar los desafíos específicos de tu perro y crear un plan de acción a medida.</p>
-                    </div>
-                    <!-- Servicio 2 -->
-                    <div class="bg-white p-8 rounded-lg shadow-lg text-center">
-                         <div class="bg-sky-100 text-sky-600 rounded-full h-16 w-16 flex items-center justify-center mx-auto mb-6">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2l-7 7-7-7M5 10V5a1 1 0 011-1h3m10 11a1 1 0 00-1-1h-3" /></svg>
-                        </div>
-                        <h3 class="text-xl font-bold text-slate-800 mb-3">Guardería de Día</h3>
-                        <p class="text-slate-500">Un espacio seguro y enriquecedor donde tu perro socializará y aprenderá bajo supervisión profesional.</p>
-                    </div>
-                    <!-- Servicio 3 -->
-                    <div class="bg-white p-8 rounded-lg shadow-lg text-center">
-                         <div class="bg-sky-100 text-sky-600 rounded-full h-16 w-16 flex items-center justify-center mx-auto mb-6">
-                           <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" viewBox="0 0 20 20" fill="currentColor"><path d="M10 12a2 2 0 100-4 2 2 0 000 4z"/><path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.022 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"/></svg>
-                        </div>
-                        <h3 class="text-xl font-bold text-slate-800 mb-3">Paseos Educativos</h3>
-                        <p class="text-slate-500">Sesiones enfocadas en mejorar el manejo de la correa, la socialización y el bienestar mental de tu perro.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- Sección Comunidad -->
         <section class="py-16 md:py-24 bg-emerald-600 text-white">
-            <div class="container mx-auto px-6 text-center">
-                <h2 class="text-3xl md:text-4xl font-bold mb-4">Un Proyecto Creado por y para la Comunidad</h2>
-                <p class="text-emerald-200 max-w-3xl mx-auto mb-8 text-lg">Esta guía es y será siempre de acceso gratuito. Si encuentras valor en este contenido, considera hacer una donación. Tu apoyo me permite dedicar más tiempo a crear recursos y mantener este proyecto vivo.</p>
-                <a href="apoyame.html" class="bg-white text-emerald-600 font-bold py-4 px-8 rounded-lg hover:bg-emerald-50 transition duration-300 text-lg">Apoya el Proyecto</a>
-            </div>
-        </section>
+            </section>
 
     </main>
-    
-    <!-- Footer -->
+     
     <footer class="bg-slate-800 text-slate-300">
         <div class="container mx-auto px-6 py-12">
             <div class="mt-8 pt-8 border-t border-slate-700 text-center text-slate-500 text-sm">
@@ -218,161 +100,12 @@
     </footer>
 
     <script>
-        // --- BANCO DE PREGUNTAS (AHORA DENTRO DE INDEX.HTML) ---
-        
-const allQuestions = [
-    // --- LOTE 1 ---
-    // --- Categoría 1.1: Orígenes y Domesticación ---
-    {
-        question: "El ancestro directo del perro doméstico es:",
-        answers: [
-            { text: "El coyote.", correct: false },
-            { text: "El lobo gris (Canis lupus).", correct: true },
-            { text: "El chacal.", correct: false },
-            { text: "Una especie de cánido ya extinta.", correct: false }
-        ]
-    }
-
-];
-
         // --- Mobile Menu Script ---
         const mobileMenuButton = document.getElementById('mobile-menu-button');
         const mobileMenu = document.getElementById('mobile-menu');
         mobileMenuButton.addEventListener('click', () => {
             mobileMenu.classList.toggle('hidden');
         });
-
-        // --- Quiz Script ---
-        const startButton = document.getElementById('start-quiz-btn');
-        const restartButton = document.getElementById('restart-quiz-btn');
-        const playAgainButton = document.getElementById('play-again-btn');
-        const nextButton = document.getElementById('next-btn');
-        
-        const quizIntroDiv = document.getElementById('quiz-intro');
-        const quizMainDiv = document.getElementById('quiz-main');
-        const quizScoreScreenDiv = document.getElementById('quiz-score-screen');
-        const quizResultsMemoryDiv = document.getElementById('quiz-results-memory');
-        const quizStartAreaDiv = document.getElementById('quiz-start-area');
-
-        const questionElement = document.getElementById('question-text');
-        const answerButtonsElement = document.getElementById('answer-buttons');
-        const scoreElement = document.getElementById('score-text');
-        const previousScoreElement = document.getElementById('previous-score-text');
-        const progressText = document.getElementById('progress-text');
-
-        let shuffledQuestions, currentQuestionIndex, score;
-        const QUESTIONS_IN_QUIZ = 20;
-
-        function startQuiz() {
-            if (typeof allQuestions === 'undefined' || allQuestions.length === 0) {
-                console.error("Error: El banco de preguntas (allQuestions) no está definido o está vacío.");
-                quizIntroDiv.classList.add('hidden');
-                quizMainDiv.classList.remove('hidden');
-                questionElement.innerHTML = "Error: No se han podido cargar las preguntas.";
-                return;
-            }
-
-            quizIntroDiv.classList.add('hidden');
-            quizScoreScreenDiv.classList.add('hidden');
-            quizMainDiv.classList.remove('hidden');
-            
-            shuffledQuestions = allQuestions.sort(() => Math.random() - 0.5).slice(0, QUESTIONS_IN_QUIZ);
-            currentQuestionIndex = 0;
-            score = 0;
-            nextButton.classList.add('hidden');
-            showQuestion();
-        }
-
-        function showQuestion() {
-            resetState();
-            let currentQuestion = shuffledQuestions[currentQuestionIndex];
-            let questionNo = currentQuestionIndex + 1;
-            
-            if(progressText) {
-                progressText.innerText = `Pregunta ${questionNo} de ${QUESTIONS_IN_QUIZ}`;
-            }
-            
-            questionElement.innerHTML = currentQuestion.question;
-
-            currentQuestion.answers.forEach(answer => {
-                const button = document.createElement('button');
-                button.innerHTML = answer.text;
-                button.classList.add('w-full', 'text-left', 'p-4', 'border', 'border-slate-300', 'rounded-lg', 'hover:bg-sky-100', 'transition', 'duration-200');
-                if (answer.correct) {
-                    button.dataset.correct = answer.correct;
-                }
-                button.addEventListener('click', selectAnswer);
-                answerButtonsElement.appendChild(button);
-            });
-        }
-
-        function resetState() {
-            nextButton.classList.add('hidden');
-            while (answerButtonsElement.firstChild) {
-                answerButtonsElement.removeChild(answerButtonsElement.firstChild);
-            }
-        }
-
-        function selectAnswer(e) {
-            const selectedBtn = e.target;
-            const isCorrect = selectedBtn.dataset.correct === "true";
-            if (isCorrect) {
-                score++;
-            }
-            Array.from(answerButtonsElement.children).forEach(button => {
-                setStatusClass(button, button.dataset.correct === "true");
-                button.disabled = true;
-            });
-            nextButton.classList.remove('hidden');
-        }
-
-        function setStatusClass(element, correct) {
-            if (correct) {
-                element.classList.add('btn-correct');
-            } else {
-                element.classList.add('btn-incorrect');
-            }
-        }
-
-        function showScore() {
-            quizMainDiv.classList.add('hidden');
-            quizScoreScreenDiv.classList.remove('hidden');
-            const scoreMessage = `Tu puntuación es ${score} de ${QUESTIONS_IN_QUIZ}`;
-            scoreElement.innerText = scoreMessage;
-            sessionStorage.setItem('lastQuizScore', scoreMessage);
-        }
-
-        function handleNextButton() {
-            currentQuestionIndex++;
-            if (currentQuestionIndex < shuffledQuestions.length) {
-                showQuestion();
-            } else {
-                showScore();
-            }
-        }
-        
-        function checkSessionStorage() {
-            const lastScore = sessionStorage.getItem('lastQuizScore');
-            if(lastScore) {
-                quizStartAreaDiv.classList.add('hidden');
-                quizResultsMemoryDiv.classList.remove('hidden');
-                previousScoreElement.innerText = lastScore;
-            }
-        }
-
-        startButton.addEventListener('click', startQuiz);
-        nextButton.addEventListener('click', handleNextButton);
-        playAgainButton.addEventListener('click', startQuiz);
-        restartButton.addEventListener('click', () => {
-             sessionStorage.removeItem('lastQuizScore');
-             quizResultsMemoryDiv.classList.add('hidden');
-             quizStartAreaDiv.classList.remove('hidden');
-             startQuiz();
-        });
-        
-        // Check for previous score on page load
-        window.addEventListener('load', checkSessionStorage);
     </script>
 </body>
 </html>
-

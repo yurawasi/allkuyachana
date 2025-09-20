@@ -17,6 +17,13 @@
             background-size: cover;
             background-position: center;
         }
+        .service-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
     </style>
 </head>
 <body class="bg-slate-50 text-slate-700">
@@ -55,16 +62,6 @@
             </div>
         </section>
 
-        <section id="quiz-cta-section" class="py-16 md:py-24 bg-sky-50">
-            <div class="container mx-auto px-6 text-center">
-                <div class="max-w-2xl mx-auto">
-                    <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Pon a Prueba tu Conocimiento</h2>
-                    <p class="text-slate-600 mb-8 text-lg">¿Cuánto sabes realmente sobre el mundo canino? Descúbrelo con nuestro test interactivo.</p>
-                    <a href="quiz.html" class="bg-sky-500 text-white font-bold py-3 px-8 rounded-lg hover:bg-sky-600 transition duration-300 text-lg shadow-lg">Empezar el Test</a>
-                </div>
-            </div>
-        </section>
-
         <section class="py-16 md:py-24">
             <div class="container mx-auto px-6">
                 <div class="grid md:grid-cols-2 gap-12 items-center">
@@ -81,13 +78,50 @@
         </section>
 
         <section class="py-16 md:py-24 bg-slate-100">
-            </section>
+            <div class="container mx-auto px-6">
+                <div class="text-center max-w-3xl mx-auto">
+                    <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Servicios Personalizados para Ti y tu Perro</h2>
+                    <p class="text-slate-600 mb-12 text-lg">Desde consultorías para resolver problemas específicos hasta paseos educativos que enriquecen su día a día. Descubre cómo puedo ayudarte a mejorar vuestra convivencia.</p>
+                </div>
 
-        <section class="py-16 md:py-24">
-            </section>
-
-        <section class="py-16 md:py-24 bg-emerald-600 text-white">
-            </section>
+                <div class="grid md:grid-cols-1 lg:grid-cols-3 gap-8">
+                    <div class="bg-white p-8 rounded-xl service-card text-center">
+                        <svg class="h-12 w-12 text-sky-500 mb-4 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 18.75a6 6 0 006-6v-1.5m-6 7.5a6 6 0 01-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 01-3-3V4.5a3 3 0 116 0v8.25a3 3 0 01-3 3z" />
+                        </svg>
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Consultorías de Comportamiento</h3>
+                        <p class="text-slate-600">Sesiones individuales para abordar problemas específicos como miedos, ansiedad o reactividad.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl service-card text-center">
+                        <svg class="h-12 w-12 text-sky-500 mb-4 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h7.5" />
+                        </svg>
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Guardería de Día Enriquecida</h3>
+                        <p class="text-slate-600">Un espacio seguro y estimulante para que tu perro aprenda y socialice de forma positiva.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl service-card text-center">
+                       <svg class="h-12 w-12 text-sky-500 mb-4 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9.75 4.5h12.75c1.036 0 1.875-.84 1.875-1.875V10.5A1.875 1.875 0 0018.75 8.625c0-1.036-.84-1.875-1.875-1.875H3.375A1.875 1.875 0 001.5 8.625v7.5c0 1.036.84 1.875 1.875 1.875z" />
+                        </svg>
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Paseos Educativos</h3>
+                        <p class="text-slate-600">Sesiones de enriquecimiento en el mundo real, enfocadas en el olfato, la calma y la gestión de estímulos.</p>
+                    </div>
+                </div>
+                <div class="text-center mt-12">
+                     <a href="servicios.html" class="bg-sky-500 text-white font-bold py-3 px-8 rounded-lg hover:bg-sky-600 transition duration-300 text-lg shadow-lg">Ver todos los servicios</a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="quiz-cta-section" class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-6 text-center">
+                <div class="max-w-2xl mx-auto">
+                    <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Pon a Prueba tu Conocimiento</h2>
+                    <p class="text-slate-600 mb-8 text-lg">¿Cuánto sabes realmente sobre el mundo canino? Descúbrelo con nuestro test interactivo.</p>
+                    <a href="quiz.html" class="bg-emerald-500 text-white font-bold py-3 px-8 rounded-lg hover:bg-emerald-600 transition duration-300 text-lg shadow-lg">Empezar el Test</a>
+                </div>
+            </div>
+        </section>
 
     </main>
      

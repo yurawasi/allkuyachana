@@ -1,0 +1,541 @@
+[
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "La amígdala es una estructura cerebral fundamental en el sistema límbico. ¿Cuál es su rol principal en el comportamiento de un perro?",
+        "answers": [
+            { "text": "La coordinación motora fina y el equilibrio.", "correct": false },
+            { "text": "El procesamiento de las emociones, especialmente el miedo, y la asignación de relevancia emocional a los estímulos para formar memorias de amenaza.", "correct": true },
+            { "text": "La planificación a largo plazo y la toma de decisiones complejas.", "correct": false },
+            { "text": "La regulación de la temperatura corporal y el apetito.", "correct": false }
+        ],
+        "explanation": "La amígdala funciona como el 'detector de humo' del cerebro. Evalúa constantemente la información sensorial en busca de posibles amenazas. Cuando detecta una, desencadena la respuesta de miedo (fisiológica y conductual) y ayuda a consolidar una memoria fuerte de ese estímulo, asegurando que el perro lo evite en el futuro."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "El eje Hipotálamo-Hipófisis-Adrenal (HHA) es el sistema central de respuesta al estrés. Su activación sostenida en un perro con estrés crónico conduce a:",
+        "answers": [
+            { "text": "Niveles elevados de cortisol, lo que puede suprimir el sistema inmune, afectar negativamente el aprendizaje y la memoria, y aumentar la irritabilidad.", "correct": true },
+            { "text": "Un aumento de la plasticidad neuronal y una mayor capacidad para aprender nuevas tareas.", "correct": false },
+            { "text": "La liberación de endorfinas, provocando un estado de euforia y bienestar constante.", "correct": false },
+            { "text": "Una disminución de la frecuencia cardíaca y la presión arterial.", "correct": false }
+        ],
+        "explanation": "Mientras que la activación a corto plazo del eje HHA es adaptativa, su activación crónica es dañina. El exceso de cortisol tiene efectos catabólicos en el cuerpo y puede dañar neuronas en áreas clave como el hipocampo, dificultando el aprendizaje de nuevas conductas y aumentando la predisposición a reaccionar de forma exagerada."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "¿Cuál es la función principal del neurotransmisor dopamina en el contexto del entrenamiento canino?",
+        "answers": [
+            { "text": "Regular el ciclo de sueño-vigilia.", "correct": false },
+            { "text": "Inducir un estado de calma y relajación general.", "correct": false },
+            { "text": "Modular la motivación, el deseo y la búsqueda de recompensas ('seeking system'). Es el motor que impulsa al perro a querer trabajar.", "correct": true },
+            { "text": "Controlar la transmisión de señales de dolor.", "correct": false }
+        ],
+        "explanation": "Contrario a la creencia popular de que es la 'molécula del placer', la dopamina está más relacionada con la anticipación y la motivación para conseguir algo placentero. En el entrenamiento, es lo que mantiene al perro enganchado, ofreciendo comportamientos para conseguir el reforzador."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "La serotonina es otro neurotransmisor crucial. Un nivel equilibrado de serotonina en el cerebro canino se asocia con:",
+        "answers": [
+            { "text": "Una mayor impulsividad y comportamientos de riesgo.", "correct": false },
+            { "text": "Un mejor control de los impulsos, una mayor estabilidad del estado de ánimo y una menor reactividad al estrés.", "correct": true },
+            { "text": "Un aumento de la energía y la motivación para la caza.", "correct": false },
+            { "text": "Una mejora de la memoria espacial a largo plazo.", "correct": false }
+        ],
+        "explanation": "La serotonina actúa como un 'freno' o modulador en el cerebro. Ayuda a regular la intensidad de las respuestas emocionales. Niveles bajos se han asociado con agresión impulsiva, ansiedad y comportamientos compulsivos. Muchos psicofármacos actúan aumentando la disponibilidad de serotonina."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "El órgano vomeronasal (de Jacobson) es un sistema olfativo accesorio que permite al perro:",
+        "answers": [
+            { "text": "Detectar olores de comida a kilómetros de distancia.", "correct": false },
+            { "text": "Analizar feromonas y otras moléculas no volátiles que transmiten información social y reproductiva.", "correct": true },
+            { "text": "Filtrar el polvo y los alérgenos del aire inhalado.", "correct": false },
+            { "text": "Identificar la dirección exacta de la que proviene un sonido.", "correct": false }
+        ],
+        "explanation": "Este órgano especializado detecta señales químicas que no son percibidas por el sistema olfativo principal. Proporciona información crucial sobre el estado hormonal, el estrés o la identidad de otros perros, influyendo directamente en comportamientos como el apareamiento, el marcaje o la agresión."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "La plasticidad neuronal es un concepto fundamental que describe:",
+        "answers": [
+            { "text": "La rigidez e inmutabilidad de las conexiones cerebrales después de la pubertad.", "correct": false },
+            { "text": "La capacidad del cerebro para reorganizarse y formar nuevas conexiones neuronales a lo largo de la vida en respuesta al aprendizaje y la experiencia.", "correct": true },
+            { "text": "La cantidad de neuronas con las que nace un perro.", "correct": false },
+            { "text": "La velocidad a la que viajan los impulsos eléctricos en el cerebro.", "correct": false }
+        ],
+        "explanation": "La plasticidad neuronal es la base biológica del aprendizaje y la modificación de conducta. Cada vez que un perro aprende una nueva asociación o habilidad, se producen cambios físicos en su cerebro. 'Neurons that fire together, wire together' (Las neuronas que se disparan juntas, se conectan)."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "El córtex prefrontal (CPF) en los perros es responsable de las 'funciones ejecutivas'. Una función clave del CPF es:",
+        "answers": [
+            { "text": "Generar la respuesta de miedo inmediata ante una amenaza.", "correct": false },
+            { "text": "Regular e inhibir respuestas impulsivas generadas por la amígdala y el sistema límbico.", "correct": true },
+            { "text": "Procesar la información auditiva.", "correct": false },
+            { "text": "Controlar la respiración y el ritmo cardíaco.", "correct": false }
+        ],
+        "explanation": "El CPF es como el 'director de orquesta' del cerebro. Aunque es proporcionalmente más pequeño que en los humanos, es vital para el autocontrol. El estrés crónico puede 'desconectar' temporalmente el CPF, dejando al perro a merced de sus impulsos emocionales."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "Un perro de edad avanzada muestra desorientación, cambios en el ciclo sueño-vigilia y pérdida de hábitos higiénicos. Estos son síntomas del Síndrome de Disfunción Cognitiva, que está asociado a la acumulación de:",
+        "answers": [
+            { "text": "Placas de colesterol en las arterias cerebrales.", "correct": false },
+            { "text": "Placas de proteína beta-amiloide, similar a lo que ocurre en el Alzheimer humano.", "correct": true },
+            { "text": "Exceso de líquido cefalorraquídeo.", "correct": false },
+            { "text": "Células grasas en el tejido neuronal.", "correct": false }
+        ],
+        "explanation": "La acumulación de estas placas tóxicas interfiere con la sinapsis y provoca la muerte neuronal, afectando principalmente a la memoria (hipocampo) y a las funciones ejecutivas (córtex prefrontal). Es una condición médica neurodegenerativa, no 'simple vejez'."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "La diferencia entre la adrenalina y el cortisol en la respuesta de estrés es que:",
+        "answers": [
+            { "text": "La adrenalina es de acción lenta y duradera, mientras que el cortisol es de acción rápida y corta.", "correct": false },
+            { "text": "La adrenalina media la respuesta de 'lucha o huida' inmediata, mientras que el cortisol es la principal hormona del estrés a largo plazo, manteniendo al cuerpo en alerta.", "correct": true },
+            { "text": "La adrenalina solo se libera en situaciones positivas (eustrés) y el cortisol solo en las negativas (distrés).", "correct": false },
+            { "text": "La adrenalina se produce en el cerebro y el cortisol en el páncreas.", "correct": false }
+        ],
+        "explanation": "La adrenalina es el 'sprint', proporcionando una explosión de energía para reaccionar a un peligro inmediato. El cortisol es la 'maratón', manteniendo los sistemas corporales movilizados para hacer frente a un estresor que no desaparece, con el consiguiente desgaste (carga alostática)."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "El hipocampo es una estructura cerebral vital para:",
+        "answers": [
+            { "text": "El procesamiento de los olores.", "correct": false },
+            { "text": "La formación de nuevas memorias, especialmente la memoria espacial y contextual.", "correct": true },
+            { "text": "La coordinación del movimiento.", "correct": false },
+            { "text": "La generación de la respuesta de ira.", "correct": false }
+        ],
+        "explanation": "El hipocampo es crucial para el aprendizaje. En un evento de miedo, la amígdala aprende la asociación emocional ('esto es malo') y el hipocampo aprende el contexto ('esto es malo aquí y con estas circunstancias'). El estrés crónico y el exceso de cortisol pueden dañar el hipocampo."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "Un perro con dolor crónico por artritis puede mostrarse más irritable y agresivo. ¿Cuál es la razón neurobiológica?",
+        "answers": [
+            { "text": "El dolor crónico es un estresor constante que sensibiliza el sistema nervioso central, bajando el umbral de activación de las vías del miedo y la agresión.", "correct": true },
+            { "text": "El perro se vuelve deliberadamente 'malo' para llamar la atención.", "correct": false },
+            { "text": "El dolor libera endorfinas que causan un comportamiento errático.", "correct": false },
+            { "text": "El dolor afecta directamente al lóbulo frontal, impidiendo el autocontrol.", "correct": false }
+        ],
+        "explanation": "El dolor y el estrés comparten circuitos neurológicos. Un perro con dolor vive con un 'vaso de estrés' medio lleno constantemente, por lo que necesita muchos menos estresores adicionales para que el vaso se desborde en forma de una reacción agresiva."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "El 'eje intestino-cerebro' es un área de investigación que demuestra que:",
+        "answers": [
+            { "text": "El tamaño del cerebro determina la longitud del intestino.", "correct": false },
+            { "text": "La microbiota intestinal (la población de bacterias en el intestino) puede producir neurotransmisores y otras sustancias que afectan directamente al estado de ánimo y al comportamiento.", "correct": true },
+            { "text": "Los problemas de comportamiento siempre son causados por problemas digestivos.", "correct": false },
+            { "text": "La comunicación entre el intestino y el cerebro es unidireccional (del cerebro al intestino).", "correct": false }
+        ],
+        "explanation": "Esta comunicación bidireccional es revolucionaria. Una disbiosis (desequilibrio en la microbiota) puede contribuir a la ansiedad y la inflamación sistémica, afectando al cerebro. La dieta, los probióticos y los prebióticos se están convirtiendo en herramientas importantes en un enfoque holístico del comportamiento."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "La propiocepción es el sentido que informa al perro sobre:",
+        "answers": [
+            { "text": "La temperatura ambiente.", "correct": false },
+            { "text": "La posición y el movimiento de su propio cuerpo y extremidades en el espacio.", "correct": true },
+            { "text": "Los campos magnéticos de la Tierra.", "correct": false },
+            { "text": "El nivel de humedad en el aire.", "correct": false }
+        ],
+        "explanation": "La propiocepción es el 'sentido corporal'. Permite a un perro caminar sobre terreno irregular o saber dónde tiene las patas traseras sin mirarlas. El enriquecimiento que desafía este sentido (como caminar sobre diferentes texturas o superficies inestables) es muy beneficioso para su desarrollo neuronal."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "El hipotiroidismo (baja función de la glándula tiroides) es un diagnóstico diferencial crucial para la agresión en perros porque:",
+        "answers": [
+            { "text": "Aumenta la fuerza de la mordida del perro.", "correct": false },
+            { "text": "La falta de hormonas tiroideas puede alterar el metabolismo de los neurotransmisores, causando síntomas como letargo, ansiedad y una menor tolerancia que puede desembocar en agresión 'inexplicable'.", "correct": true },
+            { "text": "Siempre causa hiperactividad y comportamientos destructivos.", "correct": false },
+            { "text": "Es una condición que solo afecta al pelo y la piel del perro.", "correct": false }
+        ],
+        "explanation": "Es uno de los 'grandes imitadores' médicos de problemas de comportamiento. Un cambio repentino en el temperamento de un perro adulto, especialmente la aparición de agresión o fobias, siempre debe llevar a una revisión veterinaria que incluya un panel tiroideo completo."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "El neurotransmisor GABA (ácido gamma-aminobutírico) tiene un papel fundamental en el sistema nervioso como:",
+        "answers": [
+            { "text": "El principal neurotransmisor excitatorio, que activa las neuronas.", "correct": false },
+            { "text": "El principal neurotransmisor inhibidor, que 'calma' la actividad neuronal y previene la sobreexcitación.", "correct": true },
+            { "text": "El responsable de la formación de memorias a largo plazo.", "correct": false },
+            { "text": "La molécula que transmite las señales de dolor.", "correct": false }
+        ],
+        "explanation": "GABA es el 'freno' natural del cerebro. Muchas drogas ansiolíticas, como las benzodiacepinas (p. ej., Valium), funcionan aumentando la eficacia de los receptores GABA, lo que resulta en una reducción general de la ansiedad y la actividad neuronal."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "¿Qué función cumple la oxitocina en el comportamiento social canino?",
+        "answers": [
+            { "text": "Desencadena la respuesta de lucha o huida.", "correct": false },
+            { "text": "Aumenta la agresión territorial.", "correct": false },
+            { "text": "Facilita el vínculo social, la confianza y los comportamientos afiliativos (de grupo), tanto entre perros como en la relación perro-humano.", "correct": true },
+            { "text": "Es la principal hormona del estrés crónico.", "correct": false }
+        ],
+        "explanation": "Conocida como la 'hormona del vínculo', la oxitocina se libera durante interacciones sociales positivas como el contacto visual mutuo, las caricias o el juego. Es un mecanismo neuroquímico clave que explica la profundidad del vínculo humano-animal."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "La consolidación de la memoria, el proceso por el cual los aprendizajes a corto plazo se convierten en recuerdos estables a largo plazo, ocurre principalmente durante:",
+        "answers": [
+            { "text": "Las sesiones de entrenamiento intenso.", "correct": false },
+            { "text": "El sueño, especialmente durante la fase REM y el sueño de ondas lentas.", "correct": true },
+            { "text": "Los paseos de olfateo.", "correct": false },
+            { "text": "La alimentación.", "correct": false }
+        ],
+        "explanation": "El cerebro no graba la información de forma instantánea. Necesita un período de 'procesamiento offline' para archivar y estabilizar lo aprendido. La falta de sueño de calidad puede perjudicar gravemente la eficacia de cualquier plan de entrenamiento o modificación de conducta."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "El bulbo olfatorio del perro es proporcionalmente mucho más grande que el humano. Esto se traduce en:",
+        "answers": [
+            { "text": "Una capacidad superior para procesar la información de los olores, permitiendo no solo detectar olores débiles sino también discriminar entre olores muy complejos.", "correct": true },
+            { "text": "Una mejor visión nocturna.", "correct": false },
+            { "text": "Una mayor inteligencia emocional.", "correct": false },
+            { "text": "La capacidad de oler únicamente con el lado derecho del cerebro.", "correct": false }
+        ],
+        "explanation": "El tamaño del bulbo olfatorio refleja la importancia de este sentido para la especie. La enorme 'potencia de procesamiento' permite a un perro construir una imagen detallada del mundo a partir de los olores, incluyendo información temporal (este olor es reciente, este es de ayer)."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "Un perro que persigue su cola de forma compulsiva puede estar sufriendo una desregulación neuroquímica similar a la que se observa en humanos con:",
+        "answers": [
+            { "text": "Trastorno de Déficit de Atencióne Hiperactividad (TDAH).", "correct": false },
+            { "text": "Trastorno Obsesivo-Compulsivo (TOC).", "correct": true },
+            { "text": "Depresión mayor.", "correct": false },
+            { "text": "Esquizofrenia.", "correct": false }
+        ],
+        "explanation": "Los comportamientos compulsivos en perros se consideran un modelo animal para el TOC humano. A menudo involucran una disfunción en el circuito cortico-estriado-talámico-cortical y una desregulación de la serotonina. Por ello, los ISRS (como la fluoxetina) suelen ser parte del tratamiento."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "El fenómeno de la 'habituación' a un estímulo neutro (p. ej., el ruido del frigorífico) se produce a nivel neuronal porque:",
+        "answers": [
+            { "text": "Las neuronas sensoriales se fatigan y dejan de poder enviar señales.", "correct": false },
+            { "text": "El cerebro aprende a inhibir la transmisión de la señal en las sinapsis, ya que ha aprendido que el estímulo no tiene consecuencias.", "correct": true },
+            { "text": "El perro se vuelve sordo a esa frecuencia específica.", "correct": false },
+            { "text": "Se crean nuevas neuronas para ignorar el sonido.", "correct": false }
+        ],
+        "explanation": "La habituación no es fatiga sensorial, es un proceso de aprendizaje activo. El cerebro aprende a filtrar la información irrelevante para no sobrecargarse, un mecanismo de eficiencia fundamental para la supervivencia."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "La 'sensibilización', el aumento de la respuesta a un estímulo, es el proceso neurobiológico opuesto. Un perro que se vuelve cada vez más reactivo a los ruidos de la calle está experimentando sensibilización porque:",
+        "answers": [
+            { "text": "Su oído se está volviendo más agudo con la edad.", "correct": false },
+            { "text": "Cada exposición al ruido aversivo fortalece las vías neuronales del miedo, haciendo que la respuesta sea más rápida y fuerte en el futuro.", "correct": true },
+            { "text": "Está imitando el comportamiento de otros perros del vecindario.", "correct": false },
+            { "text": "Necesita más ejercicio físico.", "correct": false }
+        ],
+        "explanation": "La sensibilización es un círculo vicioso. Un ruido fuerte provoca una respuesta de estrés -> el perro está en un estado de mayor alerta -> el siguiente ruido parece aún más amenazante -> la respuesta de estrés es aún mayor. Es el mecanismo subyacente al desarrollo de fobias."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "El 'efecto calmante' de la masticación en los perros se debe a que:",
+        "answers": [
+            { "text": "El acto repetitivo libera endorfinas y reduce los niveles de cortisol, funcionando como una actividad de autorregulación.", "correct": true },
+            { "text": "Desgasta los dientes y reduce el impulso de morder.", "correct": false },
+            { "text": "Es una forma de comunicarse con sus dueños.", "correct": false },
+            { "text": "Cansa al perro físicamente, por lo que se relaja.", "correct": false }
+        ],
+        "explanation": "La masticación es una necesidad conductual con una base fisiológica. Proporcionar oportunidades seguras para masticar es una forma sencilla y eficaz de enriquecimiento que ayuda a los perros a gestionar el estrés y el aburrimiento de forma autónoma."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "El cerebelo, situado en la parte posterior del cerebro, es esencial para:",
+        "answers": [
+            { "text": "La formación de memorias emocionales.", "correct": false },
+            { "text": "La coordinación, la precisión y la temporización del movimiento (memoria motora).", "correct": true },
+            { "text": "El procesamiento de la información olfativa.", "correct": false },
+            { "text": "La regulación del hambre y la sed.", "correct": false }
+        ],
+        "explanation": "El cerebelo es el centro de control del movimiento. Es lo que permite a un perro de Agility calcular un salto con precisión o a un perro de compañía caminar sin tropezar. Las lesiones en el cerebelo provocan ataxia (movimientos descoordinados)."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "Las feromonas apaciguadoras caninas (como las que se comercializan en difusores) imitan las secreciones de:",
+        "answers": [
+            { "text": "Las glándulas anales de un perro adulto para marcar territorio.", "correct": false },
+            { "text": "Las glándulas interdigitales de las patas.", "correct": false },
+            { "text": "Las glándulas sebáceas de la zona intermamaria de una madre lactante, que transmiten una señal de seguridad a los cachorros.", "correct": true },
+            { "text": "La orina de un perro macho alfa.", "correct": false }
+        ],
+        "explanation": "Estas feromonas son detectadas por el órgano vomeronasal y tienen un efecto calmante a nivel del sistema límbico. Aunque no son una solución mágica, pueden ser una herramienta de apoyo útil en un plan de tratamiento multimodal para la ansiedad."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "Un perro adolescente (entre los 6 y 18 meses) a menudo muestra un aumento de la impulsividad y una menor capacidad de respuesta al entrenamiento. Esto se debe a que:",
+        "answers": [
+            { "text": "Su cerebro está experimentando una remodelación masiva, con un sistema límbico (emocional) muy desarrollado y un córtex prefrontal (control de impulsos) aún inmaduro.", "correct": true },
+            { "text": "Se vuelve 'dominante' y desafía deliberadamente a su dueño.", "correct": false },
+            { "text": "Olvida todo lo que ha aprendido como cachorro.", "correct": false },
+            { "text": "Es una fase en la que necesita ser castigado con más dureza para establecer límites.", "correct": false }
+        ],
+        "explanation": "La adolescencia canina es neurobiológicamente análoga a la humana. El cerebro emocional (el 'acelerador') está a pleno rendimiento, mientras que el cerebro racional (el 'freno') aún está en construcción. Esto requiere paciencia, gestión y un enfoque de entrenamiento consistente y positivo."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "La noradrenalina (o norepinefrina) es un neurotransmisor y hormona fundamental para:",
+        "answers": [
+            { "text": "Promover el sueño profundo y la relajación.", "correct": false },
+            { "text": "La atención, la vigilancia y la respuesta de alerta (arousal) ante estímulos novedosos o amenazantes.", "correct": true },
+            { "text": "Facilitar el vínculo social y la confianza.", "correct": false },
+            { "text": "Regular la temperatura corporal.", "correct": false }
+        ],
+        "explanation": "La noradrenalina, junto con la adrenalina, es un componente clave del sistema de 'lucha o huida'. Pone al cerebro y al cuerpo en un estado de máxima alerta, listo para reaccionar. El estrés crónico puede mantener los niveles de noradrenalina elevados, llevando a un estado de hipervigilancia."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "El 'olfateo' durante un paseo no es solo un pasatiempo para un perro, sino una actividad cognitivamente esencial porque:",
+        "answers": [
+            { "text": "Le permite encontrar comida que otros han dejado caer.", "correct": false },
+            { "text": "El procesamiento de la enorme cantidad de información olfativa es mentalmente estimulante, reduce el estrés (disminuye la frecuencia cardíaca) y le permite construir un mapa de su entorno social.", "correct": true },
+            { "text": "Es la única forma que tiene de ejercitar los músculos del cuello.", "correct": false },
+            { "text": "Le ayuda a ignorar a su dueño y ser más independiente.", "correct": false }
+        ],
+        "explanation": "Un paseo centrado en el olfateo ('sniffari') es una forma de enriquecimiento sensorial y cognitivo de primer orden. Negar a un perro la oportunidad de olfatear es como pedirle a una persona que camine por un museo con los ojos vendados. Es una necesidad fundamental para su bienestar."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "Si un perro sufre una lesión en el lóbulo occipital de su cerebro, el principal déficit que experimentará será en:",
+        "answers": [
+            { "text": "La audición.", "correct": false },
+            { "text": "El procesamiento de la información visual.", "correct": true },
+            { "text": "El olfato.", "correct": false },
+            { "text": "El equilibrio.", "correct": false }
+        ],
+        "explanation": "Cada lóbulo del córtex cerebral tiene funciones especializadas. El lóbulo occipital, situado en la parte posterior, es el centro principal para procesar e interpretar las señales que llegan desde los ojos."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "El glutamato es el principal neurotransmisor excitatorio del cerebro. Su papel es crucial en:",
+        "answers": [
+            { "text": "La inhibición de la actividad neuronal.", "correct": false },
+            { "text": "La plasticidad sináptica, el aprendizaje y la memoria, a través de un proceso llamado Potenciación a Largo Plazo (LTP).", "correct": true },
+            { "text": "La regulación del sueño profundo.", "correct": false },
+            { "text": "La liberación de hormonas del crecimiento.", "correct": false }
+        ],
+        "explanation": "La Potenciación a Largo Plazo (LTP) es el fortalecimiento de las conexiones sinápticas que se considera el mecanismo celular del aprendizaje. El glutamato es indispensable para este proceso. Sin embargo, un exceso de glutamato (excitotoxicidad) puede ser dañino para las neuronas."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "Un perro que es sordo de un oído tendrá dificultades principalmente para:",
+        "answers": [
+            { "text": "Detectar sonidos de muy baja frecuencia.", "correct": false },
+            { "text": "Localizar la fuente y la dirección de un sonido.", "correct": true },
+            { "text": "Oír la voz de su dueño.", "correct": false },
+            { "text": "Discriminar entre diferentes tonos de ladrido.", "correct": false }
+        ],
+        "explanation": "El cerebro utiliza las minúsculas diferencias en el tiempo y la intensidad con que un sonido llega a ambos oídos para triangular su origen. La audición biaural (con dos oídos) es esencial para esta habilidad de localización espacial, que es vital para un depredador y una presa."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "Los 'bigotes' de un perro (vibrisas) son fisiológicamente importantes porque:",
+        "answers": [
+            { "text": "Son un adorno estético sin función.", "correct": false },
+            { "text": "Son pelos táctiles extremadamente sensibles, cuyas raíces están rodeadas de nervios, y que proporcionan información sobre corrientes de aire y la proximidad de objetos en la oscuridad.", "correct": true },
+            { "text": "Ayudan a absorber la humedad del aire.", "correct": false },
+            { "text": "Producen feromonas para la comunicación.", "correct": false }
+        ],
+        "explanation": "Las vibrisas son una herramienta sensorial. Cada una tiene una representación específica en el córtex somatosensorial del cerebro. Recortarlas puede causar desorientación y estrés, ya que se está privando al perro de una importante fuente de información sobre su entorno inmediato."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "La 'teoría polivagal' de Stephen Porges propone que el sistema nervioso autónomo tiene tres vías de respuesta jerárquicas. La más evolucionada, asociada a la seguridad y la calma social, es:",
+        "answers": [
+            { "text": "El sistema simpático (lucha o huida).", "correct": false },
+            { "text": "El circuito vagal dorsal (inmovilización o 'apagado').", "correct": false },
+            { "text": "El circuito vagal ventral, que regula la calma, la conexión social ('calma y conexión') y la comunicación a través de los músculos faciales.", "correct": true },
+            { "text": "El eje HHA.", "correct": false }
+        ],
+        "explanation": "Esta teoría es muy influyente en la comprensión del trauma y la seguridad. El circuito vagal ventral es el que queremos activar en nuestros perros para fomentar un estado de aprendizaje y confianza. El juego, las caricias suaves y una voz calmada ayudan a activarlo."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "El 'trigger stacking' o apilamiento de estresores tiene un efecto acumulativo a nivel fisiológico porque:",
+        "answers": [
+            { "text": "Cada evento estresor libera cortisol, y esta hormona tarda tiempo en ser eliminada del sistema. Si los estresores ocurren muy seguidos, los niveles de cortisol se suman.", "correct": true },
+            { "text": "El perro tiene una memoria limitada y solo puede recordar el último estresor.", "correct": false },
+            { "text": "El cerebro se vuelve adicto a la adrenalina y busca más situaciones estresantes.", "correct": false },
+            { "text": "Cada estresor reduce permanentemente el número de neuronas en la amígdala.", "correct": false }
+        ],
+        "explanation": "El sistema de estrés no se resetea instantáneamente. Es como llenar un vaso de agua. Cada estresor (un ruido, un perro que ladra, un tirón de correa) añade un poco de agua. El último estresor, aunque sea pequeño, puede ser el que haga que el vaso se desborde, provocando una reacción aparentemente desproporcionada."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "El núcleo accumbens es una parte del cerebro que juega un papel central en:",
+        "answers": [
+            { "text": "La respuesta de miedo defensivo.", "correct": false },
+            { "text": "El circuito de recompensa, integrando la motivación (dopamina) y la emoción para guiar el comportamiento hacia objetivos placenteros.", "correct": true },
+            { "text": "La memoria a largo plazo.", "correct": false },
+            { "text": "El procesamiento visual.", "correct": false }
+        ],
+        "explanation": "El núcleo accumbens es un 'hub' clave para el refuerzo positivo. Es el área que se activa intensamente cuando el perro anticipa y recibe una recompensa, y es fundamental para que el entrenamiento basado en el refuerzo sea efectivo."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "Un perro epiléptico a veces muestra un comportamiento extraño o agresivo justo antes de una convulsión. Este período se conoce como la fase 'aura' y se debe a:",
+        "answers": [
+            { "text": "Un comportamiento deliberado del perro para avisar a su dueño.", "correct": false },
+            { "text": "Una actividad neuronal anómala en el cerebro que precede a la convulsión generalizada y que puede causar alucinaciones o sensaciones extrañas.", "correct": true },
+            { "text": "Una bajada de azúcar en sangre.", "correct": false },
+            { "text": "El perro intentando evitar la convulsión mediante el comportamiento.", "correct": false }
+        ],
+        "explanation": "El aura es parte de la propia convulsión focal. El comportamiento extraño no es voluntario, sino un síntoma neurológico. Es crucial que los dueños de perros epilépticos aprendan a reconocer estas señales para garantizar la seguridad durante un episodio."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "El 'efecto de enfriamiento' de la nariz de un perro (siempre húmeda y fría) es una adaptación fisiológica que:",
+        "answers": [
+            { "text": "Ayuda a regular la temperatura de todo el cuerpo.", "correct": false },
+            { "text": "Mejora su capacidad para detectar radiación térmica (calor) de otros cuerpos, funcionando como un sensor de calor infrarrojo.", "correct": true },
+            { "text": "No tiene ninguna función conocida.", "correct": false },
+            { "text": "Sirve para amplificar los sonidos.", "correct": false }
+        ],
+        "explanation": "Investigaciones recientes han demostrado que la punta de la nariz de un perro (el rinario) es rica en terminaciones nerviosas que son extremadamente sensibles a los cambios de temperatura, permitiéndoles detectar el calor corporal de una presa a distancia, incluso cuando no pueden verla u olerla."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "La mielinización es un proceso de desarrollo neuronal en el que los axones se recubren de mielina. Este proceso es fundamental porque:",
+        "answers": [
+            { "text": "Aumenta drásticamente la velocidad y la eficiencia de la transmisión de los impulsos nerviosos.", "correct": true },
+            { "text": "Determina el color del pelaje del perro.", "correct": false },
+            { "text": "Solo ocurre en el sistema nervioso periférico, no en el cerebro.", "correct": false },
+            { "text": "Es el principal responsable de la respuesta de estrés.", "correct": false }
+        ],
+        "explanation": "La mielinización no se completa en los perros hasta bien entrada la adolescencia. El córtex prefrontal es una de las últimas áreas en mielinizarse por completo, lo que explica en parte la impulsividad y la toma de decisiones a veces errática de los perros jóvenes."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "Un perro que ha tenido una experiencia traumática puede mostrar una respuesta de miedo exagerada a un estímulo mucho más leve (p. ej., el sonido de una puerta). Esto se debe a un fenómeno llamado:",
+        "answers": [
+            { "text": "Habituación.", "correct": false },
+            { "text": "Generalización de la respuesta de miedo, mediada por la sensibilización de la amígdala.", "correct": true },
+            { "text": "Olvido.", "correct": false },
+            { "text": "Aprendizaje latente.", "correct": false }
+        ],
+        "explanation": "El trauma puede dejar a la amígdala en un estado de 'hiperalerta', haciendo que el sistema de miedo se dispare con mucha más facilidad y ante estímulos que antes eran neutros. El tratamiento de perros con historial de trauma requiere un enfoque extremadamente cuidadoso y gradual."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "El sistema de 'neuronas espejo' se cree que es la base neuronal para:",
+        "answers": [
+            { "text": "La capacidad de un perro para ver su propio reflejo en un espejo.", "correct": false },
+            { "text": "El aprendizaje por observación, la empatía y la capacidad de entender las acciones e intenciones de otros.", "correct": true },
+            { "text": "La regulación de la temperatura corporal.", "correct": false },
+            { "text": "La memoria a largo plazo.", "correct": false }
+        ],
+        "explanation": "Estas neuronas se activan tanto cuando un animal realiza una acción como cuando observa a otro realizar esa misma acción. Aunque su existencia en perros todavía se debate, explicaría la facilidad con la que los perros aprenden observando a otros y su capacidad para el contagio emocional (p. ej., bostezar cuando ven a alguien bostezar)."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "El 'enriquecimiento cognitivo' (p. ej., puzles de comida, entrenamiento de discriminación) es beneficioso para el cerebro porque:",
+        "answers": [
+            { "text": "Cansa físicamente al perro, por lo que duerme más.", "correct": false },
+            { "text": "Estimula la neurogénesis (creación de nuevas neuronas) y la sinaptogénesis (creación de nuevas conexiones), especialmente en el hipocampo, mejorando la resiliencia al estrés y la función cognitiva.", "correct": true },
+            { "text": "Aumenta el tamaño total del cerebro del perro.", "correct": false },
+            { "text": "Reduce la necesidad del perro de interactuar socialmente.", "correct": false }
+        ],
+        "explanation": "Un cerebro activo es un cerebro sano. El enriquecimiento cognitivo actúa como 'gimnasia mental', fortaleciendo las redes neuronales y construyendo una 'reserva cognitiva' que puede ayudar a retrasar los efectos del envejecimiento cerebral."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "Cuando un perro se relame, bosteza o evita la mirada ante una caricia, la explicación fisiológica es que:",
+        "answers": [
+            { "text": "Está disfrutando de la caricia pero es tímido.", "correct": false },
+            { "text": "El sistema nervioso simpático se está activando debido al estrés de la interacción, y estas son conductas de apaciguamiento y desplazamiento para intentar autorregularse.", "correct": true },
+            { "text": "Está a punto de quedarse dormido.", "correct": false },
+            { "text": "Necesita que le cepillen los dientes.", "correct": false }
+        ],
+        "explanation": "Estas señales indican que, para el perro, la interacción no es placentera. La activación del sistema simpático (la rama de 'lucha o huida' del sistema nervioso autónomo) es la respuesta fisiológica al estrés, y estas conductas son el intento del perro de comunicar su incomodidad y calmar la situación."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "La castración puede influir en ciertos comportamientos, como la agresión entre machos o el marcaje, porque:",
+        "answers": [
+            { "text": "Reduce drásticamente los niveles de testosterona, una hormona que modula (pero no causa directamente) estos comportamientos.", "correct": true },
+            { "text": "Hace que el perro sea menos inteligente y más fácil de controlar.", "correct": false },
+            { "text": "Elimina por completo cualquier tipo de agresión.", "correct": false },
+            { "text": "Aumenta los niveles de dopamina, haciendo al perro más feliz.", "correct": false }
+        ],
+        "explanation": "La testosterona puede actuar como un 'amplificador' de la reactividad. Su reducción puede hacer que un perro sea menos propenso a reaccionar, pero no es una cura para la agresión, especialmente si esta está motivada por el miedo o ya está muy aprendida. La decisión de castrar debe ser individualizada."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "La 'memoria de trabajo' en un perro es:",
+        "answers": [
+            { "text": "La memoria de todas las tareas que ha aprendido a lo largo de su vida.", "correct": false },
+            { "text": "Un sistema de memoria a corto plazo que le permite mantener y manipular información durante unos segundos para realizar una tarea, como recordar dónde ha caído una pelota que no ha visto.", "correct": true },
+            { "text": "La memoria que solo se activa cuando el perro está trabajando.", "correct": false },
+            { "text": "Inexistente en la especie canina.", "correct": false }
+        ],
+        "explanation": "La memoria de trabajo es como la 'RAM' del cerebro. Es esencial para el aprendizaje de secuencias ('sienta', 'espera', 'ven') y para la resolución de problemas. El estrés y la fatiga pueden afectar negativamente su capacidad."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "El fenómeno del 'bloqueo' en el aprendizaje ocurre cuando:",
+        "answers": [
+            { "text": "Un perro es físicamente incapaz de realizar una conducta.", "correct": false },
+            { "text": "Un estímulo condicionado previo que ya predice un resultado impide el aprendizaje sobre un segundo estímulo condicionado que se presenta al mismo tiempo.", "correct": true },
+            { "text": "El perro está demasiado lleno para aceptar más premios de comida.", "correct": false },
+            { "text": "El dueño bloquea físicamente al perro para que no escape.", "correct": false }
+        ],
+        "explanation": "Si un perro ya ha aprendido que un sonido (EC1) predice la comida (EI), y luego se presenta el sonido junto con una luz (EC2) antes de la comida, el perro no aprenderá que la luz también predice la comida. El sonido 'bloquea' el aprendizaje sobre la luz porque no aporta información nueva. Es un concepto avanzado de condicionamiento clásico."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "¿Por qué es fisiológicamente imposible para un perro aprender una nueva habilidad compleja cuando está en un estado de pánico (sobre su umbral)?",
+        "answers": [
+            { "text": "Porque el perro está siendo 'desobediente' deliberadamente.", "correct": false },
+            { "text": "Porque la masiva liberación de cortisol y adrenalina 'secuestra' las funciones del córtex prefrontal (pensamiento racional) y deriva todos los recursos a la amígdala y a las respuestas de supervivencia (lucha, huida, bloqueo).", "correct": true },
+            { "text": "Porque sus músculos están demasiado tensos para moverse.", "correct": false },
+            { "text": "Porque no puede oír las señales de su dueño.", "correct": false }
+        ],
+        "explanation": "El aprendizaje complejo requiere el córtex prefrontal. El pánico es una emergencia de supervivencia que desactiva esta área. En ese estado, el perro no 'piensa', simplemente 'reacciona'. Por eso es inútil y contraproducente intentar 'entrenar' a un perro cuando tiene miedo."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "El tálamo es una estructura cerebral que actúa como:",
+        "answers": [
+            { "text": "El centro de control de la respiración.", "correct": false },
+            { "text": "Una estación de relevo crucial que recibe casi toda la información sensorial y la dirige a las áreas correspondientes del córtex para su procesamiento.", "correct": true },
+            { "text": "El productor principal de serotonina.", "correct": false },
+            { "text": "El área responsable del vínculo de apego.", "correct": false }
+        ],
+        "explanation": "El tálamo es como la 'centralita' del cerebro. Toda la información visual, auditiva, táctil y gustativa pasa por el tálamo antes de llegar a las áreas corticales donde se vuelve una percepción consciente. El olfato es la única excepción, ya que tiene una vía más directa a la corteza olfativa y al sistema límbico."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "La 'carga de la mordida' (bite load) se refiere a la cantidad de fuerza que un perro aplica. La investigación sugiere que, en una mordida real, la fuerza está modulada por:",
+        "answers": [
+            { "text": "El tamaño del perro únicamente.", "correct": false },
+            { "text": "Factores como el nivel de excitación (arousal), la motivación y la inhibición de la mordida aprendida, no solo por la capacidad física de la mandíbula.", "correct": true },
+            { "text": "La hora del día.", "correct": false },
+            { "text": "La temperatura ambiente.", "correct": false }
+        ],
+        "explanation": "Un perro no siempre muerde con su máxima fuerza potencial. Una mordida de advertencia puede ser muy controlada. Una mordida en un estado de alta excitación y miedo puede ser mucho más fuerte. Esto es crucial para la evaluación de riesgo: ¿el perro es capaz de modular su mordida o muerde siempre con la máxima intensidad?"
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "La 'neofobia' es la aversión o miedo a lo nuevo. Fisiológicamente, aparece después del período de socialización porque:",
+        "answers": [
+            { "text": "El cerebro del perro pierde por completo su capacidad de aprender cosas nuevas.", "correct": false },
+            { "text": "Las vías neuronales del miedo maduran y se vuelven más eficientes, y la plasticidad cerebral disminuye, haciendo que el cerebro trate los estímulos novedosos como potencialmente peligrosos por defecto.", "correct": true },
+            { "text": "Los dueños empiezan a castigar la curiosidad del perro.", "correct": false },
+            { "text": "Es un signo de una enfermedad neurológica degenerativa.", "correct": false }
+        ],
+        "explanation": "Durante la socialización, el cerebro está en modo 'todo es interesante'. Después, entra en modo 'lo que no conozco podría matarme'. Esta es una estrategia de supervivencia adaptativa en la naturaleza. Por eso, una socialización temprana y amplia es tan importante para prevenir problemas de miedo en la edad adulta."
+    },
+    {
+        "asignatura": "Neurobiología y Fisiología del Comportamiento",
+        "question": "La 'impronta' o 'imprinting' es una forma de aprendizaje rápido e irreversible que ocurre en una ventana de tiempo muy específica. En los perros, el ejemplo más claro es:",
+        "answers": [
+            { "text": "El aprendizaje del 'sienta'.", "correct": false },
+            { "text": "La formación del vínculo primario con la madre y los hermanos de camada, y el reconocimiento de su propia especie durante las primeras semanas de vida.", "correct": true },
+            { "text": "El aprendizaje de las preferencias alimentarias.", "correct": false },
+            { "text": "La habituación a los ruidos del hogar.", "correct": false }
+        ],
+        "explanation": "La impronta es un proceso biológicamente programado. Un cachorro necesita aprender de forma rápida y fiable 'quién es mi familia' y 'a qué especie pertenezco'. Los cachorros criados en aislamiento de otros perros pueden tener graves problemas para reconocer e interactuar con su propia especie más adelante."
+    }
+]

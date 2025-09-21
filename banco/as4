@@ -1,0 +1,563 @@
+[
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "La reverencia de juego ('play bow') es un ejemplo de meta-comunicación. ¿Qué significa esto?",
+        "answers": [
+            { "text": "Es una señal de amenaza que indica el inicio de una pelea real.", "correct": false },
+            { "text": "Es una señal que enmarca las acciones siguientes, comunicando 'todo lo que hago a continuación es solo un juego, no es en serio'.", "correct": true },
+            { "text": "Solo la utilizan los cachorros y desaparece en la edad adulta.", "correct": false },
+            { "text": "Es un reflejo involuntario que el perro no puede controlar.", "correct": false }
+        ],
+        "explanation": "La meta-comunicación es 'comunicación sobre la comunicación'. La reverencia de juego es una de las señales más importantes y claras en el repertorio canino, permitiendo a los perros realizar comportamientos como morder o perseguir en un contexto lúdico sin que se malinterpreten como una agresión."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "Un perro muestra el blanco de sus ojos en una media luna, una postura conocida como 'ojo de ballena'. Esta señal suele indicar:",
+        "answers": [
+            { "text": "Relajación profunda y sueño inminente.", "correct": false },
+            { "text": "Un alto nivel de estrés, ansiedad o miedo, donde el perro quiere apartar la mirada de la amenaza pero sin perderla de vista.", "correct": true },
+            { "text": "Curiosidad extrema por un objeto.", "correct": false },
+            { "text": "Un problema oftalmológico que requiere atención veterinaria.", "correct": false }
+        ],
+        "explanation": "El 'ojo de ballena' es una señal de estrés muy fiable. Ocurre a menudo cuando un perro se siente atrapado o incómodo con una interacción (p. ej., un abrazo forzado) y es una advertencia clara de que su paciencia se está agotando."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "Al analizar el movimiento de la cola de un perro, ¿qué afirmación es la más precisa?",
+        "answers": [
+            { "text": "Cualquier movimiento de cola significa que el perro está feliz y es amistoso.", "correct": false },
+            { "text": "La altura, rigidez, velocidad y amplitud del movimiento son cruciales; una cola alta y con movimientos cortos y rápidos puede indicar tensión y amenaza.", "correct": true },
+            { "text": "La cola solo se utiliza para mantener el equilibrio y no tiene función comunicativa.", "correct": false },
+            { "text": "Los perros solo mueven la cola hacia la derecha, nunca hacia la izquierda.", "correct": false }
+        ],
+        "explanation": "La cola es un barómetro emocional, pero hay que leer sus matices. Un movimiento amplio y relajado a media altura suele ser amistoso. Un movimiento rápido, corto y con la cola alta indica un alto nivel de excitación que puede ser precursor de agresión. Estudios sugieren un sesgo en el movimiento (derecha=positivo, izquierda=negativo), pero la altura y rigidez son más fiables."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "Un perro, durante una sesión de entrenamiento, de repente empieza a olisquear el suelo intensamente sin que haya un olor particular. Este comportamiento es un ejemplo clásico de:",
+        "answers": [
+            { "text": "Desobediencia y falta de respeto hacia el guía.", "correct": false },
+            { "text": "Una conducta de desplazamiento, utilizada para aliviar un leve estrés o conflicto interno (p. ej., frustración por no entender el ejercicio).", "correct": true },
+            { "text": "El inicio de un comportamiento de rastreo aprendido.", "correct": false },
+            { "text": "Hambre, indicando que el perro necesita una pausa para comer.", "correct": false }
+        ],
+        "explanation": "Las conductas de desplazamiento son comportamientos normales realizados fuera de contexto. Olisquear, rascarse, bostezar o lamerse pueden ser formas que tiene el perro de 'pedir un momento' o gestionar una situación que le resulta cognitivamente o emocionalmente abrumadora."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "El término 'señales de calma', popularizado por Turid Rugaas, se refiere a un conjunto de señales que los perros utilizan para:",
+        "answers": [
+            { "text": "Mostrar dominancia y establecer su rango en la jerarquía.", "correct": false },
+            { "text": "Comunicar intenciones pacíficas, evitar conflictos, y calmarse a sí mismos o a otros en una situación tensa.", "correct": true },
+            { "text": "Indicar que están listos para atacar de forma inminente.", "correct": false },
+            { "text": "Exclusivamente para comunicarse con los humanos, ya que no las usan entre ellos.", "correct": false }
+        ],
+        "explanation": "Aunque existe un debate académico sobre si la intención es siempre 'calmar al otro' o si son simplemente auto-reguladores del estrés, en la práctica, señales como lamerse el hocico, girar la cabeza, caminar en curva o bostezar son indicadores fiables de que el perro intenta evitar la confrontación."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "La principal función de la comunicación olfativa a través del marcaje con orina es:",
+        "answers": [
+            { "text": "Simplemente vaciar la vejiga de la forma más eficiente posible.", "correct": false },
+            { "text": "Dejar un 'tablón de anuncios' químico con información sobre su identidad, estatus hormonal, nivel de estrés y el tiempo que ha pasado desde que estuvo allí.", "correct": true },
+            { "text": "Establecer un perímetro territorial que ningún otro perro se atreverá a cruzar.", "correct": false },
+            { "text": "Limpiar la zona de parásitos y bacterias.", "correct": false }
+        ],
+        "explanation": "El marcaje con orina es una forma de comunicación asincrónica (no en tiempo real). Permite a los perros obtener una gran cantidad de información sobre otros individuos sin necesidad de encontrarse cara a cara, facilitando la cohesión social y la evitación de conflictos."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "Dos perros se encuentran de frente. Uno de ellos se detiene bruscamente y se queda completamente inmóvil ('freezing'). Esta inmovilidad es:",
+        "answers": [
+            { "text": "Una señal de relajación y confianza absoluta.", "correct": false },
+            { "text": "Una señal de estrés extremadamente alta y un posible precursor de una acción explosiva (lucha o huida).", "correct": true },
+            { "text": "Un signo de sumisión que invita al otro perro a acercarse sin miedo.", "correct": false },
+            { "text": "Un comportamiento de distracción para que el otro perro pierda el interés.", "correct": false }
+        ],
+        "explanation": "El 'freezing' es una de las señales de advertencia más serias. Indica que el perro está sobrepasado, procesando la situación y decidiendo su próximo movimiento. Es un momento de máxima tensión que debe ser gestionado con una retirada calmada y controlada."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "El ladrido de un perro no es una vocalización única. Un ladrido de alerta se diferencia de un ladrido de juego en que el de alerta suele ser:",
+        "answers": [
+            { "text": "Más agudo, repetitivo y con pausas más largas.", "correct": false },
+            { "text": "Más grave, corto, explosivo y en ráfagas rápidas.", "correct": true },
+            { "text": "Idéntico en ambos casos, ya que el contexto no altera la vocalización.", "correct": false },
+            { "text": "Un sonido suave y entrecortado.", "correct": false }
+        ],
+        "explanation": "La acústica de las vocalizaciones caninas transmite información. Los sonidos graves y cortos suelen asociarse con amenazas y distancia (alerta, advertencia), mientras que los sonidos más agudos y repetitivos suelen estar ligados a la excitación social o el juego."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "El impacto de la cría selectiva en la comunicación es evidente en las razas braquicéfalas (hocico chato). ¿Cuál es una consecuencia comunicativa de esta morfología?",
+        "answers": [
+            { "text": "Una mayor capacidad para emitir ladridos de diferentes tonalidades.", "correct": false },
+            { "text": "Una dificultad para expresar señales faciales sutiles y la posibilidad de que sus arrugas y sonidos respiratorios sean malinterpretados por otros perros.", "correct": true },
+            { "text": "Una cola más expresiva para compensar la falta de expresión facial.", "correct": false },
+            { "text": "No tiene ningún impacto, ya que los perros se comunican principalmente por el olfato.", "correct": false }
+        ],
+        "explanation": "La comunicación visual es importante. Las arrugas faciales pueden crear una apariencia de amenaza constante (ceño fruncido) y la falta de hocico limita señales de apaciguamiento como el lamido de labios, lo que puede provocar malentendidos en las interacciones sociales."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "La comunicación táctil, como el lamido (grooming) o el contacto corporal entre perros de un mismo grupo social, tiene como función principal:",
+        "answers": [
+            { "text": "Establecer quién es el dominante y quién el sumiso.", "correct": false },
+            { "text": "Reforzar los lazos sociales, reducir el estrés y mantener la cohesión del grupo (comportamiento afiliativo).", "correct": true },
+            { "text": "Mantenerse limpios y libres de parásitos exclusivamente.", "correct": false },
+            { "text": "Transmitir información sobre la ubicación de la comida.", "correct": false }
+        ],
+        "explanation": "El contacto físico consentido libera oxitocina tanto en el que lo da como en el que lo recibe, fortaleciendo el vínculo y promoviendo un estado de calma. Es una parte fundamental del repertorio social y de bienestar del perro."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "Un perro que se tumba en el suelo y expone su vientre a otro perro está comunicando:",
+        "answers": [
+            { "text": "Siempre una señal de sumisión y rendición incondicional.", "correct": false },
+            { "text": "Una invitación al juego, una señal de confianza o una postura defensiva si se siente acorralado. El contexto es crucial para la interpretación.", "correct": true },
+            { "text": "Que desea que le rasquen la barriga, sin importar el contexto social.", "correct": false },
+            { "text": "Un desafío directo y una señal de que va a atacar.", "correct": false }
+        ],
+        "explanation": "Este es un ejemplo perfecto de por qué no se pueden interpretar las señales de forma aislada. La misma postura puede tener significados muy diferentes. Si el cuerpo está tenso y la cola metida, es defensivo. Si el cuerpo está relajado y 'serpenteante', es una invitación social."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "¿Cuál de las siguientes acciones humanas es más probable que sea interpretada por un perro como una señal de amenaza o confrontación directa?",
+        "answers": [
+            { "text": "Acercarse al perro de lado, en una ligera curva.", "correct": false },
+            { "text": "Mirarlo fijamente a los ojos, inclinarse sobre él y acercarse de frente.", "correct": true },
+            { "text": "Bostezar y lamerse los labios mientras se le mira de reojo.", "correct": false },
+            { "text": "Sentarse en el suelo de lado al perro y esperar a que se acerque.", "correct": false }
+        ],
+        "explanation": "En el lenguaje canino, la aproximación frontal, la mirada fija y la invasión del espacio superior son señales de amenaza. Los humanos a menudo las realizan con la intención de ser amistosos (p. ej., al saludar a un perro desconocido), lo que puede generar una respuesta de miedo defensivo."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "La 'mirada dura' (hard eye) se diferencia de una 'mirada suave' (soft eye) en que la primera se caracteriza por:",
+        "answers": [
+            { "text": "Un parpadeo lento y los músculos faciales relajados.", "correct": false },
+            { "text": "Una mirada fija, intensa y sin parpadeo, con los músculos faciales tensos, a menudo indicando una amenaza.", "correct": true },
+            { "text": "Evitar el contacto visual por completo.", "correct": false },
+            { "text": "Entrecerrar los ojos como señal de afecto.", "correct": false }
+        ],
+        "explanation": "Diferenciar estos dos tipos de mirada es una habilidad de observación avanzada. Una mirada suave es parte de una comunicación afiliativa normal, mientras que una mirada dura es una señal de advertencia seria que a menudo precede a una agresión."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "El bostezo en un perro, especialmente en un contexto social o de entrenamiento, es frecuentemente:",
+        "answers": [
+            { "text": "Un signo inequívoco de aburrimiento y falta de interés.", "correct": false },
+            { "text": "Una señal de desplazamiento utilizada para gestionar un leve estrés, ansiedad o excitación.", "correct": true },
+            { "text": "Un intento deliberado de mostrar indiferencia y dominancia.", "correct": false },
+            { "text": "Simplemente una indicación de que el perro necesita dormir.", "correct": false }
+        ],
+        "explanation": "Aunque los perros bostezan cuando están cansados, el bostezo es una de las 'señales de calma' más comunes. Un perro puede bostezar cuando se siente presionado en un entrenamiento, cuando un extraño se le acerca o incluso para intentar calmar a su dueño si lo percibe tenso."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "La piloerección (erizamiento del pelo) en la espalda de un perro es una respuesta:",
+        "answers": [
+            { "text": "Voluntaria que el perro utiliza para parecer más grande y amenazante.", "correct": false },
+            { "text": "Involuntaria del sistema nervioso autónomo, indicando un alto nivel de excitación (arousal) que puede estar asociado a miedo, ira o excitación intensa.", "correct": true },
+            { "text": "Que solo ocurre cuando el perro tiene frío.", "correct": false },
+            { "text": "Exclusiva de las razas de pelo duro.", "correct": false }
+        ],
+        "explanation": "La piloerección es como la 'piel de gallina' en los humanos; el perro no la controla. Es un indicador fiable de que el perro está en un estado emocionalmente intenso, pero no nos dice cuál es la emoción. Hay que leer el resto del lenguaje corporal para interpretarla correctamente."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "Un levantamiento de pata delantera, sin que haya una presa cerca, es a menudo una señal que indica:",
+        "answers": [
+            { "text": "Que el perro quiere dar la pata para pedir un premio.", "correct": false },
+            { "text": "Incertidumbre, conflicto o un leve estrés. El perro está 'dudando' sobre cómo proceder en una situación.", "correct": true },
+            { "text": "Una lesión en la pata que le impide apoyarla.", "correct": false },
+            { "text": "Un signo de dominancia sobre otro perro.", "correct": false }
+        ],
+        "explanation": "Aunque puede ser parte de la secuencia predatoria, en contextos sociales, el levantamiento de pata es una señal sutil de inseguridad. A menudo se ve cuando un perro no está seguro de cómo interactuar con otro perro o persona, o durante un entrenamiento si está confundido."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "La zoosemiótica es el campo que estudia:",
+        "answers": [
+            { "text": "Las enfermedades zoonóticas que se transmiten entre animales y humanos.", "correct": false },
+            { "text": "La comunicación animal desde la perspectiva del estudio de los signos y las señales.", "correct": true },
+            { "text": "La cría de animales en zoológicos.", "correct": false },
+            { "text": "El movimiento y la migración de los animales.", "correct": false }
+        ],
+        "explanation": "La zoosemiótica aplica los principios de la semiótica (el estudio de los signos) al mundo animal. Analiza cómo se producen, se transmiten y se interpretan las señales, considerándolas como un verdadero lenguaje con su propia 'gramática' y contexto."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "Un gruñido de juego se puede diferenciar de un gruñido de advertencia real porque el de juego suele ser:",
+        "answers": [
+            { "text": "Mucho más corto y de un tono más grave.", "correct": false },
+            { "text": "De un tono más alto y variable, a menudo descrito como un 'juego de garganta', y acompañado de un lenguaje corporal relajado y señales de juego.", "correct": true },
+            { "text": "Siempre acompañado de enseñar todos los dientes.", "correct": false },
+            { "text": "Idéntico en sonido, la única diferencia es el contexto.", "correct": false }
+        ],
+        "explanation": "Aunque a los dueños novatos les puede preocupar, los gruñidos son una parte normal del juego canino. La clave está en la acústica (más agudo y 'cantado') y, sobre todo, en el lenguaje corporal general, que debe ser suelto, rebotante y con interrupciones para meta-comunicar."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "¿Cuál es la función del 'Flehmen', la retracción del labio superior que a veces realizan los perros tras oler intensamente algo?",
+        "answers": [
+            { "text": "Es una señal de amenaza que muestra los dientes caninos.", "correct": false },
+            { "text": "Es una acción que ayuda a transferir las moléculas odoríferas al órgano vomeronasal para un análisis químico más detallado.", "correct": true },
+            { "text": "Es una expresión facial que indica que un olor es desagradable.", "correct": false },
+            { "text": "Es un reflejo que indica que el perro está a punto de estornudar.", "correct": false }
+        ],
+        "explanation": "El Flehmen es un comportamiento especializado que facilita la detección de feromonas y otras señales químicas. Al retraer el labio, el perro abre los conductos que llevan directamente al órgano de Jacobson, permitiendo un análisis profundo de la información social olfativa."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "El rascado del suelo después de orinar o defecar es un comportamiento de marcaje que:",
+        "answers": [
+            { "text": "Busca enterrar y ocultar los desechos.", "correct": false },
+            { "text": "Añade una señal visual (los arañazos en el suelo) y una señal olfativa adicional a través de las feromonas de las glándulas interdigitales de las patas.", "correct": true },
+            { "text": "Es un signo de que el perro tiene parásitos.", "correct": false },
+            { "text": "Solo lo realizan los perros machos.", "correct": false }
+        ],
+        "explanation": "Este comportamiento es una forma de 'subrayar' el mensaje olfativo. Las marcas visuales atraen la atención hacia el lugar, y el olor depositado por las patas añade una firma personal al 'tablón de anuncios' químico."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "La comunicación táctil a través de la presión profunda (como la que aplican las camisetas anti-ansiedad) puede tener un efecto calmante porque:",
+        "answers": [
+            { "text": "Inmoviliza al perro y le impide moverse.", "correct": false },
+            { "text": "Se cree que estimula el sistema nervioso parasimpático, promoviendo la liberación de neurotransmisores calmantes como la serotonina, de forma similar a como se calma a un bebé al envolverlo.", "correct": true },
+            { "text": "Distrae al perro de la fuente de su miedo.", "correct": false },
+            { "text": "Aumenta la temperatura corporal del perro.", "correct": false }
+        ],
+        "explanation": "La presión suave y constante puede tener un efecto organizador y calmante en el sistema nervioso. Aunque no funciona para todos los perros, para muchos es una herramienta de gestión útil que puede reducir la ansiedad en situaciones estresantes."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "Un perro A se acerca a un perro B con el cuerpo rígido y la cola alta. El perro B responde girando la cabeza, lamiéndose el hocico y sentándose. La comunicación del perro B es:",
+        "answers": [
+            { "text": "Un desafío, indicando que está listo para pelear.", "correct": false },
+            { "text": "Una serie de señales de apaciguamiento para comunicar que no busca conflicto y para intentar calmar la situación.", "correct": true },
+            { "text": "Sumisión absoluta, aceptando que el perro A es el dominante.", "correct": false },
+            { "text": "Indiferencia, mostrando que no le importa la presencia del perro A.", "correct": false }
+        ],
+        "explanation": "El perro B está utilizando todo su repertorio de 'diplomacia canina'. Al evitar la confrontación directa (girar la cabeza), mostrar señales de estrés (lamido) y adoptar una postura no amenazante (sentarse), está haciendo todo lo posible para desactivar una interacción potencialmente peligrosa."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "El corte de cola y orejas en ciertas razas tiene un impacto negativo en la comunicación porque:",
+        "answers": [
+            { "text": "No tiene ningún impacto, ya que esas partes del cuerpo no se usan para comunicar.", "correct": false },
+            { "text": "Elimina o reduce significativamente la capacidad del perro para expresar intenciones y estados emocionales sutiles, dificultando que otros perros y personas lo 'lean' correctamente.", "correct": true },
+            { "text": "Hace que el perro sea más agresivo de forma innata.", "correct": false },
+            { "text": "Mejora la capacidad auditiva y el equilibrio del perro.", "correct": false }
+        ],
+        "explanation": "La posición y el movimiento de las orejas y la cola son fundamentales en la comunicación visual canina. Un perro con la cola cortada no puede señalar apaciguamiento de la misma manera, y un perro con las orejas cortadas puede parecer permanentemente alerta y tenso, lo que puede provocar malentendidos y conflictos."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "Un 'gruñido inhibido' o 'gruñido de boca cerrada' es a menudo:",
+        "answers": [
+            { "text": "Un sonido de juego.", "correct": false },
+            { "text": "Una señal de advertencia de bajo nivel, donde el perro comunica su incomodidad sin una intención inmediata de escalar a una agresión mayor.", "correct": true },
+            { "text": "Un signo de que el perro tiene un problema respiratorio.", "correct": false },
+            { "text": "Un ruido que el perro hace mientras duerme.", "correct": false }
+        ],
+        "explanation": "Este es un gruñido sutil, a menudo un retumbo en el pecho sin enseñar los dientes. Es una comunicación de advertencia temprana muy importante. Si se respeta y se alivia la causa de la incomodidad, se evita que el perro necesite escalar su comunicación a señales más obvias."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "¿Qué es la 'escalera de la agresión'?",
+        "answers": [
+            { "text": "Una jerarquía de dominancia estricta en un grupo de perros.", "correct": false },
+            { "text": "Un modelo que ilustra la progresión típica de las señales de un perro desde el estrés leve (bostezos, lamidos) hasta una mordida, si sus advertencias iniciales son ignoradas.", "correct": true },
+            { "text": "Un ejercicio de entrenamiento para perros de protección.", "correct": false },
+            { "text": "Una lista de las razas de perros más a las menos agresivas.", "correct": false }
+        ],
+        "explanation": "La escalera de la agresión (o de la comunicación) es una herramienta educativa vital. Muestra que un perro casi nunca muerde 'de la nada'. Antes de morder, sube una escalera de señales cada vez más intensas. Castigar los peldaños inferiores (gruñidos) puede hacer que el perro salte directamente al peldaño superior (mordida) la próxima vez."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "Un perro que presenta un comportamiento de 'congelación' (freezing) al ver a otro perro está comunicando:",
+        "answers": [
+            { "text": "Sumisión y deseo de ser olfateado.", "correct": false },
+            { "text": "Una tensión y un conflicto interno muy altos, y es un precursor potencial de una reacción explosiva (agresión o huida).", "correct": true },
+            { "text": "Relajación y calma.", "correct": false },
+            { "text": "Que está a punto de hacer una reverencia de juego.", "correct": false }
+        ],
+        "explanation": "La inmovilidad es una de las señales de advertencia más malinterpretadas y peligrosas. No es calma, es la 'calma antes de la tormenta'. El cerebro del perro está sobrecargado y evaluando opciones. Es un momento crítico para que el guía intervenga y cree distancia de forma segura."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "El 'olfateo social' durante un encuentro canino, donde los perros se huelen las zonas perianales, sirve para:",
+        "answers": [
+            { "text": "Establecer la dominancia de forma inmediata.", "correct": false },
+            { "text": "Recopilar una enorme cantidad de información química sobre la identidad, el sexo, el estado reproductivo, la dieta y el estado emocional del otro perro.", "correct": true },
+            { "text": "Es un comportamiento sin ninguna función, un simple vestigio de sus ancestros.", "correct": false },
+            { "text": "Comprobar si el otro perro tiene parásitos.", "correct": false }
+        ],
+        "explanation": "Las secreciones de las glándulas anales son como el 'carnet de identidad' químico de un perro. Este ritual de olfateo es una parte fundamental de un saludo canino educado, permitiendo a los perros conocerse sin necesidad de una confrontación visual directa."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "Cuando un perro empuja a su dueño con el hocico ('nudging'), generalmente es:",
+        "answers": [
+            { "text": "Un intento de dominar al dueño.", "correct": false },
+            { "text": "Una conducta de solicitud de atención o de contacto físico (comportamiento et-epimelético).", "correct": true },
+            { "text": "Un signo de agresión inminente.", "correct": false },
+            { "text": "Un comportamiento compulsivo.", "correct": false }
+        ],
+        "explanation": "Este comportamiento a menudo tiene sus raíces en el comportamiento de los cachorros de empujar a su madre para estimular el flujo de leche. En el perro adulto, se convierte en una forma de comunicación social para iniciar una interacción o pedir algo de forma educada."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "Un perro está en el veterinario y, aunque permite que lo examinen, está constantemente lamiéndose los labios y tiene las pupilas dilatadas. Estas son señales de:",
+        "answers": [
+            { "text": "Que está disfrutando de la experiencia y se siente relajado.", "correct": false },
+            { "text": "Estrés y ansiedad, aunque esté inhibiendo una respuesta más activa (lo que se conoce como un perro 'shut down' o en indefensión).", "correct": true },
+            { "text": "Que tiene hambre y quiere un premio.", "correct": false },
+            { "text": "Un problema neurológico.", "correct": false }
+        ],
+        "explanation": "Es crucial aprender a ver más allá de la ausencia de agresión. Un perro puede estar 'aguantando' una situación estresante, pero su sistema nervioso está sobrecargado. Reconocer estas señales sutiles de estrés es clave para evaluar su bienestar real y prevenir que alcance su límite de tolerancia."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "El estudio de la 'lateralización del movimiento de la cola' sugiere que:",
+        "answers": [
+            { "text": "Los perros solo pueden mover la cola en círculos.", "correct": false },
+            { "text": "Un movimiento de cola predominantemente hacia la derecha del perro se asocia con emociones positivas (acercamiento), mientras que un movimiento hacia la izquierda se asocia con emociones negativas (retirada).", "correct": true },
+            { "text": "El movimiento de la cola es completamente aleatorio y no tiene correlación con la emoción.", "correct": false },
+            { "text": "Solo los perros de ciertas razas muestran este comportamiento.", "correct": false }
+        ],
+        "explanation": "Este fenómeno se relaciona con la lateralización cerebral (el hemisferio izquierdo, que controla el lado derecho del cuerpo, está más asociado a emociones positivas). Aunque es una señal muy sutil, es un fascinante ejemplo de la complejidad de la comunicación canina."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "¿Cuál es una de las principales críticas científicas al concepto popular de 'señales de calma'?",
+        "answers": [
+            { "text": "Que los perros en realidad no utilizan ninguna de esas señales.", "correct": false },
+            { "text": "Que, si bien las señales son reales, es difícil probar que la 'intención' del perro sea siempre calmar al otro; a menudo pueden ser simplemente respuestas automáticas de autorregulación del propio estrés.", "correct": true },
+            { "text": "Que solo son efectivas para calmar a los humanos, no a otros perros.", "correct": false },
+            { "text": "Que el concepto es demasiado simple para ser útil en la práctica.", "correct": false }
+        ],
+        "explanation": "El debate no es si los perros bostezan o se lamen los labios cuando están estresados (lo cual es un hecho), sino sobre la intencionalidad de la señal. Desde una perspectiva funcional, lo importante para el profesional es reconocerlas como indicadores fiables del estado emocional del perro, independientemente de su intención precisa."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "El gemido o 'whining' en un perro es una vocalización que típicamente sirve para:",
+        "answers": [
+            { "text": "Establecer dominancia sobre otros perros.", "correct": false },
+            { "text": "Obtener algo (atención, comida, juego) o expresar malestar o dolor (comportamiento et-epimelético).", "correct": true },
+            { "text": "Amenazar a un intruso.", "correct": false },
+            { "text": "Llamar a la manada a larga distancia.", "correct": false }
+        ],
+        "explanation": "El gemido es una vocalización que a menudo deriva del comportamiento de los cachorros para solicitar cuidados. En el adulto, puede mantener esta función de solicitud o ser una expresión de estados emocionales como la frustración, la anticipación o el dolor."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "Un perro se acerca a otro y le da un 'codazo' con el hocico en el cuello. Este comportamiento, en un contexto amistoso, es a menudo:",
+        "answers": [
+            { "text": "Una forma de medir la fuerza del otro perro.", "correct": false },
+            { "text": "Una solicitud de juego o una señal de apaciguamiento.", "correct": true },
+            { "text": "El primer paso en un ataque por dominancia.", "correct": false },
+            { "text": "Un intento de robar comida.", "correct": false }
+        ],
+        "explanation": "Este tipo de contacto físico sutil es parte del repertorio de la comunicación afiliativa. Es una forma de decir 'estoy aquí, ¿interactuamos?' de una manera no amenazante, similar a un toque en el hombro entre humanos."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "La 'sonrisa sumisa' (submissive grin) en un perro, donde muestra los dientes frontales con las comisuras de los labios muy retraídas, a menudo es malinterpretada por los humanos como:",
+        "answers": [
+            { "text": "Una señal de agresión y amenaza.", "correct": true },
+            { "text": "Hambre.", "correct": false },
+            { "text": "Alegría y felicidad, como una sonrisa humana.", "correct": false },
+            { "text": "Un problema dental.", "correct": false }
+        ],
+        "explanation": "Aunque muestra los dientes, el lenguaje corporal que la acompaña (orejas hacia atrás, cuerpo bajo, movimiento de cola amplio) es de apaciguamiento, no de amenaza. Es una señal activa de sumisión que busca desactivar cualquier posible conflicto. Malinterpretarla puede llevar a una reacción humana que asuste innecesariamente al perro."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "Al saludar a un perro desconocido y tímido, ¿cuál es la mejor estrategia de comunicación humana?",
+        "answers": [
+            { "text": "Acercarse de frente, mirar directamente a los ojos y extender la mano por encima de su cabeza.", "correct": false },
+            { "text": "Ponerse de lado, evitar el contacto visual directo, agacharse y esperar a que sea el perro quien inicie el contacto.", "correct": true },
+            { "text": "Hacer ruidos fuertes y agudos para llamar su atención y mostrar que eres amigable.", "correct": false },
+            { "text": "Ofrecerle inmediatamente un abrazo para demostrarle que no eres una amenaza.", "correct": false }
+        ],
+        "explanation": "Esta estrategia utiliza el conocimiento del lenguaje canino para comunicar intenciones no amenazantes. Ponerse de lado, no mirar fijamente y ceder el control al perro son señales de 'calma' humanas que respetan el espacio y la autonomía del animal, construyendo confianza."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "La intensidad del contacto visual (mirada fija vs. mirada suave) es un modulador clave en la comunicación. Una mirada fija y directa entre dos perros es:",
+        "answers": [
+            { "text": "Una señal universal de invitación al juego.", "correct": false },
+            { "text": "A menudo una señal de confrontación y amenaza, que puede escalar un conflicto.", "correct": true },
+            { "text": "La forma estándar en que los perros se saludan.", "correct": false },
+            { "text": "Un signo de que ambos perros están relajados.", "correct": false }
+        ],
+        "explanation": "En el mundo canino, la mirada directa y sostenida es una forma de presión social. Evitar la mirada, por otro lado, es una señal de apaciguamiento. Los humanos a menudo malinterpretan esto, ya que en nuestra cultura mirar a los ojos puede ser un signo de honestidad."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "Un perro A se acerca de forma brusca a un perro B, que está atado. El perro B se queda paralizado, con el cuerpo rígido y la boca cerrada. ¿Qué está comunicando el perro B?",
+        "answers": [
+            { "text": "Que está calmado y esperando a ver qué pasa.", "correct": false },
+            { "text": "Un alto nivel de estrés y malestar. La rigidez corporal y la boca cerrada son signos de tensión, y el hecho de estar atado le impide usar la huida como estrategia.", "correct": true },
+            { "text": "Que está a punto de dormirse.", "correct": false },
+            { "text": "Que está mostrando sumisión y quiere que el perro A se acerque más.", "correct": false }
+        ],
+        "explanation": "Esta es una situación de alto riesgo. La rigidez es un precursor común de la agresión. El perro B está comunicando que se siente atrapado y amenazado. La falta de espacio para retirarse (estar atado) aumenta significativamente la probabilidad de una respuesta defensiva."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "El aullido en los perros, aunque menos común que en los lobos, sirve principalmente para:",
+        "answers": [
+            { "text": "Expresar dolor agudo.", "correct": false },
+            { "text": "La comunicación a larga distancia, para reunir al grupo social o responder a otros aullidos.", "correct": true },
+            { "text": "Mostrar agresión hacia los extraños.", "correct": false },
+            { "text": "Pedir comida.", "correct": false }
+        ],
+        "explanation": "El aullido es una vocalización diseñada para viajar largas distancias. Su estructura acústica minimiza la degradación por el entorno. Es un comportamiento de cohesión social, una forma de decir 'estoy aquí, ¿dónde estáis vosotros?'."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "La postura con el peso del cuerpo desplazado hacia atrás, a menudo con una pata levantada, indica:",
+        "answers": [
+            { "text": "Confianza y disposición a avanzar.", "correct": false },
+            { "text": "Inseguridad, miedo o conflicto. El perro está preparado para la retirada.", "correct": true },
+            { "text": "Relajación total.", "correct": false },
+            { "text": "Dominancia.", "correct": false }
+        ],
+        "explanation": "La distribución del peso es una clave sutil pero importante. Un peso centrado o hacia adelante indica confianza, mientras que un peso hacia atrás delata una intención de huida y un estado emocional de aprensión."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "Un perro se tumba con las patas delanteras estiradas y la cabeza apoyada en ellas, pero con la parte trasera levantada y la cola en movimiento. Esta postura es:",
+        "answers": [
+            { "text": "Una señal de que va a atacar.", "correct": false },
+            { "text": "Una versión de la reverencia de juego, a menudo utilizada para iniciar una interacción lúdica desde una posición de descanso.", "correct": true },
+            { "text": "Un signo de dolor abdominal.", "correct": false },
+            { "text": "Una postura de sumisión extrema.", "correct": false }
+        ],
+        "explanation": "El repertorio de juego es variado. Esta postura combina la relajación de la parte delantera con la anticipación de la trasera, siendo una clara invitación a jugar que es menos explosiva que la reverencia de juego completa."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "El concepto de 'distancia crítica' se refiere a:",
+        "answers": [
+            { "text": "La distancia máxima a la que un perro puede oler un premio.", "correct": false },
+            { "text": "El espacio personal de un perro, dentro del cual la intrusión de un estímulo percibido como amenazante probablemente desencadenará una reacción defensiva (agresión).", "correct": true },
+            { "text": "La distancia que un perro puede correr a máxima velocidad.", "correct": false },
+            { "text": "La distancia a la que un perro todavía puede oír una señal verbal.", "correct": false }
+        ],
+        "explanation": "La distancia crítica es la 'burbuja' de seguridad de un perro. Conocer y respetar esta distancia es fundamental en la modificación de conducta. El objetivo de la desensibilización es precisamente reducir esta distancia de forma gradual y segura."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "Las 'feromonas de alarma' son señales químicas que:",
+        "answers": [
+            { "text": "Son secretadas por las glándulas salivares cuando un perro está feliz.", "correct": false },
+            { "text": "Son liberadas (a menudo a través de las glándulas anales o el sudor de las almohadillas) en situaciones de miedo intenso y pueden ser detectadas por otros perros, provocando en ellos una respuesta de estrés.", "correct": true },
+            { "text": "Atraen a posibles parejas para la reproducción.", "correct": false },
+            { "text": "Calman a los cachorros recién nacidos.", "correct": false }
+        ],
+        "explanation": "Esta es una forma de comunicación química involuntaria pero muy potente. Si un perro entra en una sala de espera de un veterinario donde otro perro acaba de tener pánico, puede oler estas feromonas y empezar a mostrarse ansioso sin un motivo aparente para su dueño."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "Un perro que está siendo acariciado por un extraño se queda completamente quieto y de repente saca la lengua para lamerse el hocico muy rápidamente. Esto indica que:",
+        "answers": [
+            { "text": "Está disfrutando mucho de la caricia.", "correct": false },
+            { "text": "La interacción le está causando estrés y está utilizando una señal de calma para comunicar su incomodidad.", "correct": true },
+            { "text": "Tiene la boca seca y necesita beber.", "correct": false },
+            { "text": "Está a punto de vomitar.", "correct": false }
+        ],
+        "explanation": "El lamido de hocico, especialmente si es rápido y repetitivo, es un indicador fiable de estrés. El perro no está relajado, sino tolerando la situación. Es una señal para que el extraño se detenga antes de que el perro necesite escalar a una comunicación más clara, como un gruñido."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "La comunicación multimodal se refiere a:",
+        "answers": [
+            { "text": "La comunicación entre perros de diferentes razas.", "correct": false },
+            { "text": "El uso simultáneo de múltiples canales sensoriales (visual, auditivo, olfativo) para transmitir un mensaje más completo y robusto.", "correct": true },
+            { "text": "La capacidad de un perro para comunicarse con otras especies animales.", "correct": false },
+            { "text": "Un tipo de ladrido muy complejo.", "correct": false }
+        ],
+        "explanation": "Los perros rara vez usan una sola señal. Una amenaza se comunica con una postura (visual), un gruñido (auditivo) y posiblemente la liberación de feromonas de estrés (olfativo). Para interpretar correctamente, debemos analizar el 'paquete' completo de señales, no una sola de forma aislada."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "El 'parpadeo lento' en un perro, especialmente en respuesta a una persona, a menudo se interpreta como:",
+        "answers": [
+            { "text": "Un signo de problemas de visión.", "correct": false },
+            { "text": "Una señal de apaciguamiento, similar a girar la cabeza, que busca reducir la tensión social y comunicar intenciones pacíficas.", "correct": true },
+            { "text": "Cansancio extremo.", "correct": false },
+            { "text": "Falta de interés.", "correct": false }
+        ],
+        "explanation": "Un parpadeo lento rompe el contacto visual directo y suaviza la expresión facial. Es una señal sutil pero significativa que indica que el perro no tiene intenciones de confrontación. Los humanos pueden imitar este comportamiento para parecer menos amenazantes ante un perro tímido."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "Cuando un perro pone las orejas completamente hacia atrás, pegadas a la cabeza, puede indicar:",
+        "answers": [
+            { "text": "Curiosidad y atención máxima.", "correct": false },
+            { "text": "Miedo o apaciguamiento extremo. Es una señal para parecer más pequeño y menos amenazante.", "correct": true },
+            { "text": "Relajación total y sueño.", "correct": false },
+            { "text": "El inicio de una invitación al juego.", "correct": false }
+        ],
+        "explanation": "La posición de las orejas es un indicador muy claro del estado emocional. Mientras que las orejas hacia adelante indican atención, las orejas pegadas hacia atrás son un signo fiable de miedo o de un intento desesperado por calmar una situación que el perro percibe como amenazante."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "Un perro se tumba, pero mantiene la cabeza levantada, los músculos tensos y vigila constantemente el entorno. Esta postura indica:",
+        "answers": [
+            { "text": "Que está completamente relajado y listo para una siesta.", "correct": false },
+            { "text": "Que está en un estado de alerta y no se siente lo suficientemente seguro como para relajarse por completo.", "correct": true },
+            { "text": "Que está mostrando sumisión a su dueño.", "correct": false },
+            { "text": "Que tiene dolor de cuello.", "correct": false }
+        ],
+        "explanation": "Es crucial diferenciar entre un perro tumbado y un perro relajado. Un perro verdaderamente relajado a menudo se tumba de lado, con los músculos sueltos. La postura descrita es la de un perro que está intentando descansar pero no puede bajar la guardia, un signo de estrés o inseguridad en el entorno."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "La 'cola de helicóptero' (movimiento circular amplio y rápido) se asocia más a menudo con:",
+        "answers": [
+            { "text": "Una amenaza de agresión.", "correct": false },
+            { "text": "Un saludo extremadamente entusiasta y amistoso, a menudo reservado para personas con las que el perro tiene un fuerte vínculo.", "correct": true },
+            { "text": "Miedo e inseguridad.", "correct": false },
+            { "text": "Dolor en la base de la cola.", "correct": false }
+        ],
+        "explanation": "Este es uno de los movimientos de cola menos ambiguos. El movimiento circular, a menudo acompañado de contoneos de todo el cuerpo, es un claro indicador de una excitación social muy positiva y de intenciones amistosas."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "El 'corte de hocico' (muzzle punch), un rápido golpe con el hocico cerrado, es un comportamiento que en un contexto social puede ser:",
+        "answers": [
+            { "text": "Siempre un acto de agresión.", "correct": false },
+            { "text": "Una corrección social para interrumpir un comportamiento no deseado de otro perro, o una forma de pedir atención.", "correct": true },
+            { "text": "Una invitación al juego.", "correct": false },
+            { "text": "Un signo de afecto.", "correct": false }
+        ],
+        "explanation": "El significado depende del contexto y la intensidad. Un perro adulto puede dar un rápido y suave 'codazo' con el hocico a un cachorro que está siendo demasiado brusco. Un perro puede hacerlo a su dueño para llamar su atención. Es una forma de comunicación táctil muy directa."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "La comunicación química a través de las heces es posible gracias a:",
+        "answers": [
+            { "text": "Las bacterias presentes en el tracto digestivo.", "correct": false },
+            { "text": "Las secreciones de las glándulas anales, que se depositan sobre las heces al ser evacuadas y contienen una firma química única del individuo.", "correct": true },
+            { "text": "Los restos de comida no digerida.", "correct": false },
+            { "text": "La orina que a veces se deposita sobre las heces.", "correct": false }
+        ],
+        "explanation": "Las glándulas anales son dos pequeños sacos a cada lado del ano cuya secreción es un cóctel de compuestos químicos que informan sobre la identidad, el estado de salud y posiblemente el estado emocional del perro. De ahí la importancia del olfateo de heces entre perros."
+    },
+    {
+        "asignatura": "Comunicación Canina y Zoosemiótica",
+        "question": "Un aullido agudo y de una sola nota ('yipe') suele ser una expresión de:",
+        "answers": [
+            { "text": "Alegría extrema.", "correct": false },
+            { "text": "Dolor o susto repentino e inesperado.", "correct": true },
+            { "text": "Hambre.", "correct": false },
+            { "text": "Agresión territorial.", "correct": false }
+        ],
+        "explanation": "Este es el sonido que hace un cachorro cuando un hermano de camada le muerde demasiado fuerte en el juego. Es una señal acústica muy clara que sirve para interrumpir una interacción que ha causado dolor, y es fundamental para que los cachorros aprendan a inhibir su mordida."
+    }
+]

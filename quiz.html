@@ -210,7 +210,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Cargar preguntas desde el JSON
     async function loadQuestions() {
         try {
-            const response = await fetch('banco_preguntas_completo.json');
+            const response = await fetch('preguntas.json');
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }

@@ -1,0 +1,552 @@
+[
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "El modelo de los 'Cinco Dominios' del Bienestar Animal es una evolución de las 'Cinco Libertades'. ¿Cuál es su principal ventaja conceptual?",
+        "answers": [
+            { "text": "Se enfoca únicamente en la salud física del animal.", "correct": false },
+            { "text": "Introduce una escala de experiencias (de negativas a positivas) y consolida el 'Estado Mental' como el dominio central que refleja el bienestar general.", "correct": true },
+            { "text": "Añade una sexta libertad relacionada con la tecnología.", "correct": false },
+            { "text": "Es un modelo más simple que solo considera la nutrición.", "correct": false }
+        ],
+        "explanation": "Las Cinco Libertades se centran en evitar estados negativos. Los Cinco Dominios (Nutrición, Entorno, Salud, Comportamiento) van más allá, evaluando cómo estos cuatro dominios físicos influyen en el quinto dominio, el Estado Mental. Esto permite medir el bienestar en un espectro que incluye experiencias positivas como el placer o la vitalidad, aspirando a 'una vida que valga la pena vivir'."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "Un perro en una residencia canina pasa horas moviéndose en círculos dentro de su jaula. Este comportamiento repetitivo y sin función aparente se conoce como:",
+        "answers": [
+            { "text": "Un Patrón de Acción Fija.", "correct": false },
+            { "text": "Una estereotipia, un indicador conductual de que el bienestar del animal puede estar comprometido.", "correct": true },
+            { "text": "Una forma de juego en solitario.", "correct": false },
+            { "text": "Un signo de que el perro está esperando la comida.", "correct": false }
+        ],
+        "explanation": "Las estereotipias son comportamientos repetitivos derivados de la frustración, un intento del animal de lidiar con un ambiente pobre o estresante. Son una señal de alerta importante en la evaluación del bienestar, especialmente en entornos como refugios o laboratorios."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "Medir los niveles de cortisol en saliva o heces de un perro es una herramienta para evaluar el estrés. Un único valor alto de cortisol debe interpretarse con cautela porque:",
+        "answers": [
+            { "text": "El cortisol es una hormona que solo se produce durante el sueño.", "correct": false },
+            { "text": "Puede elevarse tanto por experiencias negativas (Distrés) como por experiencias positivas y excitantes (Eustrés).", "correct": true },
+            { "text": "Los niveles de cortisol son idénticos en todos los perros.", "correct": false },
+            { "text": "Indica de forma inequívoca una enfermedad crónica.", "correct": false }
+        ],
+        "explanation": "El cortisol mide la activación fisiológica (arousal), no la valencia emocional de la experiencia. Una sesión de juego intensa (eustrés) puede elevar el cortisol tanto como un susto (distrés). Por ello, las mediciones seriadas son más informativas sobre el estrés crónico."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "El concepto de 'carga alostática' se refiere a:",
+        "answers": [
+            { "text": "El peso máximo que un perro puede transportar.", "correct": false },
+            { "text": "El coste acumulativo y el desgaste que sufre el cuerpo por la exposición prolongada a estresores crónicos.", "correct": true },
+            { "text": "La cantidad de energía que un perro obtiene de su alimentación.", "correct": false },
+            { "text": "La capacidad de un perro para adaptarse a un nuevo entorno.", "correct": false }
+        ],
+        "explanation": "La alostasis es el proceso de adaptación al estrés. La 'carga alostática' es el precio que paga el cuerpo por esta adaptación continua. Una carga alta debilita el sistema inmune, afecta la cognición y la salud en general, siendo la consecuencia fisiológica del bienestar pobre."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "¿Cuál es el objetivo principal del enriquecimiento ambiental?",
+        "answers": [
+            { "text": "Mantener al perro constantemente ocupado para que no moleste.", "correct": false },
+            { "text": "Aumentar la complejidad del entorno para ofrecer al animal oportunidades de expresar comportamientos naturales de su especie.", "correct": true },
+            { "text": "Cansar físicamente al perro para que duerma más horas.", "correct": false },
+            { "text": "Sustituir la necesidad de interacción social con los humanos.", "correct": false }
+        ],
+        "explanation": "El enriquecimiento no es solo 'darle juguetes a un perro'. Se trata de proporcionarle retos y oportunidades (sociales, cognitivas, sensoriales, físicas) que le permitan tener agencia y comportarse como un perro, lo cual es una necesidad biológica fundamental."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "Un perro que ha sido castigado de forma impredecible, puede eventualmente dejar de ofrecer cualquier comportamiento social. Este estado se conoce como:",
+        "answers": [
+            { "text": "Dominancia.", "correct": false },
+            { "text": "Indefensión aprendida (Learned Helplessness).", "correct": true },
+            { "text": "Terquedad.", "correct": false },
+            { "text": "Inteligencia social.", "correct": false }
+        ],
+        "explanation": "La indefensión aprendida es un estado psicológico grave que ocurre cuando un animal aprende que no tiene control sobre los eventos aversivos de su entorno. Esto genera apatía, depresión y déficits de aprendizaje, siendo uno de los peores estados de bienestar posibles."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "Al evaluar el bienestar de un perro, un signo sutil de dolor crónico, a menudo malinterpretado como 'mal comportamiento', podría ser:",
+        "answers": [
+            { "text": "Un aumento en el deseo de jugar a buscar la pelota.", "correct": false },
+            { "text": "La reticencia a subir escaleras, un aumento de la irritabilidad al ser tocado, o lamerse excesivamente una articulación.", "correct": true },
+            { "text": "Dormir profundamente durante toda la noche.", "correct": false },
+            { "text": "Una mayor disposición a aprender nuevos trucos.", "correct": false }
+        ],
+        "explanation": "El dolor es uno de los mayores detractores del bienestar y una causa común de agresión. Los profesionales deben aprender a reconocer estas señales sutiles y trabajar siempre en colaboración con un veterinario."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "Ofrecer a un perro la posibilidad de elegir entre dos tipos de camas es una forma de enriquecimiento importante porque:",
+        "answers": [
+            { "text": "Complica la vida del dueño.", "correct": false },
+            { "text": "Aumenta la sensación de control del perro sobre su propio entorno, un componente fundamental del bienestar.", "correct": true },
+            { "text": "Demuestra que el perro es incapaz de tomar decisiones.", "correct": false },
+            { "text": "Es la única forma de que el perro se canse físicamente.", "correct": false }
+        ],
+        "explanation": "La falta de control es un estresor significativo. Proporcionar opciones, incluso en pequeñas cosas, le da al perro agencia y predictibilidad, reduciendo la ansiedad y mejorando su estado emocional general."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "Al diseñar un plan de enriquecimiento para un perro con alta motivación por la caza, la estrategia más adecuada sería:",
+        "answers": [
+            { "text": "Suprimir cualquier comportamiento relacionado con la caza mediante el castigo.", "correct": false },
+            { "text": "Proporcionar salidas seguras y apropiadas para esa necesidad conductual, como juegos de olfato o rastreo.", "correct": true },
+            { "text": "Ignorar el comportamiento con la esperanza de que desaparezca.", "correct": false },
+            { "text": "Limitar el ejercicio físico del perro para reducir su energía.", "correct": false }
+        ],
+        "explanation": "Un buen plan de bienestar no busca suprimir los comportamientos naturales, sino canalizarlos de forma segura y satisfactoria. Negar una necesidad conductual fuerte genera frustración y un bienestar pobre."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "El 'efecto Eureka' en animales se refiere al hallazgo de que:",
+        "answers": [
+            { "text": "Los animales prefieren no esforzarse y recibir comida gratis.", "correct": false },
+            { "text": "Resolver un problema para obtener una recompensa es más satisfactorio que recibir la misma recompensa sin esfuerzo (contrafreeloading).", "correct": true },
+            { "text": "Los animales son incapaces de resolver problemas complejos.", "correct": false },
+            { "text": "La comida es el único reforzador efectivo para los perros.", "correct": false }
+        ],
+        "explanation": "Este principio es la base científica detrás de los juguetes interactivos y los puzles de comida. El acto de resolver el problema es en sí mismo reforzante y una fuente de estimulación cognitiva que mejora el bienestar."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "Una 'auditoría de bienestar' en un refugio de animales debería incluir, como mínimo:",
+        "answers": [
+            { "text": "Solo un recuento del número de animales alojados.", "correct": false },
+            { "text": "La evaluación de indicadores basados en los recursos, en la gestión y, crucialmente, en los propios animales.", "correct": true },
+            { "text": "Únicamente una encuesta de satisfacción a los voluntarios.", "correct": false },
+            { "text": "La revisión de las finanzas y el presupuesto del refugio.", "correct": false }
+        ],
+        "explanation": "Una evaluación completa debe ser multifactorial. No basta con tener unas instalaciones bonitas (basado en recursos); es imprescindible observar a los animales para ver cómo interactúan con ese entorno y si muestran indicadores de buen o mal bienestar."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "La diferencia fundamental entre 'estrés agudo' y 'estrés crónico' es que:",
+        "answers": [
+            { "text": "El estrés agudo siempre es perjudicial, mientras que el crónico es beneficioso.", "correct": false },
+            { "text": "El estrés agudo es una respuesta adaptativa y de corta duración, mientras que el estrés crónico es una activación sostenida y dañina del sistema de estrés.", "correct": true },
+            { "text": "No existe ninguna diferencia, ambos términos son intercambiables.", "correct": false },
+            { "text": "El estrés agudo solo afecta a los cachorros y el crónico solo a los adultos.", "correct": false }
+        ],
+        "explanation": "El sistema de estrés está diseñado para funcionar en ráfagas cortas y volver a la normalidad (homeostasis). El problema surge cuando la respuesta de estrés no se desactiva, lo que lleva al desgaste fisiológico y psicológico (carga alostática)."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "Las 'Cinco Libertades' originales son un marco fundamental. ¿Cuál de las siguientes NO es una de ellas?",
+        "answers": [
+            { "text": "Libre de hambre y sed.", "correct": false },
+            { "text": "Libre de incomodidad.", "correct": false },
+            { "text": "Libre de interactuar con cualquier animal en cualquier momento.", "correct": true },
+            { "text": "Libre de expresar un comportamiento normal.", "correct": false }
+        ],
+        "explanation": "Las Cinco Libertades son: 1. Libre de hambre y sed. 2. Libre de incomodidad. 3. Libre de dolor, lesiones y enfermedad. 4. Libre de expresar un comportamiento normal. 5. Libre de miedo y angustia. La libertad de interacción no controlada no es una de ellas."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "El concepto de 'presupuesto de tiempo' (time budget) en la evaluación del bienestar se refiere a:",
+        "answers": [
+            { "text": "El coste monetario de mantener a un perro.", "correct": false },
+            { "text": "La cantidad de tiempo que un perro dedica a diferentes comportamientos (dormir, jugar, explorar) en comparación con sus congéneres en un entorno natural o ideal.", "correct": true },
+            { "text": "El tiempo que tarda un perro en aprender una nueva habilidad.", "correct": false },
+            { "text": "El tiempo máximo que un perro puede pasar solo en casa.", "correct": false }
+        ],
+        "explanation": "Un perro cuyo presupuesto de tiempo está muy alterado (p. ej., pasa el 90% del día inactivo y frustrado) tiene un bienestar comprometido. El enriquecimiento busca equilibrar este presupuesto, permitiendo al perro dedicar tiempo a comportamientos biológicamente importantes."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "El 'eustrés' es un término que describe:",
+        "answers": [
+            { "text": "La ausencia total de estrés, un estado de apatía.", "correct": false },
+            { "text": "Una forma de estrés 'positivo' o beneficioso, asociado a desafíos motivadores y experiencias excitantes que no superan la capacidad de afrontamiento del animal.", "correct": true },
+            { "text": "El estrés crónico que conduce a enfermedades.", "correct": false },
+            { "text": "El estrés experimentado por los humanos que viven con perros.", "correct": false }
+        ],
+        "explanation": "El estrés no siempre es malo. Una sesión de juego emocionante, aprender un nuevo truco o un paseo de olfateo en un lugar nuevo son ejemplos de eustrés. Promueven el aprendizaje y la resiliencia. El objetivo del bienestar no es eliminar el estrés, sino minimizar el distrés y maximizar el eustrés."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "Un perro que vive en un apartamento pequeño pero recibe paseos largos y variados, juegos de olfato diarios y entrenamiento regular puede tener mejor bienestar que un perro con un gran jardín que pasa todo el día solo. ¿Por qué?",
+        "answers": [
+            { "text": "Porque los perros no necesitan espacio físico.", "correct": false },
+            { "text": "Porque la calidad de la estimulación mental, social y sensorial es más importante para el bienestar que simplemente el tamaño del espacio físico.", "correct": true },
+            { "text": "Porque los perros de apartamento son genéticamente más tranquilos.", "correct": false },
+            { "text": "Porque los jardines son inherentemente estresantes para los perros.", "correct": false }
+        ],
+        "explanation": "Este es un concepto crucial para los dueños. Un jardín grande puede convertirse en una 'jaula de oro' si no ofrece novedad ni desafíos. El bienestar depende de la satisfacción de las necesidades etológicas del perro, no solo de proporcionarle un espacio."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "¿Cuál de los siguientes es un ejemplo de enriquecimiento cognitivo?",
+        "answers": [
+            { "text": "Jugar a la pelota en el parque.", "correct": false },
+            { "text": "Usar un puzle de comida donde el perro debe resolver un problema para obtener su ración.", "correct": true },
+            { "text": "Acariciar al perro en el sofá.", "correct": false },
+            { "text": "Dar un paseo por la misma ruta todos los días.", "correct": false }
+        ],
+        "explanation": "El enriquecimiento cognitivo se enfoca en la estimulación mental y la resolución de problemas. Actividades como el entrenamiento de discriminación de olores o los juegos de puzles desafían el cerebro del perro, previenen el aburrimiento y construyen confianza."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "La 'calidad de vida' es un concepto central en el bienestar animal. Su evaluación es compleja porque:",
+        "answers": [
+            { "text": "Es una experiencia subjetiva del animal que debemos inferir a través de la combinación de múltiples indicadores de salud física y emocional a lo largo del tiempo.", "correct": true },
+            { "text": "Solo puede ser medida por el dueño del perro, ya que es una opinión personal.", "correct": false },
+            { "text": "Se puede determinar con un único análisis de sangre.", "correct": false },
+            { "text": "Es la misma para todos los perros de la misma raza.", "correct": false }
+        ],
+        "explanation": "No hay un único 'bienestómetro'. Evaluar la calidad de vida requiere una visión holística: ¿el perro está libre de dolor?, ¿experimenta emociones positivas con frecuencia?, ¿puede expresar comportamientos importantes para él? Es una evaluación continua, no una foto fija."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "Un 'sesgo de confirmación' por parte de un dueño puede afectar negativamente al bienestar de su perro porque:",
+        "answers": [
+            { "text": "El dueño tenderá a buscar y prestar atención solo a la información que confirma sus creencias preexistentes (p. ej., 'mi perro es dominante'), ignorando las señales que las contradicen (p. ej., lenguaje corporal de miedo).", "correct": true },
+            { "text": "El dueño confirmará todas las citas con el veterinario.", "correct": false },
+            { "text": "El dueño estará más dispuesto a probar nuevas técnicas de entrenamiento.", "correct": false },
+            { "text": "Es un sesgo cognitivo que solo afecta a los perros, no a los humanos.", "correct": false }
+        ],
+        "explanation": "El sesgo de confirmación es un obstáculo importante en las consultas. Si un dueño cree que su perro es 'terco', interpretará un bostezo de estrés como 'indiferencia', lo que puede llevar a intervenciones inadecuadas y a no reconocer un problema de bienestar subyacente."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "La 'predictibilidad' es un factor clave para el bienestar. Un entorno predecible permite al perro:",
+        "answers": [
+            { "text": "Aburrirse y desarrollar apatía.", "correct": false },
+            { "text": "Aprender cuándo ocurrirán los eventos importantes (comida, paseos, ausencias), lo que reduce la ansiedad de la incertidumbre y le permite relajarse en los períodos de inactividad.", "correct": true },
+            { "text": "Desarrollar comportamientos compulsivos.", "correct": false },
+            { "text": "Ser más espontáneo y juguetón.", "correct": false }
+        ],
+        "explanation": "Los animales prosperan con rutinas predecibles. La incertidumbre constante sobre cuándo ocurrirán los eventos buenos o malos es una fuente importante de estrés crónico. Las rutinas no tienen por qué ser rígidas, pero sí deben proporcionar un marco de seguridad."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "La termografía infrarroja es una técnica no invasiva que se utiliza en la investigación del bienestar para:",
+        "answers": [
+            { "text": "Medir la temperatura corporal interna del perro.", "correct": false },
+            { "text": "Medir la temperatura de la superficie del ojo, que se correlaciona con la activación del sistema nervioso simpático y los niveles de estrés.", "correct": true },
+            { "text": "Detectar si un perro tiene fiebre.", "correct": false },
+            { "text": "Ver a través del cuerpo del perro para detectar lesiones.", "correct": false }
+        ],
+        "explanation": "En respuesta al estrés, el cuerpo redirige el flujo sanguíneo, causando un enfriamiento de las extremidades y un aumento de la temperatura alrededor de los ojos. La termografía puede visualizar estos cambios, ofreciendo una medida fisiológica del estado emocional en tiempo real."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "El concepto de 'agencia' se refiere a la capacidad de un animal para:",
+        "answers": [
+            { "text": "Obedecer órdenes sin dudar.", "correct": false },
+            { "text": "Tener control y tomar decisiones que afectan a su entorno y a sus experiencias.", "correct": true },
+            { "text": "Trabajar para una agencia de perros de asistencia.", "correct": false },
+            { "text": "Ignorar por completo a su dueño.", "correct": false }
+        ],
+        "explanation": "La agencia es el antídoto contra la indefensión aprendida. Proporcionar a un perro la capacidad de elegir (qué juguete masticar, qué ruta tomar en el paseo, si quiere ser acariciado o no) es una forma poderosa de mejorar su bienestar al darle un sentido de control sobre su propia vida."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "Un 'ambiente estéril' o poco estimulante es perjudicial para el desarrollo neurológico de un cachorro porque:",
+        "answers": [
+            { "text": "Le enseña a estar tranquilo y calmado.", "correct": false },
+            { "text": "La falta de estímulos sensoriales y cognitivos puede llevar a una 'poda' neuronal excesiva y a un desarrollo deficiente de las conexiones cerebrales, creando un adulto menos resiliente.", "correct": true },
+            { "text": "Evita que el cachorro se exponga a gérmenes y enfermedades.", "correct": false },
+            { "text": "Hace que el cachorro duerma más, lo cual es beneficioso.", "correct": false }
+        ],
+        "explanation": "El cerebro se desarrolla en respuesta a los estímulos. Un entorno rico y variado durante el período sensible de socialización 'construye' un cerebro más complejo y mejor conectado, capaz de afrontar los desafíos de la vida con más flexibilidad."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "La frecuencia cardíaca y la variabilidad de la frecuencia cardíaca (VFC) son indicadores fisiológicos de bienestar. Una alta VFC se asocia generalmente con:",
+        "answers": [
+            { "text": "Un estado de estrés crónico y mala salud.", "correct": false },
+            { "text": "Un buen tono del sistema nervioso parasimpático, adaptabilidad y resiliencia al estrés.", "correct": true },
+            { "text": "Una arritmia cardíaca que requiere tratamiento.", "correct": false },
+            { "text": "Un alto nivel de excitación y miedo.", "correct": false }
+        ],
+        "explanation": "La variabilidad de la frecuencia cardíaca (la variación en el tiempo entre latidos) refleja la capacidad del sistema nervioso autónomo para adaptarse. Una alta variabilidad indica que el sistema de 'calma y recuperación' (parasimpático) funciona bien, lo cual es un signo de buen bienestar."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "¿Cuál de las siguientes opciones describe mejor el concepto de 'necesidad etológica'?",
+        "answers": [
+            { "text": "Cualquier comportamiento que un perro disfruta haciendo.", "correct": false },
+            { "text": "Un comportamiento que un perro está fuertemente motivado a realizar, y cuya privación puede causar frustración y un bienestar pobre.", "correct": true },
+            { "text": "Los comportamientos que son fáciles de entrenar.", "correct": false },
+            { "text": "Los comportamientos que son exclusivos de una sola raza.", "correct": false }
+        ],
+        "explanation": "Una necesidad etológica (o conductual) es un comportamiento intrínseco a la especie, como olfatear, masticar o socializar. El bienestar no solo depende de evitar el dolor, sino también de tener la oportunidad de satisfacer estas necesidades fundamentales."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "Un 'presupuesto de frustración' se refiere a la idea de que:",
+        "answers": [
+            { "text": "Los perros no sienten frustración.", "correct": false },
+            { "text": "Cada perro tiene una capacidad limitada para tolerar la frustración a lo largo del día, y múltiples frustraciones menores pueden acumularse y llevar a una reacción exagerada.", "correct": true },
+            { "text": "La frustración es una herramienta de entrenamiento útil para construir el carácter.", "correct": false },
+            { "text": "La frustración solo ocurre cuando un perro no recibe suficiente comida.", "correct": false }
+        ],
+        "explanation": "Similar al 'trigger stacking' para el miedo, este concepto nos ayuda a ver el comportamiento en un contexto más amplio. Un perro que no ha podido olfatear en el paseo, que no ha podido saludar a un perro amigo y que no ha podido jugar, tendrá su 'presupuesto de frustración' agotado y puede reaccionar mal ante un pequeño contratiempo más tarde."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "¿Por qué la socialización forzada (p. ej., llevar a un cachorro tímido a un parque de perros abarrotado) es perjudicial para el bienestar?",
+        "answers": [
+            { "text": "Porque le enseña a ser valiente.", "correct": false },
+            { "text": "Porque la sobreexposición a estímulos abrumadores por encima de su umbral puede causar sensibilización y trauma, enseñando al cachorro que el mundo es un lugar peligroso.", "correct": true },
+            { "text": "Porque los otros perros pueden enseñarle malos hábitos.", "correct": false },
+            { "text": "Porque es la forma más rápida de que se acostumbre a todo.", "correct": false }
+        ],
+        "explanation": "La socialización de calidad se basa en experiencias positivas y controladas. La inundación (flooding) en un cachorro es especialmente dañina porque ocurre durante una ventana de desarrollo neurológico crítico, pudiendo crear problemas de miedo y ansiedad de por vida."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "El 'coping' o afrontamiento es la forma en que un animal responde a un estresor. Un estilo de afrontamiento 'proactivo' se caracteriza por:",
+        "answers": [
+            { "text": "Inmovilidad, apatía y retirada (indefensión).", "correct": false },
+            { "text": "Intentar activamente controlar o eliminar la fuente de estrés a través de comportamientos como ladrar, escapar o manipular el entorno.", "correct": true },
+            { "text": "Esperar a que el estresor desaparezca por sí solo.", "correct": false },
+            { "text": "Ignorar completamente el estresor.", "correct": false }
+        ],
+        "explanation": "En contraste, un estilo 'reactivo' o 'pasivo' se caracteriza por la inhibición conductual. Ningún estilo es inherentemente mejor, pero comprender el estilo de afrontamiento de un perro nos ayuda a predecir cómo reaccionará ante un desafío y a diseñar mejores estrategias de manejo."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "La 'ley del mínimo' en nutrición puede aplicarse al bienestar general, sugiriendo que:",
+        "answers": [
+            { "text": "Se debe proporcionar la mínima cantidad de comida para mantener al perro delgado.", "correct": false },
+            { "text": "El bienestar general de un perro está limitado por el factor que se encuentra en el nivel más deficiente, por muy buenos que sean todos los demás factores.", "correct": true },
+            { "text": "Un perro solo necesita un mínimo de atención para ser feliz.", "correct": false },
+            { "text": "Solo los problemas de comportamiento mínimos pueden ser tratados con éxito.", "correct": false }
+        ],
+        "explanation": "Un perro puede tener la mejor nutrición, un entorno perfecto y una salud impecable, pero si vive con miedo crónico (Dominio Mental deficiente), su bienestar general será pobre. Es una llamada a un enfoque holístico que considere todos los aspectos de la vida del perro."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "¿Cuál de las siguientes es una medida objetiva y basada en el animal para evaluar el bienestar en un refugio?",
+        "answers": [
+            { "text": "El número de 'likes' que el refugio tiene en las redes sociales.", "correct": false },
+            { "text": "La incidencia de enfermedades respiratorias o gastrointestinales en la población canina.", "correct": true },
+            { "text": "La opinión personal del director del refugio.", "correct": false },
+            { "text": "La cantidad de donaciones recibidas en el último mes.", "correct": false }
+        ],
+        "explanation": "Las medidas basadas en el animal son las más fiables porque reflejan directamente cómo los animales están lidiando con su entorno. Las tasas de enfermedad, las puntuaciones de condición corporal o la prevalencia de estereotipias son datos objetivos que indican el estado de bienestar de la población."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "El 'efecto placebo del cuidador' es un desafío en la evaluación del bienestar porque:",
+        "answers": [
+            { "text": "Los perros a menudo se sienten mejor simplemente por estar cerca de su cuidador.", "correct": false },
+            { "text": "El deseo del dueño de que un tratamiento funcione puede hacer que perciba mejoras en el comportamiento de su perro que no son objetivamente reales.", "correct": true },
+            { "text": "Los placebos no tienen ningún efecto en los animales.", "correct": false },
+            { "text": "Solo afecta a los cuidadores que son veterinarios.", "correct": false }
+        ],
+        "explanation": "Por esta razón, la investigación científica utiliza estudios doble ciego. En la práctica, un profesional debe basar su evaluación del progreso en datos medibles (frecuencia, duración, latencia de un comportamiento) y no solo en la impresión subjetiva del cliente, para evitar este sesgo."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "Proporcionar a un perro un 'lugar seguro' o 'guarida' en casa es una herramienta de gestión del bienestar fundamental, especialmente para perros con ansiedad, porque:",
+        "answers": [
+            { "text": "Les enseña a ser más independientes y a no necesitar a sus dueños.", "correct": false },
+            { "text": "Les ofrece un espacio predecible y controlable donde nunca ocurren cosas malas, al que pueden retirarse voluntariamente cuando se sienten abrumados.", "correct": true },
+            { "text": "Es una forma de castigar al perro enviándolo a su sitio.", "correct": false },
+            { "text": "Evita que el perro ensucie el resto de la casa.", "correct": false }
+        ],
+        "explanation": "Para que funcione, el lugar seguro debe ser condicionado positivamente y nunca usarse para castigos. Debe ser una 'zona de no molestar' donde el perro sabe que puede bajar la guardia por completo. Es una manifestación física de la seguridad y la predictibilidad."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "El 'juego destructivo' en un perro joven a menudo es un signo de:",
+        "answers": [
+            { "text": "Venganza por haberse quedado solo.", "correct": false },
+            { "text": "Una necesidad de masticación no satisfecha y/o falta de estimulación mental y física (aburrimiento).", "correct": true },
+            { "text": "Dominancia sobre los objetos del dueño.", "correct": false },
+            { "text": "Un intento deliberado de causar problemas.", "correct": false }
+        ],
+        "explanation": "La destrucción rara vez es 'maliciosa'. A menudo es simplemente un comportamiento normal de exploración y masticación dirigido a objetos inapropiados porque el perro no tiene alternativas mejores. La solución es gestionar el entorno y proporcionar un enriquecimiento adecuado."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "La investigación sobre la 'privación maternal' en cachorros ha demostrado que:",
+        "answers": [
+            { "text": "No tiene efectos a largo plazo en el comportamiento.", "correct": false },
+            { "text": "Puede alterar permanentemente el desarrollo del eje HHA, creando adultos que son neurobiológicamente más reactivos al estrés.", "correct": true },
+            { "text": "Hace que los cachorros sean más inteligentes y resolutivos.", "correct": false },
+            { "text": "Es una práctica recomendada para fomentar la independencia temprana.", "correct": false }
+        ],
+        "explanation": "Las primeras semanas de vida son un período crítico. El cuidado maternal (lamido, calor, lactancia) regula la fisiología del estrés del cachorro. La separación temprana o el cuidado maternal deficiente son factores de riesgo significativos para el desarrollo de problemas de ansiedad y agresión en el futuro."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "¿Cuál es la principal diferencia entre 'enriquecimiento' y 'distracción'?",
+        "answers": [
+            { "text": "El enriquecimiento busca satisfacer una necesidad etológica y construir habilidades, mientras que la distracción es una solución a corto plazo para desviar la atención de un estímulo.", "correct": true },
+            { "text": "La distracción es más efectiva que el enriquecimiento.", "correct": false },
+            { "text": "El enriquecimiento solo se puede hacer con comida.", "correct": false },
+            { "text": "Son dos términos para lo mismo.", "correct": false }
+        ],
+        "explanation": "Lanzar comida al suelo para que un perro reactivo no mire a otro perro es una distracción útil en una emergencia. Enseñar al perro a olfatear en busca de premios como una habilidad de afrontamiento es enriquecimiento. El primero es reactivo, el segundo es proactivo y construye resiliencia."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "La 'preferencia y motivación' son aspectos clave del bienestar. Un test de preferencia permite determinar:",
+        "answers": [
+            { "text": "Qué tan rápido puede correr un perro.", "correct": false },
+            { "text": "Qué opción elige un perro cuando se le presentan varias (p. ej., qué tipo de cama prefiere), mientras que un test de motivación mide cuánto está dispuesto a 'pagar' (esforzarse) por acceder a esa opción.", "correct": true },
+            { "text": "Si un perro prefiere a su dueño sobre un extraño.", "correct": false },
+            { "text": "El nivel de inteligencia de un perro.", "correct": false }
+        ],
+        "explanation": "Estos tests nos permiten 'preguntar' al perro qué es importante para él. Saber que un perro no solo prefiere una cama blanda, sino que está dispuesto a empujar una puerta pesada para acceder a ella, nos dice que ese recurso es de alto valor para su bienestar."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "El concepto de 'una vida que vale la pena vivir' (A Life Worth Living) en el contexto del bienestar animal implica:",
+        "answers": [
+            { "text": "Asegurarse de que el perro nunca experimente ningún tipo de estrés o frustración.", "correct": false },
+            { "text": "Un cambio de enfoque desde simplemente minimizar los estados negativos a asegurar que la balanza de experiencias del animal se incline decididamente hacia lo positivo a lo largo de su vida.", "correct": true },
+            { "text": "Proporcionar al perro lujos caros como ropa y joyas.", "correct": false },
+            { "text": "Garantizar que el perro viva el mayor número de años posible, sin importar su calidad de vida.", "correct": false }
+        ],
+        "explanation": "Este es el objetivo final de un enfoque moderno del bienestar. No se trata solo de que el perro 'sobreviva' o 'no sufra', sino de que 'prospere'. Esto requiere un esfuerzo consciente por proporcionar oportunidades regulares para la alegría, el juego, el confort y la satisfacción."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "Los estudios cualitativos del comportamiento (QBA - Qualitative Behavioural Assessment) son una herramienta de evaluación que se basa en:",
+        "answers": [
+            { "text": "Medir la frecuencia y duración de comportamientos específicos.", "correct": false },
+            { "text": "La capacidad de un observador entrenado para integrar y describir el 'lenguaje corporal' general de un animal usando términos como 'relajado', 'ansioso', 'juguetón' o 'apático'.", "correct": true },
+            { "text": "Realizar un análisis genético del perro.", "correct": false },
+            { "text": "Hacer una encuesta a los dueños.", "correct": false }
+        ],
+        "explanation": "El QBA no cuenta ladridos, sino que evalúa la 'expresión' emocional del animal en su conjunto. Ha demostrado ser una medida fiable y válida del estado de bienestar, capturando matices que las mediciones puramente cuantitativas a veces pasan por alto."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "La 'frustración de barrera' es un problema común que se observa cuando:",
+        "answers": [
+            { "text": "Un perro sociable se vuelve extremadamente reactivo (ladra, se lanza) cuando está atado con la correa o detrás de una valla, pero es amistoso cuando está suelto.", "correct": true },
+            { "text": "Un perro tiene miedo de pasar por las puertas.", "correct": false },
+            { "text": "Un perro no es capaz de saltar una valla.", "correct": false },
+            { "text": "Un perro se frustra porque no puede entender una barrera lingüística.", "correct": false }
+        ],
+        "explanation": "La barrera física impide que el perro pueda realizar su secuencia de saludo normal, lo que genera frustración. Esta frustración se desborda en forma de comportamientos reactivos. Es un problema de comportamiento situacional, no un rasgo de 'agresividad' general del perro."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "La 'depresión por indefensión' es un estado grave de bienestar comprometido que puede observarse en perros que:",
+        "answers": [
+            { "text": "Han sido expuestos a un control aversivo e ineludible durante un largo período, llevándolos a un estado de apatía y pasividad.", "correct": true },
+            { "text": "Duermen muchas horas al día.", "correct": false },
+            { "text": "No disfrutan de un tipo de comida en particular.", "correct": false },
+            { "text": "Reciben demasiado enriquecimiento ambiental.", "correct": false }
+        ],
+        "explanation": "Es la consecuencia final de la indefensión aprendida. El animal deja de intentar interactuar con su entorno. A menudo se confunde con un perro 'tranquilo' o 'bueno', pero es un estado de apagado emocional que representa una emergencia de bienestar."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "El enriquecimiento social para un perro no se limita a la interacción con otros perros. También incluye:",
+        "answers": [
+            { "text": "Dejar la televisión encendida cuando el perro está solo.", "correct": false },
+            { "text": "La interacción de calidad con los humanos, como sesiones de entrenamiento positivo, juego cooperativo y contacto físico consentido.", "correct": true },
+            { "text": "Tener muchos juguetes caros.", "correct": false },
+            { "text": "Vivir en una casa con otros animales, como gatos o pájaros.", "correct": false }
+        ],
+        "explanation": "Para la mayoría de los perros domésticos, la interacción con su familia humana es la forma más importante de enriquecimiento social. La calidad de este vínculo es un predictor fundamental de su bienestar general."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "Un 'conflicto motivacional' ocurre cuando un perro quiere hacer dos cosas incompatibles al mismo tiempo (p. ej., acercarse a un extraño por curiosidad pero también alejarse por miedo). Esto a menudo resulta en:",
+        "answers": [
+            { "text": "Una decisión rápida y lógica.", "correct": false },
+            { "text": "Comportamientos de desplazamiento, como olisquear el suelo o rascarse.", "correct": true },
+            { "text": "Un sueño profundo e inmediato.", "correct": false },
+            { "text": "Un comportamiento de juego.", "correct": false }
+        ],
+        "explanation": "El conflicto interno es una fuente de estrés. Las conductas de desplazamiento son una válvula de escape para esa tensión. Observar estas señales nos indica que el perro está 'atascado' y necesita ayuda (p. ej., más distancia) para resolver el conflicto."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "El concepto de 'resiliencia' es clave para el bienestar. Un perro resiliente es aquel que:",
+        "answers": [
+            { "text": "Nunca se asusta ni reacciona a nada.", "correct": false },
+            { "text": "Es capaz de recuperarse rápida y eficazmente después de una experiencia estresante o negativa.", "correct": true },
+            { "text": "Es físicamente fuerte y resistente a las enfermedades.", "correct": false },
+            { "text": "Ignora a su dueño y toma sus propias decisiones.", "correct": false }
+        ],
+        "explanation": "La resiliencia no es la ausencia de estrés, sino la capacidad de manejarlo. Se construye a través de una buena base genética, una socialización temprana positiva y experiencias de vida que le han enseñado al perro que puede superar los desafíos."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "La 'sacudida' (shake-off) después de una interacción tensa es un indicador de bienestar importante porque:",
+        "answers": [
+            { "text": "Muestra que el perro tiene frío.", "correct": false },
+            { "text": "Es un mecanismo de autorregulación que ayuda al perro a 'liberar' literalmente la tensión muscular y fisiológica acumulada durante el evento estresante.", "correct": true },
+            { "text": "Es una señal de amenaza hacia el otro perro.", "correct": false },
+            { "text": "Indica que el perro está a punto de empezar a jugar.", "correct": false }
+        ],
+        "explanation": "Observar una sacudida después de que un estresor ha pasado (p. ej., el otro perro se aleja) es una buena señal. Indica que el sistema del perro está empezando el proceso de recuperación y volviendo a la homeostasis. La ausencia de esta señal en un perro que ha estado tenso puede indicar que sigue en un estado de estrés."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "El enriquecimiento alimentario no solo consiste en la calidad de la comida, sino también en:",
+        "answers": [
+            { "text": "Darle al perro la mayor cantidad de comida posible.", "correct": false },
+            { "text": "Cómo se presenta la comida, promoviendo comportamientos de búsqueda y resolución de problemas que son mentalmente estimulantes.", "correct": true },
+            { "text": "Usar siempre el mismo tipo de cuenco para la comida.", "correct": false },
+            { "text": "Alimentar al perro solo una vez al día.", "correct": false }
+        ],
+        "explanation": "En la naturaleza, los cánidos pasan gran parte de su tiempo buscando comida. Servir la comida en un cuenco satisface la necesidad nutricional, pero no la necesidad etológica de buscar. Usar puzles de comida, alfombras olfativas o esparcir la comida por el jardín convierte la hora de la comida en una actividad de enriquecimiento."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "El término 'homeostasis' se refiere al estado de equilibrio fisiológico interno del cuerpo. El estrés es una respuesta que:",
+        "answers": [
+            { "text": "Fortalece la homeostasis.", "correct": false },
+            { "text": "Interrumpe la homeostasis para movilizar recursos y hacer frente a un desafío percibido.", "correct": true },
+            { "text": "No tiene ningún efecto sobre la homeostasis.", "correct": false },
+            { "text": "Es el proceso de volver a la homeostasis después de un esfuerzo.", "correct": false }
+        ],
+        "explanation": "La homeostasis es el estado de 'calma y equilibrio'. Un estresor es cualquier cosa que amenaza con alterar ese equilibrio. La respuesta de estrés es el conjunto de adaptaciones fisiológicas y conductuales que el cuerpo pone en marcha para restaurar la homeostasis lo más rápido posible."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "El 'efecto contagio' del estrés entre el dueño y el perro es un fenómeno en el que:",
+        "answers": [
+            { "text": "Los perros pueden detectar fisiológicamente el estrés de sus dueños (a través del olor, el ritmo cardíaco, etc.) y, como resultado, sus propios niveles de cortisol pueden aumentar de forma sincronizada.", "correct": true },
+            { "text": "El estrés solo se transmite del perro al dueño, pero no a la inversa.", "correct": false },
+            { "text": "Es un mito sin base científica.", "correct": false },
+            { "text": "Solo ocurre en perros de asistencia especialmente entrenados.", "correct": false }
+        ],
+        "explanation": "La investigación ha demostrado que existe una sincronización a largo plazo de los niveles de cortisol entre los perros y sus dueños. Esto subraya la enorme influencia que el estado emocional y la personalidad del cuidador tienen sobre el bienestar crónico de su perro."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "La 'anticipación' es un componente importante del bienestar. Un perro que muestra una conducta anticipatoria positiva (p. ej., mover la cola, excitarse) antes de un paseo está experimentando:",
+        "answers": [
+            { "text": "Ansiedad y estrés.", "correct": false },
+            { "text": "Un estado emocional positivo relacionado con la expectativa de un evento agradable, lo cual es un indicador de buen bienestar.", "correct": true },
+            { "text": "Un comportamiento compulsivo.", "correct": false },
+            { "text": "Confusión sobre lo que va a ocurrir.", "correct": false }
+        ],
+        "explanation": "La capacidad de anticipar eventos positivos es una fuente de eustrés y placer. Observar estos comportamientos es una forma de medir si un perro disfruta de ciertas actividades y tiene una perspectiva optimista sobre su rutina. La ausencia de anticipación positiva puede ser un signo de apatía o depresión."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "El enriquecimiento sensorial se enfoca en estimular los diferentes sentidos del perro. Un 'paseo sonoro' en el bosque sería un ejemplo de enriquecimiento:",
+        "answers": [
+            { "text": "Cognitivo.", "correct": false },
+            { "text": "Auditivo y olfativo.", "correct": true },
+            { "text": "Físico.", "correct": false },
+            { "text": "Social.", "correct": false }
+        ],
+        "explanation": "A menudo nos centramos en el ejercicio físico, pero la estimulación sensorial es igualmente importante. Un paseo tranquilo en un entorno natural ofrece una sinfonía de sonidos y olores que son increíblemente enriquecedores para el cerebro de un perro, mucho más que un paseo apresurado por una acera de la ciudad."
+    },
+    {
+        "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
+        "question": "La 'privación de sueño' puede tener un impacto significativo en el comportamiento de un perro, llevando a:",
+        "answers": [
+            { "text": "Una mayor capacidad de aprendizaje.", "correct": false },
+            { "text": "Un aumento de la irritabilidad, una menor tolerancia a la frustración y una mayor reactividad emocional.", "correct": true },
+            { "text": "Un estado de calma y relajación.", "correct": false },
+            { "text": "Una mejora en la memoria a largo plazo.", "correct": false }
+        ],
+        "explanation": "El sueño es esencial para la regulación emocional y la consolidación de la memoria. Un perro que no descansa lo suficiente (debido al dolor, la ansiedad o un ambiente ruidoso) tendrá menos recursos cognitivos y emocionales para afrontar los desafíos del día, de forma similar a un humano."
+    }
+]

@@ -1,0 +1,563 @@
+[
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "Al enseñar a un perro a ir a su cama, un entrenador refuerza primero que el perro mire la cama, luego que dé un paso hacia ella, luego que ponga una pata encima, y así sucesivamente. Esta técnica se denomina:",
+        "answers": [
+            { "text": "Señuelo (Luring).", "correct": false },
+            { "text": "Moldeado (Shaping).", "correct": true },
+            { "text": "Captura (Capturing).", "correct": false },
+            { "text": "Encadenamiento (Chaining).", "correct": false }
+        ],
+        "explanation": "El moldeado es el proceso de construir un comportamiento complejo reforzando sistemáticamente aproximaciones cada vez más cercanas al comportamiento final. Es una técnica poderosa que fomenta la participación activa y la capacidad de resolución de problemas del perro."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "El principio fundamental de un protocolo de Desensibilización Sistemática y Contracondicionamiento (DSCC) para un perro con miedo es:",
+        "answers": [
+            { "text": "Exponer al perro al estímulo a máxima intensidad para que se acostumbre (inundación).", "correct": false },
+            { "text": "Presentar el estímulo a una distancia o intensidad en la que el perro NO muestre miedo (sub-umbral), y asociarlo con un reforzador de alto valor.", "correct": true },
+            { "text": "Castigar al perro por mostrar miedo.", "correct": false },
+            { "text": "Enseñar al perro a sentarse en presencia del estímulo.", "correct": false }
+        ],
+        "explanation": "El éxito del DSCC depende críticamente de trabajar por debajo del umbral de reacción. El objetivo es cambiar la respuesta emocional subyacente (de miedo a anticipación positiva), y esto solo puede ocurrir si el sistema de miedo del cerebro no está activado."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "El concepto de 'umbral de reacción' se refiere a:",
+        "answers": [
+            { "text": "La cantidad máxima de premios que un perro puede comer.", "correct": false },
+            { "text": "El punto en la intensidad de un estímulo en el que un perro pasa de estar en un estado de aprendizaje a un estado de reacción emocional (miedo, frustración, agresión).", "correct": true },
+            { "text": "La distancia a la que un perro puede oler un estímulo.", "correct": false },
+            { "text": "El tiempo que tarda un perro en responder a una señal.", "correct": false }
+        ],
+        "explanation": "Identificar y trabajar por debajo del umbral es la habilidad más importante de un modificador de conducta. Estar 'sobre el umbral' significa que el cerebro límbico ha tomado el control, el aprendizaje constructivo cesa y el perro simplemente está reaccionando."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "La filosofía central del protocolo Behavior Adjustment Training (BAT) 2.0 de Grisha Stewart es:",
+        "answers": [
+            { "text": "Enseñar al perro a mirar a su guía para recibir comida cada vez que ve un detonante.", "correct": false },
+            { "text": "Utilizar el propio entorno y la distancia al estímulo como reforzadores funcionales, dando al perro el control para aprender a gestionar la situación de forma calmada.", "correct": true },
+            { "text": "Corregir al perro con un tirón de correa en el momento exacto en que reacciona.", "correct": false },
+            { "text": "Crear una asociación positiva con el estímulo mediante el uso de un clicker.", "correct": false }
+        ],
+        "explanation": "A diferencia del DSCC clásico que crea una nueva asociación, el BAT se enfoca en la rehabilitación de habilidades sociales. Utiliza reforzadores funcionales (lo que el perro realmente quiere, como más espacio) para darle agencia y control, lo que reduce la necesidad de reaccionar."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "Poner una valla en el jardín para evitar que un perro persiga a los corredores es un ejemplo de:",
+        "answers": [
+            { "text": "Refuerzo Negativo.", "correct": false },
+            { "text": "Modificación de conducta activa.", "correct": false },
+            { "text": "Gestión o manejo ambiental (Management).", "correct": true },
+            { "text": "Enriquecimiento ambiental.", "correct": false }
+        ],
+        "explanation": "La gestión es una parte crucial de cualquier plan. Su objetivo es prevenir que el comportamiento problemático se siga practicando (y auto-reforzando), garantizando la seguridad mientras se implementan los protocolos de modificación de conducta."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "El principio ético de 'Mínima Invasión y Jerarquía de Intervenciones' (LIMA) establece que un profesional debe:",
+        "answers": [
+            { "text": "Utilizar siempre la herramienta más potente y rápida para solucionar el problema.", "correct": false },
+            { "text": "Priorizar siempre las estrategias de refuerzo positivo y agotar las opciones menos intrusivas antes de considerar procedimientos aversivos.", "correct": true },
+            { "text": "Basar sus intervenciones únicamente en lo que el cliente prefiera.", "correct": false },
+            { "text": "Aplicar siempre castigo positivo como primera opción.", "correct": false }
+        ],
+        "explanation": "LIMA es un estándar de competencia y ética. Guía la toma de decisiones, obligando al profesional a considerar no solo la efectividad de una intervención, sino también su impacto en el bienestar del animal."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "Una 'señal envenenada' (Poisoned Cue) es una señal que:",
+        "answers": [
+            { "text": "Ha sido asociada tanto con consecuencias positivas como negativas, creando conflicto y estrés en el perro.", "correct": true },
+            { "text": "El perro ha olvidado por completo.", "correct": false },
+            { "text": "Se ha utilizado con un tono de voz demasiado alto.", "correct": false },
+            { "text": "Predice la aparición de comida en mal estado.", "correct": false }
+        ],
+        "explanation": "Si a un perro se le enseña la llamada con premios, pero también se le regaña por tardar en venir, la señal 'ven' se envenena. El perro duda, viene lento, porque la señal se ha vuelto ambigua y predice tanto cosas buenas como malas."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "El entrenamiento de 'Cuidado Cooperativo' (Cooperative Care) tiene como objetivo:",
+        "answers": [
+            { "text": "Inmovilizar al perro de forma segura para poder realizar procedimientos veterinarios.", "correct": false },
+            { "text": "Enseñar al perro a participar voluntariamente en procedimientos de manejo, dándole señales para indicar su consentimiento.", "correct": true },
+            { "text": "Distraer al perro con comida mientras se le realiza un procedimiento molesto.", "correct": false },
+            { "text": "Medicar al perro para que esté sedado durante las visitas al veterinario.", "correct": false }
+        ],
+        "explanation": "El cuidado cooperativo es una aplicación avanzada del entrenamiento que transforma la dinámica de poder. El perro aprende que tiene control sobre el procedimiento, lo que reduce drásticamente el miedo y la necesidad de usar la fuerza."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "Al diseñar un plan de modificación de conducta, un componente ESENCIAL es:",
+        "answers": [
+            { "text": "Una garantía de que el problema se resolverá en dos semanas.", "correct": false },
+            { "text": "Un protocolo detallado de gestión, un protocolo de entrenamiento de una conducta alternativa, y criterios claros para evaluar el progreso.", "correct": true },
+            { "text": "Una lista de collares de castigo recomendados.", "correct": false },
+            { "text": "La recomendación de no contactar con un veterinario.", "correct": false }
+        ],
+        "explanation": "Un plan profesional debe ser un documento claro y estructurado. Debe incluir medidas de seguridad (gestión), un plan de acción claro para cambiar el comportamiento (entrenamiento), y una forma objetiva de saber si está funcionando."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "La principal diferencia entre usar un señuelo (luring) y el moldeado (shaping) es que:",
+        "answers": [
+            { "text": "El señuelo es siempre más rápido y efectivo.", "correct": false },
+            { "text": "El señuelo guía al perro, mientras que el moldeado fomenta que el perro piense y ofrezca comportamientos de forma voluntaria.", "correct": true },
+            { "text": "El señuelo solo se puede hacer con comida.", "correct": false },
+            { "text": "No hay ninguna diferencia.", "correct": false }
+        ],
+        "explanation": "El señuelo es útil para 'mostrar' al perro una conducta, pero debe retirarse pronto para que no se vuelva dependiente. El moldeado es un proceso más lento pero que crea un perro más implicado y creativo en el aprendizaje."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "La 'captura' (capturing) de un comportamiento se basa en:",
+        "answers": [
+            { "text": "Forzar al perro a una posición.", "correct": false },
+            { "text": "Esperar a que el perro ofrezca un comportamiento de forma espontánea y reforzarlo en ese preciso instante.", "correct": true },
+            { "text": "Usar un señuelo para crear el comportamiento.", "correct": false },
+            { "text": "Reforzar cualquier comportamiento que se parezca al deseado.", "correct": false }
+        ],
+        "explanation": "La captura es ideal para comportamientos que el perro ya hace de forma natural, como estirarse, bostezar o sentarse. Si se refuerza consistentemente, se puede poner bajo el control de una señal. Es una forma de entrenamiento muy poco intrusiva."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "El 'targeting' es una técnica que consiste en enseñar a un perro a:",
+        "answers": [
+            { "text": "Fijar su mirada en un objetivo.", "correct": false },
+            { "text": "Tocar un objeto específico (el target) con una parte de su cuerpo (generalmente la nariz o la pata).", "correct": true },
+            { "text": "Perseguir un objetivo en movimiento.", "correct": false },
+            { "text": "Seleccionar un objetivo entre varios.", "correct": false }
+        ],
+        "explanation": "El targeting es increíblemente versátil. Una vez que el perro sabe seguir un target, se puede usar para guiarlo a nuevas posiciones (subir a una báscula, entrar al coche) sin necesidad de señuelos ni manipulación física."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "En un protocolo de DSCC, si un perro muestra signos de estrés como bostezos o lamidos de hocico, el entrenador debe:",
+        "answers": [
+            { "text": "Continuar con la sesión, ya que son signos de que el perro se está relajando.", "correct": false },
+            { "text": "Aumentar inmediatamente la intensidad del estímulo para que el perro se acostumbre más rápido.", "correct": false },
+            { "text": "Reconocer que el perro está cerca o por encima de su umbral y aumentar la distancia o disminuir la intensidad del estímulo inmediatamente.", "correct": true },
+            { "text": "Introducir un castigo para detener los bostezos.", "correct": false }
+        ],
+        "explanation": "Estos signos sutiles son la primera indicación de que el perro está dejando de estar en una zona de aprendizaje y está entrando en una zona de estrés. Ignorarlos y continuar puede sensibilizar al perro y hacer que el protocolo sea contraproducente."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "Un 'reforzador funcional' es un reforzador que:",
+        "answers": [
+            { "text": "Siempre es comida de alto valor.", "correct": false },
+            { "text": "Satisface la motivación subyacente que impulsa el comportamiento del perro en ese momento específico.", "correct": true },
+            { "text": "Funciona para todos los perros por igual.", "correct": false },
+            { "text": "Es fácil de entregar por parte del guía.", "correct": false }
+        ],
+        "explanation": "Para un perro con miedo que ladra a otro perro, el reforzador funcional no es una salchicha, es 'más distancia'. Para un perro frustrado que tira de la correa para oler un árbol, el reforzador funcional es 'la oportunidad de oler'. El protocolo BAT se basa en el uso de estos reforzadores."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "El 'encadenamiento hacia atrás' (back-chaining) es a menudo más efectivo que el encadenamiento hacia adelante porque:",
+        "answers": [
+            { "text": "Es más rápido enseñar el último comportamiento.", "correct": false },
+            { "text": "Cada nuevo comportamiento que se añade a la cadena es inmediatamente reforzado por la oportunidad de realizar el siguiente comportamiento, que ya es conocido y está fuertemente asociado con el premio final.", "correct": true },
+            { "text": "Los perros tienen mejor memoria para las cosas que ocurrieron al final de una secuencia.", "correct": false },
+            { "text": "Requiere menos repeticiones en total.", "correct": false }
+        ],
+        "explanation": "En el 'back-chaining', la motivación se mantiene alta a lo largo de todo el proceso de aprendizaje, ya que cada paso nuevo conduce a un paso ya conocido y reforzado, creando un efecto de 'bola de nieve' motivacional hacia el reforzador primario."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "El protocolo de relajación de Karen Overall (Protocol for Relaxation) es un ejercicio estructurado que enseña al perro a:",
+        "answers": [
+            { "text": "Dormir a la orden.", "correct": false },
+            { "text": "Mantenerse en calma en una posición de 'tumbado' mientras se introducen gradualmente estímulos de diferente intensidad a su alrededor.", "correct": true },
+            { "text": "Relajarse únicamente en presencia de otros perros.", "correct": false },
+            { "text": "Jugar de forma tranquila y controlada.", "correct": false }
+        ],
+        "explanation": "Es un protocolo de 15 días que desensibiliza sistemáticamente al perro a una variedad de estímulos (aplausos, gente corriendo, etc.) mientras está en un estado de calma. El objetivo es enseñar la calma como un comportamiento por defecto que puede ser reforzado."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "La principal diferencia entre el protocolo BAT 2.0 y el DSCC clásico es:",
+        "answers": [
+            { "text": "BAT es proactivo y da agencia al perro para que aprenda a gestionar la situación, mientras que el DSCC es más pasivo y se enfoca en cambiar la asociación emocional.", "correct": true },
+            { "text": "BAT solo utiliza castigo, mientras que DSCC solo utiliza refuerzo.", "correct": false },
+            { "text": "DSCC es para la agresión y BAT es para el miedo.", "correct": false },
+            { "text": "No hay diferencias significativas, son dos nombres para el mismo protocolo.", "correct": false }
+        ],
+        "explanation": "El DSCC dice: 'la aparición del detonante predice comida'. El BAT dice: 'comportarte de forma calmada en presencia del detonante te da el poder de alejarte o investigar de forma segura'. El DSCC cambia la emoción, el BAT enseña una habilidad de afrontamiento."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "¿Qué es un 'marcador de no refuerzo' (No Reward Marker) como la palabra 'lástima' o 'inténtalo de nuevo'?",
+        "answers": [
+            { "text": "Un castigo verbal que le dice al perro que lo ha hecho mal.", "correct": false },
+            { "text": "Una señal que informa al perro de que la respuesta que ha ofrecido no es la correcta y no obtendrá un refuerzo, pero que debe seguir intentándolo.", "correct": true },
+            { "text": "Una forma de terminar la sesión de entrenamiento.", "correct": false },
+            { "text": "Un reforzador secundario.", "correct": false }
+        ],
+        "explanation": "Su uso es debatido. Los defensores argumentan que proporciona información clara y puede reducir la frustración en perros que se desaniman si no reciben refuerzo. Los detractores argumentan que puede ser aversivo y castigar el intento del perro. Si se usa, debe tener siempre un tono neutro y alentador."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "El concepto de 'errorless learning' (aprendizaje sin error) en el entrenamiento canino implica:",
+        "answers": [
+            { "text": "Castigar severamente cualquier error para que el perro aprenda rápidamente.", "correct": false },
+            { "text": "Estructurar la sesión de entrenamiento y manipular los antecedentes de tal manera que sea casi imposible para el perro cometer un error, construyendo así una fuerte historia de refuerzo.", "correct": true },
+            { "text": "Repetir el ejercicio hasta que el perro ya no cometa errores.", "correct": false },
+            { "text": "Ignorar los errores y reforzar solo los aciertos.", "correct": false }
+        ],
+        "explanation": "En lugar de esperar a que el perro se equivoque, el entrenador prepara el entorno para garantizar el éxito. Por ejemplo, al enseñar un 'espera', se empieza con una duración de medio segundo para que el perro no tenga tiempo de fallar. Esto genera confianza y un aprendizaje más rápido y con menos frustración."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "La 'generalización' es a menudo el paso más difícil del entrenamiento. Para ayudar a un perro a generalizar una conducta como 'sentado', un entrenador debe:",
+        "answers": [
+            { "text": "Practicar la conducta en una gran variedad de lugares, con diferentes niveles de distracción y con diferentes personas dándole la señal.", "correct": true },
+            { "text": "Entrenar la conducta únicamente en el salón de casa hasta que sea perfecta.", "correct": false },
+            { "text": "Usar un castigo si el perro no obedece en un nuevo entorno.", "correct": false },
+            { "text": "Asumir que si el perro sabe la conducta en un lugar, la sabe en todos.", "correct": false }
+        ],
+        "explanation": "Los perros aprenden de forma muy específica al contexto. Para ellos, 'sentado' en el salón es una conducta diferente a 'sentado' en el parque. La generalización debe ser entrenada activamente, practicando en muchos entornos diferentes y ajustando los criterios al principio."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "Al usar un señuelo (luring), el proceso de 'desvanecer' el señuelo es crucial. Un primer paso para desvanecer un señuelo de comida en la mano es:",
+        "answers": [
+            { "text": "Hacer el mismo gesto con la mano, pero sin tener comida en ella, y premiar desde la otra mano.", "correct": true },
+            { "text": "Dejar de usar la mano por completo y pasar directamente a la señal verbal.", "correct": false },
+            { "text": "Usar un trozo de comida más grande para que el perro se fije más.", "correct": false },
+            { "text": "Repetir el gesto con comida cientos de veces hasta que esté memorizado.", "correct": false }
+        ],
+        "explanation": "El objetivo es transferir el control del comportamiento desde el señuelo visual de la comida al gesto de la mano. Al vaciar la mano del señuelo pero manteniendo el gesto, se enseña al perro a seguir el gesto en sí mismo, no la comida."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "El 'Reforzamiento Diferencial de Otras conductas' (DRO) consiste en:",
+        "answers": [
+            { "text": "Reforzar una conducta específica que es incompatible con la problemática.", "correct": false },
+            { "text": "Reforzar al perro por cualquier comportamiento que realice, EXCEPTO el comportamiento problemático, durante un intervalo de tiempo determinado.", "correct": true },
+            { "text": "Reforzar al perro solo cuando está completamente quieto y no hace nada.", "correct": false },
+            { "text": "Reforzar una conducta de baja frecuencia para que ocurra más a menudo.", "correct": false }
+        ],
+        "explanation": "El DRO se enfoca en el 'tiempo sin el problema'. Si un perro ladra por atención, se le refuerza por cada 10 segundos que permanezca en silencio. El desafío del DRO es que se podría estar reforzando otra conducta no deseada que ocurra en ese intervalo."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "¿Cuál es un posible efecto secundario negativo de un protocolo de extinción para un comportamiento de búsqueda de atención?",
+        "answers": [
+            { "text": "La conducta desaparecerá inmediatamente.", "correct": false },
+            { "text": "Una 'explosión de extinción' donde el perro intensifica la conducta, y la aparición de frustración que puede llevar a otros comportamientos no deseados.", "correct": true },
+            { "text": "El perro se volverá más apegado a su dueño.", "correct": false },
+            { "text": "El perro aprenderá a pedir atención de forma más educada por sí solo.", "correct": false }
+        ],
+        "explanation": "La extinción puede ser estresante para un perro si no se combina con el reforzamiento de una conducta alternativa. El perro solo sabe que lo que antes funcionaba ya no funciona, lo que genera frustración. Por eso, los planes modernos casi siempre combinan la extinción con un DRI o DRA."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "El 'mantenimiento' de un comportamiento se refiere a:",
+        "answers": [
+            { "text": "El proceso de enseñar una conducta por primera vez.", "correct": false },
+            { "text": "La práctica continua y el refuerzo intermitente de una conducta ya aprendida para asegurar que se mantenga fuerte y fiable a lo largo del tiempo.", "correct": true },
+            { "text": "Corregir al perro cuando falla en una conducta que ya sabía.", "correct": false },
+            { "text": "La generalización de la conducta a nuevos entornos.", "correct": false }
+        ],
+        "explanation": "El entrenamiento no termina cuando el perro 'aprende' una conducta. Las habilidades, si no se practican, se debilitan. El mantenimiento implica seguir reforzando la conducta de vez en cuando con un programa de refuerzo variable para mantenerla robusta."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "En el protocolo 'Look At That' (LAT) de Leslie McDevitt, el objetivo es enseñar a un perro reactivo a:",
+        "answers": [
+            { "text": "Ignorar por completo la presencia de otros perros.", "correct": false },
+            { "text": "Ver a un detonante (otro perro) a una distancia segura, y luego girarse voluntariamente para mirar a su guía, anticipando un refuerzo.", "correct": true },
+            { "text": "Ladrar al detonante para conseguir un premio.", "correct": false },
+            { "text": "Sentarse y quedarse quieto hasta que el detonante desaparezca.", "correct": false }
+        ],
+        "explanation": "El LAT es una combinación brillante de condicionamiento clásico y operante. Primero, el perro aprende que la vista del detonante predice un premio (clásico). Luego, se le enseña a ofrecer una conducta operante (mirar al guía) como una forma de decir '¡He visto al perro! ¿Dónde está mi premio?'. Convierte la reacción en una solicitud."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "¿Cuál de las siguientes es una señal de que un perro está 'por encima de su umbral'?",
+        "answers": [
+            { "text": "Puede comer premios de alto valor y responde a señales conocidas.", "correct": false },
+            { "text": "Se niega a tomar comida, incluso su favorita, muestra piloerección, tiene las pupilas dilatadas y no responde a las señales del guía.", "correct": true },
+            { "text": "Mueve la cola de forma amplia y relajada.", "correct": false },
+            { "text": "Inicia una reverencia de juego.", "correct": false }
+        ],
+        "explanation": "La incapacidad de comer es un indicador fisiológico muy fiable de que el sistema de estrés simpático ha tomado el control (la digestión no es una prioridad en una situación de lucha o huida). Si un perro que normalmente está motivado por la comida la rechaza, la sesión debe detenerse y se debe crear más distancia."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "La 'saturación' (habituation to the reinforcer) es un problema que ocurre cuando:",
+        "answers": [
+            { "text": "El perro se cansa físicamente de la sesión de entrenamiento.", "correct": false },
+            { "text": "El reforzador se presenta con tanta frecuencia que pierde su valor y el perro pierde la motivación para trabajar por él.", "correct": true },
+            { "text": "El perro ha comido demasiado y se siente mal.", "correct": false },
+            { "text": "El perro está sobre-estimulado por el entorno.", "correct": false }
+        ],
+        "explanation": "La saturación es diferente de la saciación (estar lleno). Ocurre cuando el mismo reforzador se usa una y otra vez hasta que se vuelve aburrido. Por eso es útil tener una variedad de reforzadores y usarlos de forma intermitente para mantener su valor."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "Un 'protocolo de intervención' bien diseñado debe especificar:",
+        "answers": [
+            { "text": "Solo el objetivo final.", "correct": false },
+            { "text": "Los antecedentes (setup), la conducta a entrenar y los criterios para el refuerzo, así como los criterios para avanzar al siguiente paso.", "correct": true },
+            { "text": "Solo las herramientas de castigo a utilizar si el perro falla.", "correct": false },
+            { "text": "Que el dueño debe improvisar según la situación.", "correct": false }
+        ],
+        "explanation": "Un protocolo es una receta detallada que cualquier persona debería poder seguir. Debe ser claro, conciso y operativo. Definir los criterios ('reforzar si el perro permanece sentado 3 segundos') elimina la ambigüedad y hace que el entrenamiento sea más consistente y efectivo."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "Al usar un marcador como un clicker, un error común de 'timing' es:",
+        "answers": [
+            { "text": "Hacer el 'click' demasiado rápido.", "correct": false },
+            { "text": "Hacer el 'click' en el momento exacto en que el perro completa la conducta, no mientras la está haciendo.", "correct": false },
+            { "text": "Hacer el 'click' uno o dos segundos después de que el perro ha realizado la conducta, marcando así el comportamiento incorrecto.", "correct": true },
+            { "text": "No entregar el premio inmediatamente después del 'click'.", "correct": false }
+        ],
+        "explanation": "El clicker es una cámara de fotos. Debe 'capturar' el instante preciso en que ocurre la conducta deseada. Un 'click' tardío refuerza lo que el perro estaba haciendo en el momento del sonido, que puede ser levantarse de un sentado, por ejemplo."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "El 'condicionamiento de un bozal' de forma positiva es un procedimiento de:",
+        "answers": [
+            { "text": "Castigo negativo, ya que el bozal restringe al perro.", "correct": false },
+            { "text": "Condicionamiento clásico y operante, donde se asocia el bozal con reforzadores de alto valor (clásico) y se refuerza al perro por interactuar voluntariamente con él (operante).", "correct": true },
+            { "text": "Inundación, forzando al perro a llevar el bozal hasta que se rinda.", "correct": false },
+            { "text": "Refuerzo negativo, premiando al perro solo cuando se le quita el bozal.", "correct": false }
+        ],
+        "explanation": "Un bozal es una herramienta de seguridad vital, pero nunca debe ser aversiva. Un acondicionamiento positivo cuidadoso transforma el bozal en una señal que predice cosas buenas. El perro aprende a meter el hocico voluntariamente, convirtiendo un procedimiento potencialmente estresante en un juego cooperativo."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "La principal ventaja de la 'captura' (capturing) sobre el 'moldeado' (shaping) es que:",
+        "answers": [
+            { "text": "Es mucho más rápida para enseñar comportamientos complejos.", "correct": false },
+            { "text": "El comportamiento capturado suele ser más natural y menos 'robótico', ya que es algo que el perro ya ofrece de forma espontánea.", "correct": true },
+            { "text": "No requiere el uso de reforzadores.", "correct": false },
+            { "text": "Se puede usar para enseñar cualquier comportamiento, incluso los que el perro nunca haría por sí mismo.", "correct": false }
+        ],
+        "explanation": "Mientras que el moldeado es ideal para construir conductas que no están en el repertorio natural del perro, la captura es perfecta para poner bajo señal comportamientos naturales (un estiramiento, un ladrido, un giro). El resultado final suele ser una conducta más fluida y expresiva."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "La 'habituación' a un estímulo puede fallar y convertirse en 'sensibilización' si:",
+        "answers": [
+            { "text": "El estímulo se presenta con demasiada frecuencia.", "correct": false },
+            { "text": "El estímulo es demasiado intenso o se presenta de forma impredecible, provocando una respuesta de miedo que impide el aprendizaje de que es irrelevante.", "correct": true },
+            { "text": "El perro es demasiado joven.", "correct": false },
+            { "text": "Se utilizan premios de comida durante el proceso.", "correct": false }
+        ],
+        "explanation": "La habituación solo funciona con estímulos que están por debajo del umbral de miedo. Intentar 'habituar' a un cachorro a los ruidos fuertes exponiéndolo a petardos es una receta para el desastre, ya que la intensidad del estímulo activará el sistema de miedo y provocará sensibilización."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "La diferencia entre un 'marcador' y una 'señal' (cue) en el entrenamiento es que:",
+        "answers": [
+            { "text": "El marcador le dice al perro QUÉ hacer, y la señal le dice que lo ha hecho bien.", "correct": false },
+            { "text": "La señal (o antecedente) le dice al perro QUÉ hacer, y el marcador (o puente) le informa de que la respuesta que ha dado es la correcta y va a ser reforzada.", "correct": true },
+            { "text": "Son dos palabras para lo mismo.", "correct": false },
+            { "text": "El marcador siempre es un sonido y la señal siempre es un gesto.", "correct": false }
+        ],
+        "explanation": "Es una distinción fundamental en la terminología del ABC (Antecedente-Conducta-Consecuencia). La señal es el antecedente ('Sienta'). El marcador ('¡Bien!') es el inicio de la consecuencia, indicando que el refuerzo está en camino."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "El 'Reforzamiento Diferencial de Conductas de Baja Frecuencia' (DRL) es una estrategia útil para:",
+        "answers": [
+            { "text": "Eliminar un comportamiento por completo.", "correct": false },
+            { "text": "Reducir la frecuencia de un comportamiento que es aceptable en pequeñas dosis, pero no en exceso (p. ej., ladrar para pedir juego).", "correct": true },
+            { "text": "Enseñar un comportamiento completamente nuevo.", "correct": false },
+            { "text": "Aumentar la frecuencia de un comportamiento raro.", "correct": false }
+        ],
+        "explanation": "El DRL no busca eliminar la conducta, sino reducirla a un nivel aceptable. Se refuerza al perro solo si realiza la conducta un número de veces inferior a una línea base en un período de tiempo (p. ej., reforzar si ladra menos de 3 veces en un minuto)."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "El protocolo 'Constructional Aggression Treatment' (CAT) se basa en el principio de:",
+        "answers": [
+            { "text": "Refuerzo negativo, donde la oportunidad de interactuar con el estímulo aversivo se retira como refuerzo para un comportamiento calmado.", "correct": true },
+            { "text": "Castigo positivo, corrigiendo al perro por mostrar agresión.", "correct": false },
+            { "text": "Contracondicionamiento clásico, asociando al estímulo con comida.", "correct": false },
+            { "text": "Inundación, exponiendo al perro a su detonante de forma masiva.", "correct": false }
+        ],
+        "explanation": "El CAT es un protocolo avanzado y controvertido. A diferencia del DSCC o BAT, se expone al perro a su detonante (a distancia segura) y se utiliza la retirada del detonante como refuerzo negativo para cualquier comportamiento que no sea agresivo. Requiere una habilidad técnica muy alta."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "Un 'plan de desvanecimiento' (fading plan) se refiere a:",
+        "answers": [
+            { "text": "El proceso por el cual una conducta se extingue.", "correct": false },
+            { "text": "La reducción gradual y sistemática de las ayudas o señuelos utilizados para provocar un comportamiento, hasta que el perro responde a la señal final y sutil.", "correct": true },
+            { "text": "Un plan para que el perro pierda peso.", "correct": false },
+            { "text": "La disminución de la motivación del perro a lo largo de una sesión.", "correct": false }
+        ],
+        "explanation": "Un buen entrenador no solo introduce ayudas, sino que tiene un plan claro para eliminarlas. Esto incluye desvanecer señuelos de comida, reducir la exageración de las señales corporales o aumentar gradualmente la duración de un 'espera'."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "El 'blocking' (bloqueo corporal) como técnica de gestión consiste en:",
+        "answers": [
+            { "text": "Tacklear al perro para que no se mueva.", "correct": false },
+            { "text": "Utilizar el propio cuerpo de forma calmada y neutra para impedir que el perro acceda a un estímulo o a una zona, sin intimidación ni confrontación.", "correct": true },
+            { "text": "Impedir que el perro aprenda una nueva asociación.", "correct": false },
+            { "text": "Encerrar al perro en una habitación.", "correct": false }
+        ],
+        "explanation": "El bloqueo corporal es una forma de manejo proactivo. Si un perro tiende a saltar sobre las visitas al entrar, el guía puede interponerse físicamente de forma pasiva para impedir el acceso, mientras le pide al perro una conducta alternativa."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "Al establecer 'criterios' en un plan de entrenamiento, nos referimos a:",
+        "answers": [
+            { "text": "La opinión del entrenador sobre si el perro lo está haciendo bien.", "correct": false },
+            { "text": "Una definición específica y medible de la conducta que será reforzada en una etapa particular del entrenamiento.", "correct": true },
+            { "text": "El tipo de reforzador que se va a utilizar.", "correct": false },
+            { "text": "El número máximo de errores que el perro puede cometer.", "correct": false }
+        ],
+        "explanation": "Tener criterios claros es esencial para un entrenamiento consistente. En lugar de un vago 'enseñar a esperar', un criterio sería: 'el perro debe permanecer sentado durante 3 segundos con el dueño a un paso de distancia'. Esto elimina la subjetividad y permite saber exactamente cuándo reforzar y cuándo subir la dificultad."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "La 'premisa de la abuela', o Principio de Premack, establece que:",
+        "answers": [
+            { "text": "Los perros mayores aprenden más lentamente.", "correct": false },
+            { "text": "Un comportamiento de alta probabilidad (algo que el perro quiere hacer) puede usarse para reforzar un comportamiento de baja probabilidad (algo que no le apetece tanto).", "correct": true },
+            { "text": "Las abuelas son las que mejor entrenan a los perros.", "correct": false },
+            { "text": "Todos los perros deben visitar a sus abuelas.", "correct": false }
+        ],
+        "explanation": "Es el clásico 'si te comes las verduras (baja probabilidad), tendrás el postre (alta probabilidad)'. Se puede usar para reforzar una llamada pidiéndole al perro que venga (baja probabilidad) y luego liberándolo para que vaya a oler un árbol (alta probabilidad)."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "Un 'marcador de finalización' (end-of-session marker) es una señal que:",
+        "answers": [
+            { "text": "Indica al perro que ha cometido un error.", "correct": false },
+            { "text": "Comunica al perro que la sesión de trabajo ha terminado y que es libre de relajarse.", "correct": true },
+            { "text": "Marca el comportamiento más brillante de la sesión.", "correct": false },
+            { "text": "Se utiliza para terminar un comportamiento de 'espera'.", "correct": false }
+        ],
+        "explanation": "Tener una señal clara de finalización (como decir '¡listo!' y lanzar un puñado de premios al suelo) ayuda a reducir la frustración del perro y crea una transición clara entre el 'modo trabajo' y el 'modo descanso', haciendo las sesiones más predecibles y positivas."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "La 'resurgencia' es un fenómeno que puede ocurrir después de un proceso de extinción. Se caracteriza porque:",
+        "answers": [
+            { "text": "El perro empieza a ofrecer una variedad de otros comportamientos previamente reforzados en un intento de obtener el refuerzo.", "correct": true },
+            { "text": "La conducta extinguida reaparece con más fuerza que nunca.", "correct": false },
+            { "text": "El perro se vuelve agresivo hacia su dueño.", "correct": false },
+            { "text": "El perro pierde todo su repertorio de conductas aprendidas.", "correct": false }
+        ],
+        "explanation": "Si se extingue la conducta de 'dar la pata', el perro puede empezar a ofrecer 'sentado', 'tumbado' o 'girar', conductas que le funcionaron en el pasado. Es una manifestación de la variabilidad conductual que produce la extinción y una oportunidad para capturar y reforzar una conducta más deseable."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "Al trabajar con un perro que muestra reactividad por frustración, una estrategia clave, además de la modificación de conducta, es:",
+        "answers": [
+            { "text": "Aumentar las restricciones para que el perro aprenda a controlarse.", "correct": false },
+            { "text": "Asegurarse de que el perro tenga salidas apropiadas y suficientes para sus necesidades etológicas (ejercicio, olfato, juego) para reducir su nivel de frustración general.", "correct": true },
+            { "text": "Ignorar la frustración, ya que es un signo de un carácter fuerte.", "correct": false },
+            { "text": "Utilizar únicamente castigo negativo.", "correct": false }
+        ],
+        "explanation": "La frustración a menudo surge de un desequilibrio en el 'presupuesto de tiempo' del perro. Un perro cuyas necesidades no están cubiertas tiene un 'vaso de frustración' casi lleno, y cualquier pequeño detonante puede hacerlo desbordar. El enriquecimiento es una parte fundamental del tratamiento."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "Un perro ha aprendido a sentarse perfectamente con una señal verbal y un gesto de la mano. El entrenador quiere que responda solo a la señal verbal. El proceso para conseguirlo se llama:",
+        "answers": [
+            { "text": "Transferencia de estímulo (stimulus transfer).", "correct": true },
+            { "text": "Extinción.", "correct": false },
+            { "text": "Generalización.", "correct": false },
+            { "text": "Encadenamiento.", "correct": false }
+        ],
+        "explanation": "La transferencia de estímulo implica introducir la nueva señal (verbal) justo antes de la señal ya conocida (gesto), y luego ir desvaneciendo gradualmente la señal antigua. El perro aprende que la nueva señal ahora predice la señal antigua, y eventualmente responderá solo a la nueva."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "El 'jackpotting' o 'dar un premio gordo' es una técnica que consiste en:",
+        "answers": [
+            { "text": "Darle al perro toda la bolsa de premios al final de la sesión.", "correct": false },
+            { "text": "Ofrecer una recompensa de valor excepcionalmente alto y/o en gran cantidad por una respuesta especialmente brillante o un gran avance en el entrenamiento.", "correct": true },
+            { "text": "Utilizar una máquina tragaperras para dispensar los premios.", "correct": false },
+            { "text": "Reforzar cada respuesta sin excepción.", "correct": false }
+        ],
+        "explanation": "El jackpotting aprovecha el 'efecto sorpresa' para crear una memoria muy fuerte de esa respuesta específica. Ayuda a comunicar al perro que '¡ESO es exactamente lo que quería!' y puede acelerar el aprendizaje de un componente particularmente difícil de una conducta."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "El 'Condicionamiento de Relajación' (p.ej., el de Sue Ailsby o el protocolo de Overall) tiene como objetivo:",
+        "answers": [
+            { "text": "Enseñar la calma como una conducta operante que puede ser reforzada, en lugar de ser simplemente un estado emocional.", "correct": true },
+            { "text": "Cansar al perro para que se relaje.", "correct": false },
+            { "text": "Utilizar la relajación como un castigo.", "correct": false },
+            { "text": "Medicar al perro para que esté relajado.", "correct": false }
+        ],
+        "explanation": "Estos protocolos enseñan al perro a 'elegir' la calma. Al reforzar sistemáticamente posturas relajadas en presencia de distracciones crecientes, el perro aprende que la relajación es un comportamiento que 'funciona' y obtiene refuerzo, convirtiéndola en una habilidad de afrontamiento activa."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "La principal diferencia entre el 'Reforzamiento Diferencial de Conductas Alternativas' (DRA) y el de 'Conductas Incompatibles' (DRI) es:",
+        "answers": [
+            { "text": "El DRI utiliza una conducta que es físicamente imposible de realizar al mismo tiempo que la problemática, mientras que la conducta del DRA no es necesariamente incompatible.", "correct": true },
+            { "text": "El DRA es más efectivo que el DRI.", "correct": false },
+            { "text": "El DRI solo se puede usar para la agresión.", "correct": false },
+            { "text": "No hay ninguna diferencia.", "correct": false }
+        ],
+        "explanation": "Ejemplo: Para un perro que ladra por atención, enseñarle a traer un juguete (DRA) es una buena alternativa. Enseñarle a sujetar un juguete en la boca (DRI) es aún mejor, porque es físicamente muy difícil ladrar con un juguete en la boca. El DRI es a menudo la opción más eficiente."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "El 'salto de latencia' es un problema que ocurre cuando:",
+        "answers": [
+            { "text": "El perro salta en lugar de realizar la conducta pedida.", "correct": false },
+            { "text": "Un perro que respondía rápidamente a una señal empieza a dudar y a tardar más en responder, a menudo debido a una señal envenenada o a criterios poco claros.", "correct": true },
+            { "text": "El perro responde antes de que se le dé la señal.", "correct": false },
+            { "text": "El perro salta el paso intermedio de una cadena de comportamientos.", "correct": false }
+        ],
+        "explanation": "Un aumento en la latencia es una señal de que algo va mal en el entrenamiento. Puede indicar que el perro está confundido, que la señal se ha asociado con algo aversivo, o que la motivación ha disminuido. Es una señal para que el entrenador dé un paso atrás y revise su plan."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "En un protocolo de DSCC para un perro con miedo a los niños, ¿por qué es importante usar un 'niño ayudante' instruido en lugar de niños aleatorios en un parque?",
+        "answers": [
+            { "text": "Porque los niños del parque pueden ser impredecibles y acercarse demasiado rápido, haciendo que el perro supere su umbral y el protocolo fracase.", "correct": true },
+            { "text": "Porque los niños ayudantes suelen ser más baratos de contratar.", "correct": false },
+            { "text": "Porque los niños del parque no querrán participar.", "correct": false },
+            { "text": "No es importante, cualquier niño sirve para el protocolo.", "correct": false }
+        ],
+        "explanation": "El control sobre el estímulo es la clave del éxito en el DSCC. Un ayudante entrenado puede controlar la distancia, la intensidad y la predictibilidad de su comportamiento, asegurando que el perro permanezca siempre por debajo de su umbral. El caos de un entorno no controlado es una receta para la sensibilización."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "El 'refuerzo no contingente' consiste en:",
+        "answers": [
+            { "text": "Reforzar al perro solo si realiza una conducta específica.", "correct": false },
+            { "text": "Entregar reforzadores de forma gratuita y aleatoria, independientemente del comportamiento del perro, para cambiar la asociación general con un entorno o situación.", "correct": true },
+            { "text": "No reforzar al perro en absoluto.", "correct": false },
+            { "text": "Castigar al perro de forma aleatoria.", "correct": false }
+        ],
+        "explanation": "Esta es una técnica de condicionamiento clásico puro. Si un perro está ansioso en el coche, se le pueden dar premios de forma aleatoria durante el viaje. El objetivo no es reforzar un comportamiento concreto, sino cambiar la asociación emocional de 'coche = ansiedad' a 'coche = lluvia de salchichas'."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "La 'ley de parsimonia' (o Navaja de Occam) aplicada al diagnóstico de comportamiento sugiere que:",
+        "answers": [
+            { "text": "Siempre debemos buscar la explicación más compleja posible para un comportamiento.", "correct": false },
+            { "text": "Debemos favorecer la explicación más simple y que requiera menos suposiciones (p. ej., 'el perro salta porque ha sido reforzado por ello') antes de recurrir a explicaciones complejas y antropomórficas (p. ej., 'el perro salta para dominarme').", "correct": true },
+            { "text": "Los problemas de comportamiento de los perros son demasiado complejos para tener una explicación simple.", "correct": false },
+            { "text": "La explicación del dueño es siempre la correcta.", "correct": false }
+        ],
+        "explanation": "Este principio filosófico es una guía para el pensamiento científico. Antes de atribuir un comportamiento a una emoción compleja como los 'celos', debemos preguntarnos si puede ser explicado de forma más simple por los principios del aprendizaje, como la protección de recursos."
+    },
+    {
+        "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
+        "question": "Un 'plan de desvanecimiento de la gestión' es:",
+        "answers": [
+            { "text": "El momento en que se retiran todas las medidas de gestión de golpe.", "correct": false },
+            { "text": "Un proceso gradual y sistemático para retirar las herramientas de gestión a medida que el perro demuestra consistentemente que ha aprendido la conducta alternativa y que su respuesta emocional ha cambiado.", "correct": true },
+            { "text": "Innecesario, ya que la gestión debe mantenerse de por vida en todos los casos.", "correct": false },
+            { "text": "El plan para enseñar al perro a gestionar sus propias emociones.", "correct": false }
+        ],
+        "explanation": "El objetivo final es que la gestión no sea necesaria. Sin embargo, retirarla demasiado pronto puede provocar una recaída. Un plan de desvanecimiento establece criterios claros y objetivos para ir retirando las ayudas de forma segura (p. ej., pasar de una barrera opaca a una transparente, luego a ninguna)."
+    }
+]

@@ -1,0 +1,563 @@
+[
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "¿Cuál es el ancestro salvaje del que desciende directamente el perro doméstico?",
+        "answers": [
+            { "text": "El chacal dorado.", "correct": false },
+            { "text": "El lobo gris (*Canis lupus*).", "correct": true },
+            { "text": "El dingo australiano.", "correct": false },
+            { "text": "El coyote norteamericano.", "correct": false }
+        ],
+        "explanation": "Toda la evidencia genética, fósil y arqueológica apunta de manera concluyente a que el perro doméstico (*Canis familiaris*) es una subespecie domesticada del lobo gris. Entender esto es fundamental, ya que muchos de los comportamientos del perro son versiones modificadas (amplificadas, reducidas o truncadas) del repertorio conductual del lobo."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "La etología se define como:",
+        "answers": [
+            { "text": "El estudio de las razas de perros y sus estándares.", "correct": false },
+            { "text": "La disciplina que se enfoca en el entrenamiento de animales para el trabajo.", "correct": false },
+            { "text": "El estudio biológico y científico del comportamiento animal, con especial énfasis en su función y evolución en el entorno natural.", "correct": true },
+            { "text": "El tratamiento de las enfermedades del comportamiento en animales.", "correct": false }
+        ],
+        "explanation": "La etología es la biología del comportamiento. A diferencia de la psicología comparada, que tradicionalmente se enfocaba en el aprendizaje en laboratorio, la etología pone el foco en el valor adaptativo de los comportamientos en el contexto ecológico y evolutivo de la especie."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "Las 'Cuatro Preguntas' de Niko Tinbergen son un marco para el análisis completo de un comportamiento. ¿Cuál de las siguientes es una de las dos preguntas de 'causas próximas' (cómo)?",
+        "answers": [
+            { "text": "¿Cuál es la función o valor de supervivencia del comportamiento? (Función)", "correct": false },
+            { "text": "¿Cuál es la historia evolutiva del comportamiento? (Filogenia)", "correct": false },
+            { "text": "¿Qué mecanismos fisiológicos y neurológicos lo controlan? (Causa/Mecanismo)", "correct": true },
+            { "text": "Todas las anteriores son preguntas de 'causas últimas' (por qué).", "correct": false }
+        ],
+        "explanation": "Las causas próximas explican cómo funciona un comportamiento en el individuo. Son (1) Causa/Mecanismo (los estímulos y la maquinaria interna) y (2) Ontogenia (cómo se desarrolla a lo largo de la vida del animal, incluyendo el aprendizaje). Las causas últimas explican por qué existe el comportamiento a nivel de especie: (3) Función y (4) Filogenia."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "El concepto de 'Umwelt' de Jakob von Uexküll es esencial para un etólogo porque:",
+        "answers": [
+            { "text": "Le permite entender el mundo físico objetivo que rodea al animal.", "correct": false },
+            { "text": "Le obliga a considerar el mundo perceptivo y subjetivo del animal, filtrado por sus capacidades sensoriales únicas.", "correct": true },
+            { "text": "Describe las jerarquías sociales de forma universal para todas las especies.", "correct": false },
+            { "text": "Se enfoca únicamente en los comportamientos aprendidos del animal.", "correct": false }
+        ],
+        "explanation": "El 'Umwelt' es el mundo tal y como lo percibe el animal. El 'Umwelt' de un perro es un universo de olores con una visión dicromática, muy diferente al nuestro, dominado por la vista tricromática. Para entender por qué un perro hace lo que hace, debemos intentar 'entrar' en su Umwelt, no juzgarlo desde el nuestro."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "La 'hipótesis del comensalismo' sobre la domesticación del perro sugiere que el proceso se inició porque:",
+        "answers": [
+            { "text": "Los humanos prehistóricos necesitaban guardianes para sus campamentos.", "correct": false },
+            { "text": "Los humanos capturaron activamente lobeznos para amansarlos y criarlos selectivamente.", "correct": false },
+            { "text": "Ciertas poblaciones de lobos menos temerosos comenzaron a explotar los desechos de los campamentos humanos, iniciando un proceso de autodomesticación.", "correct": true },
+            { "text": "Los lobos y los humanos formaron una alianza para cazar cooperativamente desde el principio.", "correct": false }
+        ],
+        "explanation": "Este es el modelo más aceptado. La presión de selección natural favoreció a los lobos con menor distancia de huida y mayor tolerancia a la presencia humana, ya que esto les daba acceso a una nueva fuente de alimento. La selección artificial dirigida por humanos habría ocurrido mucho después."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "El famoso experimento de Dmitri Belyayev con zorros plateados es una evidencia fundamental para:",
+        "answers": [
+            { "text": "La rapidez con la que se puede enseñar a un animal a realizar trucos.", "correct": false },
+            { "text": "La idea de que la selección artificial únicamente por un rasgo conductual (la docilidad) puede arrastrar consigo un conjunto de cambios físicos y fisiológicos.", "correct": true },
+            { "text": "La importancia de la dieta en la evolución de los cánidos.", "correct": false },
+            { "text": "La superioridad cognitiva de los perros sobre los zorros.", "correct": false }
+        ],
+        "explanation": "El experimento demostró empíricamente la existencia del 'Síndrome de la Domesticación'. Al seleccionar solo zorros amigables durante generaciones, aparecieron de forma no intencionada rasgos como orejas caídas, pelaje moteado, colas curvadas y cambios hormonales, similares a los que diferencian a los perros de los lobos."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "El 'Síndrome de la Domesticación' se refiere a un conjunto de rasgos fenotípicos que aparecen de forma recurrente en especies domesticadas. Este fenómeno se explica por la hipótesis de que estos rasgos están ligados a:",
+        "answers": [
+            { "text": "Una dieta rica en carbohidratos.", "correct": false },
+            { "text": "Un déficit leve en las células de la cresta neural durante el desarrollo embrionario, ligado a la selección por docilidad.", "correct": true },
+            { "text": "La falta de ejercicio físico en comparación con sus ancestros salvajes.", "correct": false },
+            { "text": "La hibridación con otras especies cercanas.", "correct": false }
+        ],
+        "explanation": "La hipótesis de la cresta neural postula que la selección por docilidad afecta a los genes que regulan las células de la cresta neural. Estas células son 'pluripotentes' y durante el desarrollo del embrión migran para formar una gran variedad de tejidos, incluyendo partes del cráneo (hocico más corto), las orejas (cartílago), la piel (pigmentación) y las glándulas suprarrenales (respuesta al estrés)."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "La neotenia es un rasgo clave de la domesticación. ¿Cuál de los siguientes es un ejemplo de neotenia CONDUCTUAL en perros?",
+        "answers": [
+            { "text": "Hocico acortado y ojos grandes.", "correct": false },
+            { "text": "La secuencia predatoria completa (acecho, persecución, captura, muerte, consumo).", "correct": false },
+            { "text": "La persistencia del comportamiento de juego y la curiosidad en la edad adulta.", "correct": true },
+            { "text": "Un único ciclo estral por año.", "correct": false }
+        ],
+        "explanation": "La neotenia es la retención de rasgos juveniles en la edad adulta. Mientras que un lobo adulto juega mucho menos, los perros a menudo mantienen una alta motivación por el juego durante toda su vida, un rasgo típico de los lobos jóvenes. Esto los hace más adaptables y entrenables."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "¿Cuál es la función principal del período sensible de socialización (aprox. 3 a 16 semanas)?",
+        "answers": [
+            { "text": "Es el mejor momento para enseñar obediencia básica como 'sentado' o 'tumbado'.", "correct": false },
+            { "text": "Es una ventana de tiempo crítica donde el cerebro del cachorro es extremadamente plástico y aprende qué estímulos del mundo son 'seguros' o 'normales'.", "correct": true },
+            { "text": "Es el período en el que se produce el destete del cachorro.", "correct": false },
+            { "text": "Es la única etapa en la que el perro puede formar un vínculo con un humano.", "correct": false }
+        ],
+        "explanation": "Durante este período, el cerebro está neurológicamente preparado para la habituación. Las experiencias (o la falta de ellas) con personas, perros, ruidos y entornos en esta fase construyen la arquitectura fundamental de su cerebro social y su resiliencia futura al estrés. Una socialización pobre es una de las principales causas de problemas de comportamiento graves."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "Un Patrón de Acción Fija (PAF) es una secuencia de comportamientos instintivos. Se caracteriza porque:",
+        "answers": [
+            { "text": "Es muy flexible y varía cada vez que el animal lo realiza.", "correct": false },
+            { "text": "Es desencadenado por un estímulo señal específico y, una vez iniciado, generalmente se completa en su totalidad, incluso si el estímulo desaparece.", "correct": true },
+            { "text": "Se adquiere a través de un largo proceso de aprendizaje por ensayo y error.", "correct": false },
+            { "text": "Es un signo de un problema neurológico en el perro.", "correct": false }
+        ],
+        "explanation": "Un ejemplo en perros es la secuencia motora de 'tapar' un hueso con el hocico, que pueden realizar incluso en el suelo de baldosas. El estímulo señal es el hueso, y la secuencia de movimientos es innata y estereotipada. Es un comportamiento 'cableado' genéticamente."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "La estructura social típica de una manada de lobos en la naturaleza es:",
+        "answers": [
+            { "text": "Una jerarquía lineal y rígida mantenida por la agresión constante de un macho 'alfa'.", "correct": false },
+            { "text": "Una unidad familiar nuclear, compuesta por una pareja reproductora (los padres) y su descendencia de diferentes edades.", "correct": true },
+            { "text": "Un grupo aleatorio de individuos sin lazos de parentesco que se unen para cazar.", "correct": false },
+            { "text": "Una estructura matriarcal donde una hembra 'alfa' controla al resto del grupo.", "correct": false }
+        ],
+        "explanation": "El mito del 'lobo alfa' se basó en estudios de lobos en cautiverio sin parentesco. En la naturaleza, las manadas son familias. El liderazgo de los padres es análogo al de una familia humana; no se basa en la dominancia violenta, sino en la experiencia y el rol parental."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "El 'modelo de la dominancia' es una explicación obsoleta y dañina para las interacciones perro-humano porque:",
+        "answers": [
+            { "text": "Asume que el perro está constantemente intentando escalar una jerarquía social y que la agresión es una manifestación de su intento por 'dominar', cuando la mayoría de las agresiones están motivadas por el miedo.", "correct": true },
+            { "text": "Es un modelo demasiado complejo para que los dueños lo entiendan.", "correct": false },
+            { "text": "Los perros son incapaces de mostrar agresión.", "correct": false },
+            { "text": "Solo se aplica a perros salvajes, no a los domésticos.", "correct": false }
+        ],
+        "explanation": "Esta interpretación errónea lleva a los dueños a utilizar métodos confrontacionales y punitivos para 'mostrar quién manda', lo que erosiona la confianza y a menudo empeora la agresión al confirmar al perro que los humanos son, en efecto, una amenaza. La etología moderna se enfoca en las motivaciones y emociones, no en una lucha por el poder."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "La duplicación del gen AMY2B en perros es una adaptación genética clave que les permite:",
+        "answers": [
+            { "text": "Correr más rápido que los lobos.", "correct": false },
+            { "text": "Tener un sentido del olfato más agudo.", "correct": false },
+            { "text": "Digirir el almidón de manera mucho más eficiente que los lobos.", "correct": true },
+            { "text": "Formar vínculos sociales más fuertes con los humanos.", "correct": false }
+        ],
+        "explanation": "Este cambio genético es una 'firma' de la adaptación a un nicho ecológico cercano a los humanos. La capacidad de digerir carbohidratos (presentes en dietas agrícolas) proporcionó a los primeros perros una ventaja de supervivencia significativa sobre los lobos, cuya dieta es estrictamente carnívora."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "La epigenética es crucial para entender el comportamiento canino porque:",
+        "answers": [
+            { "text": "Prueba que el comportamiento está 100% determinado por los genes y no puede cambiarse.", "correct": false },
+            { "text": "Explica cómo las experiencias ambientales (como el estrés prenatal de la madre o la nutrición temprana) pueden activar o desactivar ciertos genes, influyendo en el temperamento y la salud del perro sin alterar la secuencia de ADN.", "correct": true },
+            { "text": "Es el proceso por el cual los perros mutan y se convierten en nuevas especies.", "correct": false },
+            { "text": "Solo se aplica a los rasgos físicos, como el color del pelaje.", "correct": false }
+        ],
+        "explanation": "La epigenética es el puente entre 'naturaleza' (genes) y 'crianza' (ambiente). Demuestra que las experiencias tempranas pueden dejar una 'marca' molecular en el ADN que afecta a cómo se expresan los genes a lo largo de la vida, impactando en la reactividad al estrés, la capacidad de aprendizaje y la predisposición a ciertas enfermedades."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "Un etograma es una herramienta fundamental en la etología. Consiste en:",
+        "answers": [
+            { "text": "Un árbol genealógico de una raza de perro específica.", "correct": false },
+            { "text": "Un catálogo detallado y objetivo de los comportamientos específicos de una especie, descritos por su forma (topografía) sin interpretación.", "correct": true },
+            { "text": "Una escala para medir la inteligencia de un perro.", "correct": false },
+            { "text": "Un plan de entrenamiento para corregir malos hábitos.", "correct": false }
+        ],
+        "explanation": "Crear un etograma es el primer paso para estudiar científicamente el comportamiento. Obliga al observador a ser objetivo. En lugar de escribir 'el perro estaba feliz', se describiría: 'cola a media altura con movimiento amplio y circular, boca abierta y relajada, orejas en posición neutra'."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "La capacidad de los perros de mostrar 'hipersociabilidad' (una tendencia a buscar interacciones amistosas incluso con extraños) está vinculada a los mismos genes que en los humanos causan:",
+        "answers": [
+            { "text": "El autismo.", "correct": false },
+            { "text": "El Síndrome de Williams-Beuren.", "correct": true },
+            { "text": "El Síndrome de Down.", "correct": false },
+            { "text": "El trastorno bipolar.", "correct": false }
+        ],
+        "explanation": "El Síndrome de Williams-Beuren en humanos se caracteriza por una marcada sociabilidad y falta de miedo a los extraños. La investigación ha encontrado que las variaciones en los genes de esta región están fuertemente asociadas con la tendencia de los perros a buscar la proximidad y la interacción con los humanos, sugiriendo que la domesticación seleccionó una 'amigabilidad genéticamente programada'."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "Cuando un perro se encuentra con otro y ambos giran la cabeza o el cuerpo para acercarse en una curva en lugar de hacerlo de frente, están exhibiendo:",
+        "answers": [
+            { "text": "Indecisión y falta de confianza.", "correct": false },
+            { "text": "Un comportamiento de apaciguamiento y una señal de intenciones pacíficas para evitar la confrontación.", "correct": true },
+            { "text": "Una estrategia de caza para rodear al otro perro.", "correct": false },
+            { "text": "Mala educación, ya que un saludo correcto es siempre de frente.", "correct": false }
+        ],
+        "explanation": "En el repertorio comunicativo canino, la aproximación directa y frontal es a menudo interpretada como una señal de confrontación. El acercamiento en curva es una forma educada de comunicación que reduce la tensión social y previene conflictos."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "La secuencia predatoria en perros domésticos a menudo está 'truncada' o modificada en comparación con los lobos. Esto significa que:",
+        "answers": [
+            { "text": "Los perros han perdido por completo el instinto de caza.", "correct": false },
+            { "text": "Diferentes razas han sido seleccionadas para exhibir solo partes de la secuencia completa (p. ej., un Border Collie 'acecha' y 'persigue' la oveja, pero no la mata).", "correct": true },
+            { "text": "Todos los perros son incapaces de perseguir objetos en movimiento.", "correct": false },
+            { "text": "La secuencia predatoria es más larga y compleja en perros que en lobos.", "correct": false }
+        ],
+        "explanation": "La selección artificial ha fragmentado la secuencia predatoria. Los retrievers se especializan en la parte de 'cobro'. Los pointers en 'señalar' la presa. Los terriers en la 'sacudida y muerte'. Comprender qué parte de la secuencia es más fuerte en un perro nos ayuda a elegir formas de enriquecimiento adecuadas."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "El concepto de 'ritualización' en la comunicación animal explica cómo:",
+        "answers": [
+            { "text": "Un comportamiento funcional (como prepararse para morder) evoluciona hasta convertirse en una señal de comunicación simbólica y exagerada (como enseñar los dientes).", "correct": true },
+            { "text": "Los animales aprenden a realizar rituales complejos a través de la observación.", "correct": false },
+            { "text": "Todos los comportamientos de una especie se vuelven rígidos y predecibles.", "correct": false },
+            { "text": "Los animales realizan danzas elaboradas para comunicarse.", "correct": false }
+        ],
+        "explanation": "La ritualización es un proceso evolutivo que 'toma prestado' un comportamiento y lo convierte en una señal. Enseñar los dientes es una versión ritualizada de levantar los labios para morder. Permite comunicar una intención (amenaza) sin necesidad de llevar a cabo la acción completa, ahorrando energía y reduciendo el riesgo de lesiones."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "Un cachorro que no ha tenido contacto con otros perros después de las 16 semanas de edad puede tener dificultades sociales en el futuro porque:",
+        "answers": [
+            { "text": "Su sistema inmune no se ha desarrollado correctamente.", "correct": false },
+            { "text": "La ventana crítica para aprender el 'idioma' canino (comunicación sutil, inhibición de la mordida, reglas de juego) se ha cerrado en gran medida.", "correct": true },
+            { "text": "Ya no será capaz de formar un vínculo con su dueño.", "correct": false },
+            { "text": "Perderá el interés en jugar.", "correct": false }
+        ],
+        "explanation": "La socialización no es solo 'exponer' al cachorro, sino permitirle aprender habilidades sociales complejas. Un perro privado de estas interacciones tempranas es como una persona que nunca aprendió las sutilezas de la conversación humana; puede malinterpretar señales y reaccionar de forma inapropiada."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "¿Cuál de las siguientes afirmaciones sobre la visión canina es correcta?",
+        "answers": [
+            { "text": "Los perros ven en blanco y negro.", "correct": false },
+            { "text": "Los perros tienen visión dicromática (principalmente en tonos de azul y amarillo-verde) y son más sensibles al movimiento que los humanos.", "correct": true },
+            { "text": "Los perros tienen una agudeza visual mucho mayor que la de los humanos.", "correct": false },
+            { "text": "La visión es el sentido más importante para un perro.", "correct": false }
+        ],
+        "explanation": "El 'Umwelt' visual de un perro es diferente al nuestro. No ven el espectro rojo-naranja. Sin embargo, su mayor número de bastones en la retina les confiere una mejor visión en condiciones de poca luz y una capacidad superior para detectar movimientos, adaptaciones de un ancestro cazador crepuscular."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "El término 'antropomorfismo' en el contexto del comportamiento canino se refiere a:",
+        "answers": [
+            { "text": "El estudio científico de las emociones caninas.", "correct": false },
+            { "text": "La atribución de emociones, motivaciones y pensamientos humanos complejos a los perros sin evidencia científica.", "correct": true },
+            { "text": "Una técnica de entrenamiento avanzada para mejorar la comunicación.", "correct": false },
+            { "text": "El proceso de domesticación del perro.", "correct": false }
+        ],
+        "explanation": "Decir que un perro que ha destrozado un cojín lo hizo 'por venganza' es un ejemplo de antropomorfismo. Mientras que los perros sí tienen emociones primarias (miedo, alegría), atribuirles emociones secundarias complejas como la venganza o la culpa puede llevar a malinterpretar la verdadera causa del comportamiento (ansiedad, aburrimiento) y a aplicar correcciones inadecuadas."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "La investigación sobre la lateralización cerebral en perros (el uso preferente de un lado del cerebro/cuerpo) ha sugerido que:",
+        "answers": [
+            { "text": "No existe lateralización en perros.", "correct": false },
+            { "text": "Los perros pesimistas u optimistas pueden mostrar un sesgo en el movimiento de la cola (izquierda/derecha respectivamente) o en qué fosa nasal usan para investigar olores.", "correct": true },
+            { "text": "Todos los perros son 'diestros' y prefieren usar la pata derecha.", "correct": false },
+            { "text": "La lateralización solo afecta a la audición y no a otros sentidos.", "correct": false }
+        ],
+        "explanation": "Al igual que los humanos, los perros muestran asimetrías cerebrales. El hemisferio derecho está más implicado en respuestas de retirada y emociones negativas (estrés), mientras que el izquierdo se asocia más con el acercamiento y emociones positivas. Esto puede tener implicaciones en la evaluación del temperamento y el bienestar."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "El 'efecto audiencia' es un fenómeno de cognición social que se observa cuando un perro:",
+        "answers": [
+            { "text": "Solo obedece una orden si se le ofrece comida.", "correct": false },
+            { "text": "Modifica su comportamiento dependiendo de si un humano está presente y/o le está prestando atención.", "correct": true },
+            { "text": "Ladra más fuerte cuando hay más gente cerca.", "correct": false },
+            { "text": "Se niega a actuar si hay otros perros mirando.", "correct": false }
+        ],
+        "explanation": "Un ejemplo es un perro que es más propenso a robar comida si el humano está de espaldas o con los ojos cerrados. Esto demuestra que los perros no actúan en un vacío, sino que son sensibles al estado atencional de los demás, un componente básico de la teoría de la mente."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "La diferencia principal entre una raza canina y una especie es que:",
+        "answers": [
+            { "text": "Las razas no pueden reproducirse entre sí, mientras que las especies sí.", "correct": false },
+            { "text": "Todos los perros, desde un Chihuahua hasta un Gran Danés, pertenecen a la misma especie (*Canis familiaris*) y pueden reproducirse entre sí, mientras que una especie se define por el aislamiento reproductivo.", "correct": true },
+            { "text": "Las razas solo difieren en el color del pelaje, mientras que las especies difieren en tamaño.", "correct": false },
+            { "text": "No hay diferencia, ambos términos son intercambiables.", "correct": false }
+        ],
+        "explanation": "Las razas son subpoblaciones creadas por selección artificial humana que presentan una variación fenotípica extrema, pero no están reproductivamente aisladas. Un lobo y un coyote son especies diferentes porque, aunque pueden hibridar, sus descendientes suelen tener problemas de fertilidad y no lo hacen de forma natural y viable en la naturaleza."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "Cuando un perro lame al aire o se lame el hocico repetidamente en una situación social, ¿cuál es la interpretación más probable?",
+        "answers": [
+            { "text": "Está saboreando un premio que comió antes.", "correct": false },
+            { "text": "Es una señal de calma o apaciguamiento, indicando un leve estrés o un intento de comunicar intenciones pacíficas.", "correct": true },
+            { "text": "Tiene sed y necesita beber agua urgentemente.", "correct": false },
+            { "text": "Es un signo de dominancia y desafío.", "correct": false }
+        ],
+        "explanation": "El lamido de hocico es una de las señales de estrés y comunicación sutil más comunes y a menudo ignoradas. Es un indicador temprano de que el perro se siente incómodo con una interacción y está intentando evitar que la situación escale."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "El concepto de 'nicho ecológico' aplicado a la domesticación del perro se refiere a:",
+        "answers": [
+            { "text": "El tipo de cama en la que duerme el perro.", "correct": false },
+            { "text": "El rol y el conjunto de condiciones ambientales que el perro explotó para sobrevivir y prosperar, específicamente el entorno perihumano con sus desechos y oportunidades.", "correct": true },
+            { "text": "Las competiciones caninas para las que se entrena una raza.", "correct": false },
+            { "text": "La posición exacta del perro dentro de la jerarquía familiar.", "correct": false }
+        ],
+        "explanation": "La domesticación fue posible porque apareció un nuevo nicho ecológico: el creado por los humanos. Los lobos que fueron capaces de adaptarse y explotar este nicho (con su dieta diferente, sus presiones sociales, etc.) fueron los que dieron origen a los perros."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "La 'recuperación espontánea' es un fenómeno que ocurre durante la extinción de una conducta aprendida. Se manifiesta cuando:",
+        "answers": [
+            { "text": "La conducta desaparece para siempre tras unas pocas sesiones.", "correct": false },
+            { "text": "Después de un período en el que la conducta parecía haberse extinguido, esta reaparece de forma temporal y con menos intensidad.", "correct": true },
+            { "text": "El perro se recupera físicamente de una lesión sufrida durante el entrenamiento.", "correct": false },
+            { "text": "La conducta se vuelve más fuerte y frecuente que antes de la extinción.", "correct": false }
+        ],
+        "explanation": "Es importante que los profesionales y los dueños conozcan este fenómeno para no desanimarse. La recuperación espontánea es normal y no significa que el plan de extinción haya fracasado. Simplemente requiere continuar con el protocolo hasta que la conducta desaparezca por completo."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "En el contexto de la genética del comportamiento, un rasgo 'poligénico' es aquel que está influenciado por:",
+        "answers": [
+            { "text": "Un único gen dominante.", "correct": false },
+            { "text": "Múltiples genes, cada uno con un pequeño efecto aditivo.", "correct": true },
+            { "text": "El entorno del animal exclusivamente, sin base genética.", "correct": false },
+            { "text": "Un gen que ha mutado recientemente.", "correct": false }
+        ],
+        "explanation": "La gran mayoría de los rasgos de comportamiento complejos (como la reactividad, la audacia o la sociabilidad) son poligénicos. Esto significa que no existe 'un gen para la agresión', sino una compleja interacción de muchos genes y factores ambientales, lo que hace que su predicción y selección sea muy difícil."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "El oído canino, en comparación con el humano, es significativamente más sensible a:",
+        "answers": [
+            { "text": "Sonidos de baja frecuencia (infrasonidos).", "correct": false },
+            { "text": "Sonidos de alta frecuencia (ultrasonidos).", "correct": true },
+            { "text": "La dirección de la que proviene el sonido.", "correct": false },
+            { "text": "El volumen general de los sonidos.", "correct": false }
+        ],
+        "explanation": "Los perros pueden oír frecuencias de hasta 45.000-65.000 Hz, mientras que el límite humano es de unos 20.000 Hz. Esta adaptación les permitía oír los chillidos de sus presas (roedores). Es la razón por la que silbatos 'silenciosos' para nosotros son perfectamente audibles para ellos y por la que ciertos aparatos electrónicos pueden resultarles molestos."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "Cuando un perro roba un objeto y corretea invitando a la persecución, este comportamiento a menudo se origina como:",
+        "answers": [
+            { "text": "Un intento de destruir el objeto por rencor.", "correct": false },
+            { "text": "Una cadena de comportamiento de búsqueda de atención que ha sido reforzada accidentalmente en el pasado por el dueño al perseguir al perro.", "correct": true },
+            { "text": "Una muestra de dominancia para establecer su estatus sobre el objeto.", "correct": false },
+            { "text": "Un signo de un trastorno compulsivo.", "correct": false }
+        ],
+        "explanation": "Desde la perspectiva del perro, robar el objeto (antecedente) lleva a una consecuencia muy divertida: un juego de persecución con su humano (refuerzo). La solución no es castigar, sino gestionar el entorno (no dejar objetos al alcance) y enseñar una forma alternativa y más efectiva de solicitar juego."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "La 'ontogenia' de un comportamiento se refiere a:",
+        "answers": [
+            { "text": "Su historia evolutiva a través de las especies.", "correct": false },
+            { "text": "Su desarrollo a lo largo de la vida de un individuo, desde el nacimiento hasta la muerte, incluyendo el aprendizaje y la maduración.", "correct": true },
+            { "text": "Su función adaptativa para la supervivencia.", "correct": false },
+            { "text": "El mecanismo neurológico que lo controla.", "correct": false }
+        ],
+        "explanation": "Esta es una de las cuatro preguntas de Tinbergen. Al analizar un comportamiento, la ontogenia nos obliga a preguntarnos: ¿Cómo ha influido la experiencia del perro (su socialización, su historial de aprendizaje, su edad) en la forma en que se comporta ahora?"
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "El marcaje con heces, aunque menos común que con orina, cumple una función comunicativa similar. La ventaja de las heces es que:",
+        "answers": [
+            { "text": "Son más fáciles de ver para otros perros.", "correct": false },
+            { "text": "La señal olfativa es mucho más duradera que la de la orina, y las secreciones de las glándulas anales añaden información individual única.", "correct": true },
+            { "text": "Es un comportamiento exclusivo de los machos dominantes.", "correct": false },
+            { "text": "No tiene ninguna función comunicativa.", "correct": false }
+        ],
+        "explanation": "Las heces, a menudo depositadas en lugares elevados y acompañadas de rascado del suelo (que deja señales visuales y olfativas de las glándulas interdigitales), actúan como un 'monumento' olfativo de larga duración, transmitiendo información social compleja."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "La 'generalización' de un estímulo ocurre cuando un perro:",
+        "answers": [
+            { "text": "Aprende a distinguir entre dos estímulos muy similares.", "correct": false },
+            { "text": "Responde a un estímulo nuevo que es similar al estímulo condicionado original.", "correct": true },
+            { "text": "Olvida por completo la respuesta a un estímulo condicionado.", "correct": false },
+            { "text": "Solo responde al estímulo condicionado exacto y a ningún otro.", "correct": false }
+        ],
+        "explanation": "Si un perro ha sido mordido por un Pastor Alemán (estímulo condicionado) y ahora muestra miedo ante todos los perros grandes de aspecto similar, está generalizando su respuesta de miedo. La desensibilización a menudo implica enseñar al perro a discriminar entre estímulos seguros y no seguros."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "El lamido social (grooming) entre perros o de un perro a un humano, tiene una función principal de:",
+        "answers": [
+            { "text": "Intentar limpiar una herida.", "correct": false },
+            { "text": "Comportamiento afiliativo, que sirve para fortalecer los lazos sociales, reducir el estrés y mantener la cohesión del grupo.", "correct": true },
+            { "text": "Mostrar sumisión absoluta.", "correct": false },
+            { "text": "Pedir comida.", "correct": false }
+        ],
+        "explanation": "Al igual que en muchos otros mamíferos sociales, el acicalamiento mutuo es un comportamiento que promueve la liberación de oxitocina y fortalece las relaciones. Es una señal de confianza y confort dentro de la unidad social."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "La principal diferencia entre el temperamento y la personalidad de un perro es que:",
+        "answers": [
+            { "text": "No hay ninguna diferencia, son sinónimos.", "correct": false },
+            { "text": "El temperamento se refiere a las tendencias conductuales innatas y con una fuerte base genética, mientras que la personalidad es el resultado de la interacción de ese temperamento con el entorno y las experiencias de vida.", "correct": true },
+            { "text": "El temperamento solo se puede medir en cachorros y la personalidad solo en adultos.", "correct": false },
+            { "text": "La personalidad es fija, mientras que el temperamento cambia a lo largo de la vida.", "correct": false }
+        ],
+        "explanation": "El temperamento es como la 'materia prima' biológica con la que nace un perro (p. ej., su nivel innato de reactividad o audacia). La personalidad es la 'escultura' final, moldeada por la socialización, el aprendizaje y las experiencias. El temperamento influye, pero no determina por completo la personalidad."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "La 'sensibilización' es un proceso de aprendizaje no asociativo en el que:",
+        "answers": [
+            { "text": "La respuesta a un estímulo disminuye con la exposición repetida.", "correct": false },
+            { "text": "La respuesta a un estímulo aumenta con la exposición repetida, especialmente si el estímulo es intenso o aversivo.", "correct": true },
+            { "text": "El perro aprende a asociar dos estímulos.", "correct": false },
+            { "text": "El perro aprende a ignorar un estímulo.", "correct": false }
+        ],
+        "explanation": "La sensibilización es lo contrario de la habituación. Si un perro con un leve miedo a los ruidos se ve expuesto a petardos, su respuesta de miedo no solo no disminuirá, sino que probablemente aumentará y se generalizará a otros ruidos fuertes. Es la base neurobiológica del desarrollo de muchas fobias."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "El 'tapetum lucidum' es una estructura en el ojo del perro que:",
+        "answers": [
+            { "text": "Le permite ver en color rojo.", "correct": false },
+            { "text": "Actúa como un espejo que refleja la luz a través de la retina por segunda vez, mejorando significativamente la visión en condiciones de poca luz.", "correct": true },
+            { "text": "Enfoca la luz para una visión de alta agudeza.", "correct": false },
+            { "text": "Protege el ojo del polvo y los escombros.", "correct": false }
+        ],
+        "explanation": "Esta capa reflectante es la responsable del 'brillo' de los ojos de un perro en la oscuridad cuando son iluminados. Es una adaptación clave de un depredador crepuscular, dándole una gran ventaja para detectar movimiento al amanecer y al atardecer."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "¿Qué es la 'inhibición de la mordida'?",
+        "answers": [
+            { "text": "La incapacidad de un perro para morder debido a problemas dentales.", "correct": false },
+            { "text": "La habilidad aprendida (principalmente durante el juego con sus hermanos de camada) para controlar la presión de la mandíbula y no causar daño.", "correct": true },
+            { "text": "Un rasgo genético que hace que un perro nunca muerda.", "correct": false },
+            { "text": "Un ejercicio de entrenamiento donde se castiga al perro por morder.", "correct": false }
+        ],
+        "explanation": "La inhibición de la mordida es quizás la lección más importante de la etapa de cachorro. Es la diferencia entre un mordisco defensivo que deja un moratón y uno que causa heridas graves. Un perro con buena inhibición de mordida es, intrínsecamente, un perro más seguro."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "El comportamiento de un perro de rascar el suelo después de defecar tiene como principal función:",
+        "answers": [
+            { "text": "Enterrar sus heces para ocultarlas de los depredadores.", "correct": false },
+            { "text": "Dispersar aún más la señal olfativa a través de las marcas visuales del rascado y las feromonas secretadas por las glándulas de sus patas.", "correct": true },
+            { "text": "Limpiarse las patas después de haber hecho sus necesidades.", "correct": false },
+            { "text": "Un comportamiento compulsivo sin ninguna función.", "correct": false }
+        ],
+        "explanation": "Este comportamiento es una forma de 'gritar' visual y olfativamente su mensaje. Las marcas en el suelo atraen la atención visual, y las glándulas interdigitales depositan un olor único, amplificando la señal química dejada por las heces."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "La reducción del tamaño del cerebro en perros en comparación con los lobos se atribuye principalmente a:",
+        "answers": [
+            { "text": "Una peor nutrición en el entorno doméstico.", "correct": false },
+            { "text": "La reducción de la necesidad de procesar información compleja para la caza y la supervivencia independiente, al vivir en un nicho protegido por los humanos.", "correct": true },
+            { "text": "Una mutación genética aleatoria sin valor adaptativo.", "correct": false },
+            { "text": "El hecho de que los perros no necesitan ser tan inteligentes como los lobos.", "correct": false }
+        ],
+        "explanation": "El tejido cerebral es metabólicamente muy costoso. En un entorno donde la comida, la seguridad y la toma de decisiones complejas son en gran parte gestionadas por los humanos, la presión selectiva para mantener un cerebro tan grande como el de un lobo disminuye."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "La 'percepción de la injusticia' o 'aversión a la inequidad' en perros se demostró en un experimento en el que los perros:",
+        "answers": [
+            { "text": "Compartían su comida con otros perros de forma voluntaria.", "correct": false },
+            { "text": "Se negaban a dar la pata si veían que otro perro recibía un premio por la misma acción mientras ellos no recibían nada.", "correct": true },
+            { "text": "Trabajaban más duro cuando la recompensa era más grande.", "correct": false },
+            { "text": "Mostraban agresión hacia el perro que recibía un premio mejor.", "correct": false }
+        ],
+        "explanation": "Este estudio de Friederike Range fue pionero en mostrar que los perros son sensibles al trato diferencial. Esta habilidad cognitiva es importante para la cooperación y el mantenimiento de las relaciones sociales en un grupo."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "El jadeo en un perro puede ser un signo de termorregulación, pero en un contexto social o de entrenamiento, a menudo es un indicador de:",
+        "answers": [
+            { "text": "Felicidad y relajación extrema.", "correct": false },
+            { "text": "Estrés, ansiedad o conflicto.", "correct": true },
+            { "text": "Hambre o sed.", "correct": false },
+            { "text": "Un intento de comunicarse con otros perros a larga distancia.", "correct": false }
+        ],
+        "explanation": "Es crucial diferenciar el jadeo por calor (boca ancha, lengua relajada) del jadeo por estrés (boca más cerrada, comisuras hacia atrás, jadeo rápido y superficial). Es una de las señales fisiológicas de estrés más evidentes y fáciles de observar."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "El fenómeno del 'overshadowing' (ensombrecimiento) en el aprendizaje ocurre cuando:",
+        "answers": [
+            { "text": "Un perro aprende una conducta más rápido en la oscuridad.", "correct": false },
+            { "text": "Cuando dos estímulos se presentan juntos para predecir algo, el perro solo aprende a prestar atención al estímulo más saliente o relevante, ignorando el otro.", "correct": true },
+            { "text": "Una mala experiencia ensombrece todas las buenas experiencias futuras.", "correct": false },
+            { "text": "Un perro más grande ensombrece a uno más pequeño en las interacciones.", "correct": false }
+        ],
+        "explanation": "Si siempre dices 'sienta' al mismo tiempo que haces una señal clara con la mano, es muy probable que el perro aprenda a responder a la señal visual (más saliente) y 'ensombrezca' la señal verbal, que se vuelve irrelevante para él. Esto tiene grandes implicaciones en el entrenamiento."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "¿Cuál es la principal diferencia entre el miedo y la ansiedad?",
+        "answers": [
+            { "text": "El miedo es una emoción más fuerte que la ansiedad.", "correct": false },
+            { "text": "El miedo es una respuesta a una amenaza presente, específica e identificable, mientras que la ansiedad es un estado de aprensión y nerviosismo sobre una amenaza futura, potencial o no definida.", "correct": true },
+            { "text": "Solo los humanos sienten ansiedad, mientras que los perros solo sienten miedo.", "correct": false },
+            { "text": "No hay ninguna diferencia; son la misma emoción.", "correct": false }
+        ],
+        "explanation": "Un perro siente miedo cuando ve a una persona con un palo (amenaza presente). Un perro con ansiedad por separación siente ansiedad ante la posibilidad de que su dueño se vaya (amenaza futura). Esta distinción es crucial para el diagnóstico y el tratamiento."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "El término 'resiliencia' en un perro se refiere a:",
+        "answers": [
+            { "text": "Su fuerza física y resistencia a las enfermedades.", "correct": false },
+            { "text": "Su capacidad para recuperarse rápida y eficazmente de experiencias estresantes o aversivas.", "correct": true },
+            { "text": "Su terquedad y resistencia al entrenamiento.", "correct": false },
+            { "text": "Su nivel de inteligencia para resolver problemas.", "correct": false }
+        ],
+        "explanation": "La resiliencia es una de las características más importantes del temperamento. Un perro resiliente puede asustarse por un ruido fuerte, pero se recupera en segundos. Un perro poco resiliente puede quedar afectado durante horas. La socialización temprana y la genética juegan un papel clave en su desarrollo."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "La principal ventaja de usar un 'marcador' (como un clicker o una palabra) en el entrenamiento es que:",
+        "answers": [
+            { "text": "El sonido del clicker es intrínsecamente agradable para los perros.", "correct": false },
+            { "text": "Permite señalar con una precisión temporal exacta el momento en que el perro realiza la conducta correcta, incluso si el premio se entrega unos segundos después.", "correct": true },
+            { "text": "Sustituye por completo la necesidad de usar premios de comida.", "correct": false },
+            { "text": "Solo funciona para enseñar comportamientos complejos, no para los simples.", "correct": false }
+        ],
+        "explanation": "El marcador actúa como un puente temporal. Comunica al perro: '¡ESO! ¡Ese comportamiento exacto es el que te ha hecho ganar el premio que está por llegar!'. Esta precisión acelera el aprendizaje y permite moldear conductas con mucha más eficacia."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "Cuando un perro se sacude (como si estuviera mojado) después de una interacción social tensa, este comportamiento se interpreta como:",
+        "answers": [
+            { "text": "Una señal de que tiene frío o está incómodo por la temperatura.", "correct": false },
+            { "text": "Una forma de 'liberar' la tensión acumulada durante el evento estresante.", "correct": true },
+            { "text": "Un intento de secarse el sudor.", "correct": false },
+            { "text": "Una invitación al juego.", "correct": false }
+        ],
+        "explanation": "La sacudida es una señal de transición muy clara. A menudo se ve después de que el estímulo estresante ha pasado (p. ej., después de que el otro perro se ha ido). Es un mecanismo de autorregulación para 'resetear' el sistema nervioso y volver a un estado de calma."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "El fenómeno de 'aprendizaje latente' demuestra que los animales:",
+        "answers": [
+            { "text": "Solo pueden aprender si reciben un refuerzo inmediato.", "correct": false },
+            { "text": "Pueden aprender sobre su entorno sin un refuerzo obvio, y ese conocimiento solo se manifiesta cuando aparece una motivación para usarlo.", "correct": true },
+            { "text": "Son incapaces de aprender mientras duermen.", "correct": false },
+            { "text": "Aprenden más lentamente a medida que envejecen.", "correct": false }
+        ],
+        "explanation": "Un perro que explora un nuevo parque está creando un mapa cognitivo del lugar sin recibir premios por ello. Si un día pierde su pelota en ese parque, utilizará ese conocimiento previamente adquirido para buscarla de forma más eficiente. El aprendizaje ocurrió 'en segundo plano'."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "La principal desventaja del uso de la 'inundación' (flooding) para tratar el miedo es que:",
+        "answers": [
+            { "text": "Es una técnica muy lenta y requiere muchas sesiones.", "correct": false },
+            { "text": "Existe un riesgo muy alto de sensibilizar al perro, empeorando la fobia y causando un trauma psicológico severo, además de poder provocar agresión defensiva.", "correct": true },
+            { "text": "Solo funciona con miedos a objetos inanimados, no a otros seres vivos.", "correct": false },
+            { "text": "Es una técnica que requiere el uso de premios de comida muy caros.", "correct": false }
+        ],
+        "explanation": "La inundación consiste en exponer al perro al estímulo que le da miedo a máxima intensidad hasta que 'se rinda' (indefensión aprendida). Es una técnica cruel, peligrosa y éticamente inaceptable que viola el principio de trabajar por debajo del umbral."
+    },
+    {
+        "asignatura": "Etología, Evolución y Domesticación del Perro",
+        "question": "El 'olfato pasivo' en un perro se refiere a:",
+        "answers": [
+            { "text": "La incapacidad del perro para oler debido a una enfermedad.", "correct": false },
+            { "text": "El proceso por el cual el perro inhala y analiza el aire del ambiente en busca de olores sin un objetivo de búsqueda específico.", "correct": true },
+            { "text": "El uso del olfato para seguir un rastro en el suelo.", "correct": false },
+            { "text": "El momento en que el perro detecta un olor pero decide ignorarlo.", "correct": false }
+        ],
+        "explanation": "Los perros están constantemente 'muestreando' el aire. Este olfateo general les da una imagen tridimensional del entorno, informándoles de quién ha estado allí, qué ha hecho y hacia dónde ha ido, mucho antes de empezar un rastreo activo."
+    }
+]

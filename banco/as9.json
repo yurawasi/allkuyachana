@@ -1,0 +1,574 @@
+[
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "Un cliente informa que su perro está más apático. Un análisis de su dieta revela un bajo contenido de triptófano. ¿Por qué es relevante este dato?",
+        "answers": [
+            { "text": "El triptófano es un aminoácido esencial, precursor directo de la serotonina, un neurotransmisor clave en la regulación del estado de ánimo.", "correct": true },
+            { "text": "La falta de triptófano causa problemas articulares.", "correct": false },
+            { "text": "El triptófano es responsable del color del pelaje.", "correct": false },
+            { "text": "La dieta no afecta a los neurotransmisores.", "correct": false }
+        ],
+        "explanation": "La nutrición tiene un impacto directo en la neuroquímica cerebral. Una dieta deficiente en precursores de neurotransmisores como el triptófano puede contribuir a problemas de comportamiento como la ansiedad o la apatía."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "El concepto del 'eje intestino-cerebro' (Gut-Brain Axis) se refiere a:",
+        "answers": [
+            { "text": "La idea de que los perros piensan con el estómago.", "correct": false },
+            { "text": "La comunicación bidireccional entre el sistema nervioso central y la microbiota intestinal, que puede influir en el comportamiento.", "correct": true },
+            { "text": "Una condición médica que causa problemas digestivos y neurológicos.", "correct": false },
+            { "text": "La forma en que el cerebro controla los movimientos del intestino.", "correct": false }
+        ],
+        "explanation": "Una microbiota desequilibrada (disbiosis) se ha relacionado con un aumento de la ansiedad y la reactividad. El uso de probióticos y prebióticos es una herramienta complementaria en el tratamiento de problemas de comportamiento."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "Un perro senior, previamente sociable, empieza a gruñir cuando le tocan el lomo. Esto debería llevar a investigar prioritariamente:",
+        "answers": [
+            { "text": "Que el perro se ha vuelto 'dominante' con la edad.", "correct": false },
+            { "text": "La presencia de un dolor no diagnosticado, como osteoartritis.", "correct": true },
+            { "text": "Un problema de socialización tardía.", "correct": false },
+            { "text": "Celos hacia su dueño.", "correct": false }
+        ],
+        "explanation": "El dolor es un 'gran imitador' de problemas de comportamiento. Un cambio en la tolerancia social, especialmente en perros mayores, es a menudo un indicador de dolor crónico. El perro no gruñe por 'maldad', sino para decir 'eso me duele'."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "El hipotiroidismo es una condición endocrina que puede causar síntomas conductuales. ¿Cuál de los siguientes NO es un signo típico asociado?",
+        "answers": [
+            { "text": "Letargo y 'niebla mental'.", "correct": false },
+            { "text": "Aumento de la ansiedad o agresión 'sin provocación'.", "correct": false },
+            { "text": "Hiperactividad e incapacidad para relajarse.", "correct": true },
+            { "text": "Pérdida de pelo y búsqueda de calor.", "correct": false }
+        ],
+        "explanation": "Mientras que la hiperactividad podría asociarse al hipertiroidismo (raro en perros), el hipotiroidismo (baja función tiroidea) ralentiza el metabolismo y puede afectar la neuroquímica, causando tanto letargo como una menor capacidad para gestionar el estrés."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "¿Cuál es el principal riesgo del 'síndrome del atleta de fin de semana' (perro sedentario con actividad extrema el sábado)?",
+        "answers": [
+            { "text": "El perro se aburrirá del ejercicio.", "correct": false },
+            { "text": "Un alto riesgo de lesiones musculoesqueléticas y un aumento de cortisol por estrés físico agudo.", "correct": true },
+            { "text": "El perro no será capaz de desarrollar un vínculo fuerte.", "correct": false },
+            { "text": "El perro desarrollará comportamientos compulsivos.", "correct": false }
+        ],
+        "explanation": "El ejercicio debe ser regular y adaptado. Picos de actividad extrema sin un condicionamiento físico adecuado no solo son peligrosos para las articulaciones y los músculos, sino que pueden ser fisiológicamente estresantes."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "Un perro de 14 años se muestra desorientado en casa y tiene alterado el ciclo sueño-vigilia. Estos son síntomas clásicos de:",
+        "answers": [
+            { "text": "Un comportamiento deliberado para llamar la atención.", "correct": false },
+            { "text": "Sordera y ceguera relacionadas con la edad únicamente.", "correct": false },
+            { "text": "Síndrome de Disfunción Cognitiva (SDC), un proceso neurodegenerativo.", "correct": true },
+            { "text": "Una simple falta de entrenamiento.", "correct": false }
+        ],
+        "explanation": "El SDC es una condición médica similar al Alzheimer humano que requiere diagnóstico y manejo veterinario. Existen dietas, suplementos y medicaciones que pueden ralentizar su progresión y mejorar la calidad de vida."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "Un perro con displasia de cadera muestra reactividad. ¿Cómo podría ayudar la fisioterapia en este caso?",
+        "answers": [
+            { "text": "No tiene ninguna utilidad, ya que la fisioterapia solo trata el cuerpo.", "correct": false },
+            { "text": "Aliviando el dolor crónico, se puede aumentar el umbral de reacción del perro y mejorar su estado emocional, facilitando la modificación de conducta.", "correct": true },
+            { "text": "Haciendo que el perro esté demasiado cansado para reaccionar.", "correct": false },
+            { "text": "La fisioterapia solo es útil para la recuperación post-quirúrgica.", "correct": false }
+        ],
+        "explanation": "Este es un ejemplo perfecto de un enfoque holístico. Al tratar la causa raíz (el dolor), la fisioterapia no solo mejora la salud física, sino que tiene un impacto directo en el bienestar emocional y la capacidad del perro para gestionar los estresores sociales."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "Durante el desarrollo de un cachorro de raza grande, una nutrición inadecuada con exceso de calcio puede provocar:",
+        "answers": [
+            { "text": "Un crecimiento más rápido y fuerte.", "correct": false },
+            { "text": "Problemas de comportamiento como la ansiedad.", "correct": false },
+            { "text": "Graves problemas de desarrollo esquelético y enfermedades ortopédicas.", "correct": true },
+            { "text": "Que el cachorro aprenda las órdenes más rápidamente.", "correct": false }
+        ],
+        "explanation": "La nutrición del cachorro de raza grande es una ciencia de precisión. Un crecimiento demasiado rápido puede ejercer una presión insostenible sobre un esqueleto inmaduro. La dieta debe estar formulada para un crecimiento lento y sostenido."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "Los ácidos grasos Omega-3 (EPA y DHA) son a menudo recomendados como suplemento. ¿Cuál es su principal mecanismo de acción relevante para el comportamiento?",
+        "answers": [
+            { "text": "Actúan como un sedante natural.", "correct": false },
+            { "text": "Tienen propiedades antiinflamatorias y son componentes estructurales de las membranas neuronales, apoyando la función cognitiva.", "correct": true },
+            { "text": "Aumentan los niveles de energía del perro.", "correct": false },
+            { "text": "Son responsables de la pigmentación del pelo.", "correct": false }
+        ],
+        "explanation": "Los Omega-3 son un nutracéutico con base científica. Su doble acción, reduciendo la inflamación (que puede contribuir al dolor) y apoyando la salud cerebral, los convierte en un complemento valioso para muchos planes de bienestar."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "Un cliente quiere probar una 'dieta de eliminación' para su perro con problemas de piel y reactividad. El propósito es:",
+        "answers": [
+            { "text": "Ayudar al perro a perder peso.", "correct": false },
+            { "text": "Identificar una posible alergia o intolerancia alimentaria utilizando una dieta con una fuente de proteína y carbohidratos novedosa.", "correct": true },
+            { "text": "Limpiar el sistema digestivo del perro de toxinas.", "correct": false },
+            { "text": "Castigar al perro por su mal comportamiento.", "correct": false }
+        ],
+        "explanation": "Las alergias o intolerancias pueden causar malestar crónico que lleva a una baja tolerancia al estrés. Una dieta de eliminación, supervisada por un veterinario, es la herramienta diagnóstica de referencia para identificar el alérgeno."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "La taurina es un aminoácido crucial para los perros, especialmente relevante para la salud de:",
+        "answers": [
+            { "text": "Los huesos y las articulaciones.", "correct": false },
+            { "text": "El corazón (cardiomiopatía dilatada) y la vista (retina).", "correct": true },
+            { "text": "El sistema digestivo.", "correct": false },
+            { "text": "La piel y el pelaje.", "correct": false }
+        ],
+        "explanation": "Aunque los perros pueden sintetizarla, ciertas dietas (especialmente algunas libres de grano) se han asociado con deficiencias de taurina que pueden llevar a una cardiomiopatía dilatada, una condición cardíaca grave. Esto subraya la importancia de elegir dietas bien formuladas y balanceadas."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "Un perro que come demasiado rápido ('engulle') puede estar en riesgo de sufrir una condición potencialmente mortal llamada:",
+        "answers": [
+            { "text": "Indigestión.", "correct": false },
+            { "text": "Dilatación-vólvulo gástrico (torsión de estómago).", "correct": true },
+            { "text": "Diabetes.", "correct": false },
+            { "text": "Alergias alimentarias.", "correct": false }
+        ],
+        "explanation": "La torsión de estómago es una emergencia veterinaria. Usar comederos lentos (slow feeders) o esparcir la comida en una alfombra olfativa no solo ralentiza la ingesta, sino que también proporciona enriquecimiento mental, abordando tanto la salud física como el bienestar."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "El 'período neonatal' (0-2 semanas) en un cachorro es crítico para su desarrollo neurológico. Una estimulación táctil suave durante esta fase (como la Estimulación Neurológica Temprana) puede:",
+        "answers": [
+            { "text": "Hacer que el cachorro sea más dependiente de los humanos.", "correct": false },
+            { "text": "Provocar un estrés leve y controlado que ayuda a 'ejercitar' el sistema nervioso, resultando en adultos más resilientes al estrés.", "correct": true },
+            { "text": "No tener ningún efecto, ya que el cachorro no puede percibir nada.", "correct": false },
+            { "text": "Acelerar su crecimiento físico de forma peligrosa.", "correct": false }
+        ],
+        "explanation": "Programas como el 'Bio Sensor' o ENS exponen a los cachorros a estímulos térmicos, táctiles y de movimiento breves y controlados. La investigación sugiere que esto puede tener beneficios duraderos en la salud cardiovascular y la capacidad de afrontamiento del estrés."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "Un perro con insuficiencia pancreática exocrina (IPE) puede mostrar un aumento de la protección de recursos o la coprofagia. ¿Por qué?",
+        "answers": [
+            { "text": "La condición le provoca un dolor abdominal constante.", "correct": false },
+            { "text": "Debido a la incapacidad de producir enzimas digestivas, el perro sufre de hambre extrema (polifagia) y no asimila los nutrientes, lo que le lleva a buscar comida desesperadamente.", "correct": true },
+            { "text": "La IPE afecta directamente a los neurotransmisores de la agresión.", "correct": false },
+            { "text": "Es un efecto secundario de la medicación.", "correct": false }
+        ],
+        "explanation": "En la IPE, el perro está, en efecto, muriéndose de hambre a pesar de comer vorazmente. Este hambre desesperada puede explicar comportamientos como la protección de la comida, el robo de alimentos y la ingesta de heces. Es un claro ejemplo de cómo un problema gastrointestinal se manifiesta como un grave problema de comportamiento."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "El término 'condroprotectores' (como la glucosamina y la condroitina) se refiere a suplementos que buscan:",
+        "answers": [
+            { "text": "Mejorar la función cognitiva en perros mayores.", "correct": false },
+            { "text": "Apoyar la salud del cartílago y reducir la inflamación en las articulaciones, a menudo usados para la osteoartritis.", "correct": true },
+            { "text": "Calmar la ansiedad y el estrés.", "correct": false },
+            { "text": "Mejorar la salud digestiva.", "correct": false }
+        ],
+        "explanation": "Dado que el dolor articular crónico es una causa principal de cambios de comportamiento en perros de mediana edad y mayores (irritabilidad, reticencia a moverse, agresión), el uso de condroprotectores como parte de un plan de manejo del dolor puede tener un impacto conductual positivo indirecto."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "El ejercicio adecuado para un cachorro de 4 meses de una raza grande debería centrarse en:",
+        "answers": [
+            { "text": "Correr largas distancias para fortalecer sus músculos.", "correct": false },
+            { "text": "Juego libre, controlado y de bajo impacto sobre superficies blandas para proteger sus placas de crecimiento aún abiertas.", "correct": true },
+            { "text": "Ejercicios de salto y agilidad para mejorar su coordinación.", "correct": false },
+            { "text": "El mismo tipo e intensidad de ejercicio que un perro adulto.", "correct": false }
+        ],
+        "explanation": "Las placas de crecimiento de los huesos largos no se cierran hasta los 12-18 meses. El ejercicio de alto impacto (saltos repetitivos, correr sobre asfalto) en un esqueleto inmaduro puede causar daños permanentes. El ejercicio del cachorro debe ser más sobre exploración y socialización que sobre esfuerzo físico intenso."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "Un perro que sufre de convulsiones (epilepsia) puede mostrar cambios de comportamiento, como ansiedad o agresión, durante la fase 'postictal'. Esta fase se refiere a:",
+        "answers": [
+            { "text": "El período justo antes de que ocurra la convulsión (aura).", "correct": false },
+            { "text": "El período de confusión, desorientación y recuperación neurológica que sigue inmediatamente a una convulsión.", "correct": true },
+            { "text": "El momento de la convulsión en sí.", "correct": false },
+            { "text": "El período de tiempo entre dos convulsiones.", "correct": false }
+        ],
+        "explanation": "Durante la fase postictal, el perro puede no reconocer a su dueño, sentirse aterrorizado y reaccionar de forma defensiva. Es crucial que los dueños entiendan que este no es el comportamiento 'normal' de su perro y que deben garantizar la seguridad y la calma hasta que el cerebro se recupere."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "La 'propiocepción' es el sentido del cuerpo en el espacio. ¿Cuál de las siguientes actividades es un excelente ejercicio de enriquecimiento propioceptivo?",
+        "answers": [
+            { "text": "Lanzar una pelota en un campo plano.", "correct": false },
+            { "text": "Caminar lentamente sobre un colchón, cojines de equilibrio o un terreno irregular como un bosque.", "correct": true },
+            { "text": "Correr en una cinta.", "correct": false },
+            { "text": "Nadar en una piscina.", "correct": false }
+        ],
+        "explanation": "Los ejercicios de propiocepción desafían al cerebro a ser consciente de la posición de las patas y a hacer microajustes constantes para mantener el equilibrio. Esto no solo mejora la coordinación física, sino que también construye confianza y concentración."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "La deficiencia de zinc en la dieta de un perro se ha asociado con:",
+        "answers": [
+            { "text": "Problemas de piel (dermatosis) y un sistema inmune debilitado, lo que puede causar malestar y afectar al comportamiento.", "correct": true },
+            { "text": "Un aumento de la inteligencia.", "correct": false },
+            { "text": "Mejora de la visión nocturna.", "correct": false },
+            { "text": "Fortalecimiento de los huesos.", "correct": false }
+        ],
+        "explanation": "El zinc es un micronutriente esencial para la salud de la piel y la función inmunológica. Ciertas razas nórdicas, en particular, tienen una predisposición genética a una mala absorción de zinc. El malestar crónico de la piel puede llevar a irritabilidad y una menor tolerancia."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "Un perro con alergias ambientales (atopia) puede mostrar un aumento de los comportamientos de desplazamiento, como rascarse o lamerse. Es importante reconocerlo porque:",
+        "answers": [
+            { "text": "El comportamiento puede ser malinterpretado como puramente 'nervioso' o compulsivo, cuando en realidad tiene una causa física subyacente (picor).", "correct": true },
+            { "text": "La atopia no tiene ningún efecto sobre el comportamiento.", "correct": false },
+            { "text": "Todos los perros que se rascan tienen ansiedad.", "correct": false },
+            { "text": "El rascado es una forma de dominancia.", "correct": false }
+        ],
+        "explanation": "El picor crónico es un estresor significativo que afecta gravemente a la calidad de vida y al bienestar. Un perro que no puede aliviar su picor estará en un estado de malestar constante, lo que puede reducir su umbral para la agresión y aumentar su irritabilidad general."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "El 'ciclo estral' de una perra no castrada puede influir significativamente en su comportamiento. Durante el proestro y el estro, es común observar:",
+        "answers": [
+            { "text": "Un estado de calma y letargo.", "correct": false },
+            { "text": "Un aumento de la irritabilidad, la ansiedad, el marcaje con orina y una posible menor tolerancia hacia otras hembras.", "correct": true },
+            { "text": "Una mayor disposición a aprender nuevas órdenes de obediencia.", "correct": false },
+            { "text": "La pérdida total del apetito.", "correct": false }
+        ],
+        "explanation": "Las fluctuaciones hormonales masivas (estrógenos, progesterona) tienen un impacto directo en la neuroquímica y el comportamiento. Es crucial que los dueños y los profesionales reconozcan estos cambios cíclicos para no malinterpretar un comportamiento de base hormonal como un problema de temperamento."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "La pseudogestación o 'embarazo psicológico' en las perras es un fenómeno:",
+        "answers": [
+            { "text": "Muy raro y anormal.", "correct": false },
+            { "text": "Fisiológico y normal que ocurre después del celo, donde las hormonas (prolactina) provocan comportamientos maternales (hacer nido, adoptar objetos) y cambios físicos.", "correct": true },
+            { "text": "Que solo ocurre si la perra se ha apareado.", "correct": false },
+            { "text": "Un signo de un problema uterino grave.", "correct": false }
+        ],
+        "explanation": "Es un vestigio del pasado lobuno, donde las hembras no reproductoras ayudaban en la cría de los cachorros de la hembra alfa. Puede causar un estrés significativo y comportamientos como la protección de recursos (de sus 'cachorros' de peluche), que pueden ser malinterpretados si no se entiende la causa hormonal."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "Un perro que sufre de dolor dental puede mostrar:",
+        "answers": [
+            { "text": "Un aumento del apetito.", "correct": false },
+            { "text": "Reticencia a que le toquen la cabeza, masticación unilateral, babeo excesivo o irritabilidad repentina.", "correct": true },
+            { "text": "Un pelaje más brillante.", "correct": false },
+            { "text": "Una mayor disposición al juego de morder.", "correct": false }
+        ],
+        "explanation": "El dolor dental es una causa de malestar crónico a menudo pasada por alto. Un perro no puede decir 'me duele una muela', por lo que lo expresa a través de cambios sutiles de comportamiento. Una revisión dental regular es una parte fundamental del cuidado preventivo del bienestar."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "El 'período de transición' en los cachorros (aprox. 2-3 semanas) es una fase de desarrollo crucial porque es cuando:",
+        "answers": [
+            { "text": "Los cachorros son completamente dependientes de su madre.", "correct": false },
+            { "text": "Se abren los ojos y los canales auditivos, y el cachorro comienza a experimentar el mundo exterior por primera vez, iniciando el aprendizaje y la socialización.", "correct": true },
+            { "text": "Se produce el destete completo.", "correct": false },
+            { "text": "El cachorro aprende a controlar sus esfínteres.", "correct": false }
+        ],
+        "explanation": "Este es el comienzo de la 'ventana de socialización'. Las primeras experiencias sensoriales durante este período tienen un impacto profundo en el desarrollo neurológico. Un entorno rico en estímulos suaves y variados en esta etapa es vital."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "La obesidad en los perros es un problema de bienestar grave no solo por el riesgo de enfermedades, sino también porque:",
+        "answers": [
+            { "text": "El tejido adiposo es metabólicamente activo y produce citoquinas pro-inflamatorias, creando un estado de inflamación crónica de bajo grado que puede exacerbar el dolor articular.", "correct": true },
+            { "text": "Los perros obesos son siempre más felices.", "correct": false },
+            { "text": "La obesidad protege contra las enfermedades cardíacas.", "correct": false },
+            { "text": "Mejora la agilidad y la velocidad del perro.", "correct": false }
+        ],
+        "explanation": "La obesidad es una enfermedad inflamatoria. Este estado pro-inflamatorio puede empeorar el dolor de la artritis, lo que a su vez puede llevar a una mayor irritabilidad y una menor disposición al ejercicio, creando un círculo vicioso. El control del peso es una intervención de bienestar clave."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "El 'período juvenil' (desde la pubertad hasta la madurez social) se caracteriza conductualmente por:",
+        "answers": [
+            { "text": "Un comportamiento estable y predecible.", "correct": false },
+            { "text": "Un aumento de la exploración, la puesta a prueba de los límites y, a menudo, una segunda ventana de miedo, todo ello impulsado por una remodelación cerebral masiva.", "correct": true },
+            { "text": "La pérdida de todos los comportamientos de juego.", "correct": false },
+            { "text": "Una dependencia total de su dueño.", "correct": false }
+        ],
+        "explanation": "Esta es la 'adolescencia' canina. Es una fase de desarrollo normal, pero a menudo desafiante, que requiere una gestión paciente, un entrenamiento consistente y positivo, y la comprensión de que el cerebro del perro está 'en obras'."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "Un perro con una sordera de aparición gradual (relacionada con la edad) puede parecer más 'testarudo' o 'desobediente'. También puede mostrar un aumento de:",
+        "answers": [
+            { "text": "La dependencia de las señales visuales.", "correct": false },
+            { "text": "La respuesta de sobresalto, ya que puede asustarse fácilmente si se le acerca por detrás o se le despierta sin previo aviso.", "correct": true },
+            { "text": "La capacidad para oler.", "correct": false },
+            { "text": "El deseo de jugar con otros perros.", "correct": false }
+        ],
+        "explanation": "La pérdida sensorial puede ser una fuente de ansiedad. Un perro que no oye bien no puede anticipar las aproximaciones, lo que puede llevar a respuestas de sobresalto que pueden ser malinterpretadas como agresión. Es importante adaptar el manejo, por ejemplo, pisando fuerte para anunciar la presencia."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "La 'cola fría' o 'síndrome de la cola flácida' es una condición:",
+        "answers": [
+            { "text": "Que indica que el perro está relajado.", "correct": false },
+            { "text": "Muscular aguda y dolorosa de la base de la cola, a menudo causada por la natación en agua fría o el sobreesfuerzo, que requiere reposo y antiinflamatorios.", "correct": true },
+            { "text": "Psicológica donde el perro se niega a mover la cola.", "correct": false },
+            { "text": "Congénita que afecta a la estructura ósea de la cola.", "correct": false }
+        ],
+        "explanation": "Es importante reconocer esta condición médica para no malinterpretar la cola caída como una señal de comportamiento (sumisión o miedo). El perro no mueve la cola porque le duele intensamente. Es un ejemplo de cómo una condición física afecta directamente a una herramienta de comunicación."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "Los antioxidantes en la dieta de un perro senior son importantes porque:",
+        "answers": [
+            { "text": "Ayudan a combatir el daño causado por los radicales libres y el estrés oxidativo en el cerebro, lo que puede ayudar a ralentizar el envejecimiento cognitivo.", "correct": true },
+            { "text": "Aumentan el nivel de energía del perro.", "correct": false },
+            { "text": "Previenen la formación de sarro dental.", "correct": false },
+            { "text": "Hacen que el perro sea más obediente.", "correct": false }
+        ],
+        "explanation": "El estrés oxidativo es un factor clave en el proceso de envejecimiento. Las dietas enriquecidas con antioxidantes (como las vitaminas E y C) son una estrategia nutricional para apoyar la salud cerebral y pueden ser un componente del manejo del Síndrome de Disfunción Cognitiva."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "Un shih tzu (raza braquicéfala) que se muestra reacio a jugar en un día caluroso no está siendo 'perezoso', sino que:",
+        "answers": [
+            { "text": "Está mostrando dominancia.", "correct": false },
+            { "text": "Tiene una capacidad fisiológicamente reducida para regular su temperatura a través del jadeo debido a su anatomía de hocico corto, y está en riesgo de sufrir un golpe de calor.", "correct": true },
+            { "text": "No le gusta su dueño.", "correct": false },
+            { "text": "Probablemente tiene una lesión en una pata.", "correct": false }
+        ],
+        "explanation": "La anatomía dicta la fisiología y el comportamiento. La selección de rasgos braquicéfalos extremos compromete la capacidad respiratoria del perro. Entender estas limitaciones físicas es fundamental para garantizar su bienestar y no atribuir su comportamiento a problemas de 'actitud'."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "El 'desarrollo motor' de un cachorro sigue una secuencia predecible. La coordinación para caminar y correr de forma fluida se desarrolla principalmente:",
+        "answers": [
+            { "text": "En el útero.", "correct": false },
+            { "text": "Durante el período de socialización (3-16 semanas), a través del juego y la exploración.", "correct": true },
+            { "text": "Después del primer año de vida.", "correct": false },
+            { "text": "Es una habilidad completamente innata que no requiere práctica.", "correct": false }
+        ],
+        "explanation": "Aunque hay un plan genético, el desarrollo motor requiere práctica. El juego con los hermanos de camada es un 'gimnasio' crucial donde el cachorro aprende a coordinar sus movimientos, a medir su fuerza y a desarrollar la propiocepción."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "La 'puntuación de condición corporal' (BCS) es una herramienta que:",
+        "answers": [
+            { "text": "Mide el nivel de obediencia de un perro.", "correct": false },
+            { "text": "Permite una evaluación objetiva de la grasa corporal de un perro, basándose en la palpación de las costillas y la cintura, y es más precisa que solo el peso.", "correct": true },
+            { "text": "Clasifica el temperamento de un perro.", "correct": false },
+            { "text": "Evalúa la calidad del pelaje del perro.", "correct": false }
+        ],
+        "explanation": "El peso en kilos puede ser engañoso debido a las diferencias de tamaño y estructura. El BCS (generalmente en una escala de 1 a 5 o de 1 a 9) es el método estándar utilizado por los veterinarios para determinar si un perro tiene un peso saludable, sobrepeso o está demasiado delgado."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "Un perro que ingiere un cuerpo extraño (p. ej., un calcetín) puede mostrar síntomas como vómitos, letargo y dolor abdominal. ¿Por qué es una emergencia veterinaria?",
+        "answers": [
+            { "text": "Porque el objeto puede causar una obstrucción intestinal, que puede cortar el suministro de sangre a una parte del intestino y provocar una necrosis y una peritonitis mortal.", "correct": true },
+            { "text": "Porque el perro se sentirá culpable y necesita apoyo emocional.", "correct": false },
+            { "text": "Porque el objeto puede teñir el interior del perro.", "correct": false },
+            { "text": "Porque el perro puede desarrollar un trastorno compulsivo.", "correct": false }
+        ],
+        "explanation": "Una obstrucción intestinal es una de las emergencias quirúrgicas más comunes. Es crucial educar a los dueños sobre la gestión del entorno para prevenir la pica y sobre el reconocimiento de los síntomas para buscar atención veterinaria inmediata."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "La madurez social en los perros se alcanza generalmente:",
+        "answers": [
+            { "text": "A los 6 meses de edad, cuando alcanzan la madurez sexual.", "correct": false },
+            { "text": "Entre los 18 y los 36 meses de edad, mucho después de la madurez física.", "correct": true },
+            { "text": "A las 16 semanas, al final del período de socialización.", "correct": false },
+            { "text": "A los 5 años de edad.", "correct": false }
+        ],
+        "explanation": "Este es un punto clave que muchos dueños desconocen. Un perro de un año puede parecer un adulto, pero su cerebro social todavía está madurando. Muchos problemas de agresión social aparecen o se consolidan durante este período. La paciencia y el manejo proactivo son esenciales."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "El 'efecto de la camada' (litter effect) se refiere a:",
+        "answers": [
+            { "text": "La tendencia de los cachorros de una misma camada a ser idénticos en comportamiento.", "correct": false },
+            { "text": "La influencia significativa que las experiencias compartidas y la competición dentro de la camada tienen en el desarrollo del temperamento, además de la genética.", "correct": true },
+            { "text": "La cantidad de basura que genera una camada de cachorros.", "correct": false },
+            { "text": "El orden de nacimiento de un cachorro.", "correct": false }
+        ],
+        "explanation": "Incluso con los mismos padres, los cachorros de una camada no son iguales. La experiencia temprana (acceso a la madre, interacciones con los hermanos) crea diferencias individuales. Esto demuestra que el ambiente intra-camada ya está moldeando la personalidad."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "La pérdida de visión periférica en un perro (p. ej., por glaucoma) puede hacer que se asuste o reaccione defensivamente cuando:",
+        "answers": [
+            { "text": "Se le mira directamente a los ojos.", "correct": false },
+            { "text": "Se le acerca alguien de lado o por detrás sin anunciarse.", "correct": true },
+            { "text": "Se le ofrece comida.", "correct": false },
+            { "text": "Se le habla con un tono de voz agudo.", "correct": false }
+        ],
+        "explanation": "Un perro con una visión en túnel no puede ver las aproximaciones laterales. La aparición 'repentina' de una mano o una persona en su campo de visión puede provocar una respuesta de sobresalto. Es otro ejemplo de cómo un déficit sensorial se manifiesta como un problema de comportamiento."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "La 'saciedad' es la sensación de estar lleno después de comer. ¿Qué componente de la dieta contribuye más a la saciedad a largo plazo?",
+        "answers": [
+            { "text": "El azúcar.", "correct": false },
+            { "text": "La proteína y la fibra.", "correct": true },
+            { "text": "El agua.", "correct": false },
+            { "text": "Las vitaminas.", "correct": false }
+        ],
+        "explanation": "Las dietas altas en proteínas y fibra promueven una mayor sensación de saciedad, lo que puede ser muy útil en programas de pérdida de peso o para perros que muestran comportamientos de búsqueda de comida. Ayuda a que el perro se sienta satisfecho con menos calorías."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "Un 'soplo cardíaco' detectado en una revisión veterinaria puede ser relevante para el comportamiento porque:",
+        "answers": [
+            { "text": "Una condición cardíaca puede limitar la tolerancia al ejercicio, y un perro que no puede hacer suficiente ejercicio puede desarrollar problemas de frustración o aburrimiento.", "correct": true },
+            { "text": "Los soplos cardíacos causan agresión directamente.", "correct": false },
+            { "text": "Indica que el perro no puede ser entrenado.", "correct": false },
+            { "text": "No tiene ninguna relevancia para el comportamiento.", "correct": false }
+        ],
+        "explanation": "La salud física y el comportamiento están interconectados. Un profesional del comportamiento debe conocer las limitaciones médicas de un perro para diseñar un plan de bienestar y ejercicio que sea seguro y apropiado, y que no exacerbe una condición subyacente."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "El período de socialización es una ventana de oportunidad. El final de este período está marcado por:",
+        "answers": [
+            { "text": "El destete.", "correct": false },
+            { "text": "La maduración de las respuestas de miedo, lo que hace que el cachorro sea mucho más cauteloso ante estímulos novedosos.", "correct": true },
+            { "text": "La primera visita al veterinario.", "correct": false },
+            { "text": "Cuando el cachorro aprende a sentarse.", "correct": false }
+        ],
+        "explanation": "Hay una razón evolutiva para esto: en la naturaleza, esta es la edad en la que un cachorro de lobo empezaría a salir de la madriguera y necesitaría una saludable dosis de neofobia (miedo a lo nuevo) para sobrevivir. Por eso es crucial realizar una socialización segura y positiva ANTES de que esta ventana se cierre."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "La castración en machos puede aumentar el riesgo de ciertos problemas de salud, como:",
+        "answers": [
+            { "text": "Ciertos tipos de cáncer (p. ej., hemangiosarcoma, osteosarcoma) y problemas ortopédicos, especialmente si se realiza antes de la madurez esquelética.", "correct": true },
+            { "text": "Cáncer de testículos.", "correct": false },
+            { "text": "Infecciones de oído.", "correct": false },
+            { "text": "Alergias cutáneas.", "correct": false }
+        ],
+        "explanation": "La decisión de castrar/esterilizar ya no es automática. La investigación moderna ha revelado que las hormonas sexuales juegan un papel protector en muchas áreas de la salud. La decisión debe ser individualizada, sopesando los beneficios (control de la población, reducción de ciertos cánceres) y los riesgos con un veterinario."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "Un perro que es 'quisquilloso' con la comida (neofobia alimentaria) puede haber desarrollado este comportamiento debido a:",
+        "answers": [
+            { "text": "Un intento de manipular a su dueño para obtener comida mejor.", "correct": false },
+            { "text": "Una falta de exposición a una variedad de alimentos y texturas durante su período de socialización.", "correct": true },
+            { "text": "Un paladar demasiado sofisticado.", "correct": false },
+            { "text": "Dominancia.", "correct": false }
+        ],
+        "explanation": "Las preferencias alimentarias se establecen en gran medida en las primeras etapas de la vida. Los cachorros expuestos a una variedad de sabores y texturas de forma segura tienden a ser adultos menos neofóbicos con la comida. También puede haber una causa médica (malestar gastrointestinal) que debe descartarse."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "La 'agresión maternal' es un comportamiento:",
+        "answers": [
+            { "text": "Anormal que indica que la perra es una mala madre.", "correct": false },
+            { "text": "Impulsado por hormonas (prolactina, oxitocina) y diseñado para proteger a los cachorros de amenazas percibidas, que puede dirigirse a extraños e incluso a los dueños.", "correct": true },
+            { "text": "Que solo ocurre en perras que han tenido camadas problemáticas.", "correct": false },
+            { "text": "Aprendido por imitación de otras perras.", "correct": false }
+        ],
+        "explanation": "Es un comportamiento completamente normal y funcional. Sin embargo, en un entorno doméstico, puede ser peligroso. Requiere una gestión cuidadosa para minimizar el estrés de la madre y garantizar la seguridad de las personas, respetando su necesidad instintiva de proteger a su camada."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "El 'dolor referido' es un fenómeno en el que:",
+        "answers": [
+            { "text": "El dolor se siente en una parte del cuerpo diferente a la de la lesión real (p. ej., un problema de cuello que causa dolor en una pata delantera).", "correct": true },
+            { "text": "El perro refiere su dolor a su dueño.", "correct": false },
+            { "text": "El dolor va y viene.", "correct": false },
+            { "text": "El perro no muestra ningún signo de dolor.", "correct": false }
+        ],
+        "explanation": "El dolor referido puede complicar enormemente el diagnóstico. Un perro puede lamerse una pata insistentemente no por un problema en la pata, sino por un nervio pinzado en la columna. Esto subraya la necesidad de un examen ortopédico y neurológico completo por parte de un veterinario."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "El 'reflejo de hociqueo' (rooting reflex) en un cachorro recién nacido es un comportamiento innato que le permite:",
+        "answers": [
+            { "text": "Empezar a caminar.", "correct": false },
+            { "text": "Encontrar el pezón de su madre para alimentarse.", "correct": true },
+            { "text": "Regular su temperatura corporal.", "correct": false },
+            { "text": "Comunicarse con sus hermanos de camada.", "correct": false }
+        ],
+        "explanation": "Los cachorros nacen en un estado muy inmaduro (altricial), pero con una serie de reflejos esenciales para la supervivencia. El reflejo de hociqueo, junto con el de succión, asegura que pueda encontrar y obtener alimento desde el primer momento."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "¿Por qué es importante el calostro (la primera leche de la madre) para la salud de un cachorro?",
+        "answers": [
+            { "text": "Porque es más rico en grasas que la leche posterior.", "correct": false },
+            { "text": "Porque contiene una alta concentración de anticuerpos maternos que proporcionan al cachorro una 'inmunidad pasiva' crucial durante sus primeras semanas de vida.", "correct": true },
+            { "text": "Porque ayuda al cachorro a dormir mejor.", "correct": false },
+            { "text": "Porque es más fácil de digerir.", "correct": false }
+        ],
+        "explanation": "La barrera placentaria de los perros no permite un gran paso de anticuerpos. La inmunidad del cachorro depende casi por completo de la absorción de los anticuerpos del calostro en las primeras 24-48 horas de vida. Un cachorro que no ingiere suficiente calostro es mucho más vulnerable a las infecciones."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "El 'juego de boca' (mouthing) en los cachorros es:",
+        "answers": [
+            { "text": "Un signo temprano de agresión que debe ser castigado severamente.", "correct": false },
+            { "text": "Un comportamiento de exploración y socialización completamente normal, y una oportunidad crucial para enseñar la inhibición de la mordida.", "correct": true },
+            { "text": "Un signo de que al cachorro le duelen los dientes.", "correct": false },
+            { "text": "Un intento del cachorro de dominar a su dueño.", "correct": false }
+        ],
+        "explanation": "Los cachorros exploran el mundo con la boca. El juego de boca es cómo aprenden a controlar la presión de su mandíbula. La respuesta humana correcta no es el castigo, sino redirigir la boca a un juguete apropiado y enseñar que la presión sobre la piel humana termina la interacción (castigo negativo)."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "Un perro con dolor crónico puede mostrar 'hiperalgesia'. Esto significa que:",
+        "answers": [
+            { "text": "Es completamente insensible al dolor.", "correct": false },
+            { "text": "Un estímulo que normalmente sería solo levemente doloroso se percibe como intensamente doloroso.", "correct": true },
+            { "text": "Siente dolor en una parte del cuerpo que no está lesionada.", "correct": false },
+            { "text": "El dolor es constante y nunca varía de intensidad.", "correct": false }
+        ],
+        "explanation": "El dolor crónico puede 'reprogramar' el sistema nervioso, haciéndolo más sensible. Esto se llama 'sensibilización central'. Es la razón por la que una simple caricia en una zona artrítica puede provocar una reacción defensiva que parece desproporcionada, pero que refleja el dolor real que siente el perro."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "La 'madurez sexual' de un perro (generalmente entre los 6-12 meses) no debe confundirse con la 'madurez social' porque:",
+        "answers": [
+            { "text": "Un perro es socialmente maduro en cuanto puede reproducirse.", "correct": false },
+            { "text": "La madurez social, cuando el comportamiento adulto se estabiliza, ocurre mucho más tarde (18-36 meses). Un perro sexualmente maduro sigue siendo un 'adolescente' conductual.", "correct": true },
+            { "text": "La madurez social ocurre antes que la sexual.", "correct": false },
+            { "text": "No hay ninguna diferencia entre ambas.", "correct": false }
+        ],
+        "explanation": "Esta es una de las mayores fuentes de confusión para los dueños. Un perro de un año puede tener el cuerpo de un adulto, pero su cerebro (especialmente el córtex prefrontal responsable del autocontrol) todavía está en desarrollo. Esperar un comportamiento de adulto maduro de un 'adolescente' es poco realista."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "El 'shaking puppy syndrome' o hipomielinización congénita es una condición neurológica que afecta:",
+        "answers": [
+            { "text": "El desarrollo de la visión.", "correct": false },
+            { "text": "El desarrollo de la vaina de mielina alrededor de los nervios, lo que provoca temblores y movimientos descoordinados (ataxia) en los cachorros.", "correct": true },
+            { "text": "El sistema digestivo.", "correct": false },
+            { "text": "El crecimiento de los huesos.", "correct": false }
+        ],
+        "explanation": "La mielina es esencial para la transmisión rápida de los impulsos nerviosos. En esta condición, la 'funda aislante' de los nervios no se desarrolla correctamente. Aunque algunos cachorros pueden mejorar con el tiempo, es un ejemplo de cómo un problema de desarrollo físico tiene consecuencias conductuales directas."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "La 'sacudida de cabeza' (head shaking) persistente en un perro es una bandera roja que indica la necesidad de una revisión veterinaria para descartar:",
+        "answers": [
+            { "text": "Un comportamiento de búsqueda de atención.", "correct": false },
+            { "text": "Una infección de oído (otitis), un cuerpo extraño en el canal auditivo, o alergias.", "correct": true },
+            { "text": "Un problema de dominancia.", "correct": false },
+            { "text": "Que el perro está intentando escuchar mejor.", "correct": false }
+        ],
+        "explanation": "La otitis es una condición dolorosa y común. La sacudida de cabeza es un intento del perro de aliviar el dolor o el picor. Tratarlo como un problema de comportamiento sin un examen otoscópico es un error diagnóstico grave."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "Una dieta alta en carbohidratos simples y de alto índice glucémico puede, teóricamente, afectar al comportamiento al:",
+        "answers": [
+            { "text": "Causar picos y caídas rápidas en los niveles de azúcar en sangre, lo que puede influir en los niveles de energía y la irritabilidad.", "correct": true },
+            { "text": "Mejorar la concentración y la capacidad de aprendizaje.", "correct": false },
+            { "text": "No tener ningún efecto sobre el comportamiento.", "correct": false },
+            { "text": "Aumentar la producción de serotonina de forma estable.", "correct": false }
+        ],
+        "explanation": "Aunque la investigación en perros es menos concluyente que en humanos, la lógica fisiológica sugiere que las fluctuaciones bruscas de glucosa en sangre pueden afectar al estado de ánimo y al autocontrol. Las dietas con carbohidratos complejos que liberan energía de forma más lenta pueden ser más beneficiosas para la estabilidad conductual."
+    },
+    {
+        "asignatura": "Nutrición, Salud y Desarrollo Físico",
+        "question": "El 'síndrome de la ira' (rage syndrome), aunque raro y a menudo sobrediagnosticado, se cree que es:",
+        "answers": [
+            { "text": "Un problema de dominancia extrema.", "correct": false },
+            { "text": "Una forma de epilepsia focal que se manifiesta como explosiones de agresión intensa, impredecible y descontextualizada.", "correct": true },
+            { "text": "El resultado de un mal entrenamiento.", "correct": false },
+            { "text": "Un comportamiento exclusivo de la raza Cocker Spaniel.", "correct": false }
+        ],
+        "explanation": "Es un diagnóstico controvertido y de exclusión. La agresión parece una convulsión conductual: el perro no parece 'presente', la agresión es explosiva y a menudo no hay recuerdo del evento. Requiere una evaluación neurológica completa para ser considerado."
+    }
+]

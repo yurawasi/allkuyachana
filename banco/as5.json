@@ -1,0 +1,530 @@
+[
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "La capacidad de los perros para seguir el gesto de señalar de un humano es un ejemplo clave de:",
+        "answers": [
+            { "text": "Un simple reflejo condicionado.", "correct": false },
+            { "text": "Cognición social interespecífica, una habilidad que parece haber sido seleccionada durante la domesticación.", "correct": true },
+            { "text": "Una habilidad presente en todos los mamíferos por igual.", "correct": false },
+            { "text": "Un comportamiento que solo los perros de trabajo pueden aprender.", "correct": false }
+        ],
+        "explanation": "Esta habilidad es notable porque otros primates inteligentes, como los chimpancés, a menudo fallan en esta tarea. La facilidad con la que los perros, incluso cachorros, la resuelven sugiere una adaptación evolutiva para cooperar y comunicarse con los humanos."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "El trabajo del neurocientífico Jaak Panksepp propone la existencia de 'sistemas emocionales' primarios en el cerebro de los mamíferos. ¿Cuál de los siguientes es uno de estos sistemas?",
+        "answers": [
+            { "text": "El sistema de CULPA (GUILT).", "correct": false },
+            { "text": "El sistema de BÚSQUEDA (SEEKING).", "correct": true },
+            { "text": "El sistema de VENGANZA (REVENGE).", "correct": false },
+            { "text": "El sistema de ORGULLO (PRIDE).", "correct": false }
+        ],
+        "explanation": "Panksepp identificó siete sistemas emocionales primarios con base neurobiológica compartida: BÚSQUEDA, IRA, MIEDO, PÁNICO/PENA, CUIDADO, JUEGO y LUJURIA. Este marco nos permite hablar de las emociones caninas desde una base científica, en lugar de atribuirles estados complejos humanos."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "El 'Test de la Situación Extraña', originalmente diseñado para niños, se ha adaptado para perros con el fin de evaluar:",
+        "answers": [
+            { "text": "Su coeficiente intelectual.", "correct": false },
+            { "text": "La calidad y el estilo de su vínculo de apego con su cuidador.", "correct": true },
+            { "text": "Su nivel de agresividad hacia extraños.", "correct": false },
+            { "text": "Su capacidad para resolver problemas espaciales.", "correct": false }
+        ],
+        "explanation": "Este test evalúa cómo reacciona un perro a la separación y al reencuentro con su cuidador en un entorno desconocido. Los patrones de comportamiento permiten clasificar el apego como 'seguro' (el perro usa al dueño como base segura para explorar y se consuela con su regreso) o 'inseguro' (evitativo o ansioso)."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "Cuando un perro muestra una 'mirada de culpa' después de hacer una travesura, la investigación científica sugiere que este comportamiento es en realidad:",
+        "answers": [
+            { "text": "Una muestra de arrepentimiento y comprensión de que ha roto una regla.", "correct": false },
+            { "text": "Una respuesta de apaciguamiento al lenguaje corporal de enfado o al regaño del dueño, independientemente de si el perro fue el culpable o no.", "correct": true },
+            { "text": "Una manipulación inteligente para conseguir comida.", "correct": false },
+            { "text": "Un signo temprano de disfunción cognitiva.", "correct": false }
+        ],
+        "explanation": "Estudios de Alexandra Horowitz demostraron que los perros mostraban este comportamiento en respuesta a la reacción del dueño, incluso cuando no habían hecho nada malo. No es una admisión de culpa, sino una estrategia social para calmar a un humano que perciben como enfadado."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "El concepto de 'Teoría de la Mente' (ToM) se refiere a la capacidad de atribuir estados mentales a otros. ¿Cuál de las siguientes afirmaciones describe mejor la evidencia actual sobre la ToM en perros?",
+        "answers": [
+            { "text": "Los perros tienen una ToM idéntica a la de los humanos.", "correct": false },
+            { "text": "Los perros son sensibles al estado atencional de los humanos (saben si alguien les está mirando), lo que se considera un precursor de la ToM.", "correct": true },
+            { "text": "Los perros son completamente incapaces de interpretar las intenciones humanas.", "correct": false },
+            { "text": "La ToM es una habilidad que solo se ha demostrado en primates.", "correct": false }
+        ],
+        "explanation": "Aunque es poco probable que los perros tengan una ToM compleja como la nuestra, sí demuestran entender la perspectiva de los demás hasta cierto punto. Por ejemplo, son más propensos a desobedecer una orden si el humano no les está mirando, lo que indica que comprenden el estado atencional."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "El juego social entre perros es crucial para su desarrollo. Una regla fundamental del juego sano es:",
+        "answers": [
+            { "text": "Que el perro más grande siempre gane para establecer la jerarquía.", "correct": false },
+            { "text": "La auto-inhibición (self-handicapping) y la inversión de roles, donde el perro más fuerte o rápido modera su comportamiento para mantener el juego equilibrado y divertido.", "correct": true },
+            { "text": "Que el juego debe continuar hasta que uno de los perros esté completamente agotado.", "correct": false },
+            { "text": "Evitar cualquier tipo de vocalización, como los gruñidos.", "correct": false }
+        ],
+        "explanation": "El juego sano es cooperativo. La auto-inhibición (p. ej., un perro grande tumbándose para jugar con uno pequeño) y la inversión de roles (el perseguidor se convierte en el perseguido) son señales de que ambos perros entienden las 'reglas' y están trabajando para mantener la interacción en un plano lúdico."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "El estudio sobre la 'aversión a la inequidad' demostró que los perros:",
+        "answers": [
+            { "text": "Se sienten motivados a trabajar más duro si ven a otro perro recibir una recompensa.", "correct": false },
+            { "text": "Pueden negarse a realizar una tarea si ven que otro perro recibe una recompensa por la misma tarea mientras ellos no reciben nada.", "correct": true },
+            { "text": "Comparten sus recompensas con otros perros de forma altruista.", "correct": false },
+            { "text": "Son indiferentes a cómo son tratados los demás perros.", "correct": false }
+        ],
+        "explanation": "Este experimento sugiere que los perros tienen un sentido básico de la justicia o, al menos, son sensibles a un trato desigual. Esta sensibilidad es importante para el mantenimiento de las relaciones de cooperación dentro de un grupo social."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "Desde una perspectiva científica, la 'personalidad' de un perro se define como:",
+        "answers": [
+            { "text": "El conjunto de comportamientos que son idénticos en todos los perros de una misma raza.", "correct": false },
+            { "text": "Diferencias individuales en el comportamiento que son consistentes a lo largo del tiempo y en diferentes situaciones.", "correct": true },
+            { "text": "El estado de ánimo del perro en un día determinado.", "correct": false },
+            { "text": "Etiquetas subjetivas puestas por los dueños, como 'vago' o 'listo'.", "correct": false }
+        ],
+        "explanation": "La ciencia ha validado que los perros tienen personalidades estables y medibles. A través de test estandarizados, se pueden evaluar dimensiones como la audacia-timidez, la sociabilidad, la capacidad de entrenamiento o la agresividad, que tienen una base tanto genética como ambiental."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "El 'contagio emocional' es un fenómeno que se observa cuando un perro:",
+        "answers": [
+            { "text": "Calcula deliberadamente cómo se siente otro individuo para consolarlo.", "correct": false },
+            { "text": "Comienza a mostrar signos de estrés o alegría simplemente por estar cerca de otro individuo que expresa esa emoción.", "correct": true },
+            { "text": "Transmite una enfermedad a través del contacto social.", "correct": false },
+            { "text": "Oculta sus verdaderas emociones.", "correct": false }
+        ],
+        "explanation": "El contagio emocional es una forma básica de empatía. Es una respuesta automática de 'sincronización' emocional con otros, como cuando un perro empieza a ladrar porque otros perros del vecindario están ladrando. Fomenta la cohesión y las respuestas rápidas del grupo."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "El rol de la oxitocina en el vínculo humano-animal es significativo porque:",
+        "answers": [
+            { "text": "Solo se libera en los humanos durante la interacción, no en los perros.", "correct": false },
+            { "text": "La mirada mutua entre un perro y su dueño puede aumentar los niveles de oxitocina en ambas especies, creando un bucle de retroalimentación positiva del apego.", "correct": true },
+            { "text": "Es una hormona que causa agresión y desconfianza.", "correct": false },
+            { "text": "Es la principal hormona de la respuesta de estrés.", "correct": false }
+        ],
+        "explanation": "Este descubrimiento es crucial porque demuestra que la relación entre perros y humanos utiliza el mismo mecanismo neurohormonal que fortalece el vínculo entre una madre y su bebé. Esto explica, a nivel biológico, la profundidad de la conexión que sentimos con nuestros perros."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "La capacidad de 'aprendizaje social' se refiere a:",
+        "answers": [
+            { "text": "La habilidad de aprender únicamente a través del propio ensayo y error.", "correct": false },
+            { "text": "Aprender observando o interactuando con otro individuo o su producto.", "correct": true },
+            { "text": "La capacidad de disfrutar de la compañía de otros perros.", "correct": false },
+            { "text": "Una técnica de entrenamiento que utiliza la presión social.", "correct": false }
+        ],
+        "explanation": "El aprendizaje social es un 'atajo' evolutivo. Permite a un perro aprender a resolver un problema (p. ej., cómo abrir un puzle de comida) o a temer algo (p. ej., un objeto) simplemente observando a otro perro, sin tener que pasar por la experiencia directa."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "Un perro se enfrenta a un problema irresoluble (p. ej., comida atrapada) y, tras intentarlo, se gira para mirar a su dueño. Este comportamiento de 'mirada social' se interpreta como:",
+        "answers": [
+            { "text": "Un signo de rendición y baja inteligencia.", "correct": false },
+            { "text": "Una estrategia de comunicación social para solicitar ayuda, una adaptación clave de la domesticación.", "correct": true },
+            { "text": "Simple curiosidad por lo que está haciendo el dueño.", "correct": false },
+            { "text": "Un comportamiento de apaciguamiento.", "correct": false }
+        ],
+        "explanation": "A diferencia de los lobos, que tienden a persistir solos en la tarea, los perros utilizan a los humanos como herramientas sociales para resolver problemas. Esta mirada no es un signo de fracaso, sino una sofisticada estrategia de cooperación interespecífica."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "La memoria episódica se refiere al recuerdo de eventos autobiográficos (qué, dónde y cuándo). La evidencia en perros sugiere que poseen:",
+        "answers": [
+            { "text": "Una memoria episódica idéntica a la humana.", "correct": false },
+            { "text": "Una memoria 'similar a la episódica', como demuestra su capacidad para imitar acciones de forma inesperada y tras un lapso de tiempo.", "correct": true },
+            { "text": "Solo memoria procedimental (cómo hacer las cosas), sin recuerdo de eventos.", "correct": false },
+            { "text": "Una memoria que dura solo unos minutos.", "correct": false }
+        ],
+        "explanation": "Mediante el paradigma 'Do As I Do' ('Haz lo que yo hago'), se ha demostrado que los perros pueden recordar y reproducir acciones que no sabían que tendrían que imitar. Esto sugiere que almacenan recuerdos de eventos de una forma mucho más compleja de lo que se creía anteriormente."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "Una prueba de 'sesgo cognitivo' se utiliza para evaluar el estado emocional de un animal. Un perro considerado 'pesimista' en esta prueba tenderá a:",
+        "answers": [
+            { "text": "Responder con entusiasmo a cualquier estímulo, sea ambiguo o no.", "correct": false },
+            { "text": "Interpretar un estímulo ambiguo (p. ej., un cuenco situado a medio camino entre un lugar con premio y otro sin premio) como si no fuera a contener una recompensa.", "correct": true },
+            { "text": "Ignorar por completo la prueba.", "correct": false },
+            { "text": "Resolver la prueba más rápido que un perro optimista.", "correct": false }
+        ],
+        "explanation": "El estado emocional de un perro tiñe su juicio. Un perro en un estado de bienestar comprometido (pesimista) es menos propenso a 'arriesgarse' a que algo bueno ocurra ante la incertidumbre. El pesimismo es un indicador medible de un posible problema de bienestar subyacente."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "El sistema emocional de PÁNICO/PENA (PANIC/GRIEF), según Panksepp, es la base neurobiológica de:",
+        "answers": [
+            { "text": "La agresión por protección de recursos.", "correct": false },
+            { "text": "La ansiedad por separación y la angustia que siente un cachorro al ser separado de su madre.", "correct": true },
+            { "text": "La fobia a las tormentas.", "correct": false },
+            { "text": "La motivación para jugar.", "correct": false }
+        ],
+        "explanation": "Este sistema ancestral es el responsable del dolor psíquico de la separación social. Es el motor que impulsa a los mamíferos jóvenes a mantenerse cerca de sus cuidadores y que subyace a la angustia de la soledad y la pérdida en la edad adulta. Entenderlo es clave para abordar la ansiedad por separación."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "La diferencia entre 'imitación' y 'emulación de objetivos' es que:",
+        "answers": [
+            { "text": "La imitación es copiar la acción exacta de otro, mientras que la emulación es entender el objetivo de la acción y encontrar su propia manera de lograrlo.", "correct": true },
+            { "text": "La emulación es una forma más avanzada de imitación.", "correct": false },
+            { "text": "Solo los humanos imitan, mientras que los perros solo emulan.", "correct": false },
+            { "text": "No existe ninguna diferencia.", "correct": false }
+        ],
+        "explanation": "Si un perro ve a otro usar la pata para abrir una puerta, la imitación sería usar también la pata. La emulación sería entender que el objetivo es abrir la puerta y usar el hocico para lograrlo. Los perros parecen ser capaces de ambas formas de aprendizaje social."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "Un perro parece 'consolar' a su dueño cuando está llorando, acercándose y lamiéndole la cara. Desde una perspectiva científica, este comportamiento se explica mejor como:",
+        "answers": [
+            { "text": "Un acto de altruismo puro y comprensión compleja de la tristeza humana.", "correct": false },
+            { "text": "Una respuesta probablemente impulsada por el contagio emocional, donde el perro 'atrapa' la angustia del dueño y realiza un comportamiento de apaciguamiento que ha sido reforzado en el pasado.", "correct": true },
+            { "text": "Un intento de dominar al dueño en un momento de vulnerabilidad.", "correct": false },
+            { "text": "Simple curiosidad por el sonido del llanto.", "correct": false }
+        ],
+        "explanation": "Aunque el efecto es reconfortante, es poco probable que el perro tenga una comprensión humana de la tristeza. Es más probable que la angustia visible del dueño le cause estrés al perro (contagio emocional) y este responda con conductas que le han funcionado para calmar al humano en otras ocasiones."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "El término 'apego inseguro-evitativo' en un perro se manifiesta en el Test de la Situación Extraña cuando:",
+        "answers": [
+            { "text": "El perro llora y ladra constantemente durante la ausencia del dueño.", "correct": false },
+            { "text": "El perro ignora activamente al dueño cuando este regresa, mostrando poco o ningún comportamiento de búsqueda de contacto.", "correct": true },
+            { "text": "El perro se muestra ambivalente, buscando contacto pero luego resistiéndose a él.", "correct": false },
+            { "text": "El perro explora tranquilamente y saluda al dueño de forma relajada a su regreso.", "correct": false }
+        ],
+        "explanation": "Este estilo de apego a menudo se desarrolla en perros cuyos cuidadores han sido inconsistentes o poco receptivos a sus necesidades. El perro aprende que no puede contar con su figura de apego para obtener consuelo y, por lo tanto, inhibe sus conductas de búsqueda de proximidad."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "La capacidad de un perro para aprender el significado de palabras (p. ej., 'pelota', 'cuerda') demuestra una habilidad cognitiva llamada:",
+        "answers": [
+            { "text": "Comprensión sintáctica.", "correct": false },
+            { "text": "Aprendizaje referencial, donde una vocalización arbitraria se asocia con un objeto o acción específica.", "correct": true },
+            { "text": "Teoría de la Mente.", "correct": false },
+            { "text": "Memoria fotográfica.", "correct": false }
+        ],
+        "explanation": "Aunque los perros no entienden el lenguaje como los humanos (gramática, sintaxis), perros como el famoso Border Collie Chaser han demostrado que pueden aprender cientos de etiquetas para objetos, demostrando una sofisticada capacidad para el aprendizaje referencial."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "El sistema emocional de CUIDADO (CARE), según Panksepp, es el que impulsa:",
+        "answers": [
+            { "text": "La agresividad y la defensa de recursos.", "correct": false },
+            { "text": "Los comportamientos maternales y de afiliación, como lamer, acicalar y proteger a las crías o a otros miembros del grupo social.", "correct": true },
+            { "text": "La curiosidad y la exploración del entorno.", "correct": false },
+            { "text": "La respuesta de pánico ante la separación.", "correct": false }
+        ],
+        "explanation": "Este sistema neurobiológico es la base de los comportamientos de crianza y de los lazos sociales. Es el que motiva a una madre a cuidar de sus cachorros y, por extensión, el que subyace a los comportamientos de afecto y cuidado entre compañeros sociales."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "Los perros son capaces de discriminar entre diferentes expresiones faciales humanas (feliz vs. enfadado). Esto indica que:",
+        "answers": [
+            { "text": "Entienden el significado emocional abstracto detrás de las expresiones, de la misma forma que un humano.", "correct": false },
+            { "text": "Han aprendido a asociar ciertas configuraciones faciales con consecuencias positivas (una cara sonriente predice caricias) o negativas (un ceño fruncido predice un regaño).", "correct": true },
+            { "text": "Solo reaccionan al tono de voz y no a la cara.", "correct": false },
+            { "text": "Creen que las caras humanas son otros perros.", "correct": false }
+        ],
+        "explanation": "Aunque no podemos saber si 'entienden' la felicidad, sí sabemos que son maestros en el aprendizaje asociativo. Una cara sonriente es un estímulo condicionado que predice consistentemente resultados agradables, por lo que provoca una respuesta emocional positiva en el perro."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "El 'efecto audiencia' se ha utilizado para argumentar que los perros pueden mostrar engaño deliberado. Un ejemplo sería un perro que:",
+        "answers": [
+            { "text": "Ladra a una ventana donde no hay nada para que su dueño se levante y así poder robar la comida de la mesa.", "correct": true },
+            { "text": "Esconde un juguete y luego no lo encuentra.", "correct": false },
+            { "text": "Gruñe cuando se le acerca a su comida.", "correct": false },
+            { "text": "Se hace el dormido cuando se le llama para ir al veterinario.", "correct": false }
+        ],
+        "explanation": "Este tipo de comportamiento sugiere que el perro puede manipular el estado atencional de su dueño para alcanzar un objetivo. Requiere entender que el dueño actuará sobre una falsa creencia (que hay algo fuera), lo que es una forma básica de engaño táctico."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "La memoria de trabajo en los perros es crucial para el entrenamiento de obediencia. Esta memoria les permite:",
+        "answers": [
+            { "text": "Recordar a su dueño después de una larga ausencia.", "correct": false },
+            { "text": "Mantener en mente una señal o información durante un corto período de tiempo para poder actuar sobre ella, como en un ejercicio de 'sentado y espera'.", "correct": true },
+            { "text": "Recordar dónde enterraron un hueso hace meses.", "correct": false },
+            { "text": "Aprender el nombre de más de 100 juguetes.", "correct": false }
+        ],
+        "explanation": "La memoria de trabajo es como la 'RAM' del cerebro. Es un espacio mental limitado donde se retiene información activamente. Cuando un perro se queda esperando mientras su dueño se aleja, está usando su memoria de trabajo para recordar la instrucción de 'espera'."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "El sistema emocional de IRA (RAGE), según Panksepp, se desencadena principalmente por:",
+        "answers": [
+            { "text": "La separación de un compañero social.", "correct": false },
+            { "text": "La frustración de no poder acceder a un recurso deseado o la restricción del movimiento.", "correct": true },
+            { "text": "La presencia de un depredador.", "correct": false },
+            { "text": "La oportunidad de jugar.", "correct": false }
+        ],
+        "explanation": "El sistema de IRA es la emoción de la frustración. Se activa cuando el sistema de BÚSQUEDA se ve bloqueado. Un perro que se lanza contra la correa hacia otro perro puede no estar actuando por 'agresividad', sino por una intensa frustración (IRA) al no poder satisfacer su deseo de saludar (BÚSQUEDA)."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "La capacidad de un perro para aprender una regla abstracta (p. ej., 'elige siempre el objeto más grande, sin importar qué objeto sea') es un ejemplo de:",
+        "answers": [
+            { "text": "Condicionamiento clásico simple.", "correct": false },
+            { "text": "Formación de conceptos, una habilidad cognitiva de orden superior.", "correct": true },
+            { "text": "Memoria episódica.", "correct": false },
+            { "text": "Apego seguro.", "correct": false }
+        ],
+        "explanation": "La formación de conceptos implica ir más allá de aprender sobre objetos individuales y extraer una regla o propiedad común. La investigación ha demostrado que los perros son capaces de este tipo de pensamiento abstracto, demostrando una mayor complejidad cognitiva de lo que se creía."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "La 'interferencia proactiva' es un fenómeno de la memoria que ocurre cuando:",
+        "answers": [
+            { "text": "Un recuerdo nuevo dificulta el recuerdo de algo aprendido anteriormente.", "correct": false },
+            { "text": "Un recuerdo antiguo dificulta el aprendizaje y el recuerdo de información nueva.", "correct": true },
+            { "text": "El perro no puede recordar nada durante una situación de estrés.", "correct": false },
+            { "text": "El perro recuerda selectivamente solo las experiencias positivas.", "correct": false }
+        ],
+        "explanation": "Si un perro ha aprendido muy bien que la señal de la mano para 'sentado' es moverla hacia abajo, y ahora intentas usar la misma señal para 'tumbado', el aprendizaje antiguo interferirá proactivamente con el nuevo. Por eso es importante usar señales claras y distintas para diferentes comportamientos."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "Los perros son capaces de 'inferencia por exclusión', una forma de razonamiento lógico. Esto se demuestra cuando un perro:",
+        "answers": [
+            { "text": "Si conoce el nombre de los juguetes A, B y C, y se le pide que traiga 'D' (un nombre nuevo), selecciona el juguete nuevo que nunca ha visto antes.", "correct": true },
+            { "text": "Siempre elige el juguete más grande.", "correct": false },
+            { "text": "Trae un juguete al azar con la esperanza de acertar.", "correct": false },
+            { "text": "Solo puede aprender el nombre de un único juguete.", "correct": false }
+        ],
+        "explanation": "Este proceso, también conocido como 'fast mapping', es una forma sofisticada de aprendizaje. El perro razona que si A, B y C son conocidos, el nuevo nombre 'D' debe corresponder al único objeto desconocido. Es una habilidad que se creía exclusiva de los humanos y algunos primates."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "¿Cuál de las siguientes afirmaciones sobre las emociones secundarias (p. ej., celos, orgullo) en perros es la más precisa científicamente?",
+        "answers": [
+            { "text": "Se ha demostrado sin lugar a dudas que los perros experimentan celos y orgullo de la misma forma que los humanos.", "correct": false },
+            { "text": "Aunque los perros muestran comportamientos que nosotros interpretamos como 'celos' (p. ej., interferir cuando el dueño acaricia a otro perro), es difícil probar la existencia de la experiencia subjetiva compleja. El comportamiento puede explicarse por motivaciones más simples como la protección de recursos.", "correct": true },
+            { "text": "Los perros son incapaces de cualquier emoción más allá del instinto básico de supervivencia.", "correct": false },
+            { "text": "Los celos son la principal causa de agresión en perros.", "correct": false }
+        ],
+        "explanation": "La ciencia del comportamiento exige precaución. Si bien un perro puede actuar de una manera que se ajusta a nuestra definición de celos, no podemos saber si su experiencia interna es la misma que la nuestra, que implica complejas cogniciones sociales. A menudo, un análisis funcional revela una motivación más parsimoniosa, como la protección de un recurso valioso (la atención del dueño)."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "El concepto de 'alostasis' se diferencia de la 'homeostasis' en que:",
+        "answers": [
+            { "text": "La homeostasis describe un estado de equilibrio estático, mientras que la alostasis describe el proceso activo de mantener la estabilidad a través del cambio en respuesta a los estresores.", "correct": true },
+            { "text": "La alostasis solo ocurre durante el sueño.", "correct": false },
+            { "text": "La homeostasis se refiere al equilibrio emocional y la alostasis al equilibrio físico.", "correct": false },
+            { "text": "Son dos términos para el mismo proceso biológico.", "correct": false }
+        ],
+        "explanation": "La alostasis es la 'estabilidad a través del cambio'. Es el proceso fisiológico que permite a un perro adaptarse a un desafío. El problema es la 'carga alostática': el desgaste acumulado en el cuerpo por mantener este estado de adaptación durante demasiado tiempo, lo que conduce al estrés crónico."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "Un perro que aprende a asociar la bata del veterinario con experiencias desagradables puede empezar a mostrar miedo al ver cualquier persona con una bata blanca. La bata se ha convertido en:",
+        "answers": [
+            { "text": "Un estímulo incondicionado.", "correct": false },
+            { "text": "Un estímulo condicionado que provoca una respuesta emocional condicionada de miedo.", "correct": true },
+            { "text": "Un reforzador positivo.", "correct": false },
+            { "text": "Una señal de seguridad.", "correct": false }
+        ],
+        "explanation": "Este es un ejemplo perfecto de condicionamiento clásico en la vida real. La bata (originalmente un estímulo neutro) se ha pareado con procedimientos aversivos (estímulo incondicionado), y ahora la bata por sí sola (estímulo condicionado) es suficiente para desencadenar la respuesta de miedo."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "La 'memoria procedimental' es el tipo de memoria responsable de:",
+        "answers": [
+            { "text": "Recordar eventos específicos de la vida del perro.", "correct": false },
+            { "text": "El 'saber cómo' hacer las cosas: las habilidades motoras y los hábitos aprendidos, como sentarse a la señal o montar en bicicleta.", "correct": true },
+            { "text": "Reconocer a otros perros o personas.", "correct": false },
+            { "text": "Recordar el significado de las palabras.", "correct": false }
+        ],
+        "explanation": "Es la memoria del 'músculo y el hábito'. Gran parte del entrenamiento de obediencia se basa en la consolidación de la memoria procedimental, hasta que la respuesta a una señal se vuelve fluida y automática."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "Cuando un perro muestra 'meta-señales' durante el juego, como una 'cara de juego' exagerada, está:",
+        "answers": [
+            { "text": "Mostrando signos de agresión.", "correct": false },
+            { "text": "Comunicando sobre la comunicación, para asegurarse de que sus acciones (como un mordisco inhibido) se interpreten en un contexto lúdico.", "correct": true },
+            { "text": "Indicando que está cansado y quiere terminar el juego.", "correct": false },
+            { "text": "Expresando sumisión.", "correct": false }
+        ],
+        "explanation": "Las meta-señales son cruciales para mantener el juego. La reverencia de juego es la más conocida, pero la 'cara de juego' (boca abierta y relajada, movimientos exagerados) también sirve para decir constantemente '¡esto sigue siendo un juego!' y evitar malentendidos."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "La capacidad de un perro de ser entrenado para detectar enfermedades como el cáncer o cambios de azúcar en sangre en humanos se basa en:",
+        "answers": [
+            { "text": "Un 'sexto sentido' místico e inexplicable.", "correct": false },
+            { "text": "Su extraordinario sentido del olfato, que puede detectar los Compuestos Orgánicos Volátiles (COV) específicos que emiten las células enfermas.", "correct": true },
+            { "text": "La capacidad de leer la mente de su dueño.", "correct": false },
+            { "text": "El uso de tecnología avanzada implantada en el perro.", "correct": false }
+        ],
+        "explanation": "No es magia, es biología. Las enfermedades alteran el metabolismo del cuerpo, produciendo olores únicos que son imperceptibles para nosotros, pero que el sensible olfato de un perro puede detectar. El entrenamiento consiste en enseñar al perro a alertar de forma fiable al percibir ese olor específico."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "El sistema emocional de JUEGO (PLAY), según Panksepp, es fundamental para:",
+        "answers": [
+            { "text": "Establecer jerarquías de dominancia.", "correct": false },
+            { "text": "El aprendizaje de habilidades sociales, como la inhibición de la mordida, la comunicación y la negociación de interacciones en un entorno seguro.", "correct": true },
+            { "text": "Encontrar comida y recursos.", "correct": false },
+            { "text": "Defender el territorio de intrusos.", "correct": false }
+        ],
+        "explanation": "El sistema de JUEGO es un circuito neuronal innato que motiva a los mamíferos jóvenes a interactuar físicamente de forma lúdica. Es un 'simulador' evolutivo que permite practicar y perfeccionar comportamientos sociales y físicos que serán vitales en la edad adulta."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "El 'efecto de primacía y recencia' en la memoria sugiere que un perro, al aprender una lista de señales, tenderá a recordar mejor:",
+        "answers": [
+            { "text": "Solo las señales del medio de la sesión.", "correct": false },
+            { "text": "Las primeras señales (primacía) y las últimas señales (recencia) de la sesión.", "correct": true },
+            { "text": "Solo las últimas señales que aprendió.", "correct": false },
+            { "text": "Las señales asociadas con el reforzador de menor valor.", "correct": false }
+        ],
+        "explanation": "Este principio de la psicología de la memoria también se aplica a los perros. Es una razón más para mantener las sesiones de entrenamiento cortas y estructuradas, ya que la información presentada en medio de una sesión larga es más susceptible de ser olvidada."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "La 'facilitación social' es un fenómeno en el que:",
+        "answers": [
+            { "text": "La presencia de otros individuos inhibe el comportamiento de un perro.", "correct": false },
+            { "text": "La presencia de otros individuos aumenta la motivación o la intensidad con la que un perro realiza un comportamiento que ya sabe hacer.", "correct": true },
+            { "text": "Un perro aprende una nueva habilidad observando a otro.", "correct": false },
+            { "text": "Dos perros se ayudan mutuamente para resolver un problema.", "correct": false }
+        ],
+        "explanation": "Un ejemplo es un perro que come más rápido o ladra con más intensidad cuando está en compañía de otros perros que están haciendo lo mismo. La presencia del grupo social 'facilita' o amplifica la expresión del comportamiento."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "Un perro con un estilo de apego 'inseguro-ansioso' (o ambivalente) podría mostrar en el Test de la Situación Extraña:",
+        "answers": [
+            { "text": "Poca angustia durante la separación e ignorar al dueño a su regreso.", "correct": false },
+            { "text": "Una angustia extrema durante la separación, y al regreso del dueño, buscar contacto pero al mismo tiempo mostrarse incapaz de ser consolado, incluso mostrando enfado.", "correct": true },
+            { "text": "Explorar el entorno con confianza y saludar al dueño de forma relajada.", "correct": false },
+            { "text": "Dormir durante todo el experimento.", "correct": false }
+        ],
+        "explanation": "Este patrón refleja una relación en la que el cuidador ha sido inconsistente. El perro busca desesperadamente la seguridad, pero la inconsistencia previa le impide confiar plenamente en que su figura de apego será una fuente fiable de consuelo."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "La capacidad de un perro de ajustar su comportamiento basándose en si una acción es 'vista' u 'oída' por un humano (p. ej., abrir una bolsa de comida ruidosa vs. una silenciosa) demuestra:",
+        "answers": [
+            { "text": "Una audición superior.", "correct": false },
+            { "text": "Una sensibilidad a las pistas perceptivas que indican la atención humana, lo que les permite adaptar su estrategia social.", "correct": true },
+            { "text": "Que los perros prefieren los sonidos fuertes.", "correct": false },
+            { "text": "Que solo responden a señales visuales.", "correct": false }
+        ],
+        "explanation": "Los perros son maestros en leer nuestras señales, incluso las más sutiles. Saben que un humano que puede oírles es un humano 'informado' de sus acciones. Esta habilidad para integrar información de diferentes modalidades sensoriales es un signo de su sofisticada cognición social."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "El 'calentamiento conductual' (behavioral warm-up) se refiere a:",
+        "answers": [
+            { "text": "El ejercicio físico que un perro debe hacer antes de una sesión de entrenamiento.", "correct": false },
+            { "text": "El fenómeno por el cual la probabilidad de que ocurra un comportamiento aumenta después de que el comportamiento ya se ha realizado una o varias veces.", "correct": true },
+            { "text": "La temperatura corporal del perro durante el juego.", "correct": false },
+            { "text": "La primera fase del condicionamiento clásico.", "correct": false }
+        ],
+        "explanation": "Este efecto puede explicar por qué, a veces, un comportamiento problemático parece 'empeorar' una vez que ha comenzado. El primer ladrido 'calienta' el circuito neuronal, haciendo que el segundo y el tercero sean más probables. Por eso la gestión y la prevención son tan importantes para evitar que la cadena comience."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "La 'inercia conductual' describe la tendencia de:",
+        "answers": [
+            { "text": "Un perro a permanecer inmóvil durante largos períodos.", "correct": false },
+            { "text": "Un comportamiento que ha sido fuertemente reforzado con un programa intermitente a persistir incluso cuando las condiciones cambian o el refuerzo cesa.", "correct": true },
+            { "text": "Un perro a olvidar rápidamente los comportamientos aprendidos.", "correct": false },
+            { "text": "Un perro a cambiar constantemente de una actividad a otra.", "correct": false }
+        ],
+        "explanation": "Un comportamiento con una alta 'inercia' (o momentum) es muy resistente al cambio. Esto es deseable para conductas de obediencia, pero es lo que hace que los comportamientos problemáticos que han sido reforzados intermitentemente (como ladrar por atención) sean tan difíciles de extinguir."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "Un perro muestra 'neofilia' si tiene una fuerte tendencia a:",
+        "answers": [
+            { "text": "Evitar cualquier cosa nueva.", "correct": false },
+            { "text": "Buscar e investigar activamente estímulos, objetos y entornos novedosos.", "correct": true },
+            { "text": "Preferir la compañía de los humanos a la de otros perros.", "correct": false },
+            { "text": "Dormir la mayor parte del día.", "correct": false }
+        ],
+        "explanation": "La neofilia (amor por lo nuevo) es un rasgo de la personalidad. Los perros con alta neofilia son a menudo más fáciles de socializar y se adaptan mejor a los cambios, pero también pueden ser más propensos a la distracción. Es el opuesto de la neofobia (miedo a lo nuevo)."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "El fenómeno de 'contra-apego' (counter-attachment) se refiere a:",
+        "answers": [
+            { "text": "Cuando un perro muestra agresión hacia su figura de apego.", "correct": false },
+            { "text": "El desarrollo de un vínculo de apego por parte del humano hacia el perro, que es recíproco y se ve reforzado por el comportamiento del perro.", "correct": true },
+            { "text": "La incapacidad de un perro para formar un vínculo de apego.", "correct": false },
+            { "text": "Cuando dos perros de la misma casa compiten por la atención de un humano.", "correct": false }
+        ],
+        "explanation": "El apego no es unidireccional. El comportamiento del perro (saludos entusiastas, búsqueda de contacto, respuesta a las señales) actúa como un poderoso reforzador para el humano, liberando oxitocina y fortaleciendo el propio vínculo del humano hacia el perro."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "La 'perspectiva visual geométrica' es una habilidad que permite a un perro:",
+        "answers": [
+            { "text": "Apreciar el arte abstracto.", "correct": false },
+            { "text": "Entender que un objeto que no puede ver porque hay una barrera opaca de por medio, tampoco puede ser visto por otra persona que está al otro lado de la barrera.", "correct": true },
+            { "text": "Calcular la distancia exacta a un objeto.", "correct": false },
+            { "text": "Navegar usando las estrellas.", "correct": false }
+        ],
+        "explanation": "Esta habilidad demuestra una comprensión espacial sofisticada y es otro precursor de la Teoría de la Mente. El perro no solo sabe lo que él puede ver, sino que puede inferir lo que otro individuo puede ver, y utiliza esta información para tomar decisiones (p. ej., dónde esconder un objeto)."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "La diferencia entre el juego y la agresión real a veces es sutil. Una señal clave que indica que una interacción puede estar dejando de ser juego es:",
+        "answers": [
+            { "text": "La presencia de gruñidos.", "correct": false },
+            { "text": "La falta de reciprocidad y la ausencia de pausas y meta-señales; un perro persigue constantemente al otro sin invertir los roles, y el perseguido muestra señales de estrés.", "correct": true },
+            { "text": "Cuando los perros corren a gran velocidad.", "correct": false },
+            { "text": "Cuando un perro pone una pata sobre el lomo del otro.", "correct": false }
+        ],
+        "explanation": "El juego sano es como un baile con pausas, donde ambos participantes parecen estar disfrutando. Cuando se vuelve unilateral, con un perro acosando al otro y este último intentando escapar o mostrando señales de calma, ya no es juego y debe ser interrumpido."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "El sistema emocional de LUJURIA (LUST), según Panksepp, está relacionado con:",
+        "answers": [
+            { "text": "El deseo de comer alimentos muy sabrosos.", "correct": false },
+            { "text": "Las hormonas y los circuitos cerebrales que impulsan los comportamientos de cortejo y apareamiento.", "correct": true },
+            { "text": "La agresión por protección de recursos.", "correct": false },
+            { "text": "El vínculo de apego entre una madre y su cría.", "correct": false }
+        ],
+        "explanation": "Este es uno de los sistemas emocionales primarios, con una fuerte base hormonal (estrógenos, testosterona) y neuroquímica, que garantiza la reproducción de la especie. Es importante diferenciarlo de otros sistemas sociales como el de CUIDADO o el de JUEGO."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "Cuando un perro responde al llanto de un bebé humano, la investigación sugiere que esta respuesta es:",
+        "answers": [
+            { "text": "Una simple curiosidad por un sonido extraño.", "correct": false },
+            { "text": "Una respuesta de estrés y alerta similar a la que muestran al oír ruido blanco, posiblemente debido a las características acústicas del llanto.", "correct": true },
+            { "text": "Una muestra de empatía compleja y un intento deliberado de consolar.", "correct": false },
+            { "text": "Un comportamiento predatorio.", "correct": false }
+        ],
+        "explanation": "Aunque es tentador interpretar esta respuesta como empatía, los estudios han demostrado que los perros muestran niveles de cortisol y comportamientos de estrés similares ante el llanto de un bebé y ante sonidos desagradables pero no emocionales. La respuesta parece estar más impulsada por las propiedades acústicas del sonido que por un entendimiento de la angustia del bebé."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "La capacidad de un perro de aprender a través del 'condicionamiento socialmente guiado' se da cuando:",
+        "answers": [
+            { "text": "La presencia o el comportamiento de otro individuo (p. ej., un humano mirando un cuenco) dirige la atención del perro hacia ese objeto, facilitando que aprenda una asociación sobre él.", "correct": true },
+            { "text": "Un perro es castigado por interactuar con otros perros.", "correct": false },
+            { "text": "Un perro solo aprende cuando está en un grupo grande.", "correct": false },
+            { "text": "El perro aprende a ignorar las señales sociales.", "correct": false }
+        ],
+        "explanation": "Los perros utilizan las señales sociales como un foco de atención. Si un humano mira repetidamente hacia un objeto antes de que ocurra algo interesante, el perro aprenderá a prestar atención a ese objeto mucho más rápido. Es una forma de aprendizaje social que aprovecha su adaptación a nuestras señales."
+    },
+    {
+        "asignatura": "Cognición Social y Emociones",
+        "question": "Un perro que es muy sensible a los estados emocionales de su dueño, mostrando estrés cuando el dueño está estresado, puede tener una alta 'sintonía afectiva'. Esto puede ser problemático si:",
+        "answers": [
+            { "text": "El dueño está siempre feliz y relajado.", "correct": false },
+            { "text": "El dueño sufre de ansiedad o estrés crónico, ya que el perro puede entrar en un bucle de co-regulación negativa, empeorando el estado de ambos.", "correct": true },
+            { "text": "El perro es de una raza considerada independiente.", "correct": false },
+            { "text": "El perro no recibe suficiente entrenamiento de obediencia.", "correct": false }
+        ],
+        "explanation": "La sintonía afectiva es un componente del vínculo, pero cuando es excesiva y el dueño está en un estado emocional negativo, puede ser perjudicial. El estrés del dueño estresa al perro, y el estrés del perro estresa aún más al dueño. Parte del tratamiento puede implicar ayudar al dueño a gestionar su propio estado emocional."
+    }
+]

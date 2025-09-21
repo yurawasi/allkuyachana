@@ -63,19 +63,25 @@
         <div class="container mx-auto px-6">
              <div id="quiz-app" class="max-w-4xl mx-auto">
                 
-                <!-- Pantalla de Selección de Asignaturas (Nueva Pantalla Principal) -->
                 <div id="subject-selection-screen">
                     <div class="text-center mb-12">
                         <h2 class="text-4xl md:text-5xl font-extrabold text-slate-900 mb-4">Tests de Conocimiento</h2>
                         <p class="text-lg text-slate-600 max-w-2xl mx-auto">Selecciona una asignatura para poner a prueba tus conocimientos y reforzar tu aprendizaje.</p>
                     </div>
                     <div id="subject-cards-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        <!-- Las tarjetas de asignaturas se insertarán aquí dinámicamente -->
                         <p class="text-center md:col-span-2 lg:col-span-3 text-slate-500">Cargando tests...</p>
                     </div>
                 </div>
 
-                <!-- Pantalla Principal del Quiz (Oculta por defecto) -->
+                <div id="quiz-options-screen" class="hidden max-w-2xl mx-auto bg-white rounded-xl shadow-2xl p-8 md:p-12 text-center">
+                    <h3 id="options-subject-title" class="text-2xl font-bold text-slate-900 mb-2"></h3>
+                    <p class="text-slate-600 mb-8">Elige el número de preguntas para tu test.</p>
+                    <div id="options-buttons-container" class="flex flex-col items-center space-y-4">
+                        <!-- Botones de opciones se insertarán aquí -->
+                    </div>
+                     <button id="back-to-subjects-from-options-btn" class="mt-8 text-sm font-semibold text-slate-600 hover:text-sky-600">&larr; Volver a las asignaturas</button>
+                </div>
+
                 <div id="quiz-main-container" class="hidden max-w-2xl mx-auto bg-white rounded-xl shadow-2xl p-8 md:p-12">
                     <div class="flex justify-between items-center mb-2">
                         <h3 id="quiz-subject-title" class="text-lg font-bold text-sky-700"></h3>
@@ -98,7 +104,6 @@
                     </div>
                 </div>
 
-                <!-- Pantalla de Puntuación (Oculta por defecto) -->
                  <div id="quiz-score-screen" class="hidden max-w-2xl mx-auto bg-white rounded-xl shadow-2xl p-8 md:p-12 text-center">
                     <h2 id="score-title" class="text-3xl font-bold text-slate-900 mb-4">¡Test Completado!</h2>
                     <p id="score-text" class="text-4xl font-bold text-sky-600 mb-8"></p>
@@ -110,16 +115,19 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-    let allQuestions = [];
-    let groupedQuestions = {};
+    let allQuestionsForSubject = [];
     let shuffledQuestions = [];
     let currentQuestionIndex = 0;
     let score = 0;
     let isExplanationShown = false;
 
-    // --- ELEMENTOS DEL DOM ---
     const subjectSelectionScreen = document.getElementById('subject-selection-screen');
     const subjectCardsContainer = document.getElementById('subject-cards-container');
+    const quizOptionsScreen = document.getElementById('quiz-options-screen');
+    const optionsSubjectTitle = document.getElementById('options-subject-title');
+    const optionsButtonsContainer = document.getElementById('options-buttons-container');
+    const backToSubjectsFromOptionsBtn = document.getElementById('back-to-subjects-from-options-btn');
+
     const quizMainContainer = document.getElementById('quiz-main-container');
     const quizScoreScreen = document.getElementById('quiz-score-screen');
     const quizSubjectTitle = document.getElementById('quiz-subject-title');
@@ -136,24 +144,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const explanationBox = document.getElementById('explanation-box');
     const explanationText = document.getElementById('explanation-text');
-
-    // --- DESCRIPCIONES DE ASIGNATURAS ---
-    const subjectDescriptions = {
-        "Etología, Evolución y Domesticación del Perro": "Explora el origen del perro, su comportamiento innato y los cambios provocados por la domesticación. Conceptos clave: etología, socialización y mitos como la dominancia.",
-        "Neurobiología y Fisiología del Comportamiento": "Sumérgete en el cerebro canino. Analiza cómo los neurotransmisores, las hormonas y los sentidos moldean las emociones, el estrés y el aprendizaje.",
-        "Principios Científicos del Aprendizaje": "Domina las leyes del aprendizaje animal. Diferencia entre condicionamiento clásico y operante, y aplica los cuadrantes para entrenar de forma efectiva y ética.",
-        "Comunicación Canina y Zoosemiótica": "Aprende a 'leer' al perro. Interpreta el lenguaje corporal, las señales de calma y las vocalizaciones para una comunicación clara y prevenir malentendidos.",
-        "Cognición Social y Emociones": "Descubre el mundo mental y emocional del perro. Evalúa su capacidad para entender nuestras intenciones, la naturaleza del apego y la base científica de sus emociones.",
-        "Bienestar Animal: Ciencia, Medición y Aplicación": "Define y mide la calidad de vida. Aplica los 'Cinco Dominios' y el enriquecimiento ambiental para garantizar el bienestar físico y psicológico.",
-        "Metodologías de Entrenamiento y Modificación de Conducta": "Conoce las herramientas del profesional. Aplica técnicas como el moldeado (shaping), DSCC y BAT 2.0 para construir conductas y tratar problemas de forma ética.",
-        "Diagnóstico y Tratamiento de Problemas de Comportamiento I": "Aprende a evaluar y diseñar planes de intervención para problemas como la ansiedad por separación, miedos, fobias y conductas compulsivas.",
-        "Nutrición, Salud y Desarrollo Físico": "Analiza la conexión inseparable entre la salud física y el comportamiento. Descubre cómo la dieta, el dolor o las hormonas pueden ser la causa de problemas conductuales.",
-        "Agresividad Canina: Evaluación e Intervención Avanzada": "Aborda uno de los temas más complejos. Aprende a analizar funcionalmente la agresión, a evaluar el riesgo y a aplicar protocolos de intervención seguros.",
-        "Ética Profesional y Relación con el Cliente": "Establece los pilares de tu práctica profesional. Domina la comunicación con el cliente, los límites de tu competencia y los dilemas éticos del día a día.",
-        "Fronteras de la Ciencia Canina y Seminario Final": "Integra todo tu conocimiento y mira hacia el futuro. Analiza temas avanzados como la antrozoología, la epigenética y las nuevas tecnologías en el bienestar canino."
-    };
-
-    // --- LÓGICA DEL QUIZ ---
+    
+    const subjectData = [
+        { title: "Etología, Evolución y Domesticación del Perro", description: "Explora el origen del perro, su comportamiento innato y los cambios provocados por la domesticación.", filePath: "banco/as1.json" },
+        { title: "Neurobiología y Fisiología del Comportamiento", description: "Sumérgete en el cerebro canino. Analiza cómo los neurotransmisores, hormonas y sentidos moldean las emociones.", filePath: "banco/as2.json" },
+        { title: "Principios Científicos del Aprendizaje", description: "Domina las leyes del aprendizaje animal. Diferencia entre condicionamiento clásico y operante para entrenar de forma efectiva.", filePath: "banco/as3.json" },
+        { title: "Comunicación Canina y Zoosemiótica", description: "Aprende a 'leer' al perro. Interpreta el lenguaje corporal, las señales de calma y las vocalizaciones para una comunicación clara.", filePath: "banco/as4.json" },
+        { title: "Cognición Social y Emociones", description: "Descubre el mundo mental y emocional del perro. Evalúa su capacidad para entender nuestras intenciones y la naturaleza del apego.", filePath: "banco/as5.json" },
+        { title: "Bienestar Animal: Ciencia, Medición y Aplicación", description: "Define y mide la calidad de vida. Aplica los 'Cinco Dominios' y el enriquecimiento ambiental para garantizar el bienestar.", filePath: "banco/as6.json" },
+        { title: "Metodologías de Entrenamiento y Modificación de Conducta", description: "Conoce las herramientas del profesional. Aplica técnicas como el moldeado (shaping), DSCC y BAT 2.0 de forma ética.", filePath: "banco/as7.json" },
+        { title: "Diagnóstico y Tratamiento de Problemas de Comportamiento I", description: "Aprende a evaluar y diseñar planes de intervención para problemas como la ansiedad por separación, miedos y fobias.", filePath: "banco/as8.json" },
+        { title: "Nutrición, Salud y Desarrollo Físico", description: "Analiza la conexión entre la salud física y el comportamiento. Descubre cómo la dieta o el dolor pueden ser la causa de problemas.", filePath: "banco/as9.json" },
+        { title: "Agresividad Canina: Evaluación e Intervención Avanzada", description: "Aborda uno de los temas más complejos. Aprende a analizar funcionalmente la agresión, a evaluar el riesgo y a aplicar protocolos seguros.", filePath: "banco/as10.json" },
+        { title: "Ética Profesional y Relación con el Cliente", description: "Establece los pilares de tu práctica. Domina la comunicación con el cliente, los límites de tu competencia y los dilemas éticos.", filePath: "banco/as11.json" },
+        { title: "Fronteras de la Ciencia Canina y Seminario Final", description: "Integra todo tu conocimiento y mira hacia el futuro. Analiza temas avanzados como la antrozoología, la epigenética y las nuevas tecnologías.", filePath: "banco/as12.json" }
+    ];
 
     function shuffleArray(array) {
         for (let i = array.length - 1; i > 0; i--) {
@@ -163,64 +168,70 @@ document.addEventListener('DOMContentLoaded', () => {
         return array;
     }
 
-    function displaySubjectCards() {
+    async function displaySubjectCards() {
         subjectCardsContainer.innerHTML = '';
-        const sortedSubjects = Object.keys(groupedQuestions).sort();
-
-        sortedSubjects.forEach(subject => {
-            const questions = groupedQuestions[subject];
+        for (const subject of subjectData) {
             const card = document.createElement('div');
             card.className = 'bg-white p-6 rounded-xl shadow-md flex flex-col subject-card';
-            
             card.innerHTML = `
-                <h3 class="text-xl font-bold text-slate-900 mb-2">${subject}</h3>
-                <p class="text-slate-600 mb-4 text-sm flex-grow">${subjectDescriptions[subject] || 'Una evaluación para reforzar tus conocimientos en esta área.'}</p>
-                <div class="text-xs text-slate-500 font-medium mb-4">${questions.length} Preguntas</div>
-                <button data-subject="${subject}" class="mt-auto w-full bg-sky-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-sky-600 transition duration-300 start-quiz-btn">Comenzar Test</button>
+                <h3 class="text-xl font-bold text-slate-900 mb-2">${subject.title}</h3>
+                <p class="text-slate-600 mb-4 text-sm flex-grow">${subject.description}</p>
+                <button data-subject-path="${subject.filePath}" data-subject-title="${subject.title}" class="mt-auto w-full bg-sky-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-sky-600 transition duration-300 show-options-btn">Comenzar Test</button>
             `;
             subjectCardsContainer.appendChild(card);
-        });
+        }
 
-        document.querySelectorAll('.start-quiz-btn').forEach(button => {
-            button.addEventListener('click', () => {
-                startQuiz(button.dataset.subject);
+        document.querySelectorAll('.show-options-btn').forEach(button => {
+            button.addEventListener('click', async () => {
+                const subjectPath = button.dataset.subjectPath;
+                const subjectTitle = button.dataset.subjectTitle;
+                try {
+                    const response = await fetch(subjectPath);
+                    if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                    allQuestionsForSubject = await response.json();
+                    showOptionsScreen(subjectPath, subjectTitle, allQuestionsForSubject.length);
+                } catch (error) {
+                    console.error("Error loading subject questions:", error);
+                    alert("No se pudo cargar el test para esta asignatura. Por favor, inténtelo de nuevo.");
+                }
             });
         });
     }
-    
-    async function loadQuestions() {
-        try {
-            const response = await fetch('banco_preguntas_completo.json');
-            if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-            allQuestions = await response.json();
 
-            // Agrupar preguntas por asignatura
-            groupedQuestions = allQuestions.reduce((acc, q) => {
-                const subject = q.asignatura;
-                if (!acc[subject]) {
-                    acc[subject] = [];
-                }
-                acc[subject].push(q);
-                return acc;
-            }, {});
+    function showOptionsScreen(subjectPath, subjectTitle, totalQuestions) {
+        subjectSelectionScreen.classList.add('hidden');
+        quizOptionsScreen.classList.remove('hidden');
+        optionsSubjectTitle.textContent = subjectTitle;
+        optionsButtonsContainer.innerHTML = '';
 
-            displaySubjectCards();
-        } catch (error) {
-            console.error("Error al cargar las preguntas:", error);
-            subjectCardsContainer.innerHTML = `<p class="text-center md:col-span-2 lg:col-span-3 text-red-600">Error al cargar los tests. Por favor, recarga la página.</p>`;
-        }
+        const options = [5, 10, 20];
+        options.forEach(num => {
+            if (totalQuestions >= num) {
+                const button = document.createElement('button');
+                button.textContent = `${num} Preguntas`;
+                button.className = 'w-full max-w-xs bg-slate-200 text-slate-800 font-semibold py-3 px-6 rounded-lg hover:bg-slate-300 transition duration-300';
+                button.onclick = () => startQuiz(subjectTitle, num);
+                optionsButtonsContainer.appendChild(button);
+            }
+        });
+        
+        const allButton = document.createElement('button');
+        allButton.textContent = `Test Completo (${totalQuestions} Preguntas)`;
+        allButton.className = 'w-full max-w-xs bg-emerald-500 text-white font-bold py-3 px-6 rounded-lg hover:bg-emerald-600 transition duration-300';
+        allButton.onclick = () => startQuiz(subjectTitle, totalQuestions);
+        optionsButtonsContainer.appendChild(allButton);
     }
-
-    function startQuiz(subject) {
-        shuffledQuestions = shuffleArray([...groupedQuestions[subject]]);
+    
+    function startQuiz(subjectTitle, numQuestions) {
+        shuffledQuestions = shuffleArray([...allQuestionsForSubject]).slice(0, numQuestions);
         currentQuestionIndex = 0;
         score = 0;
         
-        subjectSelectionScreen.classList.add('hidden');
+        quizOptionsScreen.classList.add('hidden');
         quizScoreScreen.classList.add('hidden');
         quizMainContainer.classList.remove('hidden');
 
-        quizSubjectTitle.textContent = subject;
+        quizSubjectTitle.textContent = subjectTitle;
         showQuestion();
     }
 
@@ -239,7 +250,7 @@ document.addEventListener('DOMContentLoaded', () => {
             button.innerHTML = answer.text;
             button.classList.add('w-full', 'text-left', 'p-4', 'border', 'border-slate-300', 'rounded-lg', 'hover:bg-sky-100', 'transition', 'duration-200');
             if (answer.correct) {
-                button.dataset.correct = answer.correct;
+                button.dataset.correct = "true";
             }
             button.addEventListener('click', selectAnswer);
             answerButtonsElement.appendChild(button);
@@ -260,9 +271,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function selectAnswer(e) {
         const selectedBtn = e.target;
         const isCorrect = selectedBtn.dataset.correct === "true";
-        if (isCorrect) {
-            score++;
-        }
+        if (isCorrect) score++;
         
         Array.from(answerButtonsElement.children).forEach(button => {
             setStatusClass(button, button.dataset.correct === "true");
@@ -311,6 +320,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     
     function goBackToSelection() {
+        quizOptionsScreen.classList.add('hidden');
         quizMainContainer.classList.add('hidden');
         quizScoreScreen.classList.add('hidden');
         subjectSelectionScreen.classList.remove('hidden');
@@ -320,6 +330,7 @@ document.addEventListener('DOMContentLoaded', () => {
     nextButton.addEventListener('click', handleNextButton);
     playAgainButton.addEventListener('click', goBackToSelection);
     backToSubjectsBtn.addEventListener('click', goBackToSelection);
+    backToSubjectsFromOptionsBtn.addEventListener('click', goBackToSelection);
 
     // Toggle mobile menu
     const mobileMenuButton = document.getElementById('mobile-menu-button');
@@ -329,7 +340,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     
     // --- INICIO DE LA EJECUCIÓN ---
-    loadQuestions();
+    displaySubjectCards();
 });
 </script>
 </body>

@@ -25,6 +25,20 @@
         #explanation-box {
             transition: opacity 0.5s ease-in-out;
         }
+        /* Custom scrollbar for subject selection */
+        #subject-list-container::-webkit-scrollbar {
+            width: 8px;
+        }
+        #subject-list-container::-webkit-scrollbar-track {
+            background: #f1f5f9; /* slate-100 */
+        }
+        #subject-list-container::-webkit-scrollbar-thumb {
+            background: #94a3b8; /* slate-400 */
+            border-radius: 4px;
+        }
+        #subject-list-container::-webkit-scrollbar-thumb:hover {
+            background: #64748b; /* slate-500 */
+        }
     </style>
 </head>
 <body class="bg-slate-50 text-slate-700">
@@ -58,7 +72,17 @@
                 <div id="quiz-intro">
                     <h2 class="text-3xl md:text-4xl font-bold text-slate-900 text-center mb-4">Test de Conocimiento Canino</h2>
                     <p class="text-slate-600 text-center mb-8">Pon a prueba tus conocimientos con este test de preguntas aleatorias. ¡Aprende con cada respuesta!</p>
-                    <div class="text-center">
+                    
+                    <!-- SECCIÓN DE SELECCIÓN DE TEMAS -->
+                    <div class="mb-8">
+                        <label class="block text-center text-sm font-medium text-slate-700 mb-3">Selecciona los temas a evaluar:</label>
+                        <div id="subject-selection" class="max-w-md mx-auto bg-slate-100 p-4 rounded-lg border border-slate-200">
+                             <!-- Las casillas se insertarán aquí dinámicamente -->
+                             <p class="text-center text-sm text-slate-500">Cargando temas...</p>
+                        </div>
+                    </div>
+
+                    <div class="text-center mb-8">
                         <label for="num-questions" class="block text-sm font-medium text-slate-700 mb-2">Número de preguntas:</label>
                         <select id="num-questions" class="rounded-lg border-slate-300 shadow-sm focus:border-sky-500 focus:ring-sky-500">
                             <option value="5">5</option>
@@ -66,8 +90,8 @@
                             <option value="20" selected>20</option>
                         </select>
                     </div>
-                    <div id="quiz-start-area" class="text-center mt-8">
-                        <button id="start-quiz-btn" class="bg-sky-500 text-white font-bold py-3 px-8 rounded-lg hover:bg-sky-600 transition duration-300 text-lg">Empezar el Test</button>
+                    <div id="quiz-start-area" class="text-center">
+                        <button id="start-quiz-btn" class="bg-sky-500 text-white font-bold py-3 px-8 rounded-lg hover:bg-sky-600 transition duration-300 text-lg" disabled>Cargando...</button>
                     </div>
                 </div>
 
@@ -102,14 +126,12 @@
 <script>
 document.addEventListener('DOMContentLoaded', () => {
 
-    // --- VARIABLES GLOBALES ---
     let allQuestions = [];
     let shuffledQuestions = [];
     let currentQuestionIndex = 0;
     let score = 0;
-    let isExplanationShown = false; // <-- NUEVO: Controla el estado del botón "Siguiente"
+    let isExplanationShown = false;
 
-    // --- ELEMENTOS DEL DOM ---
     const startButton = document.getElementById('start-quiz-btn');
     const playAgainButton = document.getElementById('play-again-btn');
     const nextButton = document.getElementById('next-btn');
@@ -127,9 +149,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const explanationBox = document.getElementById('explanation-box');
     const explanationText = document.getElementById('explanation-text');
 
-    // --- LÓGICA DEL QUIZ ---
-
-    // NUEVO: Función para barajar un array (Algoritmo Fisher-Yates)
     function shuffleArray(array) {
         for (let i = array.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
@@ -137,15 +156,70 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         return array;
     }
+    
+    // Función para popular las casillas de los temas
+    function populateSubjectCheckboxes(subjects) {
+        const container = document.getElementById('subject-selection');
+        container.innerHTML = ''; // Limpiar el mensaje "Cargando..."
 
-    // 1. Cargar preguntas desde el JSON
+        // Añadir opción "Seleccionar Todos"
+        container.innerHTML += `
+            <div class="flex items-center border-b border-slate-200 pb-2 mb-2">
+                <input id="select-all-subjects" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-sky-600 focus:ring-sky-500" checked>
+                <label for="select-all-subjects" class="ml-3 block text-sm font-bold text-slate-800">Seleccionar Todos</label>
+            </div>
+        `;
+
+        const subjectListContainer = document.createElement('div');
+        subjectListContainer.className = 'space-y-2 max-h-48 overflow-y-auto';
+        subjectListContainer.id = 'subject-list-container';
+
+        // Añadir una casilla por cada asignatura
+        subjects.sort().forEach(subject => {
+            const subjectId = `subject-${subject.replace(/[^a-zA-Z0-9]/g, '-')}`;
+            subjectListContainer.innerHTML += `
+                <div class="flex items-center">
+                    <input id="${subjectId}" name="subject" value="${subject}" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-sky-600 focus:ring-sky-500 subject-checkbox" checked>
+                    <label for="${subjectId}" class="ml-3 block text-sm font-medium text-slate-700">${subject}</label>
+                </div>
+            `;
+        });
+        container.appendChild(subjectListContainer);
+
+        // Lógica para "Seleccionar Todos"
+        const selectAllCheckbox = document.getElementById('select-all-subjects');
+        const subjectCheckboxes = document.querySelectorAll('.subject-checkbox');
+
+        selectAllCheckbox.addEventListener('change', () => {
+            subjectCheckboxes.forEach(checkbox => {
+                checkbox.checked = selectAllCheckbox.checked;
+            });
+        });
+
+        subjectCheckboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', () => {
+                if (!checkbox.checked) {
+                    selectAllCheckbox.checked = false;
+                } else if ([...subjectCheckboxes].every(c => c.checked)) {
+                    selectAllCheckbox.checked = true;
+                }
+            });
+        });
+    }
+
+    // Cargar preguntas desde el JSON
     async function loadQuestions() {
         try {
-            const response = await fetch('preguntas.json');
+            const response = await fetch('banco_preguntas_completo.json');
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
             allQuestions = await response.json();
+            
+            // Extraer asignaturas únicas y poblar las casillas
+            const subjects = [...new Set(allQuestions.map(q => q.asignatura))];
+            populateSubjectCheckboxes(subjects);
+
             startButton.disabled = false;
             startButton.textContent = "Empezar el Test";
         } catch (error) {
@@ -153,21 +227,27 @@ document.addEventListener('DOMContentLoaded', () => {
             const quizApp = document.getElementById('quiz-app');
             quizApp.innerHTML = `<div class="text-center">
                 <h3 class="text-xl font-bold text-red-700">Error de Carga</h3>
-                <p class="text-red-600 mt-2">No se pudo cargar el banco de preguntas. Por favor, intenta recargar la página.</p>
+                <p class="text-red-600 mt-2">No se pudo cargar el banco de preguntas. Por favor, asegúrate de que el archivo 'banco_preguntas_completo.json' está en la misma carpeta y recarga la página.</p>
             </div>`;
         }
     }
 
-    // 2. Iniciar el quiz
+    // Iniciar el quiz
     function startQuiz() {
         const questionsInQuiz = parseInt(numQuestionsSelect.value);
 
-        if (allQuestions.length === 0) {
-             alert(`El banco de preguntas aún no se ha cargado. Por favor, espera un momento.`);
-             return;
+        // Filtrar preguntas según las asignaturas seleccionadas
+        const selectedSubjects = [...document.querySelectorAll('.subject-checkbox:checked')].map(cb => cb.value);
+
+        if (selectedSubjects.length === 0) {
+            alert('Por favor, selecciona al menos un tema para empezar el test.');
+            return;
         }
-        if (allQuestions.length < questionsInQuiz) {
-            alert(`No hay suficientes preguntas en la base de datos para un test de ${questionsInQuiz}.`);
+
+        const filteredQuestions = allQuestions.filter(q => selectedSubjects.includes(q.asignatura));
+
+        if (filteredQuestions.length < questionsInQuiz) {
+            alert(`No hay suficientes preguntas (${filteredQuestions.length}) para un test de ${questionsInQuiz} sobre los temas seleccionados. Por favor, selecciona más temas o un número menor de preguntas.`);
             return;
         }
 
@@ -175,14 +255,14 @@ document.addEventListener('DOMContentLoaded', () => {
         quizScoreScreenDiv.classList.add('hidden');
         quizMainDiv.classList.remove('hidden');
         
-        shuffledQuestions = shuffleArray([...allQuestions]).slice(0, questionsInQuiz);
+        shuffledQuestions = shuffleArray([...filteredQuestions]).slice(0, questionsInQuiz);
         currentQuestionIndex = 0;
         score = 0;
         nextButton.classList.add('hidden');
         showQuestion();
     }
 
-    // 3. Mostrar la pregunta actual
+    // Mostrar la pregunta actual
     function showQuestion() {
         resetState();
         const currentQuestion = shuffledQuestions[currentQuestionIndex];
@@ -191,7 +271,6 @@ document.addEventListener('DOMContentLoaded', () => {
         progressText.innerText = `Pregunta ${questionNo} de ${shuffledQuestions.length}`;
         questionElement.innerHTML = currentQuestion.question;
 
-        // MEJORADO: Baraja las respuestas antes de mostrarlas
         const shuffledAnswers = shuffleArray([...currentQuestion.answers]);
 
         shuffledAnswers.forEach(answer => {
@@ -206,7 +285,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // 4. Resetear estado entre preguntas
+    // Resetear estado entre preguntas
     function resetState() {
         nextButton.classList.add('hidden');
         explanationBox.classList.add('hidden');
@@ -214,12 +293,11 @@ document.addEventListener('DOMContentLoaded', () => {
         while (answerButtonsElement.firstChild) {
             answerButtonsElement.removeChild(answerButtonsElement.firstChild);
         }
-        // NUEVO: Resetea el estado de la explicación y el texto del botón
         isExplanationShown = false;
         nextButton.textContent = "Siguiente";
     }
 
-    // 5. Manejar la selección de una respuesta
+    // Manejar la selección de una respuesta
     function selectAnswer(e) {
         const selectedBtn = e.target;
         const isCorrect = selectedBtn.dataset.correct === "true";
@@ -233,8 +311,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         const currentQuestion = shuffledQuestions[currentQuestionIndex];
-        // MODIFICADO: Solo muestra el botón "Siguiente", que ahora es "Ver Explicación"
-        if (currentQuestion.explanation) {
+        if (currentQuestion.explanation && currentQuestion.explanation.trim() !== '') {
             nextButton.textContent = "Ver Explicación";
         } else {
             nextButton.textContent = "Siguiente Pregunta";
@@ -242,7 +319,6 @@ document.addEventListener('DOMContentLoaded', () => {
         nextButton.classList.remove('hidden');
     }
 
-    // 6. Añadir clases CSS a los botones
     function setStatusClass(element, correct) {
         if (correct) {
             element.classList.add('btn-correct');
@@ -251,7 +327,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // 7. Mostrar la puntuación final
     function showScore() {
         quizMainDiv.classList.add('hidden');
         quizScoreScreenDiv.classList.remove('hidden');
@@ -259,21 +334,18 @@ document.addEventListener('DOMContentLoaded', () => {
         scoreElement.innerText = scoreMessage;
     }
 
-    // 8. MODIFICADO: Manejar el botón "Siguiente" con dos estados
     function handleNextButton() {
         const currentQuestion = shuffledQuestions[currentQuestionIndex];
         const hasExplanation = currentQuestion.explanation && currentQuestion.explanation.trim() !== '';
 
-        // Estado 1: La explicación no se ha mostrado Y existe una explicación
         if (hasExplanation && !isExplanationShown) {
             explanationText.innerHTML = currentQuestion.explanation;
             explanationBox.classList.remove('hidden');
             isExplanationShown = true;
             nextButton.textContent = "Siguiente Pregunta";
-            return; // Detiene la ejecución para esperar el siguiente clic
+            return;
         }
         
-        // Estado 2: Pasa a la siguiente pregunta
         currentQuestionIndex++;
         if (currentQuestionIndex < shuffledQuestions.length) {
             showQuestion();
@@ -282,15 +354,20 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
     
-    // --- EVENT LISTENERS ---
     startButton.addEventListener('click', startQuiz);
     nextButton.addEventListener('click', handleNextButton);
     playAgainButton.addEventListener('click', () => {
         quizScoreScreenDiv.classList.add('hidden');
         quizIntroDiv.classList.remove('hidden');
     });
+
+    // Toggle mobile menu
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+    mobileMenuButton.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+    });
     
-    // --- INICIO DE LA EJECUCIÓN ---
     loadQuestions();
 });
 </script>

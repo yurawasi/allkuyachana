@@ -1,0 +1,519 @@
+[
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "Ante un perro de 5 años que presenta un cambio repentino de comportamiento, como irritabilidad o agresión, ¿cuál es el primer y más importante paso en el proceso diagnóstico?",
+        "answers": [
+            { "text": "Implementar inmediatamente un protocolo de castigo para suprimir la conducta.", "correct": false },
+            { "text": "Recomendar una consulta veterinaria exhaustiva para descartar cualquier causa médica subyacente, especialmente el dolor.", "correct": true },
+            { "text": "Entrevistar al cliente para entender la función del comportamiento.", "correct": false },
+            { "text": "Aumentar el ejercicio físico del perro para reducir su energía.", "correct": false }
+        ],
+        "explanation": "La regla de oro del diagnóstico es 'descartar lo médico primero'. Un cambio súbito de comportamiento en un perro adulto es una bandera roja que indica una alta probabilidad de una causa física. El dolor es un 'gran imitador' de problemas de comportamiento. Proceder con una intervención conductual sin un chequeo veterinario es poco profesional y potencialmente dañino."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "Un cliente reporta que su perro de 2 años destruye objetos y ladra, pero solo cuando se queda solo. ¿Qué pieza de información es MÁS crucial para diferenciar entre ansiedad por separación y aburrimiento?",
+        "answers": [
+            { "text": "La raza del perro.", "correct": false },
+            { "text": "El tipo de objetos que destruye.", "correct": false },
+            { "text": "La cronología del comportamiento: si ocurre inmediatamente después de la partida del dueño o varias horas después.", "correct": true },
+            { "text": "Si el perro sabe la orden de 'sentado'.", "correct": false }
+        ],
+        "explanation": "La cronología es clave. La ansiedad por separación se manifiesta como un pánico a la soledad, por lo que los comportamientos problemáticos (vocalizaciones, destrucción cerca de puntos de salida) suelen ocurrir en los primeros 30-60 minutos tras la partida del dueño. El aburrimiento, en cambio, suele aparecer más tarde, una vez que el perro ha descansado y no encuentra estimulación."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "La diferencia fundamental entre el miedo y una fobia es:",
+        "answers": [
+            { "text": "El miedo es una respuesta aprendida y la fobia es innata.", "correct": false },
+            { "text": "Una fobia es una respuesta de miedo persistente, excesiva y desproporcionada en relación a la amenaza real que representa el estímulo, interfiriendo con el funcionamiento normal del animal.", "correct": true },
+            { "text": "El miedo solo ocurre ante seres vivos y las fobias ante objetos inanimados.", "correct": false },
+            { "text": "No hay ninguna diferencia real, son términos intercambiables.", "correct": false }
+        ],
+        "explanation": "El miedo es una emoción adaptativa ante un peligro. Una fobia es una respuesta patológica. Un perro puede tener miedo si un camión pasa muy cerca (respuesta normal y proporcionada), pero un perro con una fobia a los camiones puede entrar en pánico al oír uno a varias manzanas de distancia (respuesta desproporcionada)."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "Un perro persigue su cola de forma repetitiva, es muy difícil interrumpirlo y lo hace en diferentes contextos, a veces hasta lesionarse. Este patrón es más consistente con:",
+        "answers": [
+            { "text": "Una simple llamada de atención.", "correct": false },
+            { "text": "Un trastorno compulsivo, que puede tener una base neuroquímica y ha dejado de estar bajo el control funcional del perro.", "correct": true },
+            { "text": "Una forma de juego normal en perros adultos.", "correct": false },
+            { "text": "Un signo de que el perro es 'dominante'.", "correct": false }
+        ],
+        "explanation": "La característica principal de un trastorno compulsivo es que el comportamiento se vuelve rígido, repetitivo, se 'descontextualiza' (ocurre sin un detonante claro) e interfiere con la vida normal del perro. A menudo, estos comportamientos requieren un enfoque multimodal que incluya modificación de conducta, enriquecimiento y, a veces, consulta veterinaria para medicación."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "Un cachorro de 5 meses se orina cada vez que una persona se inclina sobre él para saludarlo. El cachorro muestra un lenguaje corporal de apaciguamiento (orejas atrás, cola baja). Esto es un ejemplo clásico de:",
+        "answers": [
+            { "text": "Un problema de marcaje territorial.", "correct": false },
+            { "text": "Micción por sumisión.", "correct": true },
+            { "text": "Falta de entrenamiento para ir al baño.", "correct": false },
+            { "text": "Un intento deliberado de desobediencia.", "correct": false }
+        ],
+        "explanation": "La micción por sumisión es un comportamiento de apaciguamiento activo, no un problema de control de vejiga. El cachorro está intentando comunicar 'soy pequeño, no soy una amenaza, por favor no me hagas daño'. Castigar este comportamiento solo empeorará el problema al aumentar el miedo del cachorro."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "Un perro adulto y bien educado comienza a orinar dentro de casa de forma repentina. La primera recomendación debe ser:",
+        "answers": [
+            { "text": "Volver a los fundamentos del entrenamiento para ir al baño.", "correct": false },
+            { "text": "Una visita inmediata al veterinario para descartar una Infección del Tracto Urinario (ITU) u otros problemas médicos.", "correct": true },
+            { "text": "Castigar al perro en el acto para que entienda que está mal.", "correct": false },
+            { "text": "Restringir el acceso al agua.", "correct": false }
+        ],
+        "explanation": "La pérdida repentina de los hábitos higiénicos en un perro adulto es una de las señales más comunes de un problema médico subyacente. Las ITUs, los cálculos, la diabetes o los problemas renales pueden causar este síntoma. Tratarlo como un problema de comportamiento sin un descarte médico es negligente."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "El objetivo del análisis funcional (ABC) en el diagnóstico de un comportamiento destructivo es:",
+        "answers": [
+            { "text": "Determinar qué objetos prefiere destruir el perro.", "correct": false },
+            { "text": "Identificar la función que cumple la destrucción para el perro (p. ej., aliviar la ansiedad por separación, combatir el aburrimiento, buscar atención).", "correct": true },
+            { "text": "Castigar al perro de forma más efectiva.", "correct": false },
+            { "text": "Saber si el perro es de una raza destructiva.", "correct": false }
+        ],
+        "explanation": "La destrucción no es un diagnóstico, es un síntoma. El análisis funcional nos permite entender el 'porqué'. Si la destrucción (B) ocurre solo cuando el dueño se prepara para salir (A) y se concentra en la puerta (C), la función es probablemente aliviar la ansiedad. Si ocurre a media tarde (A) y el perro recibe atención (C), la función es buscar atención."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "Un plan de tratamiento multimodal para la ansiedad por separación debe incluir:",
+        "answers": [
+            { "text": "Solamente el uso de un collar de castigo para detener los ladridos.", "correct": false },
+            { "text": "Una combinación de gestión (evitar ausencias largas), modificación de conducta (desensibilización a las partidas) y, en casos severos, consulta veterinaria para medicación de apoyo.", "correct": true },
+            { "text": "La adopción de otro perro para que le haga compañía.", "correct": false },
+            { "text": "Ignorar el problema hasta que el perro se acostumbre.", "correct": false }
+        ],
+        "explanation": "La ansiedad por separación es un pánico real que no se soluciona con una sola herramienta. La gestión evita que el perro siga sufriendo, la modificación de conducta le enseña a tolerar la soledad, y la medicación (cuando es necesaria) puede reducir la ansiedad a un nivel que permita que el aprendizaje ocurra. La adopción de otro perro a menudo agrava el problema."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "La 'vocalización excesiva' es un síntoma, no un diagnóstico. Un perro que ladra insistentemente a su dueño mientras este come, y que se detiene en cuanto recibe un trozo de comida, está mostrando un ladrido mantenido por:",
+        "answers": [
+            { "text": "Ansiedad.", "correct": false },
+            { "text": "Refuerzo positivo (búsqueda de atención/comida).", "correct": true },
+            { "text": "Alerta territorial.", "correct": false },
+            { "text": "Juego.", "correct": false }
+        ],
+        "explanation": "Este es un comportamiento operante clásico. El perro ha aprendido que la conducta 'ladrar' tiene la consecuencia de recibir comida. El tratamiento no se enfoca en castigar el ladrido, sino en dejar de reforzarlo (extinción) y en enseñar una conducta alternativa más apropiada para pedir (p. ej., tumbarse en su cama)."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "El sobreapego (hyper-attachment) se diferencia de la ansiedad por separación en que:",
+        "answers": [
+            { "text": "En el sobreapego, el perro muestra ansiedad y busca el contacto de forma constante INCLUSO cuando el dueño está en casa.", "correct": true },
+            { "text": "Los perros con sobreapego nunca destruyen cosas cuando se quedan solos.", "correct": false },
+            { "text": "El sobreapego solo afecta a cachorros.", "correct": false },
+            { "text": "No hay ninguna diferencia, son el mismo problema.", "correct": false }
+        ],
+        "explanation": "El sobreapego es un problema de relación que se manifiesta las 24 horas (el perro es la 'sombra' del dueño). Puede ser un factor de riesgo para desarrollar ansiedad por separación, pero el tratamiento del sobreapego se enfoca en fomentar la independencia del perro mientras el dueño está presente."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "Al establecer objetivos con un cliente para un problema de miedo a los extraños, un objetivo realista y bien formulado sería:",
+        "answers": [
+            { "text": "'Conseguir que el perro ame a todos los extraños y se deje acariciar por ellos en una semana.'", "correct": false },
+            { "text": "'Reducir la distancia a la que el perro reacciona de 10 a 5 metros en el próximo mes, y que sea capaz de caminar por la misma acera que un extraño sin ladrar.'", "correct": true },
+            { "text": "'Eliminar por completo el miedo del perro.'", "correct": false },
+            { "text": "'Castigar al perro hasta que deje de ladrar.'", "correct": false }
+        ],
+        "explanation": "Los buenos objetivos son Específicos, Medibles, Alcanzables, Relevantes y con un Plazo (SMART). Prometer 'curas' completas es poco realista y poco profesional. Establecer metas graduales y medibles permite al cliente ver el progreso y mantiene la motivación."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "La técnica de 'inundación' (flooding) para tratar fobias está fuertemente contraindicada porque:",
+        "answers": [
+            { "text": "Es demasiado lenta y requiere muchas sesiones.", "correct": false },
+            { "text": "Tiene un alto riesgo de sensibilizar al perro, empeorando la fobia y causando un trauma severo, además de poder provocar agresión defensiva.", "correct": true },
+            { "text": "Solo funciona con miedos a objetos, no a personas.", "correct": false },
+            { "text": "Requiere premios de comida muy caros.", "correct": false }
+        ],
+        "explanation": "La inundación consiste en exponer al perro al estímulo fóbico a máxima intensidad hasta que 'se rinda' (indefensión aprendida). Es una técnica cruel, peligrosa y que viola el principio de trabajar por debajo del umbral. Un profesional ético nunca la utilizaría."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "Un perro ladra a través de la ventana a todo lo que se mueve. La principal fuerza que mantiene este comportamiento de ladrido territorial es:",
+        "answers": [
+            { "text": "El hecho de que, desde la perspectiva del perro, su ladrido siempre tiene 'éxito' en hacer que el 'intruso' se vaya.", "correct": true },
+            { "text": "La atención que recibe del dueño, aunque sea para regañarle.", "correct": false },
+            { "text": "Un deseo innato de comunicarse con los transeúntes.", "correct": false },
+            { "text": "La falta de ejercicio físico únicamente.", "correct": false }
+        ],
+        "explanation": "Este es un poderoso ejemplo de auto-refuerzo. La consecuencia funcional es que el estímulo aversivo (el extraño) desaparece, lo que actúa como un refuerzo negativo, fortaleciendo el comportamiento de ladrar. Por eso, la gestión (bloquear el acceso visual con un vinilo) es el primer paso indispensable."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "La coprofagia (ingesta de heces) en un perro adulto, aunque aversiva para el dueño, puede tener múltiples causas. ¿Cuál es la primera que se debe investigar?",
+        "answers": [
+            { "text": "Un problema de dominancia.", "correct": false },
+            { "text": "Una posible causa médica, como una insuficiencia pancreática, parásitos o un síndrome de malabsorción que impida la correcta asimilación de nutrientes.", "correct": true },
+            { "text": "Un intento del perro de 'limpiar' su espacio.", "correct": false },
+            { "text": "Aburrimiento o búsqueda de atención.", "correct": false }
+        ],
+        "explanation": "Aunque puede haber causas conductuales, la coprofagia de inicio en la edad adulta justifica una investigación veterinaria completa. Ciertas condiciones médicas pueden hacer que las heces contengan nutrientes no digeridos, haciéndolas atractivas para el perro, o pueden provocar un aumento del apetito (polifagia)."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "La 'ansiedad generalizada' (GAD) en un perro se caracteriza por:",
+        "answers": [
+            { "text": "Miedo a un único estímulo muy específico.", "correct": false },
+            { "text": "Un estado de aprensión y preocupación crónico y difuso, sin un detonante claro y constante. El perro parece estar siempre 'en tensión' o 'esperando que algo malo ocurra'.", "correct": true },
+            { "text": "Ansiedad que solo ocurre cuando el perro se queda solo.", "correct": false },
+            { "text": "Episodios de pánico que duran solo unos segundos.", "correct": false }
+        ],
+        "explanation": "El GAD es una condición de bienestar crónicamente pobre. Estos perros a menudo muestran hipervigilancia, tensión muscular, incapacidad para relajarse y pueden reaccionar de forma exagerada a estímulos menores. El diagnóstico y tratamiento suelen requerir una estrecha colaboración con un veterinario del comportamiento."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "Un perro de caza muestra una fijación intensa en perseguir luces y sombras. ¿Por qué este comportamiento, aunque derivado de un instinto, se considera problemático?",
+        "answers": [
+            { "text": "Porque es una secuencia predatoria que nunca puede completarse (no se puede atrapar una luz), lo que genera una frustración constante y puede convertirse en un trastorno compulsivo.", "correct": true },
+            { "text": "Porque indica que el perro tiene problemas de visión.", "correct": false },
+            { "text": "Porque es una falta de respeto hacia el dueño.", "correct": false },
+            { "text": "No es problemático, es un juego sano.", "correct": false }
+        ],
+        "explanation": "Este comportamiento es auto-reforzante a través del sistema de BÚSQUEDA (dopamina), pero la falta de una 'captura' satisfactoria puede crear un bucle de frustración. Es crucial no fomentarlo (p. ej., con punteros láser) y proporcionar salidas más apropiadas para el instinto predatorio."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "El 'marcado con orina' dentro de casa se diferencia de un problema de eliminación en que:",
+        "answers": [
+            { "text": "El marcado suele implicar pequeñas cantidades de orina en superficies verticales y es un comportamiento de comunicación social.", "correct": true },
+            { "text": "Los perros que marcan nunca orinan fuera de casa.", "correct": false },
+            { "text": "El marcado siempre se hace en el mismo sitio, mientras que los accidentes de eliminación son aleatorios.", "correct": false },
+            { "text": "Solo los machos sin castrar marcan territorio.", "correct": false }
+        ],
+        "explanation": "Mientras que un accidente de eliminación es un vaciado completo de la vejiga en una superficie horizontal, el marcado es como dejar una 'tarjeta de visita' olfativa. Puede estar motivado por la ansiedad, la inseguridad o la presencia de nuevos estímulos (otros perros, personas, objetos)."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "Al tratar a un perro con miedo a los extraños, un paso crucial del plan de modificación de conducta es:",
+        "answers": [
+            { "text": "Forzar al perro a ser acariciado por muchos extraños para que se acostumbre.", "correct": false },
+            { "text": "Darle al perro el control sobre la interacción, permitiéndole elegir si se acerca o no, y pidiendo a los extraños que ignoren al perro y no intenten interactuar.", "correct": true },
+            { "text": "Enseñar al perro a ladrar más fuerte para advertir a los extraños.", "correct": false },
+            { "text": "Usar un collar de ahogo para corregir al perro si gruñe.", "correct": false }
+        ],
+        "explanation": "La base del tratamiento es la seguridad. Un perro con miedo necesita saber que no será forzado a una interacción que no desea. Al darle control y demostrarle que los extraños no son una amenaza (porque no intentan tocarlo), su respuesta emocional puede empezar a cambiar gradualmente."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "Un 'diagnóstico diferencial' es el proceso de:",
+        "answers": [
+            { "text": "Elegir el diagnóstico que el cliente prefiere.", "correct": false },
+            { "text": "Diferenciar entre varias condiciones o problemas de comportamiento que presentan síntomas similares, basándose en la recopilación sistemática de información.", "correct": true },
+            { "text": "Diagnosticar al perro de forma diferente en cada sesión.", "correct": false },
+            { "text": "Un diagnóstico que se aplica a dos perros diferentes.", "correct": false }
+        ],
+        "explanation": "Es el núcleo del pensamiento profesional. Por ejemplo, un perro que se lame las patas en exceso podría tener alergias, dolor, ansiedad o un trastorno compulsivo. El profesional debe sopesar la evidencia para llegar al diagnóstico más probable, a menudo en colaboración con un veterinario."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "La 'micción por excitación' en un perro joven se caracteriza porque:",
+        "answers": [
+            { "text": "Ocurre principalmente en momentos de alta excitación, como durante un saludo entusiasta o el juego, y el perro a menudo no parece ser consciente de ello.", "correct": true },
+            { "text": "Es un acto deliberado de desafío.", "correct": false },
+            { "text": "Ocurre solo cuando el perro tiene miedo.", "correct": false },
+            { "text": "Es un signo de una infección urinaria.", "correct": false }
+        ],
+        "explanation": "Este es un problema de inmadurez del control de los esfínteres, no un problema de comportamiento intencionado. La solución no es el castigo, sino la gestión: mantener los saludos muy tranquilos y calmados para no sobreexcitar al perro. La mayoría de los perros lo superan con la madurez."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "Un perro muestra agresión únicamente hacia el marido de la casa, pero es amigable con la mujer y los hijos. Esto sugiere que la causa más probable es:",
+        "answers": [
+            { "text": "Dominancia sobre el marido.", "correct": false },
+            { "text": "Una asociación de miedo específica con el marido, posiblemente debido a su físico, su tono de voz, o una mala experiencia pasada.", "correct": true },
+            { "text": "Celos.", "correct": false },
+            { "text": "El perro es de una raza que no le gustan los hombres.", "correct": false }
+        ],
+        "explanation": "La agresión es a menudo específica al contexto y a los estímulos. En lugar de una lucha por el 'rango', es mucho más probable que el perro perciba al marido como una amenaza por alguna razón. El tratamiento se centraría en un protocolo de DSCC entre el perro y el marido."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "Al tratar una fobia a las tormentas, es importante tener en cuenta que los detonantes no son solo el sonido del trueno, sino también:",
+        "answers": [
+            { "text": "La hora del día.", "correct": false },
+            { "text": "Los precursores de la tormenta, como los cambios en la presión barométrica, el viento, la electricidad estática o el olor a lluvia.", "correct": true },
+            { "text": "El comportamiento de otros animales en la casa.", "correct": false },
+            { "text": "La fase lunar.", "correct": false }
+        ],
+        "explanation": "Muchos perros con fobia a las tormentas empiezan a mostrar ansiedad horas antes de que comience a llover. Han aprendido a asociar estos sutiles cambios ambientales con la llegada inminente de la tormenta, lo que complica el manejo y el tratamiento."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "La 'pica' es un trastorno que consiste en:",
+        "answers": [
+            { "text": "La ingesta de heces (coprofagia).", "correct": false },
+            { "text": "La ingesta persistente de sustancias no nutritivas, como piedras, tela o plástico.", "correct": true },
+            { "text": "La negativa a comer.", "correct": false },
+            { "text": "El robo de comida de la mesa.", "correct": false }
+        ],
+        "explanation": "La pica es un comportamiento peligroso que puede causar obstrucciones intestinales. Aunque puede tener componentes conductuales (aburrimiento, ansiedad), siempre requiere una investigación veterinaria para descartar deficiencias nutricionales o problemas gastrointestinales."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "Un pronóstico 'reservado' en un caso de comportamiento significa que:",
+        "answers": [
+            { "text": "El problema se resolverá fácilmente con un poco de entrenamiento.", "correct": false },
+            { "text": "La probabilidad de una mejora significativa o una resolución completa es incierta o baja, debido a factores como la gravedad del problema, la genética o la capacidad del cliente para implementar el plan.", "correct": true },
+            { "text": "El profesional ha reservado la cita para el cliente.", "correct": false },
+            { "text": "El perro debe ser sacrificado inmediatamente.", "correct": false }
+        ],
+        "explanation": "Establecer un pronóstico realista es una parte ética y crucial de la consulta. Obliga al profesional a sopesar todos los factores de riesgo y a ser honesto con el cliente sobre las posibilidades y limitaciones del tratamiento."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "La 'habituación a las caricias' es un problema que surge cuando:",
+        "answers": [
+            { "text": "Un perro se vuelve adicto a las caricias y las exige constantemente.", "correct": false },
+            { "text": "Un perro que antes disfrutaba del contacto físico empieza a tolerarlo pasivamente o a evitarlo, a menudo debido a un dolor crónico no detectado.", "correct": true },
+            { "text": "Un cachorro aprende a disfrutar de las caricias por primera vez.", "correct": false },
+            { "text": "Un perro solo permite ser acariciado por una persona.", "correct": false }
+        ],
+        "explanation": "Un cambio en la aceptación del contacto físico es una bandera roja para el dolor. La artritis, el dolor de espalda o una lesión pueden hacer que las caricias que antes eran placenteras se vuelvan dolorosas. Es una razón común para la aparición de gruñidos o agresividad en perros mayores."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "El uso de vídeo es una herramienta de diagnóstico muy valiosa porque:",
+        "answers": [
+            { "text": "Permite al profesional observar el comportamiento problemático y sus antecedentes y consecuencias de forma objetiva, sin la interferencia de su propia presencia.", "correct": true },
+            { "text": "Sustituye por completo la necesidad de una entrevista con el cliente.", "correct": false },
+            { "text": "A los perros les encanta ser grabados y actúan de forma más natural.", "correct": false },
+            { "text": "Permite crear contenido viral para las redes sociales.", "correct": false }
+        ],
+        "explanation": "La descripción de un cliente es siempre subjetiva. El vídeo proporciona datos objetivos. Permite analizar el lenguaje corporal sutil del perro, la cronología exacta de los eventos y las reacciones (a menudo inconscientes) de los dueños, lo que es fundamental para un análisis funcional preciso."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "Un perro de rescate recién adoptado se esconde y no quiere interactuar. La estrategia inicial más apropiada es:",
+        "answers": [
+            { "text": "Sacarlo a la fuerza de su escondite para que se socialice.", "correct": false },
+            { "text": "Proporcionarle un espacio seguro y darle tiempo y control, permitiendo que sea él quien decida cuándo y cómo empezar a explorar e interactuar (descompresión).", "correct": true },
+            { "text": "Llevarlo inmediatamente a un parque de perros para que haga amigos.", "correct": false },
+            { "text": "Ignorarlo por completo durante la primera semana.", "correct": false }
+        ],
+        "explanation": "El período de 'descompresión' es vital para un perro de rescate. El perro necesita tiempo para adaptarse a un entorno completamente nuevo sin la presión de las expectativas sociales. Forzar la interacción en esta etapa puede aumentar el miedo y dañar la construcción de la confianza."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "La 'ansiedad de barrera' o 'frustración de barrera' se manifiesta como:",
+        "answers": [
+            { "text": "Miedo a pasar por las puertas.", "correct": false },
+            { "text": "Un aumento significativo de la reactividad (ladridos, lanzamientos) cuando el perro está restringido por una correa, una valla o una ventana.", "correct": true },
+            { "text": "La negativa del perro a entrar en una jaula o transportín.", "correct": false },
+            { "text": "Un comportamiento compulsivo de morder la barrera.", "correct": false }
+        ],
+        "explanation": "La barrera impide que el perro pueda realizar su repertorio normal de comportamiento social (acercarse, oler, retirarse), lo que genera una intensa frustración que se desborda en forma de reactividad. Muchos perros que muestran este comportamiento son perfectamente sociables cuando están sueltos."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "Al tratar un caso de vocalización por ansiedad por separación, ¿por qué está contraindicado el uso de un collar anti-ladridos (de descarga, spray o vibración)?",
+        "answers": [
+            { "text": "Porque estos collares no son lo suficientemente fuertes para detener el ladrido.", "correct": false },
+            { "text": "Porque el collar castiga el síntoma (el ladrido) sin abordar la causa subyacente (el pánico), y puede aumentar la ansiedad del perro al asociar la soledad con estímulos aversivos.", "correct": true },
+            { "text": "Porque solo funcionan si el dueño está en casa para activarlos.", "correct": false },
+            { "text": "Porque son demasiado caros.", "correct": false }
+        ],
+        "explanation": "Es como castigar a una persona por gritar durante un ataque de pánico. No solo no resuelve el pánico, sino que añade otra capa de miedo y conflicto. El tratamiento debe centrarse en resolver la angustia emocional, no en suprimir su manifestación."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "La 'agresión idiopática' es un término que se utiliza para describir:",
+        "answers": [
+            { "text": "Agresión que está causada por idiotas.", "correct": false },
+            { "text": "Agresión severa e impredecible sin un detonante o causa identificable, que a menudo se sospecha que tiene una base neurológica (p. ej., epilepsia focal).", "correct": true },
+            { "text": "Agresión dirigida únicamente a otros perros.", "correct": false },
+            { "text": "Una forma leve de agresión por juego.", "correct": false }
+        ],
+        "explanation": "'Idiopático' significa 'de causa desconocida'. Es un diagnóstico de exclusión. Antes de llegar a él, se deben haber investigado y descartado exhaustivamente todas las demás causas posibles (miedo, dolor, protección de recursos, etc.). A menudo requiere la consulta con un neurólogo veterinario."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "¿Cuál es un buen indicador de que una interacción entre dos perros es juego y no acoso (bullying)?",
+        "answers": [
+            { "text": "Que un perro esté siempre encima del otro.", "correct": false },
+            { "text": "La reciprocidad y la inversión de roles: el perseguidor se convierte en el perseguido, el perro de arriba se pone abajo, y hay pausas frecuentes.", "correct": true },
+            { "text": "La presencia de ladridos y gruñidos.", "correct": false },
+            { "text": "Que el perro más pequeño siempre esté huyendo.", "correct": false }
+        ],
+        "explanation": "El juego sano es un 'diálogo' equilibrado. El acoso es un 'monólogo' donde un perro impone la interacción al otro, que a menudo muestra señales de apaciguamiento y evitación. La falta de reciprocidad es la principal bandera roja de que la interacción no es beneficiosa para ambos."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "La 'sensibilidad al tacto' en un perro puede ser:",
+        "answers": [
+            { "text": "Un rasgo del temperamento (algunos perros son innatamente más o menos tolerantes al contacto físico) o un signo de dolor.", "correct": true },
+            { "text": "Siempre un signo de que el perro ha sido maltratado.", "correct": false },
+            { "text": "Un signo de dominancia.", "correct": false },
+            { "text": "La capacidad del perro para sentir texturas.", "correct": false }
+        ],
+        "explanation": "No a todos los perros les gustan las mismas interacciones físicas. Algunos adoran los abrazos, mientras que otros los encuentran aversivos. Es crucial aprender a leer las señales individuales del perro y respetar sus preferencias para construir una relación de confianza."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "Un perro que roba comida de la encimera solo cuando los dueños no están en la cocina está demostrando:",
+        "answers": [
+            { "text": "Que no sabe que está mal.", "correct": false },
+            { "text": "Un buen aprendizaje de la discriminación: ha aprendido que la conducta 'robar comida' solo es segura y exitosa en ausencia de un castigador potencial (el dueño).", "correct": true },
+            { "text": "Un problema de hambre extrema que debe ser investigado.", "correct": false },
+            { "text": "Un comportamiento vengativo.", "correct": false }
+        ],
+        "explanation": "Esto no es un problema moral, es un problema de aprendizaje. El perro no piensa en términos de 'bueno' o 'malo', sino de 'seguro' o 'inseguro'. La solución es la gestión (no dejar comida al alcance) y el entrenamiento de conductas alternativas."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "La 'reactividad con la correa' es a menudo un comportamiento aprendido que se refuerza porque:",
+        "answers": [
+            { "text": "El perro disfruta asustando a otros perros.", "correct": false },
+            { "text": "La explosión de ladridos y lanzamientos (la agresión a distancia) tiene éxito en hacer que el otro perro (el detonante) se aleje, reforzando la estrategia.", "correct": true },
+            { "text": "La correa es intrínsecamente aversiva para todos los perros.", "correct": false },
+            { "text": "El dueño elogia al perro por ser un buen guardián.", "correct": false }
+        ],
+        "explanation": "Desde la perspectiva del perro, su estrategia defensiva funciona a la perfección. 'Cada vez que veo un perro, monto un escándalo, y el otro perro se va. ¡Soy muy bueno en esto!'. El tratamiento debe enfocarse en cambiar la emoción subyacente y enseñar una estrategia alternativa que también funcione para el perro."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "Al tratar problemas de miedo, el 'disparador de la fobia' (trigger) es:",
+        "answers": [
+            { "text": "La persona que entrena al perro.", "correct": false },
+            { "text": "El estímulo específico o la situación que desencadena la respuesta de miedo.", "correct": true },
+            { "text": "La recompensa utilizada en el contracondicionamiento.", "correct": false },
+            { "text": "La causa genética del miedo.", "correct": false }
+        ],
+        "explanation": "Identificar los disparadores con la mayor precisión posible es el primer paso para cualquier plan de tratamiento. ¿Es miedo a TODOS los hombres, o solo a los hombres altos con sombrero? Cuanto más específico sea el diagnóstico del disparador, más eficaz será el protocolo de DSCC."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "Un perro gruñe cuando el niño de la familia intenta abrazarlo. La respuesta más segura y apropiada de los padres sería:",
+        "answers": [
+            { "text": "Castigar al perro por gruñirle a un niño.", "correct": false },
+            { "text": "Agradecer al perro por la advertencia, separar inmediatamente al niño y al perro, y contactar a un profesional para implementar un plan de gestión y entrenamiento.", "correct": true },
+            { "text": "Obligar al niño a seguir abrazando al perro para que este se acostumbre.", "correct": false },
+            { "text": "Ignorar la situación, ya que 'perro que ladra no muerde'.", "correct": false }
+        ],
+        "explanation": "El gruñido es una comunicación crucial, es la forma que tiene el perro de decir 'estoy incómodo, por favor, para'. Castigar el gruñido elimina la advertencia, pero no la incomodidad, lo que puede llevar a que el perro muerda la próxima vez sin previo aviso. La seguridad infantil es la máxima prioridad."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "La 'línea base' de un comportamiento es:",
+        "answers": [
+            { "text": "La causa genética del comportamiento.", "correct": false },
+            { "text": "Una medida objetiva de la frecuencia, duración o intensidad del comportamiento ANTES de iniciar cualquier intervención.", "correct": true },
+            { "text": "La peor manifestación posible del comportamiento.", "correct": false },
+            { "text": "La opinión del dueño sobre el comportamiento.", "correct": false }
+        ],
+        "explanation": "Establecer una línea base es fundamental para evaluar si un plan de tratamiento está funcionando. Si no sabes que un perro ladraba 20 veces por minuto antes de la intervención, no puedes saber si una reducción a 10 veces por minuto es una mejora significativa. Permite una evaluación objetiva del progreso."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "Un perro se lame las patas de forma excesiva hasta el punto de hacerse heridas (granuloma por lamido). Una posible causa conductual, una vez descartadas alergias o dolor, es:",
+        "answers": [
+            { "text": "Un intento de limpiarse.", "correct": false },
+            { "text": "Un comportamiento de desplazamiento que se ha convertido en un trastorno compulsivo para aliviar el estrés o la ansiedad crónica.", "correct": true },
+            { "text": "Una forma de imitar a los gatos.", "correct": false },
+            { "text": "Aburrimiento puro y simple.", "correct": false }
+        ],
+        "explanation": "El lamido libera endorfinas, por lo que puede convertirse en un mecanismo de auto-calma. Cuando un perro está crónicamente estresado o ansioso, este comportamiento puede volverse compulsivo, creando un ciclo de lamido-lesión-lamido que es difícil de romper."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "El 'refuerzo diferencial de una conducta incompatible' (DRI) es particularmente útil para:",
+        "answers": [
+            { "text": "Problemas de comportamiento donde existe una acción física clara que el perro puede hacer en lugar de la conducta problemática.", "correct": true },
+            { "text": "Trastornos de ansiedad generalizada.", "correct": false },
+            { "text": "Fobias a los ruidos.", "correct": false },
+            { "text": "Problemas médicos subyacentes.", "correct": false }
+        ],
+        "explanation": "El DRI brilla en su simplicidad y eficacia para conductas operantes. Es la estrategia de elección para problemas como saltar (reforzar el sentado), tirar de la correa (reforzar caminar al lado) o arañar la puerta (reforzar tocar una campana)."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "Al tratar a un perro que protege los recursos (p. ej., un hueso), el objetivo del contracondicionamiento es:",
+        "answers": [
+            { "text": "Enseñar al perro que proteger sus cosas está mal y será castigado.", "correct": false },
+            { "text": "Cambiar la asociación emocional del perro de 'la aproximación de una persona predice que voy a perder mi hueso' a 'la aproximación de una persona predice la aparición de algo aún mejor'.", "correct": true },
+            { "text": "Quitarle el hueso repetidamente hasta que se rinda.", "correct": false },
+            { "text": "No volver a darle nunca más un hueso.", "correct": false }
+        ],
+        "explanation": "La protección de recursos nace del miedo a perder algo valioso. El tratamiento más efectivo es demostrarle al perro que la presencia humana cerca de sus tesoros no es una amenaza, sino una oportunidad de 'ganar' algo incluso superior (como un trueque por pollo), cambiando así la emoción subyacente."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "La 'habituación' es un proceso que funciona mejor con:",
+        "answers": [
+            { "text": "Estímulos intensos y amenazantes.", "correct": false },
+            { "text": "Estímulos novedosos de baja intensidad que no provocan una respuesta de miedo.", "correct": true },
+            { "text": "Reforzadores de alto valor.", "correct": false },
+            { "text": "Castigos positivos.", "correct": false }
+        ],
+        "explanation": "La habituación es el proceso de aprender a ignorar lo irrelevante. Solo puede ocurrir si el estímulo no se percibe como una amenaza. Un cachorro se habitúa al sonido de la aspiradora a lo lejos, pero si se enciende por primera vez a su lado, la experiencia puede ser sensibilizante."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "Un perro muestra 'agresión redirigida' cuando:",
+        "answers": [
+            { "text": "Ataca a la persona que le ha provocado miedo.", "correct": false },
+            { "text": "Frustrado por no poder alcanzar a un detonante (p. ej., otro perro tras una valla), se da la vuelta y muerde al objetivo más cercano (p. ej., su compañero de casa o la pierna del dueño).", "correct": true },
+            { "text": "Dirige la agresión hacia sí mismo.", "correct": false },
+            { "text": "Aprende a redirigir su frustración hacia un juguete.", "correct": false }
+        ],
+        "explanation": "La agresión redirigida es un desbordamiento de una alta excitación (arousal). Es particularmente peligrosa porque el objetivo de la mordida no es la fuente original de la frustración. El tratamiento se centra en manejar el nivel de excitación y evitar la exposición a detonantes inalcanzables."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "El 'consentimiento' en el manejo y la interacción con un perro se refiere a:",
+        "answers": [
+            { "text": "La idea de que el perro debe permitir cualquier tipo de manipulación sin quejarse.", "correct": false },
+            { "text": "Prestar atención al lenguaje corporal del perro para asegurarse de que está cómodo y participando voluntariamente en la interacción, y detenerse si muestra señales de incomodidad.", "correct": true },
+            { "text": "Pedirle permiso verbalmente al perro antes de acariciarlo.", "correct": false },
+            { "text": "Solo interactuar con el perro cuando él lo inicia.", "correct": false }
+        ],
+        "explanation": "El consentimiento no es un concepto legal, sino una práctica de respeto. Una 'prueba de consentimiento' simple es acariciar al perro durante unos segundos, parar y ver si el perro se aleja o si activamente busca más contacto. Respetar su elección construye una inmensa confianza."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "La 'gestión de la excitación' (arousal management) es un componente clave en el tratamiento de muchos problemas de comportamiento porque:",
+        "answers": [
+            { "text": "La alta excitación, incluso si es por juego, puede hacer que un perro supere su umbral y tome malas decisiones, como morder demasiado fuerte o reaccionar a un detonante.", "correct": true },
+            { "text": "El objetivo es que el perro esté siempre en un estado de baja excitación.", "correct": false },
+            { "text": "La excitación es siempre un signo de agresión.", "correct": false },
+            { "text": "Un perro excitado es más fácil de entrenar.", "correct": false }
+        ],
+        "explanation": "La excitación es como una ola. Un buen plan de tratamiento enseña al perro (y al dueño) a reconocer cuándo la ola está subiendo demasiado y a usar técnicas (olfateo, pausas, ejercicios de calma) para ayudar a que la ola baje antes de que rompa en forma de un comportamiento problemático."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "El 'historial de aprendizaje' de un perro es crucial en el diagnóstico porque:",
+        "answers": [
+            { "text": "Determina la raza del perro.", "correct": false },
+            { "text": "Las experiencias pasadas del perro y qué comportamientos han sido reforzados o castigados son un predictor muy fuerte de su comportamiento actual.", "correct": true },
+            { "text": "Solo es relevante para los perros de pura raza.", "correct": false },
+            { "text": "Puede ser borrado por completo con un nuevo entrenamiento.", "correct": false }
+        ],
+        "explanation": "Un perro que ha sido castigado por gruñir tiene un historial de aprendizaje diferente a uno que no. Un perro que ha tenido éxito ahuyentando a otros perros ladrando tiene una fuerte historia de refuerzo para ese comportamiento. Entender el historial nos ayuda a entender el presente y a diseñar un plan más eficaz."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "Al tratar a un perro que muestra 'agresión por conflicto' (a menudo mal llamada 'dominancia') hacia sus dueños, un elemento clave del plan es:",
+        "answers": [
+            { "text": "Establecer la dominancia del dueño mediante correcciones físicas.", "correct": false },
+            { "text": "Aumentar la predictibilidad y la claridad en la comunicación, y enseñar al perro formas alternativas y seguras de expresar sus necesidades para reducir la ambigüedad que genera el conflicto.", "correct": true },
+            { "text": "Ignorar al perro hasta que se someta.", "correct": false },
+            { "text": "Retirar todos los privilegios del perro.", "correct": false }
+        ],
+        "explanation": "Este tipo de agresión a menudo surge de la confusión y la ansiedad del perro ante interacciones inconsistentes o amenazantes por parte del dueño. El tratamiento se basa en la construcción de confianza, la comunicación clara (enseñar al perro qué hacer) y el respeto mutuo, no en una batalla por el poder."
+    },
+    {
+        "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
+        "question": "La principal desventaja de usar solo la extinción para un comportamiento mantenido por la atención es:",
+        "answers": [
+            { "text": "Es demasiado rápida y el perro no aprende nada.", "correct": false },
+            { "text": "No enseña al perro una forma alternativa y apropiada de obtener atención, lo que puede generar una frustración significativa y la aparición de otros problemas de comportamiento.", "correct": true },
+            { "text": "No es efectiva para los comportamientos de búsqueda de atención.", "correct": false },
+            { "text": "Requiere el uso de herramientas aversivas.", "correct": false }
+        ],
+        "explanation": "Simplemente ignorar a un perro que ladra por atención (extinción) sin darle otra herramienta para comunicarse (DRA, como tocar una campana) es como quitarle el teléfono a alguien sin darle otra forma de contactar con el mundo. Es ineficaz a largo plazo y perjudicial para el bienestar."
+    }
+]

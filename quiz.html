@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guía Canina Abierta | Test de Conocimiento</title>
+    <title>Guía Canina Abierta | Tests de Conocimiento</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: 'Inter', sans-serif;
@@ -25,19 +25,12 @@
         #explanation-box {
             transition: opacity 0.5s ease-in-out;
         }
-        /* Custom scrollbar for subject selection */
-        #subject-list-container::-webkit-scrollbar {
-            width: 8px;
+        .subject-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
-        #subject-list-container::-webkit-scrollbar-track {
-            background: #f1f5f9; /* slate-100 */
-        }
-        #subject-list-container::-webkit-scrollbar-thumb {
-            background: #94a3b8; /* slate-400 */
-            border-radius: 4px;
-        }
-        #subject-list-container::-webkit-scrollbar-thumb:hover {
-            background: #64748b; /* slate-500 */
+        .subject-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.07), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
         }
     </style>
 </head>
@@ -58,51 +51,42 @@
             </button>
         </nav>
         <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 space-y-3">
-            <a href="guia.html" class="block text-slate-600 hover:text-sky-600 font-medium">La Guía</a>
-            <a href="blog.html" class="block text-slate-600 hover:text-sky-600 font-medium">Blog Científico</a>
-            <a href="servicios.html" class="block text-slate-600 hover:text-sky-600 font-medium">Mis Servicios</a>
-            <a href="sobre-mi.html" class="block text-slate-600 hover:text-sky-600 font-medium">Sobre Mí</a>
-            <a href="apoyame.html" class="block bg-emerald-500 text-white px-4 py-2 rounded-lg text-center font-semibold hover:bg-emerald-600">Apoya el Proyecto</a>
+             <a href="guia.html" class="block text-slate-600 hover:text-sky-600 font-medium">La Guía</a>
+             <a href="blog.html" class="block text-slate-600 hover:text-sky-600 font-medium">Blog Científico</a>
+             <a href="servicios.html" class="block text-slate-600 hover:text-sky-600 font-medium">Mis Servicios</a>
+             <a href="sobre-mi.html" class="block text-slate-600 hover:text-sky-600 font-medium">Sobre Mí</a>
+             <a href="apoyame.html" class="block bg-emerald-500 text-white px-4 py-2 rounded-lg text-center font-semibold hover:bg-emerald-600">Apoya el Proyecto</a>
         </div>
     </header>
     
     <main class="py-16 md:py-24">
         <div class="container mx-auto px-6">
-            <div id="quiz-app" class="max-w-2xl mx-auto bg-white rounded-xl shadow-2xl p-8 md:p-12">
-                <div id="quiz-intro">
-                    <h2 class="text-3xl md:text-4xl font-bold text-slate-900 text-center mb-4">Test de Conocimiento Canino</h2>
-                    <p class="text-slate-600 text-center mb-8">Pon a prueba tus conocimientos con este test de preguntas aleatorias. ¡Aprende con cada respuesta!</p>
-                    
-                    <!-- SECCIÓN DE SELECCIÓN DE TEMAS -->
-                    <div class="mb-8">
-                        <label class="block text-center text-sm font-medium text-slate-700 mb-3">Selecciona los temas a evaluar:</label>
-                        <div id="subject-selection" class="max-w-md mx-auto bg-slate-100 p-4 rounded-lg border border-slate-200">
-                             <!-- Las casillas se insertarán aquí dinámicamente -->
-                             <p class="text-center text-sm text-slate-500">Cargando temas...</p>
-                        </div>
+             <div id="quiz-app" class="max-w-4xl mx-auto">
+                
+                <!-- Pantalla de Selección de Asignaturas (Nueva Pantalla Principal) -->
+                <div id="subject-selection-screen">
+                    <div class="text-center mb-12">
+                        <h2 class="text-4xl md:text-5xl font-extrabold text-slate-900 mb-4">Tests de Conocimiento</h2>
+                        <p class="text-lg text-slate-600 max-w-2xl mx-auto">Selecciona una asignatura para poner a prueba tus conocimientos y reforzar tu aprendizaje.</p>
                     </div>
-
-                    <div class="text-center mb-8">
-                        <label for="num-questions" class="block text-sm font-medium text-slate-700 mb-2">Número de preguntas:</label>
-                        <select id="num-questions" class="rounded-lg border-slate-300 shadow-sm focus:border-sky-500 focus:ring-sky-500">
-                            <option value="5">5</option>
-                            <option value="10">10</option>
-                            <option value="20" selected>20</option>
-                        </select>
-                    </div>
-                    <div id="quiz-start-area" class="text-center">
-                        <button id="start-quiz-btn" class="bg-sky-500 text-white font-bold py-3 px-8 rounded-lg hover:bg-sky-600 transition duration-300 text-lg" disabled>Cargando...</button>
+                    <div id="subject-cards-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <!-- Las tarjetas de asignaturas se insertarán aquí dinámicamente -->
+                        <p class="text-center md:col-span-2 lg:col-span-3 text-slate-500">Cargando tests...</p>
                     </div>
                 </div>
 
-                <div id="quiz-main" class="hidden">
-                    <div class="flex justify-between items-center mb-4">
-                        <span class="text-sm font-semibold text-slate-600">Test de Conocimiento</span>
-                        <span id="progress-text" class="text-sm font-semibold text-slate-600"></span>
+                <!-- Pantalla Principal del Quiz (Oculta por defecto) -->
+                <div id="quiz-main-container" class="hidden max-w-2xl mx-auto bg-white rounded-xl shadow-2xl p-8 md:p-12">
+                    <div class="flex justify-between items-center mb-2">
+                        <h3 id="quiz-subject-title" class="text-lg font-bold text-sky-700"></h3>
+                        <button id="back-to-subjects-btn" class="text-sm font-semibold text-slate-600 hover:text-sky-600">&larr; Volver a los tests</button>
                     </div>
-                    <h2 id="question-text" class="text-2xl font-semibold text-slate-800 mb-6">Question text</h2>
-                    <div id="answer-buttons" class="grid grid-cols-1 gap-4">
-                        </div>
+                    <div class="flex justify-between items-center mb-4">
+                        <span class="text-sm font-semibold text-slate-500">Pregunta:</span>
+                        <span id="progress-text" class="text-sm font-semibold text-slate-500"></span>
+                    </div>
+                    <h2 id="question-text" class="text-2xl font-semibold text-slate-800 mb-6"></h2>
+                    <div id="answer-buttons" class="grid grid-cols-1 gap-4"></div>
                     
                     <div id="explanation-box" class="hidden mt-6 bg-sky-50 border border-sky-200 p-4 rounded-lg">
                         <h4 class="font-bold text-sky-800 mb-2">Explicación:</h4>
@@ -114,10 +98,11 @@
                     </div>
                 </div>
 
-                 <div id="quiz-score-screen" class="hidden text-center">
-                    <h2 class="text-3xl font-bold text-slate-900 mb-4">¡Test Completado!</h2>
-                    <p id="score-text" class="text-4xl font-bold text-sky-600 mb-8">Tu puntuación es 0 de 20</p>
-                    <button id="play-again-btn" class="bg-sky-500 text-white font-bold py-3 px-8 rounded-lg hover:bg-sky-600 transition duration-300 text-lg">Jugar de Nuevo</button>
+                <!-- Pantalla de Puntuación (Oculta por defecto) -->
+                 <div id="quiz-score-screen" class="hidden max-w-2xl mx-auto bg-white rounded-xl shadow-2xl p-8 md:p-12 text-center">
+                    <h2 id="score-title" class="text-3xl font-bold text-slate-900 mb-4">¡Test Completado!</h2>
+                    <p id="score-text" class="text-4xl font-bold text-sky-600 mb-8"></p>
+                    <button id="play-again-btn" class="bg-sky-500 text-white font-bold py-3 px-8 rounded-lg hover:bg-sky-600 transition duration-300 text-lg">Hacer otro test</button>
                 </div>
             </div>
         </div>
@@ -125,29 +110,50 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-
     let allQuestions = [];
+    let groupedQuestions = {};
     let shuffledQuestions = [];
     let currentQuestionIndex = 0;
     let score = 0;
     let isExplanationShown = false;
 
-    const startButton = document.getElementById('start-quiz-btn');
+    // --- ELEMENTOS DEL DOM ---
+    const subjectSelectionScreen = document.getElementById('subject-selection-screen');
+    const subjectCardsContainer = document.getElementById('subject-cards-container');
+    const quizMainContainer = document.getElementById('quiz-main-container');
+    const quizScoreScreen = document.getElementById('quiz-score-screen');
+    const quizSubjectTitle = document.getElementById('quiz-subject-title');
+
+    const backToSubjectsBtn = document.getElementById('back-to-subjects-btn');
     const playAgainButton = document.getElementById('play-again-btn');
     const nextButton = document.getElementById('next-btn');
-    
-    const quizIntroDiv = document.getElementById('quiz-intro');
-    const quizMainDiv = document.getElementById('quiz-main');
-    const quizScoreScreenDiv = document.getElementById('quiz-score-screen');
-    
+
     const questionElement = document.getElementById('question-text');
     const answerButtonsElement = document.getElementById('answer-buttons');
     const scoreElement = document.getElementById('score-text');
+    const scoreTitleElement = document.getElementById('score-title');
     const progressText = document.getElementById('progress-text');
-    const numQuestionsSelect = document.getElementById('num-questions');
 
     const explanationBox = document.getElementById('explanation-box');
     const explanationText = document.getElementById('explanation-text');
+
+    // --- DESCRIPCIONES DE ASIGNATURAS ---
+    const subjectDescriptions = {
+        "Etología, Evolución y Domesticación del Perro": "Explora el origen del perro, su comportamiento innato y los cambios provocados por la domesticación. Conceptos clave: etología, socialización y mitos como la dominancia.",
+        "Neurobiología y Fisiología del Comportamiento": "Sumérgete en el cerebro canino. Analiza cómo los neurotransmisores, las hormonas y los sentidos moldean las emociones, el estrés y el aprendizaje.",
+        "Principios Científicos del Aprendizaje": "Domina las leyes del aprendizaje animal. Diferencia entre condicionamiento clásico y operante, y aplica los cuadrantes para entrenar de forma efectiva y ética.",
+        "Comunicación Canina y Zoosemiótica": "Aprende a 'leer' al perro. Interpreta el lenguaje corporal, las señales de calma y las vocalizaciones para una comunicación clara y prevenir malentendidos.",
+        "Cognición Social y Emociones": "Descubre el mundo mental y emocional del perro. Evalúa su capacidad para entender nuestras intenciones, la naturaleza del apego y la base científica de sus emociones.",
+        "Bienestar Animal: Ciencia, Medición y Aplicación": "Define y mide la calidad de vida. Aplica los 'Cinco Dominios' y el enriquecimiento ambiental para garantizar el bienestar físico y psicológico.",
+        "Metodologías de Entrenamiento y Modificación de Conducta": "Conoce las herramientas del profesional. Aplica técnicas como el moldeado (shaping), DSCC y BAT 2.0 para construir conductas y tratar problemas de forma ética.",
+        "Diagnóstico y Tratamiento de Problemas de Comportamiento I": "Aprende a evaluar y diseñar planes de intervención para problemas como la ansiedad por separación, miedos, fobias y conductas compulsivas.",
+        "Nutrición, Salud y Desarrollo Físico": "Analiza la conexión inseparable entre la salud física y el comportamiento. Descubre cómo la dieta, el dolor o las hormonas pueden ser la causa de problemas conductuales.",
+        "Agresividad Canina: Evaluación e Intervención Avanzada": "Aborda uno de los temas más complejos. Aprende a analizar funcionalmente la agresión, a evaluar el riesgo y a aplicar protocolos de intervención seguros.",
+        "Ética Profesional y Relación con el Cliente": "Establece los pilares de tu práctica profesional. Domina la comunicación con el cliente, los límites de tu competencia y los dilemas éticos del día a día.",
+        "Fronteras de la Ciencia Canina y Seminario Final": "Integra todo tu conocimiento y mira hacia el futuro. Analiza temas avanzados como la antrozoología, la epigenética y las nuevas tecnologías en el bienestar canino."
+    };
+
+    // --- LÓGICA DEL QUIZ ---
 
     function shuffleArray(array) {
         for (let i = array.length - 1; i > 0; i--) {
@@ -156,119 +162,74 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         return array;
     }
-    
-    // Función para popular las casillas de los temas
-    function populateSubjectCheckboxes(subjects) {
-        const container = document.getElementById('subject-selection');
-        container.innerHTML = ''; // Limpiar el mensaje "Cargando..."
 
-        // Añadir opción "Seleccionar Todos"
-        container.innerHTML += `
-            <div class="flex items-center border-b border-slate-200 pb-2 mb-2">
-                <input id="select-all-subjects" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-sky-600 focus:ring-sky-500" checked>
-                <label for="select-all-subjects" class="ml-3 block text-sm font-bold text-slate-800">Seleccionar Todos</label>
-            </div>
-        `;
+    function displaySubjectCards() {
+        subjectCardsContainer.innerHTML = '';
+        const sortedSubjects = Object.keys(groupedQuestions).sort();
 
-        const subjectListContainer = document.createElement('div');
-        subjectListContainer.className = 'space-y-2 max-h-48 overflow-y-auto';
-        subjectListContainer.id = 'subject-list-container';
-
-        // Añadir una casilla por cada asignatura
-        subjects.sort().forEach(subject => {
-            const subjectId = `subject-${subject.replace(/[^a-zA-Z0-9]/g, '-')}`;
-            subjectListContainer.innerHTML += `
-                <div class="flex items-center">
-                    <input id="${subjectId}" name="subject" value="${subject}" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-sky-600 focus:ring-sky-500 subject-checkbox" checked>
-                    <label for="${subjectId}" class="ml-3 block text-sm font-medium text-slate-700">${subject}</label>
-                </div>
+        sortedSubjects.forEach(subject => {
+            const questions = groupedQuestions[subject];
+            const card = document.createElement('div');
+            card.className = 'bg-white p-6 rounded-xl shadow-md flex flex-col subject-card';
+            
+            card.innerHTML = `
+                <h3 class="text-xl font-bold text-slate-900 mb-2">${subject}</h3>
+                <p class="text-slate-600 mb-4 text-sm flex-grow">${subjectDescriptions[subject] || 'Una evaluación para reforzar tus conocimientos en esta área.'}</p>
+                <div class="text-xs text-slate-500 font-medium mb-4">${questions.length} Preguntas</div>
+                <button data-subject="${subject}" class="mt-auto w-full bg-sky-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-sky-600 transition duration-300 start-quiz-btn">Comenzar Test</button>
             `;
-        });
-        container.appendChild(subjectListContainer);
-
-        // Lógica para "Seleccionar Todos"
-        const selectAllCheckbox = document.getElementById('select-all-subjects');
-        const subjectCheckboxes = document.querySelectorAll('.subject-checkbox');
-
-        selectAllCheckbox.addEventListener('change', () => {
-            subjectCheckboxes.forEach(checkbox => {
-                checkbox.checked = selectAllCheckbox.checked;
-            });
+            subjectCardsContainer.appendChild(card);
         });
 
-        subjectCheckboxes.forEach(checkbox => {
-            checkbox.addEventListener('change', () => {
-                if (!checkbox.checked) {
-                    selectAllCheckbox.checked = false;
-                } else if ([...subjectCheckboxes].every(c => c.checked)) {
-                    selectAllCheckbox.checked = true;
-                }
+        document.querySelectorAll('.start-quiz-btn').forEach(button => {
+            button.addEventListener('click', () => {
+                startQuiz(button.dataset.subject);
             });
         });
     }
-
-    // Cargar preguntas desde el JSON
+    
     async function loadQuestions() {
         try {
-            const response = await fetch('preguntas.json');
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
+            const response = await fetch('banco_preguntas_completo.json');
+            if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
             allQuestions = await response.json();
-            
-            // Extraer asignaturas únicas y poblar las casillas
-            const subjects = [...new Set(allQuestions.map(q => q.asignatura))];
-            populateSubjectCheckboxes(subjects);
 
-            startButton.disabled = false;
-            startButton.textContent = "Empezar el Test";
+            // Agrupar preguntas por asignatura
+            groupedQuestions = allQuestions.reduce((acc, q) => {
+                const subject = q.asignatura;
+                if (!acc[subject]) {
+                    acc[subject] = [];
+                }
+                acc[subject].push(q);
+                return acc;
+            }, {});
+
+            displaySubjectCards();
         } catch (error) {
-            console.error("Error al cargar el archivo de preguntas:", error);
-            const quizApp = document.getElementById('quiz-app');
-            quizApp.innerHTML = `<div class="text-center">
-                <h3 class="text-xl font-bold text-red-700">Error de Carga</h3>
-                <p class="text-red-600 mt-2">No se pudo cargar el banco de preguntas. Por favor, asegúrate de que el archivo 'banco_preguntas_completo.json' está en la misma carpeta y recarga la página.</p>
-            </div>`;
+            console.error("Error al cargar las preguntas:", error);
+            subjectCardsContainer.innerHTML = `<p class="text-center md:col-span-2 lg:col-span-3 text-red-600">Error al cargar los tests. Por favor, recarga la página.</p>`;
         }
     }
 
-    // Iniciar el quiz
-    function startQuiz() {
-        const questionsInQuiz = parseInt(numQuestionsSelect.value);
-
-        // Filtrar preguntas según las asignaturas seleccionadas
-        const selectedSubjects = [...document.querySelectorAll('.subject-checkbox:checked')].map(cb => cb.value);
-
-        if (selectedSubjects.length === 0) {
-            alert('Por favor, selecciona al menos un tema para empezar el test.');
-            return;
-        }
-
-        const filteredQuestions = allQuestions.filter(q => selectedSubjects.includes(q.asignatura));
-
-        if (filteredQuestions.length < questionsInQuiz) {
-            alert(`No hay suficientes preguntas (${filteredQuestions.length}) para un test de ${questionsInQuiz} sobre los temas seleccionados. Por favor, selecciona más temas o un número menor de preguntas.`);
-            return;
-        }
-
-        quizIntroDiv.classList.add('hidden');
-        quizScoreScreenDiv.classList.add('hidden');
-        quizMainDiv.classList.remove('hidden');
-        
-        shuffledQuestions = shuffleArray([...filteredQuestions]).slice(0, questionsInQuiz);
+    function startQuiz(subject) {
+        shuffledQuestions = shuffleArray([...groupedQuestions[subject]]);
         currentQuestionIndex = 0;
         score = 0;
-        nextButton.classList.add('hidden');
+        
+        subjectSelectionScreen.classList.add('hidden');
+        quizScoreScreen.classList.add('hidden');
+        quizMainContainer.classList.remove('hidden');
+
+        quizSubjectTitle.textContent = subject;
         showQuestion();
     }
 
-    // Mostrar la pregunta actual
     function showQuestion() {
         resetState();
         const currentQuestion = shuffledQuestions[currentQuestionIndex];
         const questionNo = currentQuestionIndex + 1;
         
-        progressText.innerText = `Pregunta ${questionNo} de ${shuffledQuestions.length}`;
+        progressText.innerText = `${questionNo} / ${shuffledQuestions.length}`;
         questionElement.innerHTML = currentQuestion.question;
 
         const shuffledAnswers = shuffleArray([...currentQuestion.answers]);
@@ -285,7 +246,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Resetear estado entre preguntas
     function resetState() {
         nextButton.classList.add('hidden');
         explanationBox.classList.add('hidden');
@@ -297,7 +257,6 @@ document.addEventListener('DOMContentLoaded', () => {
         nextButton.textContent = "Siguiente";
     }
 
-    // Manejar la selección de una respuesta
     function selectAnswer(e) {
         const selectedBtn = e.target;
         const isCorrect = selectedBtn.dataset.correct === "true";
@@ -320,20 +279,17 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function setStatusClass(element, correct) {
-        if (correct) {
-            element.classList.add('btn-correct');
-        } else {
-            element.classList.add('btn-incorrect');
-        }
+        if (correct) element.classList.add('btn-correct');
+        else element.classList.add('btn-incorrect');
     }
 
     function showScore() {
-        quizMainDiv.classList.add('hidden');
-        quizScoreScreenDiv.classList.remove('hidden');
-        const scoreMessage = `Tu puntuación es ${score} de ${shuffledQuestions.length}`;
-        scoreElement.innerText = scoreMessage;
+        quizMainContainer.classList.add('hidden');
+        quizScoreScreen.classList.remove('hidden');
+        scoreTitleElement.innerText = `¡Test de "${shuffledQuestions[0].asignatura}" Completado!`;
+        scoreElement.innerText = `Tu puntuación es ${score} de ${shuffledQuestions.length}`;
     }
-
+    
     function handleNextButton() {
         const currentQuestion = shuffledQuestions[currentQuestionIndex];
         const hasExplanation = currentQuestion.explanation && currentQuestion.explanation.trim() !== '';
@@ -354,12 +310,16 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
     
-    startButton.addEventListener('click', startQuiz);
+    function goBackToSelection() {
+        quizMainContainer.classList.add('hidden');
+        quizScoreScreen.classList.add('hidden');
+        subjectSelectionScreen.classList.remove('hidden');
+    }
+
+    // --- EVENT LISTENERS ---
     nextButton.addEventListener('click', handleNextButton);
-    playAgainButton.addEventListener('click', () => {
-        quizScoreScreenDiv.classList.add('hidden');
-        quizIntroDiv.classList.remove('hidden');
-    });
+    playAgainButton.addEventListener('click', goBackToSelection);
+    backToSubjectsBtn.addEventListener('click', goBackToSelection);
 
     // Toggle mobile menu
     const mobileMenuButton = document.getElementById('mobile-menu-button');
@@ -368,6 +328,7 @@ document.addEventListener('DOMContentLoaded', () => {
         mobileMenu.classList.toggle('hidden');
     });
     
+    // --- INICIO DE LA EJECUCIÓN ---
     loadQuestions();
 });
 </script>

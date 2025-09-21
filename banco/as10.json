@@ -1,0 +1,519 @@
+[
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "Al realizar un análisis funcional de un comportamiento agresivo, el objetivo principal es:",
+        "answers": [
+            { "text": "Etiquetar al perro como 'dominante' o 'malo'.", "correct": false },
+            { "text": "Identificar la emoción subyacente (p. ej., miedo) y la consecuencia que mantiene el comportamiento (p. ej., el estímulo aversivo se va).", "correct": true },
+            { "text": "Determinar qué castigo será más efectivo para detener la agresión.", "correct": false },
+            { "text": "Focalizarse exclusivamente en la raza del perro como la causa.", "correct": false }
+        ],
+        "explanation": "El análisis funcional (ABC) es la piedra angular del diagnóstico. En lugar de juzgar al perro, buscamos entender el 'porqué' de la agresión desde su perspectiva. ¿Está tratando de aumentar la distancia con algo que le da miedo? ¿Está intentando mantener un recurso? Sin esta comprensión, cualquier intervención es un mero parche."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "Un perro muestra una postura corporal baja, orejas hacia atrás y cola metida mientras gruñe. Esto es más indicativo de una agresión:",
+        "answers": [
+            { "text": "Ofensiva y por dominancia.", "correct": false },
+            { "text": "Defensiva, motivada principalmente por el miedo.", "correct": true },
+            { "text": "Predatoria.", "correct": false },
+            { "text": "Por juego.", "correct": false }
+        ],
+        "explanation": "Diferenciar la motivación emocional a través del lenguaje corporal es crucial. Una postura baja y de retirada busca aumentar la distancia y parar una amenaza percibida. Es una señal de que el perro se siente amenazado, no de que esté intentando dominar."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "El concepto de 'trigger stacking' (apilamiento de desencadenantes) explica cómo:",
+        "answers": [
+            { "text": "Un perro solo puede reaccionar a un único estímulo a la vez.", "correct": false },
+            { "text": "Varios estresores de bajo nivel, ocurriendo en un corto período, pueden acumularse y hacer que un perro reaccione a un estímulo final de forma desproporcionada.", "correct": true },
+            { "text": "Los perros organizan jerárquicamente sus miedos.", "correct": false },
+            { "text": "El entrenamiento con castigo puede apilarse para ser más efectivo.", "correct": false }
+        ],
+        "explanation": "Cada evento estresor libera cortisol, que tarda en eliminarse. La suma de varios estresores (un ruido, un niño corriendo, una correa tensa) puede hacer que un perro reaccione agresivamente ante algo que normalmente toleraría. Muchas mordeduras 'de la nada' se explican por este fenómeno."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "Un perro gruñe cuando su dueño se acerca a su plato de comida. El dueño le quita la comida para 'enseñarle quién manda'. ¿Cuál es el resultado más probable?",
+        "answers": [
+            { "text": "El perro entenderá que su dueño es el líder y dejará de proteger su comida.", "correct": false },
+            { "text": "El perro aprenderá que la aproximación del humano predice la pérdida del recurso, aumentando la probabilidad de que la próxima vez escale la agresión.", "correct": true },
+            { "text": "El perro se volverá indiferente a la comida.", "correct": false },
+            { "text": "El perro compartirá voluntariamente su comida.", "correct": false }
+        ],
+        "explanation": "Este es un caso clásico de cómo el castigo empeora la protección de recursos. La estrategia correcta es el contracondicionamiento: enseñar al perro que la aproximación de un humano a su comida predice la aparición de algo aún mejor (p. ej., un trozo de pollo)."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "La 'agresión redirigida' ocurre cuando:",
+        "answers": [
+            { "text": "Un perro redirige su agresión hacia su propio cuerpo.", "correct": false },
+            { "text": "Un perro, frustrado por no poder alcanzar a un detonante, se da la vuelta y muerde al objetivo más cercano (p. ej., su dueño u otro perro).", "correct": true },
+            { "text": "Un perro aprende a redirigir su agresión hacia un juguete.", "correct": false },
+            { "text": "Dos perros redirigen su agresión el uno al otro.", "correct": false }
+        ],
+        "explanation": "La agresión redirigida es un desbordamiento de una alta excitación (arousal). Es peligrosa por ser impredecible para el objetivo secundario. El manejo de la excitación y la prevención son clave."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "Al realizar una evaluación de riesgo, ¿cuál de los siguientes factores sugeriría un pronóstico más reservado o grave?",
+        "answers": [
+            { "text": "Un perro que gruñe, pero nunca ha hecho contacto con la piel.", "correct": false },
+            { "text": "Un perro que muestra una agresión predecible y solo en un contexto evitable.", "correct": false },
+            { "text": "Un perro que muerde sin advertencias, de forma impredecible y con múltiples mordiscos en un solo incidente.", "correct": true },
+            { "text": "Un perro pequeño con un historial de mordiscos que no han causado daño.", "correct": false }
+        ],
+        "explanation": "Los factores clave en la evaluación de riesgo son la PREDICTIBILIDAD y la INHIBICIÓN DE LA MORDIDA. Un perro que no avisa, que muerde fuerte y en múltiples ocasiones, y cuyas motivaciones son difíciles de identificar, representa un riesgo significativamente mayor."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "El concepto de 'inhibición de la mordida', adquirido durante la socialización, se refiere a:",
+        "answers": [
+            { "text": "La decisión de un perro de no morder nunca.", "correct": false },
+            { "text": "La capacidad aprendida de un perro para controlar la presión de su mandíbula cuando muerde, para causar el menor daño posible.", "correct": true },
+            { "text": "Una debilidad en los músculos de la mandíbula.", "correct": false },
+            { "text": "Un rasgo genético inmutable.", "correct": false }
+        ],
+        "explanation": "Una buena inhibición de la mordida es la red de seguridad más importante. Todos los perros pueden morder si se les empuja a su límite, pero un perro con buena inhibición puede dejar solo un moratón donde otro sin ella podría causar heridas graves."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "¿Por qué el uso de collares de castigo (púas, ahogo, descargas) está contraindicado en el tratamiento de la agresión por miedo?",
+        "answers": [
+            { "text": "Porque el dolor y el malestar causados por el aversivo se asocian con el estímulo (p. ej., el otro perro), empeorando la asociación negativa y aumentando la probabilidad de una agresión más severa.", "correct": true },
+            { "text": "Porque no son lo suficientemente fuertes para detener a un perro grande.", "correct": false },
+            { "text": "Porque solo se deben usar para enseñar obediencia.", "correct": false },
+            { "text": "Porque son demasiado caros.", "correct": false }
+        ],
+        "explanation": "Aplicar un castigo en presencia del estímulo que causa miedo es añadir gasolina al fuego. El perro no aprende 'no debo ladrar', sino 'cuando veo a otro perro, ocurren cosas dolorosas', lo que confirma y magnifica su percepción de que los otros perros son una amenaza."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "En casos de agresión severa, el rol de la medicación psicotrópica (recetada por un veterinario) es:",
+        "answers": [
+            { "text": "'Drogar' al perro para que esté tranquilo.", "correct": false },
+            { "text": "Curar la agresión sin necesidad de modificar la conducta.", "correct": false },
+            { "text": "Ayudar a regular la neuroquímica cerebral para reducir la ansiedad y la impulsividad, permitiendo que la modificación de conducta sea más efectiva.", "correct": true },
+            { "text": "Un último recurso antes de la eutanasia.", "correct": false }
+        ],
+        "explanation": "La medicación no es una cura, es una herramienta que facilita el aprendizaje. Al reducir el 'ruido' neuroquímico de la ansiedad o el pánico, el cerebro del perro se vuelve más receptivo a los protocolos de contracondicionamiento. Es una parte integral de un enfoque holístico para casos graves."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "El protocolo de seguridad MÁS importante al trabajar con cualquier caso de agresión es:",
+        "answers": [
+            { "text": "Asegurarse de que el perro lleve siempre un bozal.", "correct": false },
+            { "text": "La gestión y prevención rigurosa para evitar que el perro se encuentre en situaciones que superen su umbral.", "correct": true },
+            { "text": "La aplicación inmediata de castigo para suprimir cualquier señal de advertencia.", "correct": false },
+            { "text": "Socializar al perro con tantos perros como sea posible.", "correct": false }
+        ],
+        "explanation": "La modificación de conducta no puede ocurrir si el comportamiento agresivo se sigue practicando. La primera prioridad es siempre la seguridad. Esto significa evitar los desencadenantes a toda costa (cruzar la calle, cambiar horarios de paseo) mientras se implementa el plan de tratamiento en un entorno controlado."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "Castigar a un perro por gruñir es peligroso porque:",
+        "answers": [
+            { "text": "Fomenta que el perro gruña más fuerte la próxima vez.", "correct": false },
+            { "text": "Se elimina la señal de advertencia, pero no la emoción subyacente, lo que puede llevar a un perro que muerda sin previo aviso.", "correct": true },
+            { "text": "El perro puede pensar que es un juego.", "correct": false },
+            { "text": "Es una forma ineficaz de castigo.", "correct": false }
+        ],
+        "explanation": "El gruñido es comunicación. Es la forma que tiene el perro de decir 'estoy incómodo, para'. Si se le enseña que comunicar su incomodidad es castigado, la próxima vez puede optar por saltarse la advertencia y pasar directamente a una respuesta más contundente, como una mordida."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "La agresión entre perros que viven en la misma casa a menudo se intensifica debido a:",
+        "answers": [
+            { "text": "La falta de un 'alfa' claro.", "correct": false },
+            { "text": "La intervención de los dueños, que con sus gritos y nerviosismo aumentan la tensión y la excitación (arousal) del ambiente.", "correct": true },
+            { "text": "El aburrimiento.", "correct": false },
+            { "text": "La genética exclusivamente.", "correct": false }
+        ],
+        "explanation": "A menudo, los dueños, con la mejor intención, empeoran la situación. Su propia ansiedad se transmite a los perros, y sus intentos de 'romper la pelea' a gritos solo añaden más energía caótica. La gestión proactiva y la creación de asociaciones positivas son clave."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "Un perro que solo gruñe cuando tiene un objeto de alto valor y un humano se acerca está mostrando:",
+        "answers": [
+            { "text": "Agresión por miedo.", "correct": false },
+            { "text": "Protección de recursos.", "correct": true },
+            { "text": "Agresión territorial.", "correct": false },
+            { "text": "Agresión predatoria.", "correct": false }
+        ],
+        "explanation": "La protección de recursos es un comportamiento específico al contexto. El perro no es 'agresivo' en general, sino que muestra agresión para mantener la posesión de un ítem que valora mucho. La solución es el contracondicionamiento, no la confrontación."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "La 'agresión territorial' se diferencia de la agresión por miedo a los extraños en que:",
+        "answers": [
+            { "text": "La agresión territorial solo la muestran los machos.", "correct": false },
+            { "text": "Está ligada a una ubicación específica (la casa, el jardín, el coche) y el perro puede ser perfectamente sociable fuera de ese territorio.", "correct": true },
+            { "text": "Siempre es de tipo ofensivo.", "correct": false },
+            { "text": "No existe tal diferencia.", "correct": false }
+        ],
+        "explanation": "El diagnóstico diferencial es clave. Si un perro es reactivo a los extraños tanto dentro como fuera de casa, es más probable que sea un miedo generalizado. Si la reactividad solo ocurre cuando los extraños se acercan a la propiedad, es territorial. El tratamiento tendrá matices diferentes."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "Una 'mordida de aire' (air snap), donde el perro lanza un mordisco sin hacer contacto, es:",
+        "answers": [
+            { "text": "Un intento fallido de morder.", "correct": false },
+            { "text": "Una señal de advertencia ritualizada y una demostración de inhibición de la mordida. El perro está comunicando su malestar de forma contundente pero controlada.", "correct": true },
+            { "text": "Un comportamiento de juego.", "correct": false },
+            { "text": "Un signo de un problema neurológico.", "correct": false }
+        ],
+        "explanation": "Es un peldaño alto en la escalera de la agresión, pero sigue siendo una advertencia. El perro está diciendo: 'Podría haberte mordido, pero he elegido no hacerlo. Esta es tu última oportunidad para retirarte'. Es una señal que debe tomarse muy en serio."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "El acondicionamiento positivo de un bozal es un protocolo de seguridad esencial. El primer paso debería ser:",
+        "answers": [
+            { "text": "Forzar al perro a llevar el bozal durante unos segundos.", "correct": false },
+            { "text": "Asociar la mera presencia del bozal con reforzadores de muy alto valor, sin intentar ponérselo.", "correct": true },
+            { "text": "Ponerle el bozal al perro justo antes de salir a un paseo estresante.", "correct": false },
+            { "text": "Dejar el bozal en el suelo para que el perro se acostumbre a él.", "correct": false }
+        ],
+        "explanation": "El objetivo es crear una Respuesta Emocional Condicionada positiva (+CER) hacia el bozal. El primer paso es puramente de condicionamiento clásico: Bozal aparece -> Lluvia de pollo. Repetir esto hasta que la vista del bozal provoque una respuesta de alegría en el perro."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "La 'agresión predatoria' se diferencia de otras formas de agresión porque:",
+        "answers": [
+            { "text": "Siempre va precedida de muchas señales de advertencia.", "correct": false },
+            { "text": "Es un comportamiento de obtención de alimento, a menudo silencioso, que carece de la activación emocional (ira o miedo) de la agresión social.", "correct": true },
+            { "text": "Solo se dirige a otros perros.", "correct": false },
+            { "text": "Es fácil de solucionar con entrenamiento de obediencia.", "correct": false }
+        ],
+        "explanation": "La depredación no es un comportamiento de conflicto, es una secuencia motora para conseguir comida. Por eso es tan peligrosa: a menudo es rápida, silenciosa y sin las advertencias ritualizadas de la agresión social. Su tratamiento se basa casi por completo en la gestión y la prevención."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "La 'agresión por dolor' ocurre porque:",
+        "answers": [
+            { "text": "El perro se vuelve deliberadamente malo cuando le duele algo.", "correct": false },
+            { "text": "Es una respuesta defensiva para proteger una parte del cuerpo lesionada o para evitar un contacto que el perro anticipa que será doloroso.", "correct": true },
+            { "text": "El dolor libera hormonas que causan dominancia.", "correct": false },
+            { "text": "Solo ocurre si el dolor es visible externamente.", "correct": false }
+        ],
+        "explanation": "Es una de las causas más comunes de agresión repentina. Un perro con otitis puede morder cuando le tocan la cabeza, no por 'agresividad', sino como un reflejo defensivo para parar el dolor. Siempre se debe descartar el dolor ante un cambio de comportamiento."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "La 'reactividad con la correa' es un problema complejo que a menudo es una mezcla de:",
+        "answers": [
+            { "text": "Dominancia y territorialidad.", "correct": false },
+            { "text": "Frustración (por la restricción de la correa) y/o miedo (por no poder escapar de una amenaza percibida).", "correct": true },
+            { "text": "Falta de ejercicio únicamente.", "correct": false },
+            { "text": "Mala alimentación.", "correct": false }
+        ],
+        "explanation": "La correa elimina las opciones de comportamiento social normales de un perro (huir, acercarse en curva). Esta restricción puede frustrar a un perro sociable o aterrorizar a un perro miedoso, y ambas emociones pueden manifestarse con un comportamiento muy similar (ladridos y lanzamientos)."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "En la 'escala de mordida' de Ian Dunbar, una mordida de Nivel 1 se refiere a:",
+        "answers": [
+            { "text": "Una mordida que rompe la piel.", "correct": false },
+            { "text": "Un comportamiento agresivo sin contacto dental con la piel (gruñidos, mordiscos al aire).", "correct": true },
+            { "text": "Múltiples mordiscos profundos.", "correct": false },
+            { "text": "Una única punción superficial.", "correct": false }
+        ],
+        "explanation": "Esta escala es una herramienta para evaluar objetivamente la inhibición de la mordida de un perro. Permite clasificar la gravedad de un incidente basándose en el daño real infligido, lo cual es un factor crucial en la evaluación de riesgo."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "La 'agresión maternal' es un comportamiento:",
+        "answers": [
+            { "text": "Anormal que indica que la perra es una mala madre.", "correct": false },
+            { "text": "Impulsado por hormonas (prolactina, oxitocina) y diseñado para proteger a los cachorros de amenazas percibidas.", "correct": true },
+            { "text": "Que solo ocurre en perras que han tenido camadas problemáticas.", "correct": false },
+            { "text": "Aprendido por imitación de otras perras.", "correct": false }
+        ],
+        "explanation": "Es un comportamiento completamente normal y funcional. Sin embargo, en un entorno doméstico, puede ser peligroso. Requiere una gestión cuidadosa para minimizar el estrés de la madre y garantizar la seguridad de las personas, respetando su necesidad instintiva de proteger a su camada."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "La 'socialización remedial' para un perro adulto con agresión por miedo debe enfocarse en:",
+        "answers": [
+            { "text": "Exponer al perro a tantos perros y personas como sea posible para que se acostumbre.", "correct": false },
+            { "text": "Exposiciones controladas, a distancia segura (sub-umbral) y asociadas con experiencias muy positivas (DSCC), enfocándose en la calidad de las exposiciones, no en la cantidad.", "correct": true },
+            { "text": "Únicamente en el entrenamiento de obediencia.", "correct": false },
+            { "text": "Evitar por completo cualquier contacto con otros perros o personas por el resto de su vida.", "correct": false }
+        ],
+        "explanation": "No se puede 'resocializar' a un adulto de la misma forma que a un cachorro. El objetivo no es que se haga amigo de todos, sino que aprenda a tolerar la presencia de sus detonantes a una distancia aceptable sin reaccionar. Es un proceso lento y gradual de cambio emocional."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "Un 'perro ayudante' o 'perro estoico' en un protocolo de modificación de conducta para la agresión entre perros es:",
+        "answers": [
+            { "text": "Cualquier perro disponible en el parque.", "correct": false },
+            { "text": "Un perro específicamente seleccionado y entrenado por su temperamento calmado y su capacidad para no reaccionar al comportamiento del perro en tratamiento, sirviendo como un estímulo neutro y controlable.", "correct": true },
+            { "text": "Un perro de la misma raza que el perro en tratamiento.", "correct": false },
+            { "text": "Un perro de peluche.", "correct": false }
+        ],
+        "explanation": "El uso de un perro ayudante adecuado es crucial para la seguridad y el éxito del tratamiento. Permite al profesional controlar con precisión la distancia, la intensidad y la duración de la exposición, asegurando que el perro en tratamiento permanezca por debajo de su umbral."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "El término 'agresión por conflicto' es a menudo un diagnóstico más preciso que 'agresión por dominancia' para describir la agresión dirigida a los dueños porque:",
+        "answers": [
+            { "text": "Sugiere que la agresión surge de la ansiedad y la confusión del perro ante las interacciones humanas impredecibles o amenazantes, no de un deseo de 'controlar la casa'.", "correct": true },
+            { "text": "Implica que el perro está en conflicto con otros perros de la casa.", "correct": false },
+            { "text": "Es un término más fácil de entender para los clientes.", "correct": false },
+            { "text": "Significa que el conflicto solo puede resolverse con la fuerza.", "correct": false }
+        ],
+        "explanation": "Esta agresión a menudo ocurre en contextos ambiguos (p. ej., al inclinarse sobre el perro en su cama). El perro se siente amenazado y en conflicto (quiere complacer pero también tiene miedo) y la agresión es el resultado de esa ambivalencia. El tratamiento se enfoca en la claridad y la construcción de confianza."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "La 'agresión intrasexual' se refiere a la agresión dirigida a:",
+        "answers": [
+            { "text": "Perros de diferente sexo.", "correct": false },
+            { "text": "Perros del mismo sexo.", "correct": true },
+            { "text": "Humanos del mismo sexo que el dueño.", "correct": false },
+            { "text": "Cualquier perro, independientemente de su sexo.", "correct": false }
+        ],
+        "explanation": "Este tipo de agresión (macho-macho o hembra-hembra) a menudo tiene un componente hormonal y de competencia por los recursos reproductivos, aunque puede ocurrir en animales castrados. Tiende a aparecer o intensificarse en la madurez social."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "La eutanasia conductual es una decisión que:",
+        "answers": [
+            { "text": "Debe ser recomendada por el educador canino como primera opción.", "correct": false },
+            { "text": "Es una opción a considerar en casos con un pronóstico muy grave, donde la seguridad pública no puede garantizarse y/o el perro tiene una calidad de vida crónicamente pobre debido al estrés, siempre tomada por el dueño en consulta con su veterinario.", "correct": true },
+            { "text": "Nunca debe ser discutida, ya que todos los perros son rehabilitables.", "correct": false },
+            { "text": "Solo se aplica a perros de ciertas razas.", "correct": false }
+        ],
+        "explanation": "Es la decisión más difícil y debe abordarse con la máxima empatía y objetividad. El rol del profesional es proporcionar una evaluación de riesgo completa y un pronóstico honesto para que la familia, junto con su veterinario, pueda tomar la decisión más informada y compasiva."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "Un perro que ha mordido y muestra una 'fase de resolución' calmada y rápida después del incidente (pasa de 100 a 0 rápidamente) puede tener un pronóstico:",
+        "answers": [
+            { "text": "Más favorable, ya que indica una buena resiliencia emocional.", "correct": false },
+            { "text": "Más reservado, ya que puede indicar que la agresión es una estrategia que le resulta eficaz y no le genera un gran conflicto interno.", "correct": true },
+            { "text": "Indiferente, ya que la fase de resolución no es importante.", "correct": false },
+            { "text": "Dependiente de la raza del perro.", "correct": false }
+        ],
+        "explanation": "Un perro que permanece estresado y agitado después de un incidente muestra conflicto. Un perro que muerde y se relaja inmediatamente puede estar demostrando que, para él, la agresión es una herramienta funcional y eficiente para resolver problemas. Esto puede hacerlo más propenso a usarla de nuevo."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "La 'agresión de juego' en un cachorro se vuelve problemática cuando:",
+        "answers": [
+            { "text": "El cachorro gruñe durante el juego.", "correct": false },
+            { "text": "El cachorro carece de inhibición de la mordida, la excitación es excesiva y no responde a las señales de fin de juego.", "correct": true },
+            { "text": "El cachorro inicia el juego con una reverencia.", "correct": false },
+            { "text": "El cachorro persigue un juguete.", "correct": false }
+        ],
+        "explanation": "Todo juego de cachorros implica morder. El problema no es el mordisco en sí, sino la falta de control sobre la presión y la incapacidad de calmarse. El tratamiento se enfoca en enseñar la inhibición de la mordida y a gestionar la excitación."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "El término 'agresión instrumental' se refiere a la agresión que:",
+        "answers": [
+            { "text": "Está motivada por una emoción intensa como el miedo o la ira.", "correct": false },
+            { "text": "Se ha convertido en un comportamiento aprendido (operante) que el perro utiliza de forma deliberada para obtener una consecuencia deseada, a menudo con poca carga emocional.", "correct": true },
+            { "text": "Es causada por un instrumento o herramienta de entrenamiento.", "correct": false },
+            { "text": "Solo la muestran los perros instrumentistas.", "correct": false }
+        ],
+        "explanation": "Un perro puede empezar gruñendo por miedo (agresión respondiente), pero si aprende que cada vez que gruñe consigue que le den un premio para calmarlo, el gruñido puede convertirse en una conducta instrumental para conseguir premios, separándose de la emoción original."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "La agresión entre perros del mismo sexo que viven juntos a menudo surge o se intensifica durante:",
+        "answers": [
+            { "text": "La primera semana de convivencia.", "correct": false },
+            { "text": "El período de madurez social (18-36 meses), cuando las jerarquías y las relaciones sociales se están renegociando.", "correct": true },
+            { "text": "La vejez.", "correct": false },
+            { "text": "Únicamente después de un evento traumático.", "correct": false }
+        ],
+        "explanation": "Este es un período crítico para los conflictos entre perros convivientes, especialmente entre hembras. A medida que el perro más joven madura, puede empezar a desafiar el estatus del perro mayor, llevando a conflictos que no existían cuando era un cachorro."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "Un 'plan de seguridad' es un documento escrito que se entrega a los clientes en casos de agresión. Su función principal es:",
+        "answers": [
+            { "text": "Describir los ejercicios de entrenamiento que se van a realizar.", "correct": false },
+            { "text": "Detallar de forma clara e inequívoca las medidas de gestión y prevención que la familia debe implementar INMEDIATAMENTE para evitar futuros incidentes mientras se trabaja en la modificación de conducta.", "correct": true },
+            { "text": "Una factura por los servicios prestados.", "correct": false },
+            { "text": "Un contrato que exime al profesional de toda responsabilidad.", "correct": false }
+        ],
+        "explanation": "La seguridad es la prioridad número uno. Un plan de seguridad es un protocolo de 'primeros auxilios' que detalla el uso de bozales, correas, puertas de bebé y la evitación de detonantes. Es el primer documento que se entrega y se asegura que el cliente entiende y se compromete a seguir."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "La agresión 'protectora' es una forma de agresión que:",
+        "answers": [
+            { "text": "Solo la muestran los perros de razas de guarda.", "correct": false },
+            { "text": "Se dirige a un estímulo (persona o perro) que el perro percibe como una amenaza para un miembro de su grupo social (su dueño, otro perro de la casa).", "correct": true },
+            { "text": "Está motivada por el deseo de proteger un juguete o comida.", "correct": false },
+            { "text": "Es siempre de tipo ofensivo.", "correct": false }
+        ],
+        "explanation": "A menudo, la agresión protectora tiene una base de ansiedad: el perro no se siente seguro de que su dueño pueda manejar la situación y toma el control. El tratamiento implica cambiar la percepción del perro sobre la amenaza y construir su confianza en la capacidad de su guía para gestionar las interacciones."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "La 'habituación a un bozal' debe hacerse de forma gradual. Un paso intermedio clave en este proceso es:",
+        "answers": [
+            { "text": "Dejar el bozal puesto durante la noche.", "correct": false },
+            { "text": "Enseñar al perro a meter el hocico voluntariamente en el bozal y mantenerlo ahí durante unos segundos a cambio de premios de alto valor (p. ej., paté untado dentro).", "correct": true },
+            { "text": "Abrochar el bozal lo más apretado posible desde el primer día.", "correct": false },
+            { "text": "Usar el bozal solo cuando el perro se porta mal.", "correct": false }
+        ],
+        "explanation": "Este paso combina el condicionamiento clásico (el bozal predice paté) y el operante (el perro ofrece la conducta de 'meter el hocico' para obtener el reforzador). Es la clave para que el perro desarrolle una asociación positiva y coopere en el procedimiento."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "La agresión relacionada con el conflicto por el estatus (mal llamada 'dominancia') se diagnostica a menudo incorrectamente. ¿Qué escenario es MÁS probable que sea un conflicto real por el estatus entre dos perros?",
+        "answers": [
+            { "text": "Un perro adulto que gruñe a un cachorro revoltoso.", "correct": false },
+            { "text": "Dos perros machos adultos intactos que muestran posturas ofensivas y rígidas al competir por el acceso a una hembra en celo.", "correct": true },
+            { "text": "Un perro miedoso que se lanza contra otro perro en el paseo.", "correct": false },
+            { "text": "Dos perros que se pelean después de que uno le robe un juguete al otro.", "correct": false }
+        ],
+        "explanation": "Aunque la mayoría de las agresiones son por miedo o protección de recursos, los conflictos por el estatus pueden ocurrir, típicamente entre perros del mismo sexo en la madurez social y a menudo en relación a recursos reproductivos. Se caracterizan por una comunicación ritualizada y ofensiva."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "El 'refuerzo diferencial de la calma' (DRC) en un protocolo para la reactividad implicaría:",
+        "answers": [
+            { "text": "Reforzar al perro por cualquier comportamiento que no sea reactivo.", "correct": false },
+            { "text": "Reforzar específicamente los signos de un estado emocional calmado (orejas relajadas, boca cerrada, cuerpo suelto) en presencia del detonante a una distancia segura.", "correct": true },
+            { "text": "Castigar al perro por mostrar excitación.", "correct": false },
+            { "text": "Solo reforzar al perro cuando está completamente dormido.", "correct": false }
+        ],
+        "explanation": "El DRC se enfoca en la emoción, no solo en la ausencia de una conducta. El entrenador observa el lenguaje corporal y refuerza los pequeños signos de relajación, enseñando al perro que la calma es una 'conducta' que produce consecuencias muy positivas en presencia de sus detonantes."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "Un perro gruñe cuando el veterinario intenta examinarle una pata dolorida. Esto es un ejemplo de:",
+        "answers": [
+            { "text": "Agresión por dominancia sobre el veterinario.", "correct": false },
+            { "text": "Agresión por dolor y miedo a que le causen más dolor.", "correct": true },
+            { "text": "Mala educación y falta de respeto.", "correct": false },
+            { "text": "Un comportamiento que debe ser suprimido con fuerza.", "correct": false }
+        ],
+        "explanation": "Es una respuesta defensiva completamente normal y predecible. El perro está comunicando de la única forma que sabe que siente dolor y tiene miedo. La solución es el manejo (bozal de seguridad) y técnicas de cuidado cooperativo, no la confrontación."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "La 'agresión redirigida inducida por la frustración' es común en:",
+        "answers": [
+            { "text": "Perros que viven solos sin otros animales.", "correct": false },
+            { "text": "Perros que muestran 'frustración de barrera', como ladrar a través de una valla, y que pueden morder al perro que tienen al lado.", "correct": true },
+            { "text": "Perros de edad muy avanzada.", "correct": false },
+            { "text": "Perros que reciben mucho enriquecimiento ambiental.", "correct": false }
+        ],
+        "explanation": "La alta excitación generada por la frustración de no poder alcanzar al detonante necesita una vía de escape. El objetivo más cercano, a menudo un compañero de casa inocente, se convierte en el blanco de esa frustración acumulada."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "La 'inhibición condicionada' es un concepto importante en seguridad. Significa que un perro puede:",
+        "answers": [
+            { "text": "Inhibir su agresión solo en presencia de la persona o el estímulo que ha aplicado el castigo, pero seguir siendo agresivo en otras circunstancias.", "correct": true },
+            { "text": "Haber aprendido a inhibir su mordida por completo.", "correct": false },
+            { "text": "Estar inhibido y no querer jugar.", "correct": false },
+            { "text": "Ser incapaz de aprender nuevas conductas.", "correct": false }
+        ],
+        "explanation": "Este es un gran peligro del entrenamiento basado en el castigo. Un perro puede aprender a no ser reactivo cuando lleva un collar de púas o cuando su entrenador está presente, pero no ha cambiado su emoción subyacente. En ausencia del castigador o la herramienta, la agresión puede reaparecer, a menudo con mayor intensidad."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "Un perro de una raza de pastoreo pellizca los talones de los niños cuando corren. Esto es probablemente:",
+        "answers": [
+            { "text": "Agresión por dominancia.", "correct": false },
+            { "text": "Una manifestación de un patrón motor genético de pastoreo, no una agresión maliciosa.", "correct": true },
+            { "text": "Un juego normal que no debe ser interrumpido.", "correct": false },
+            { "text": "Miedo a los niños.", "correct": false }
+        ],
+        "explanation": "Muchas 'agresiones' son en realidad la expresión de patrones motores para los que el perro ha sido seleccionado genéticamente durante siglos. El tratamiento no es castigar el instinto, sino gestionar la situación y proporcionar salidas apropiadas para ese comportamiento (p. ej., treibball o pastoreo deportivo)."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "Un perro muestra 'agresión conflictiva' cuando la agresión ocurre en contextos donde:",
+        "answers": [
+            { "text": "Está defendiendo un recurso de alto valor.", "correct": false },
+            { "text": "Las señales sociales son ambiguas y el perro se siente en conflicto sobre cómo responder, a menudo hacia personas conocidas.", "correct": true },
+            { "text": "El perro está claramente asustado.", "correct": false },
+            { "text": "El perro está protegiendo su territorio.", "correct": false }
+        ],
+        "explanation": "Este tipo de agresión es complejo. Un ejemplo es un perro que solicita caricias pero luego gruñe cuando se le toca. El perro está en un estado de ambivalencia (quiere contacto, pero también le incomoda). La inconsistencia en las interacciones humanas puede fomentarlo."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "La 'habituación' a un bozal es un objetivo incorrecto. El objetivo real del acondicionamiento es:",
+        "answers": [
+            { "text": "La desensibilización.", "correct": false },
+            { "text": "Crear una Respuesta Emocional Condicionada positiva (+CER) hacia el bozal.", "correct": true },
+            { "text": "La sensibilización.", "correct": false },
+            { "text": "La extinción.", "correct": false }
+        ],
+        "explanation": "No queremos que el perro simplemente 'tolere' el bozal (habituación). Queremos que el perro 'ame' el bozal porque predice cosas maravillosas (contracondicionamiento). Un perro bien acondicionado meterá el hocico en el bozal con entusiasmo."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "La agresión entre dos perras que viven juntas es a menudo:",
+        "answers": [
+            { "text": "Menos grave y más fácil de resolver que entre machos.", "correct": false },
+            { "text": "Potencialmente más grave y menos ritualizada que entre machos, con un mayor riesgo de lesiones serias.", "correct": true },
+            { "text": "Un mito que no ocurre en la realidad.", "correct": false },
+            { "text": "Siempre relacionada con la comida.", "correct": false }
+        ],
+        "explanation": "Aunque es una generalización, la agresión entre hembras convivientes ('female-female aggression') es un fenómeno bien documentado. Las peleas tienden a ser más intensas y el pronóstico de reconciliación puede ser más reservado. La gestión estricta es fundamental."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "Un perro que ha mordido y no muestra ninguna señal de apaciguamiento o reconciliación después del incidente puede tener:",
+        "answers": [
+            { "text": "Un fuerte sentido de la justicia.", "correct": false },
+            { "text": "Pocas habilidades sociales o un alto nivel de confianza en la agresión como estrategia.", "correct": true },
+            { "text": "Un vínculo de apego seguro.", "correct": false },
+            { "text": "Una buena inhibición de la mordida.", "correct": false }
+        ],
+        "explanation": "La fase de resolución post-conflicto es muy informativa. La ausencia de comportamientos de apaciguamiento puede indicar una falta de habilidades sociales para reparar la relación o que el perro no siente ningún conflicto sobre el uso de la agresión, lo cual es un factor de riesgo."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "La 'agresión idiopática' es un diagnóstico que debe hacerse:",
+        "answers": [
+            { "text": "Como primera opción para cualquier agresión que no se entienda.", "correct": false },
+            { "text": "Con extrema cautela y solo después de haber descartado exhaustivamente todas las demás causas médicas y conductuales posibles, a menudo con la ayuda de un neurólogo.", "correct": true },
+            { "text": "Basándose únicamente en la raza del perro.", "correct": false },
+            { "text": "Si el dueño insiste en que no hay un motivo.", "correct": false }
+        ],
+        "explanation": "'Idiopático' significa 'de causa desconocida'. Es un diagnóstico de exclusión, no un cajón de sastre. La mayoría de las agresiones que parecen 'de la nada' tienen detonantes sutiles o causas médicas que no han sido identificadas."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "Al evaluar la protección de recursos, un 'test de provocación' (p. ej., intentar quitarle el hueso a un perro) es:",
+        "answers": [
+            { "text": "Una herramienta de diagnóstico segura y necesaria.", "correct": false },
+            { "text": "Peligroso, poco ético y contraproducente, ya que puede provocar una mordida y empeorar el problema.", "correct": true },
+            { "text": "La única forma de saber si el perro es realmente agresivo.", "correct": false },
+            { "text": "Recomendable para establecer la dominancia.", "correct": false }
+        ],
+        "explanation": "Un profesional nunca provoca una reacción agresiva para diagnosticarla. El diagnóstico se basa en el historial proporcionado por el cliente y la observación a distancia segura. La provocación deliberada es una violación de la confianza del perro y un riesgo de seguridad inaceptable."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "Un perro con dolor crónico puede mostrar una agresión que parece impredecible porque:",
+        "answers": [
+            { "text": "El nivel de dolor puede fluctuar, haciendo que un día tolere una caricia que otro día le resulta insoportable.", "correct": true },
+            { "text": "El perro está intentando manipular a su dueño.", "correct": false },
+            { "text": "El dolor elimina por completo las señales de advertencia.", "correct": false },
+            { "text": "El perro se vuelve más dominante.", "correct": false }
+        ],
+        "explanation": "La naturaleza fluctuante del dolor crónico (días 'buenos' y días 'malos') puede hacer que la respuesta del perro parezca inconsistente para el dueño. El perro no es impredecible; su umbral de tolerancia cambia con su nivel de dolor."
+    },
+    {
+        "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
+        "question": "El término 'propietario-dirigida' describe la agresión que:",
+        "answers": [
+            { "text": "Ocurre solo cuando el propietario está ausente.", "correct": false },
+            { "text": "Se dirige específicamente a uno o más de los cuidadores del perro.", "correct": true },
+            { "text": "Es causada por el propietario.", "correct": false },
+            { "text": "Protege al propietario de una amenaza.", "correct": false }
+        ],
+        "explanation": "Esta categoría es descriptiva, no diagnóstica. Las causas de la agresión dirigida al propietario pueden ser muy variadas: protección de recursos, miedo, conflicto, dolor, etc. Requiere un análisis funcional muy cuidadoso para determinar la motivación subyacente."
+    }
+]

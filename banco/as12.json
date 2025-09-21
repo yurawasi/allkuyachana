@@ -1,0 +1,519 @@
+[
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "Desde la Antrozoología, ¿cómo ha afectado el cambio de rol del perro en la sociedad (de 'herramienta' a 'miembro de la familia') a los problemas de comportamiento consultados?",
+        "answers": [
+            { "text": "No ha tenido ningún efecto; los problemas son puramente genéticos.", "correct": false },
+            { "text": "Ha aumentado la prevalencia de problemas por frustración y sobreapego, ya que las expectativas humanas a menudo entran en conflicto con las necesidades etológicas del perro.", "correct": true },
+            { "text": "Los problemas de agresión han desaparecido.", "correct": false },
+            { "text": "Ha provocado que los perros sean menos inteligentes.", "correct": false }
+        ],
+        "explanation": "Este cambio sociológico es clave. Un perro de pastoreo en un apartamento es un ejemplo de conflicto entre su 'trabajo' genético y su rol actual. Muchos problemas modernos surgen de esta disonancia, requiriendo que el profesional sea también un 'traductor cultural' entre especies."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "Al diseñar un programa de prevención de mordeduras para niños, ¿qué enfoque integrador sería el más efectivo?",
+        "answers": [
+            { "text": "Enseñar a los niños a ser 'el alfa'.", "correct": false },
+            { "text": "Focalizarse en enseñar a los niños a interpretar las señales de advertencia caninas (Comunicación) y a practicar interacciones seguras y respetuosas (Gestión).", "correct": true },
+            { "text": "Llevar perros reactivos a las escuelas para que los niños aprendan a manejarlos.", "correct": false },
+            { "text": "Explicar que solo ciertas razas son peligrosas.", "correct": false }
+        ],
+        "explanation": "La prevención eficaz se basa en la educación y el respeto. El enfoque más exitoso no es demonizar a los perros, sino empoderar a los niños con el conocimiento para entender el lenguaje canino y saber cómo y cuándo interactuar de forma segura, integrando la etología y la gestión."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "Desde una perspectiva de bienestar y ética, el principal riesgo de las nuevas tecnologías (GPS, cámaras interactivas) es:",
+        "answers": [
+            { "text": "Que fallen y dejen de funcionar.", "correct": false },
+            { "text": "Que se utilicen como un sustituto de la interacción humana directa y el enriquecimiento de calidad, enmascarando problemas como la ansiedad por separación.", "correct": true },
+            { "text": "Que son demasiado caras para la mayoría de los dueños.", "correct": false },
+            { "text": "Que los datos que recogen no son 100% precisos.", "correct": false }
+        ],
+        "explanation": "La tecnología puede ser una herramienta útil, pero también una muleta peligrosa. Un profesional debe evaluar si estas herramientas complementan la vida del perro o si simplemente alivian la conciencia del dueño mientras las necesidades fundamentales del perro no están siendo cubiertas."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "¿Cuál es la implicación práctica más importante de la epigenética para un criador ético?",
+        "answers": [
+            { "text": "La genética es el único factor que determina el comportamiento.", "correct": false },
+            { "text": "Demuestra que el ambiente de la madre durante la gestación y de los cachorros en el período neonatal puede 'encender' o 'apagar' genes, afectando a la resiliencia y el comportamiento futuro.", "correct": true },
+            { "text": "Implica que se pueden modificar los genes para crear perros de diseño.", "correct": false },
+            { "text": "No tiene ninguna implicación práctica.", "correct": false }
+        ],
+        "explanation": "La epigenética nos dice que la crianza empieza antes del nacimiento. Un criador responsable no solo selecciona buenos genes, sino que proporciona un ambiente de bajo estrés y alto enriquecimiento para la madre y los cachorros, moldeando la expresión génica y la arquitectura cerebral de la camada."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "Al evaluar un perro de asistencia que muestra estrés sutil en público, el dilema ético principal es:",
+        "answers": [
+            { "text": "Ignorar el estrés, ya que la ayuda a la persona es más importante.", "correct": false },
+            { "text": "Balancear el beneficio para el usuario con la responsabilidad de garantizar que el bienestar del perro no se vea comprometido crónicamente, proponiendo un plan de manejo de ese estrés.", "correct": true },
+            { "text": "Recomendar la retirada inmediata del perro sin considerar el impacto en la persona.", "correct": false },
+            { "text": "Aumentar la carga de trabajo del perro para que se acostumbre.", "correct": false }
+        ],
+        "explanation": "Los perros de trabajo son atletas emocionales y su bienestar debe ser monitorizado. El profesional debe ser el 'abogado' del perro, asegurando que el trabajo no le genere un estado de estrés crónico. La solución puede pasar por ajustar el manejo o las tareas, buscando siempre el equilibrio."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "Para que un estudio simple sobre la eficacia de un protocolo de relajación tenga validez, ¿qué componente es INDISPENSABLE?",
+        "answers": [
+            { "text": "Utilizar únicamente perros de la misma raza.", "correct": false },
+            { "text": "Establecer una línea base medible del comportamiento ANTES de aplicar el protocolo, para poder comparar objetivamente el 'antes' y el 'después'.", "correct": true },
+            { "text": "Basar las conclusiones únicamente en la percepción subjetiva de los dueños.", "correct": false },
+            { "text": "Asegurarse de que el estudio se publique en una revista de impacto.", "correct": false }
+        ],
+        "explanation": "El pensamiento científico exige objetividad. Sin una línea base, es imposible saber si un cambio observado se debe a la intervención, al azar o a otros factores. La capacidad de medir el comportamiento es una habilidad fundamental del profesional."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "Un nuevo 'método' de entrenamiento se vuelve viral. Su rol como profesional basado en la ciencia al ser preguntado por este método es:",
+        "answers": [
+            { "text": "Apoyarlo públicamente, ya que es muy popular.", "correct": false },
+            { "text": "Criticarlo de forma constructiva, explicando al público por qué es problemático desde la perspectiva de la teoría del aprendizaje, la etología y el bienestar animal.", "correct": true },
+            { "text": "Ignorarlo, ya que la opinión pública no es importante.", "correct": false },
+            { "text": "Intentar el método con sus propios perros.", "correct": false }
+        ],
+        "explanation": "Parte de la responsabilidad profesional es ser un divulgador de la ciencia y proteger al público y a los perros de prácticas dañinas o pseudocientíficas. Esto requiere la habilidad de comunicar conceptos científicos de forma clara y respetuosa."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "Mirando hacia el futuro, una de las tendencias más importantes en el campo del comportamiento canino es:",
+        "answers": [
+            { "text": "El regreso a los métodos basados en la dominancia.", "correct": false },
+            { "text": "Un enfoque cada vez más integrador y colaborativo, donde los profesionales trabajan en equipo con veterinarios, fisioterapeutas y otros especialistas.", "correct": true },
+            { "text": "La creación de una única 'receta' de entrenamiento que funcione para todos los perros.", "correct": false },
+            { "text": "La sustitución completa de los profesionales por inteligencia artificial.", "correct": false }
+        ],
+        "explanation": "El futuro es la especialización y la colaboración. Los problemas de comportamiento rara vez tienen una única causa. Un profesional del futuro debe ser capaz de reconocer los límites de su competencia y saber cuándo y cómo colaborar con otros expertos para crear el mejor plan de bienestar posible."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "El concepto de 'One Welfare' (Un Solo Bienestar) extiende la idea de 'One Health' y postula que:",
+        "answers": [
+            { "text": "El bienestar de los perros es más importante que el de otros animales.", "correct": false },
+            { "text": "Existe una interconexión directa entre el bienestar animal, el bienestar humano y la salud del medio ambiente.", "correct": true },
+            { "text": "Solo se debe considerar el bienestar de un animal a la vez.", "correct": false },
+            { "text": "El bienestar es un concepto puramente filosófico sin aplicación práctica.", "correct": false }
+        ],
+        "explanation": "Este marco de trabajo reconoce que la violencia hacia los animales a menudo está ligada a la violencia interpersonal, y que el bienestar de un perro de familia está intrínsecamente ligado al bienestar y la salud mental de esa familia. Nos obliga a tener una visión más amplia de nuestro impacto."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "La investigación sobre la genética del comportamiento canino es prometedora, pero su principal desafío es que:",
+        "answers": [
+            { "text": "El genoma del perro es demasiado simple.", "correct": false },
+            { "text": "La mayoría de los rasgos de comportamiento complejos son poligénicos y están fuertemente influenciados por el ambiente y la epigenética.", "correct": true },
+            { "text": "Es imposible obtener muestras de ADN de los perros.", "correct": false },
+            { "text": "No existen herramientas estadísticas para analizar los datos genéticos.", "correct": false }
+        ],
+        "explanation": "No hay 'un gen para la agresión'. Hay cientos o miles de genes que, en interacción con el entorno, influyen en el temperamento. Aunque la genética nos da pistas sobre predisposiciones, nunca será un predictor absoluto del comportamiento de un individuo."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "Al seleccionar un perro para un trabajo de asistencia, además de la salud, el factor de temperamento más importante es:",
+        "answers": [
+            { "text": "Una alta motivación por la comida.", "correct": false },
+            { "text": "Una alta resiliencia: la capacidad de recuperarse rápidamente de estímulos sorprendentes o estresantes sin sensibilizarse.", "correct": true },
+            { "text": "Un nivel de energía muy alto.", "correct": false },
+            { "text": "Una fuerte tendencia a la protección de recursos.", "correct": false }
+        ],
+        "explanation": "Un perro de asistencia se enfrentará a innumerables estímulos impredecibles en su vida diaria. Un perro que se asusta fácilmente o que tarda mucho en recuperarse del estrés no tendrá el bienestar adecuado para este tipo de trabajo, por muy bien que realice sus tareas entrenadas."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "El concepto de 'contagio emocional' es la base de la empatía. Un profesional puede usarlo de forma constructiva al:",
+        "answers": [
+            { "text": "Mostrar un alto nivel de estrés para que el perro entienda la gravedad de la situación.", "correct": false },
+            { "text": "Mantener deliberadamente un estado de calma (respiración lenta, lenguaje corporal relajado) al trabajar con un perro ansioso, para influir positivamente en el estado emocional del animal.", "correct": true },
+            { "text": "Ignorar por completo sus propias emociones.", "correct": false },
+            { "text": "Llorar junto al cliente para mostrar empatía.", "correct": false }
+        ],
+        "explanation": "Somos parte del entorno del perro. Nuestra propia fisiología y estado emocional son estímulos que el perro percibe constantemente. La capacidad de autorregularse es una de las herramientas más poderosas de un profesional, ya que la calma es contagiosa."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "La investigación sobre la cognición numérica en perros ha demostrado que:",
+        "answers": [
+            { "text": "Los perros pueden contar hasta 100 de forma precisa.", "correct": false },
+            { "text": "Poseen una habilidad básica para estimar cantidades y notar cambios en el número de objetos, una capacidad llamada 'numerosidad aproximada'.", "correct": true },
+            { "text": "Son completamente incapaces de distinguir entre diferentes cantidades.", "correct": false },
+            { "text": "Solo pueden contar objetos si son comestibles.", "correct": false }
+        ],
+        "explanation": "Los perros no 'cuentan' como nosotros, pero su cerebro está equipado para procesar cantidades de forma aproximada (p. ej., notar si de un grupo de cinco premios de repente solo quedan dos). Esta habilidad es útil para la supervivencia en la naturaleza."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "El debate sobre la 'personalidad' vs. la 'raza' como predictor del comportamiento se está decantando hacia la idea de que:",
+        "answers": [
+            { "text": "La raza determina el 100% del comportamiento de un perro.", "correct": false },
+            { "text": "Si bien la raza puede crear predisposiciones a ciertos patrones motores, la variación individual dentro de una misma raza es enorme, y la personalidad individual es un predictor mucho mejor del comportamiento real.", "correct": true },
+            { "text": "La personalidad no existe en los perros.", "correct": false },
+            { "text": "La raza solo afecta a la apariencia física y no tiene nada que ver con el comportamiento.", "correct": false }
+        ],
+        "explanation": "Estudios genómicos a gran escala han demostrado que, para la mayoría de los rasgos de comportamiento, la raza es un predictor relativamente pobre. Hay Labradores tímidos y Chihuahuas audaces. Evaluar al perro como individuo, en lugar de basarse en estereotipos de raza, es fundamental."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "El uso de la termografía para medir el estrés en perros es un ejemplo de una herramienta de:",
+        "answers": [
+            { "text": "Evaluación conductual.", "correct": false },
+            { "text": "Evaluación fisiológica no invasiva.", "correct": true },
+            { "text": "Evaluación cognitiva.", "correct": false },
+            { "text": "Enriquecimiento sensorial.", "correct": false }
+        ],
+        "explanation": "Esta tecnología permite visualizar los cambios en el flujo sanguíneo causados por la activación del sistema nervioso autónomo, como el enfriamiento de las extremidades o el aumento de la temperatura alrededor de los ojos, ofreciendo una medida objetiva del estado emocional del perro."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "En el contexto de un refugio, el 'efecto C.S.I.' (Canine Stress Indicator) se refiere a:",
+        "answers": [
+            { "text": "La capacidad de los perros para resolver crímenes.", "correct": false },
+            { "text": "Un protocolo para limpiar las jaulas de forma forense.", "correct": false },
+            { "text": "La idea de que el olor del estrés (feromonas de alarma) de un perro puede permanecer en una habitación y afectar negativamente al siguiente perro que la ocupe, contagiando el estrés.", "correct": true },
+            { "text": "Un nuevo tipo de pienso para perros de refugio.", "correct": false }
+        ],
+        "explanation": "Esto tiene implicaciones enormes para la gestión de refugios. Una ventilación adecuada y el uso de protocolos de limpieza que eliminen estas señales químicas son cruciales para reducir los niveles de estrés general en la población del refugio."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "El concepto de 'agencia' es fundamental para el bienestar. ¿Qué intervención promueve más directamente la agencia de un perro?",
+        "answers": [
+            { "text": "Un entrenamiento de obediencia de alta precisión.", "correct": false },
+            { "text": "Un protocolo de Cuidado Cooperativo, donde el perro tiene una señal para indicar su consentimiento y su deseo de parar un procedimiento.", "correct": true },
+            { "text": "Una dieta estricta con horarios fijos.", "correct": false },
+            { "text": "El uso de un collar de castigo para establecer límites claros.", "correct": false }
+        ],
+        "explanation": "La agencia es la capacidad de tener control sobre la propia vida. El Cuidado Cooperativo es un ejemplo perfecto, ya que transforma al perro de un receptor pasivo de un procedimiento a un participante activo, lo que reduce drásticamente el estrés y aumenta la confianza."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "La legislación sobre 'razas potencialmente peligrosas' (PPP) es científicamente controvertida porque:",
+        "answers": [
+            { "text": "Es una forma eficaz y probada de reducir las mordeduras.", "correct": false },
+            { "text": "Asume que la raza es el principal predictor de la agresión, ignorando factores más importantes como la cría, la socialización y el comportamiento del dueño, y puede crear una falsa sensación de seguridad con otras razas.", "correct": true },
+            { "text": "Solo se aplica a perros de color negro.", "correct": false },
+            { "text": "Ha sido recomendada por todas las asociaciones de etología del mundo.", "correct": false }
+        ],
+        "explanation": "La mayoría de las organizaciones científicas y veterinarias se oponen a la legislación específica de razas (BSL). Un enfoque más efectivo es una legislación centrada en el comportamiento del perro individual y la responsabilidad del dueño, independientemente de la raza."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "Un perro de terapia visita un hospital. ¿Cuál es el principal indicador de que el perro está experimentando 'fatiga por compasión' y necesita un descanso?",
+        "answers": [
+            { "text": "El perro empieza a mover la cola más rápido.", "correct": false },
+            { "text": "El perro empieza a mostrar señales de evitación, estrés sutil (bostezos, lamidos de hocico) o una menor disposición a interactuar.", "correct": true },
+            { "text": "El perro se tumba y se duerme.", "correct": false },
+            { "text": "El perro ladra para saludar a todo el mundo.", "correct": false }
+        ],
+        "explanation": "El bienestar de un perro de terapia es primordial. El guía debe ser un experto en leer las señales más sutiles de su perro y abogar por él, asegurándose de que las sesiones sean cortas y positivas, y de que el perro tenga siempre la opción de retirarse."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "La investigación sobre 'memoria olfativa' en perros sugiere que:",
+        "answers": [
+            { "text": "Los perros olvidan los olores después de unos pocos minutos.", "correct": false },
+            { "text": "Pueden recordar olores específicos durante años y asociarlos con experiencias emocionales fuertes (positivas o negativas).", "correct": true },
+            { "text": "Solo pueden recordar el olor de la comida.", "correct": false },
+            { "text": "La memoria olfativa es procesada en la misma área del cerebro que la memoria visual.", "correct": false }
+        ],
+        "explanation": "El olfato tiene una vía muy directa al sistema límbico (amígdala e hipocampo). Esta es la razón por la que un olor puede desencadenar una respuesta de miedo o de alegría de forma tan inmediata y potente, y por la que los perros de búsqueda y rescate pueden recordar el olor de una persona mucho tiempo después."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "El 'efecto Clever Hans' es un sesgo que un profesional debe tener en cuenta. Ocurre cuando:",
+        "answers": [
+            { "text": "El perro es más inteligente de lo que parece.", "correct": false },
+            { "text": "El perro no está respondiendo a la señal que el dueño cree (p. ej., una palabra), sino a señales corporales o faciales inconscientes que el dueño emite.", "correct": true },
+            { "text": "El perro solo obedece a un entrenador llamado Hans.", "correct": false },
+            { "text": "El perro se niega a trabajar por inteligencia.", "correct": false }
+        ],
+        "explanation": "Se llama así por un caballo que parecía poder contar, pero en realidad respondía a la tensión corporal de su dueño. Al evaluar un comportamiento, debemos preguntarnos: ¿está el perro respondiendo realmente a la señal que estamos analizando, o hay otra señal más sutil que se nos está escapando?"
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "La creciente popularidad de los 'deportes de olfato' (nosework, mantrailing) es muy beneficiosa para el bienestar canino porque:",
+        "answers": [
+            { "text": "Son deportes de bajo impacto físico, adecuados para perros de todas las edades y razas, que satisfacen una de sus necesidades etológicas más importantes.", "correct": true },
+            { "text": "Son la forma más rápida de que un perro gane competiciones.", "correct": false },
+            { "text": "No requieren ninguna implicación por parte del dueño.", "correct": false },
+            { "text": "Enseñan al perro a ser más agresivo.", "correct": false }
+        ],
+        "explanation": "Estas actividades son una forma fantástica de enriquecimiento. Permiten al perro usar su principal sentido, construyen confianza (especialmente en perros miedosos), fortalecen el vínculo con el guía y son mentalmente agotadoras de una forma muy positiva."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "El concepto de 'parsimonia' (o Navaja de Occam) en la ciencia del comportamiento nos guía a:",
+        "answers": [
+            { "text": "Preferir siempre la explicación más compleja y fascinante para un comportamiento.", "correct": false },
+            { "text": "Favorecer la explicación más simple y que requiera el menor número de suposiciones antes de recurrir a interpretaciones más complejas.", "correct": true },
+            { "text": "Ignorar por completo las emociones del perro.", "correct": false },
+            { "text": "Asumir que todos los comportamientos son innatos.", "correct": false }
+        ],
+        "explanation": "Antes de concluir que un perro está actuando por 'celos' (una emoción compleja), debemos preguntarnos si el comportamiento puede explicarse de forma más simple por la protección de recursos o la búsqueda de atención, que son principios del aprendizaje bien establecidos."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "Un 'conflicto de intereses' para un profesional del comportamiento podría ser:",
+        "answers": [
+            { "text": "Tener un perro de la misma raza que el de su cliente.", "correct": false },
+            { "text": "Recibir una comisión por recomendar una marca específica de pienso, lo que podría influir en su objetividad al dar consejos nutricionales.", "correct": true },
+            { "text": "Colaborar estrechamente con un veterinario.", "correct": false },
+            { "text": "Sentir una fuerte empatía por un caso.", "correct": false }
+        ],
+        "explanation": "La ética profesional exige que nuestras recomendaciones se basen únicamente en lo que es mejor para el perro y el cliente. Cualquier relación financiera que pueda sesgar ese consejo debe ser evitada o, como mínimo, declarada de forma transparente al cliente."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "La investigación sobre la 'sincronización conductual' ha demostrado que los perros:",
+        "answers": [
+            { "text": "Son incapaces de coordinar sus acciones con los humanos.", "correct": false },
+            { "text": "Pueden sincronizar sus patrones de actividad y descanso con los de sus dueños, y que esta sincronización se correlaciona con la calidad del vínculo.", "correct": true },
+            { "text": "Siempre duermen exactamente las mismas horas, independientemente de la rutina de su dueño.", "correct": false },
+            { "text": "Solo sincronizan su comportamiento con otros perros, no con humanos.", "correct": false }
+        ],
+        "explanation": "Esta sincronización, a menudo mediada por la liberación de oxitocina, es un indicador de un vínculo de apego fuerte y seguro. Es una manifestación conductual de la profunda conexión social entre las dos especies."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "El término 'resiliencia' en un perro se refiere a su capacidad para:",
+        "answers": [
+            { "text": "No sentir nunca miedo ni estrés.", "correct": false },
+            { "text": "Recuperarse rápida y eficazmente después de una experiencia estresante o negativa.", "correct": true },
+            { "text": "Resistir a las enfermedades.", "correct": false },
+            { "text": "Ignorar las órdenes de su dueño.", "correct": false }
+        ],
+        "explanation": "La resiliencia no es la ausencia de estrés, sino la capacidad de manejarlo. Se construye a través de una buena base genética, una socialización temprana positiva y experiencias de vida que le han enseñado al perro que puede superar los desafíos."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "El 'modelo transteórico del cambio' (desarrollado para humanos) es útil en las consultas de comportamiento porque:",
+        "answers": [
+            { "text": "Ayuda a entender en qué etapa del cambio se encuentra el cliente (p. ej., pre-contemplación, preparación, acción) y a adaptar la comunicación para guiarlo de forma más efectiva.", "correct": true },
+            { "text": "Es un modelo para entender cómo cambian los perros de una etapa de desarrollo a la siguiente.", "correct": false },
+            { "text": "Clasifica los problemas de comportamiento en diferentes etapas.", "correct": false },
+            { "text": "Solo se aplica a casos de adicción.", "correct": false }
+        ],
+        "explanation": "Un cliente en la etapa de 'pre-contemplación' no cree que haya un problema. Un cliente en 'acción' está listo para implementar el plan. Reconocer en qué etapa está el cliente nos permite ser mejores 'entrenadores' para los humanos, abordando su resistencia o su motivación de forma adecuada."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "Un perro de un refugio es devuelto por 'agresividad'. Una evaluación profesional revela que el perro muestra un lenguaje corporal de miedo extremo. Este es un ejemplo de cómo:",
+        "answers": [
+            { "text": "Las etiquetas pueden ser engañosas y cómo la agresión es a menudo un síntoma de un problema emocional subyacente como el miedo.", "correct": true },
+            { "text": "Todos los perros de refugio son agresivos.", "correct": false },
+            { "text": "El perro es inherentemente peligroso.", "correct": false },
+            { "text": "El personal del refugio no hizo bien su trabajo.", "correct": false }
+        ],
+        "explanation": "El rol de un profesional es mirar más allá de la etiqueta y realizar un análisis funcional. El tratamiento para una 'agresión por miedo' es radicalmente diferente al de otros tipos de agresión. Un diagnóstico preciso es la clave para una intervención efectiva y humana."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "La investigación sobre el 'optimismo' y el 'pesimismo' en perros (sesgo cognitivo) es importante para el bienestar porque:",
+        "answers": [
+            { "text": "Ha demostrado que un estado de bienestar comprometido a largo plazo puede hacer que un perro sea más 'pesimista' y menos propenso a esperar resultados positivos.", "correct": true },
+            { "text": "Permite clasificar a los perros en dos tipos de personalidad fijos.", "correct": false },
+            { "text": "Los perros optimistas no necesitan enriquecimiento ambiental.", "correct": false },
+            { "text": "Es una forma de medir la inteligencia de un perro.", "correct": false }
+        ],
+        "explanation": "El sesgo cognitivo nos da una ventana al estado emocional acumulado de un animal. Un perro que consistentemente muestra un sesgo pesimista es un perro cuyo bienestar probablemente está afectado, incluso si no muestra otros signos clínicos obvios."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "El concepto de 'Calidad de Vida' (QoL) en un perro con una enfermedad crónica y dolor:",
+        "answers": [
+            { "text": "Se basa únicamente en si el perro todavía puede caminar.", "correct": false },
+            { "text": "Debe ser evaluado con una escala multidimensional que considere factores como el control del dolor, el apetito, la interacción social y la capacidad de disfrutar de actividades placenteras.", "correct": true },
+            { "text": "Es una decisión que solo el veterinario puede tomar.", "correct": false },
+            { "text": "Mejora automáticamente con la edad.", "correct": false }
+        ],
+        "explanation": "Herramientas como la escala HHHHHMM (Hurt, Hunger, Hydration, Hygiene, Happiness, Mobility, More Good Days Than Bad) ayudan a los dueños y a los profesionales a tomar decisiones más objetivas y compasivas sobre el bienestar de un animal al final de su vida."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "La selección artificial ha creado una inmensa diversidad morfológica en los perros. Una consecuencia no intencionada de esto para la comunicación es que:",
+        "answers": [
+            { "text": "Los perros de diferentes razas son incapaces de reproducirse entre sí.", "correct": false },
+            { "text": "Las morfologías extremas (p. ej., hocico chato, sin cola, orejas largas y caídas) pueden impedir que un perro exprese o que otro perro lea correctamente las señales comunicativas sutiles.", "correct": true },
+            { "text": "Todos los perros de la misma raza se comunican de forma idéntica.", "correct": false },
+            { "text": "La comunicación química se ha vuelto más importante que la visual.", "correct": false }
+        ],
+        "explanation": "Un Pug no puede usar su cola para comunicar de la misma forma que un Beagle. Un Cavalier con orejas largas no puede mostrar los sutiles movimientos de orejas de un Pastor Alemán. Esta 'discapacidad comunicativa' impuesta por la cría puede llevar a malentendidos en las interacciones sociales."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "En el futuro, es probable que la selección de perros de trabajo se base cada vez más en:",
+        "answers": [
+            { "text": "La apariencia física y el estándar de la raza.", "correct": false },
+            { "text": "Marcadores genéticos asociados a rasgos de temperamento deseables (como la resiliencia o la motivación) y a una menor predisposición a enfermedades hereditarias.", "correct": true },
+            { "text": "La intuición del criador exclusivamente.", "correct": false },
+            { "text": "La capacidad del perro para realizar una única tarea de forma muy temprana.", "correct": false }
+        ],
+        "explanation": "La genómica está abriendo la puerta a una selección más científica y ética. En lugar de basarse solo en el rendimiento de los padres, se podrán utilizar pruebas genéticas para predecir con mayor fiabilidad qué cachorros tienen el potencial genético para convertirse en perros de asistencia, detección o deporte sanos y equilibrados."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "Un 'perro libre' o 'perro comunitario' que vive en las calles de una ciudad a menudo sobrevive gracias a:",
+        "answers": [
+            { "text": "Su habilidad para cazar grandes presas.", "correct": false },
+            { "text": "Su sofisticada capacidad para leer el comportamiento humano, identificar a las personas que probablemente le darán comida y evitar a las que son una amenaza.", "correct": true },
+            { "text": "La ayuda de otros perros que forman manadas estructuradas.", "correct": false },
+            { "text": "La caridad de los turistas exclusivamente.", "correct": false }
+        ],
+        "explanation": "El estudio de estos perros nos enseña mucho sobre la cognición social canina. Su nicho ecológico es el entorno humano, y su supervivencia depende de su habilidad para navegar este complejo mundo social, no de sus habilidades como depredador."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "La creciente evidencia sobre la importancia del sueño para la consolidación de la memoria y la regulación emocional implica que un profesional del comportamiento debe:",
+        "answers": [
+            { "text": "Recomendar que los perros duerman al menos 18 horas al día.", "correct": false },
+            { "text": "Incluir preguntas sobre la calidad y cantidad del sueño en su evaluación, y considerar la privación de sueño como una posible causa o factor contribuyente a un problema de comportamiento.", "correct": true },
+            { "text": "Asegurarse de que el perro nunca sea despertado.", "correct": false },
+            { "text": "Ignorar el sueño, ya que no se puede modificar.", "correct": false }
+        ],
+        "explanation": "Un perro que no duerme bien (debido al dolor, la ansiedad, un ambiente ruidoso) es un perro cuyo cerebro no puede procesar adecuadamente las experiencias del día. Mejorar la 'higiene del sueño' puede ser una intervención de bienestar con un gran impacto conductual."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "El 'modelo de la diada' para entender las relaciones sociales caninas sugiere que:",
+        "answers": [
+            { "text": "La relación de un perro con cada individuo (humano o canino) es única y no se puede extrapolar a una jerarquía lineal para todo el grupo.", "correct": true },
+            { "text": "Dos perros siempre tendrán una relación de dominancia-sumisión.", "correct": false },
+            { "text": "Todos los perros de un grupo tienen la misma relación entre sí.", "correct": false },
+            { "text": "Los perros solo pueden tener una relación significativa a la vez.", "correct": false }
+        ],
+        "explanation": "Este modelo, que sustituye a la obsoleta idea de la 'manada alfa', reconoce que las relaciones son fluidas y contextuales. Un perro A puede cederle un juguete al perro B, pero no la cama. Analizar cada 'diada' (pareja) por separado nos da una visión mucho más precisa y realista de la dinámica social."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "El 'efecto Clever Hans' es un sesgo del observador que un profesional debe tener en cuenta durante una evaluación. Ocurre cuando:",
+        "answers": [
+            { "text": "El perro es más inteligente de lo que el profesional cree.", "correct": false },
+            { "text": "El profesional influye inconscientemente en el comportamiento del perro a través de su propio lenguaje corporal, sin darse cuenta de que el perro está respondiendo a sus señales sutiles.", "correct": true },
+            { "text": "El cliente engaña deliberadamente al profesional.", "correct": false },
+            { "text": "El perro solo obedece a una persona específica.", "correct": false }
+        ],
+        "explanation": "Se llama así por un caballo que parecía saber matemáticas, pero en realidad respondía a la tensión corporal de su interrogador. Al evaluar, debemos ser conscientes de cómo nuestra presencia y nuestras expectativas pueden estar alterando el mismo comportamiento que intentamos observar objetivamente."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "La investigación sobre la 'personalidad' en perros utiliza a menudo el modelo de los 'Cinco Grandes' adaptado. Uno de estos factores de personalidad es:",
+        "answers": [
+            { "text": "La obediencia.", "correct": false },
+            { "text": "La extraversión (que incluye la sociabilidad y el nivel de actividad).", "correct": true },
+            { "text": "La lealtad.", "correct": false },
+            { "text": "El color del pelaje.", "correct": false }
+        ],
+        "explanation": "El modelo de los Cinco Grandes (Extraversión, Neuroticismo, Amabilidad, Apertura a la experiencia y Conciencia) es el estándar en psicología humana. Los estudios en perros han encontrado dimensiones de personalidad análogas, lo que permite un estudio más sistemático y científico del temperamento individual."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "El entrenamiento de un perro de biodetección (p. ej., para detectar una enfermedad) se basa en:",
+        "answers": [
+            { "text": "La capacidad del perro para empatizar con la persona enferma.", "correct": false },
+            { "text": "Un proceso de condicionamiento operante de alta precisión, donde se enseña al perro a identificar un olor específico (el Compuesto Orgánico Volátil de la enfermedad) y a realizar una alerta clara y fiable.", "correct": true },
+            { "text": "Una habilidad innata que no requiere entrenamiento.", "correct": false },
+            { "text": "El uso de tecnología implantada en la nariz del perro.", "correct": false }
+        ],
+        "explanation": "Aunque la habilidad olfativa es innata, la fiabilidad de la detección es el resultado de un entrenamiento científico muy riguroso. Se utilizan técnicas de discriminación de olores y moldeado para construir una conducta de alerta que sea inequívoca."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "La 'teoría de la atribución' en psicología social es relevante para las consultas porque:",
+        "answers": [
+            { "text": "Los dueños a menudo atribuyen el comportamiento de su perro a rasgos de carácter internos ('es dominante') en lugar de a factores situacionales externos ('tenía miedo porque el otro perro se le acercó de frente').", "correct": true },
+            { "text": "Explica cómo los perros atribuyen intenciones a sus dueños.", "correct": false },
+            { "text": "Es una teoría sobre la nutrición canina.", "correct": false },
+            { "text": "No es relevante para el comportamiento canino.", "correct": false }
+        ],
+        "explanation": "Este es el 'error fundamental de atribución'. Parte de nuestro trabajo es ayudar a los clientes a cambiar su foco, pasando de culpar a la 'personalidad' del perro a analizar la situación y el ambiente, que son los factores que podemos modificar y controlar."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "El creciente entendimiento del 'eje intestino-cerebro' podría llevar en el futuro a:",
+        "answers": [
+            { "text": "Que todos los problemas de comportamiento se traten con cirugía intestinal.", "correct": false },
+            { "text": "El uso de 'psicobióticos' (probióticos con efectos en la salud mental) como una herramienta complementaria y estándar en el tratamiento de la ansiedad canina.", "correct": true },
+            { "text": "La eliminación de la fibra en la dieta de los perros.", "correct": false },
+            { "text": "Que los perros sean alimentados únicamente con yogur.", "correct": false }
+        ],
+        "explanation": "La investigación en esta área es una de las fronteras más emocionantes. La idea de que podemos influir en la neuroquímica cerebral y el comportamiento a través de intervenciones en la microbiota intestinal abre una nueva dimensión en el enfoque holístico del bienestar."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "La 'teoría de la actividad' para el envejecimiento saludable, aplicada a perros, sugiere que:",
+        "answers": [
+            { "text": "Los perros mayores deben descansar y evitar cualquier tipo de actividad.", "correct": false },
+            { "text": "Mantener un nivel adecuado y adaptado de actividad física, mental y social en la vejez puede ayudar a ralentizar el declive cognitivo y a mantener una mejor calidad de vida.", "correct": true },
+            { "text": "Los perros mayores deben competir en deportes de alto impacto.", "correct": false },
+            { "text": "La actividad no tiene ningún efecto en el proceso de envejecimiento.", "correct": false }
+        ],
+        "explanation": "El principio de 'úsalo o piérdelo' también se aplica a los perros. El enriquecimiento y el ejercicio adaptado a sus capacidades son fundamentales para un envejecimiento saludable, tanto física como mentalmente."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "El 'efecto Coolidge' describe un fenómeno en el que:",
+        "answers": [
+            { "text": "Los animales muestran un renovado interés sexual ante la introducción de una nueva pareja receptiva.", "correct": true },
+            { "text": "Los perros prefieren las temperaturas más frías.", "correct": false },
+            { "text": "Un perro se calma al escuchar música clásica.", "correct": false },
+            { "text": "Un perro se niega a interactuar con nuevos individuos.", "correct": false }
+        ],
+        "explanation": "Este principio de la biología evolutiva es relevante para entender la motivación sexual y puede tener implicaciones en la gestión de perros de cría o en la comprensión de ciertos comportamientos de monta o interés sexual en entornos con múltiples perros."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "El concepto de 'aprendizaje preparado' (prepared learning) de la psicología evolutiva sugiere que:",
+        "answers": [
+            { "text": "Los animales están biológicamente predispuestos a aprender ciertas asociaciones (como el miedo a las serpientes) más fácilmente que otras (como el miedo a las flores), debido a su relevancia para la supervivencia.", "correct": true },
+            { "text": "Un perro debe estar preparado mentalmente antes de cada sesión de entrenamiento.", "correct": false },
+            { "text": "Todos los aprendizajes son igualmente fáciles o difíciles.", "correct": false },
+            { "text": "El aprendizaje solo ocurre con comida preparada.", "correct": false }
+        ],
+        "explanation": "Esto explica por qué un perro puede desarrollar una fobia a los truenos después de una sola mala experiencia, pero no desarrolla una fobia a los cuencos de comida aunque se haya tropezado con uno. El cerebro está 'pre-cableado' para aprender rápidamente sobre amenazas ancestrales."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "En el contexto de la selección y entrenamiento de perros para refugios ('shelter dogs'), la evaluación del comportamiento más fiable es aquella que:",
+        "answers": [
+            { "text": "Se realiza en las primeras 24 horas de la llegada del perro al refugio.", "correct": false },
+            { "text": "Incluye múltiples observaciones a lo largo de varios días para permitir que el perro supere el estrés inicial del ingreso y muestre un comportamiento más representativo.", "correct": true },
+            { "text": "Se basa únicamente en la información proporcionada por el antiguo dueño.", "correct": false },
+            { "text": "Dura solo 5 minutos y se enfoca en la obediencia básica.", "correct": false }
+        ],
+        "explanation": "El comportamiento de un perro en sus primeros días en un refugio es a menudo un reflejo del estrés agudo y no de su temperamento real. Las evaluaciones fiables, como la de 'SAFER' de la ASPCA, requieren tiempo y múltiples puntos de datos para obtener una imagen más precisa."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "La 'entrevista motivacional' es una técnica de comunicación con el cliente que busca:",
+        "answers": [
+            { "text": "Convencer al cliente de que su punto de vista es erróneo.", "correct": false },
+            { "text": "Ayudar al cliente a explorar y resolver su propia ambivalencia sobre el cambio, aumentando su motivación intrínseca para seguir el plan de tratamiento.", "correct": true },
+            { "text": "Motivar al perro para que participe en el entrenamiento.", "correct": false },
+            { "text": "Entrevistar al cliente sobre qué motiva a su perro.", "correct": false }
+        ],
+        "explanation": "En lugar de 'prescribir' una solución, el profesional actúa como un guía, haciendo preguntas abiertas y reflexivas que ayudan al cliente a encontrar sus propias razones para cambiar. Es una técnica muy poderosa para aumentar la adherencia al plan en clientes que se muestran resistentes o ambivalentes."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "El fenómeno de la 'disonancia cognitiva' en un cliente puede manifestarse cuando:",
+        "answers": [
+            { "text": "Un dueño que ama a su perro pero utiliza métodos de castigo experimenta un conflicto interno, que puede resolver minimizando los efectos negativos del castigo o culpando al perro.", "correct": true },
+            { "text": "El perro está confundido por señales contradictorias.", "correct": false },
+            { "text": "El cliente no está de acuerdo con el diagnóstico del profesional.", "correct": false },
+            { "text": "El perro oye sonidos que el cliente no puede oír.", "correct": false }
+        ],
+        "explanation": "La disonancia cognitiva es el malestar que se siente al tener dos creencias contradictorias. Entender este proceso psicológico en los clientes nos ayuda a comprender su resistencia al cambio y a presentar la información de una manera que reduzca este conflicto en lugar de aumentarlo."
+    },
+    {
+        "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
+        "question": "El futuro del tratamiento de la agresión canina probablemente se enfocará más en:",
+        "answers": [
+            { "text": "Técnicas de supresión más rápidas y eficaces.", "correct": false },
+            { "text": "Un enfoque proactivo centrado en la prevención a través de una mejor cría, socialización y educación del público, combinado con tratamientos multimodales individualizados.", "correct": true },
+            { "text": "La identificación de una única 'cura' genética o farmacológica.", "correct": false },
+            { "text": "El entrenamiento de obediencia de alta competición.", "correct": false }
+        ],
+        "explanation": "La tendencia se aleja de la simple reacción al problema y se acerca a la prevención proactiva. La ciencia nos muestra que la agresión es un problema complejo con múltiples causas, y su solución a nivel social requiere un esfuerzo conjunto en la cría, la educación temprana y la intervención profesional basada en el bienestar."
+    }
+]

@@ -1,0 +1,552 @@
+[
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "El condicionamiento clásico, también conocido como pavloviano, se basa en la asociación entre:",
+        "answers": [
+            { "text": "Un comportamiento y su consecuencia.", "correct": false },
+            { "text": "Dos estímulos: un estímulo neutro que llega a predecir la aparición de un estímulo incondicionado.", "correct": true },
+            { "text": "La observación de un comportamiento en otro individuo.", "correct": false },
+            { "text": "La genética y el instinto del animal.", "correct": false }
+        ],
+        "explanation": "Esta es la distinción fundamental. El condicionamiento clásico trata sobre asociaciones reflejas y emocionales que el animal no controla voluntariamente. El sonido de la bolsa de premios (estímulo neutro) se asocia con la comida (estímulo incondicionado), y el sonido por sí solo acaba provocando una respuesta de alegría (respuesta condicionada)."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "En el famoso experimento de Pavlov, la salivación del perro ANTE la comida (sin ningún sonido) es un ejemplo de:",
+        "answers": [
+            { "text": "Respuesta Condicionada (RC).", "correct": false },
+            { "text": "Estímulo Condicionado (EC).", "correct": false },
+            { "text": "Respuesta Incondicionada (RI).", "correct": true },
+            { "text": "Estímulo Neutro (EN).", "correct": false }
+        ],
+        "explanation": "La Respuesta Incondicionada (RI) es la respuesta natural, no aprendida y refleja que un organismo tiene ante un Estímulo Incondicionado (EI). La comida (EI) provoca salivación (RI) de forma biológica, sin necesidad de aprendizaje previo."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "Un perro que ha aprendido a temer el sonido del timbre porque predice la llegada de extraños (que le asustan), ahora también muestra miedo ante el sonido de un teléfono que es tonalmente similar. Este fenómeno se llama:",
+        "answers": [
+            { "text": "Discriminación de estímulos.", "correct": false },
+            { "text": "Generalización de estímulos.", "correct": true },
+            { "text": "Recuperación espontánea.", "correct": false },
+            { "text": "Extinción.", "correct": false }
+        ],
+        "explanation": "La generalización ocurre cuando un animal muestra una respuesta condicionada a estímulos que son similares, pero no idénticos, al estímulo condicionado original. El cerebro 'generaliza' la asociación de miedo a una categoría más amplia de sonidos."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "El condicionamiento operante se enfoca en cómo las consecuencias afectan a un comportamiento. El término 'Refuerzo' siempre se refiere a una consecuencia que:",
+        "answers": [
+            { "text": "Disminuye la probabilidad de que una conducta ocurra en el futuro.", "correct": false },
+            { "text": "Aumenta la probabilidad de que una conducta ocurra en el futuro.", "correct": true },
+            { "text": "Añade algo desagradable para el perro.", "correct": false },
+            { "text": "Quita algo agradable para el perro.", "correct": false }
+        ],
+        "explanation": "Esta es la definición clave. Independientemente de si es 'positivo' (añadir algo) o 'negativo' (quitar algo), si la consecuencia hace que la conducta sea más frecuente, es, por definición, un refuerzo."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "Dar una galleta a un perro por sentarse es un ejemplo de:",
+        "answers": [
+            { "text": "Refuerzo Positivo (R+).", "correct": true },
+            { "text": "Refuerzo Negativo (R-).", "correct": false },
+            { "text": "Castigo Positivo (P+).", "correct": false },
+            { "text": "Castigo Negativo (P-).", "correct": false }
+        ],
+        "explanation": "Es Refuerzo porque la conducta de sentarse aumentará. Es Positivo porque se AÑADE (+) un estímulo apetitivo (la galleta) para lograr ese aumento. Es el pilar del entrenamiento moderno basado en la ciencia."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "Un perro lleva un collar que emite un sonido molesto que solo se detiene cuando el perro se sienta. Con el tiempo, el perro aprende a sentarse rápidamente para apagar el sonido. Esto es un ejemplo de:",
+        "answers": [
+            { "text": "Refuerzo Positivo (R+).", "correct": false },
+            { "text": "Refuerzo Negativo (R-).", "correct": true },
+            { "text": "Castigo Positivo (P+).", "correct": false },
+            { "text": "Castigo Negativo (P-).", "correct": false }
+        ],
+        "explanation": "Es Refuerzo porque la conducta de sentarse aumenta. Es Negativo porque la consecuencia es la RETIRADA (-) de un estímulo aversivo (el sonido molesto). El perro trabaja para escapar o evitar algo desagradable."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "El término 'Castigo' en la teoría del aprendizaje se refiere a cualquier consecuencia que:",
+        "answers": [
+            { "text": "Es dolorosa o asusta al perro.", "correct": false },
+            { "text": "Aumenta la probabilidad de que una conducta ocurra en el futuro.", "correct": false },
+            { "text": "Disminuye la probabilidad de que una conducta ocurra en el futuro.", "correct": true },
+            { "text": "Es aplicada por una figura de autoridad.", "correct": false }
+        ],
+        "explanation": "Al igual que con el refuerzo, la definición es funcional. Si la consecuencia hace que la conducta sea menos frecuente, es un castigo, independientemente de la intención o de si parece 'severo' o 'suave'."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "Gritar '¡NO!' y dar un toque a un perro cuando salta sobre una persona es un intento de usar:",
+        "answers": [
+            { "text": "Refuerzo Negativo (R-).", "correct": false },
+            { "text": "Castigo Negativo (P-).", "correct": false },
+            { "text": "Castigo Positivo (P+).", "correct": true },
+            { "text": "Extinción.", "correct": false }
+        ],
+        "explanation": "Es Castigo porque el objetivo es que la conducta de saltar disminuya. Es Positivo porque se AÑADE (+) un estímulo aversivo (el grito, el toque) para intentar conseguir esa disminución. Su uso tiene un alto riesgo de efectos secundarios negativos."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "Un perro está jugando con su dueño y muerde demasiado fuerte. El dueño dice '¡Ay!' y se va de la habitación, terminando el juego. Si esto hace que el perro muerda más suavemente en el futuro, es un ejemplo de:",
+        "answers": [
+            { "text": "Refuerzo Positivo (R+).", "correct": false },
+            { "text": "Castigo Positivo (P+).", "correct": false },
+            { "text": "Castigo Negativo (P-).", "correct": true },
+            { "text": "Refuerzo Negativo (R-).", "correct": false }
+        ],
+        "explanation": "Es Castigo porque la conducta de 'morder fuerte' disminuye. Es Negativo porque se RETIRA (-) algo que el perro valora (el juego y la atención social) para lograr esa disminución. Es una forma efectiva y humana de enseñar la inhibición de la mordida."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "La principal diferencia entre Castigo Negativo (P-) y Extinción es que:",
+        "answers": [
+            { "text": "No hay ninguna diferencia, son lo mismo.", "correct": false },
+            { "text": "La extinción implica retirar el reforzador que mantenía la conducta, mientras que el castigo negativo implica retirar un reforzador que no está necesariamente relacionado con la conducta.", "correct": true },
+            { "text": "El castigo negativo es más aversivo que la extinción.", "correct": false },
+            { "text": "La extinción es añadir algo aversivo.", "correct": false }
+        ],
+        "explanation": "Es una distinción sutil pero importante. Si un perro ladra por atención y lo ignoras, retiras el reforzador específico (atención), eso es extinción. Si el perro ladra por atención y apagas la televisión que le gusta, retiras un reforzador no relacionado, eso es castigo negativo."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "Un 'reforzador secundario' o 'condicionado' es un estímulo que:",
+        "answers": [
+            { "text": "Tiene un valor innato para el perro, como la comida o el agua.", "correct": false },
+            { "text": "Ha adquirido valor de refuerzo al ser asociado repetidamente con un reforzador primario.", "correct": true },
+            { "text": "Solo funciona la segunda vez que se presenta.", "correct": false },
+            { "text": "Es menos efectivo que un reforzador primario.", "correct": false }
+        ],
+        "explanation": "Una palabra como '¡Bien!' o el sonido de un clicker son inicialmente estímulos neutros. Se convierten en potentes reforzadores secundarios a través del condicionamiento clásico, al predecir la llegada de un reforzador primario como la comida."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "El 'moldeado' (shaping) es una técnica de entrenamiento que consiste en:",
+        "answers": [
+            { "text": "Guiar físicamente al perro para que realice la conducta.", "correct": false },
+            { "text": "Reforzar aproximaciones sucesivas, cada vez más cercanas al comportamiento final deseado.", "correct": true },
+            { "text": "Esperar a que el perro realice la conducta completa de forma espontánea para reforzarla.", "correct": false },
+            { "text": "Usar un señuelo de comida para guiar al perro.", "correct": false }
+        ],
+        "explanation": "El moldeado es como un juego de 'frío o caliente'. Permite construir comportamientos complejos que el perro no ofrecería de forma natural. Fomenta la creatividad y la participación del perro en el proceso de aprendizaje."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "El 'fallout' del castigo se refiere a:",
+        "answers": [
+            { "text": "El proceso por el cual el comportamiento castigado desaparece.", "correct": false },
+            { "text": "Los efectos secundarios negativos y no deseados del uso de procedimientos aversivos, como el aumento del miedo, la ansiedad, la agresión y el daño al vínculo.", "correct": true },
+            { "text": "La mejora en el comportamiento del perro después de una corrección.", "correct": false },
+            { "text": "El alivio que siente el dueño después de castigar al perro.", "correct": false }
+        ],
+        "explanation": "El castigo rara vez funciona de forma aislada. Puede suprimir una conducta, pero a menudo genera un 'daño colateral' emocional y conductual. El perro puede asociar el castigo no con su conducta, sino con la persona que lo aplica o el entorno, creando nuevos y peores problemas."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "La 'extinction burst' o 'explosión de extinción' es un fenómeno que ocurre cuando:",
+        "answers": [
+            { "text": "Una conducta previamente reforzada aumenta temporalmente en frecuencia o intensidad justo después de que se retira el refuerzo.", "correct": true },
+            { "text": "El perro se vuelve agresivo de forma espontánea y sin motivo.", "correct": false },
+            { "text": "Una conducta se extingue de forma instantánea y permanente.", "correct": false },
+            { "text": "El perro olvida una señal verbal.", "correct": false }
+        ],
+        "explanation": "Si pulsar un botón siempre te ha dado comida y de repente deja de funcionar, tu primera reacción no es rendirte, sino pulsar el botón más veces y con más fuerza. Este aumento de la conducta es predecible y es una señal de que la extinción está comenzando a funcionar. Es crucial no ceder en esta fase."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "Un programa de reforzamiento de razón variable (p. ej., reforzar en promedio cada 3 o 5 respuestas) es extremadamente eficaz para mantener un comportamiento porque:",
+        "answers": [
+            { "text": "Es el más fácil de implementar para el dueño.", "correct": false },
+            { "text": "Crea una alta resistencia a la extinción, ya que el perro nunca sabe qué respuesta será la que obtenga el premio.", "correct": true },
+            { "text": "Reduce la motivación del perro para evitar la sobreexcitación.", "correct": false },
+            { "text": "Solo funciona para enseñar nuevas conductas.", "correct": false }
+        ],
+        "explanation": "Es el principio que hace que las máquinas tragaperras sean tan adictivas. La imprevisibilidad de la recompensa mantiene al individuo enganchado y ofreciendo la conducta de forma constante. Una vez que un perro ha aprendido una conducta, pasar a un programa variable la hace mucho más robusta."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "El modelo de Análisis Funcional de la Conducta (ABC) es una herramienta de diagnóstico. ¿Qué representa cada letra?",
+        "answers": [
+            { "text": "Actitud, Base, Conclusión.", "correct": false },
+            { "text": "Animal, Biología, Castigo.", "correct": false },
+            { "text": "Antecedente (lo que ocurre antes), Behavior (Conducta), Consecuencia (lo que ocurre después).", "correct": true },
+            { "text": "Ansiedad, Búsqueda, Calma.", "correct": false }
+        ],
+        "explanation": "El ABC es el núcleo del diagnóstico de comportamiento. Nos permite pasar de una simple descripción de la conducta ('el perro ladra') a una hipótesis funcional ('CUANDO (A) me siento al teléfono, el perro LADRA (B), y yo le PRESTO ATENCIÓN (C)'). Nos dice por qué el perro está haciendo lo que hace."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "La 'habituación' es un tipo de aprendizaje no asociativo en el que:",
+        "answers": [
+            { "text": "La respuesta a un estímulo aumenta con la exposición repetida.", "correct": false },
+            { "text": "La respuesta a un estímulo novedoso pero irrelevante disminuye gradualmente con la exposición repetida.", "correct": true },
+            { "text": "El perro aprende que un estímulo predice a otro.", "correct": false },
+            { "text": "El perro aprende a realizar una nueva habilidad.", "correct": false }
+        ],
+        "explanation": "La habituación es cómo el cerebro aprende a ignorar los 'ruidos de fondo' de la vida (el zumbido del aire acondicionado, el tráfico lejano). Es un proceso de filtrado esencial para no malgastar energía en estímulos que no tienen consecuencias."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "La 'sensibilización' es el proceso opuesto a la habituación. Ocurre cuando:",
+        "answers": [
+            { "text": "Un perro se vuelve gradualmente más tranquilo ante un ruido.", "correct": false },
+            { "text": "La exposición repetida a un estímulo, especialmente si es intenso o aversivo, provoca un aumento progresivo de la respuesta.", "correct": true },
+            { "text": "Un perro aprende a asociar su correa con los paseos.", "correct": false },
+            { "text": "Un perro olvida una conducta previamente aprendida.", "correct": false }
+        ],
+        "explanation": "Si un perro tiene miedo a los petardos, cada exposición a ellos no le 'acostumbra', sino que le sensibiliza. Su sistema nervioso se vuelve más reactivo, y la respuesta de miedo se dispara más rápido y con más intensidad en el futuro. Es la base neurobiológica del empeoramiento de las fobias."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "El 'contracondicionamiento' es una técnica para cambiar la respuesta emocional de un perro a un estímulo. Consiste en:",
+        "answers": [
+            { "text": "Asociar el estímulo que provoca miedo con un estímulo incondicionado muy apetitivo para crear una nueva respuesta emocional positiva.", "correct": true },
+            { "text": "Exponer al perro al estímulo de forma repetida hasta que deje de reaccionar.", "correct": false },
+            { "text": "Castigar al perro por mostrar la respuesta emocional no deseada.", "correct": false },
+            { "text": "Ignorar al perro cuando el estímulo está presente.", "correct": false }
+        ],
+        "explanation": "El contracondicionamiento (la 'CC' de DSCC) es un proceso de condicionamiento clásico. El objetivo es que la vista de otro perro (Estímulo Condicionado) deje de predecir peligro y pase a predecir la aparición de pollo asado (Estímulo Incondicionado), cambiando así la emoción de miedo a anticipación placentera."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "El 'encadenamiento' (chaining) es una técnica para enseñar una secuencia de conductas. En el 'encadenamiento hacia atrás' (back-chaining), se empieza por:",
+        "answers": [
+            { "text": "Enseñar el primer comportamiento de la cadena y luego ir añadiendo los siguientes.", "correct": false },
+            { "text": "Enseñar todos los comportamientos a la vez.", "correct": false },
+            { "text": "Enseñar el último comportamiento de la cadena, que es el que precede al reforzador primario, y luego ir añadiendo los comportamientos anteriores.", "correct": true },
+            { "text": "Enseñar los comportamientos en un orden aleatorio.", "correct": false }
+        ],
+        "explanation": "El 'back-chaining' es muy potente porque el reforzador siempre está asociado con el eslabón que se está aprendiendo en ese momento. Para enseñar a un perro a buscar un objeto y traerlo, se enseñaría primero a coger el objeto de la mano del dueño, luego a cogerlo del suelo cerca, luego a ir a buscarlo más lejos, etc."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "Una 'señal envenenada' (poisoned cue) es una señal que:",
+        "answers": [
+            { "text": "Ha sido asociada tanto con consecuencias agradables (refuerzo) como desagradables (castigo), creando conflicto y estrés en el perro.", "correct": true },
+            { "text": "El perro ha olvidado por completo.", "correct": false },
+            { "text": "Se ha utilizado con un tono de voz demasiado alto.", "correct": false },
+            { "text": "Predice la aparición de comida en mal estado.", "correct": false }
+        ],
+        "explanation": "Si a un perro se le enseña la llamada con premios, pero también se le regaña por tardar en venir, la señal 'ven' se envenena. El perro duda, viene lento, olfatea el suelo, porque la señal se ha vuelto ambigua y predice tanto cosas buenas como malas."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "El fenómeno de 'bloqueo' (blocking) ocurre cuando:",
+        "answers": [
+            { "text": "Un perro se bloquea físicamente y es incapaz de moverse.", "correct": false },
+            { "text": "Un estímulo condicionado previamente establecido impide el aprendizaje de un nuevo estímulo condicionado que se presenta al mismo tiempo.", "correct": true },
+            { "text": "El perro está demasiado estresado para aprender.", "correct": false },
+            { "text": "El dueño bloquea la puerta para que el perro no salga.", "correct": false }
+        ],
+        "explanation": "Si un perro ya sabe que un tono (EC1) predice la comida, y luego se le presenta el tono junto a una luz (EC2), no aprenderá que la luz también predice la comida. El aprendizaje sobre el tono 'bloquea' el aprendizaje sobre la luz porque esta no aporta información predictiva nueva."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "El 'ensombrecimiento' (overshadowing) se diferencia del bloqueo en que:",
+        "answers": [
+            { "text": "En el ensombrecimiento, los dos estímulos se presentan juntos desde el principio, y el perro solo aprende sobre el más saliente o notorio.", "correct": true },
+            { "text": "El ensombrecimiento es un proceso más lento que el bloqueo.", "correct": false },
+            { "text": "El bloqueo implica refuerzo negativo y el ensombrecimiento refuerzo positivo.", "correct": false },
+            { "text": "Son exactamente el mismo fenómeno.", "correct": false }
+        ],
+        "explanation": "Si desde el principio se presenta un tono fuerte (muy saliente) junto a una luz tenue (poco saliente) antes de la comida, el perro aprenderá la asociación con el tono pero no con la luz. El estímulo más intenso 'ensombrece' al más débil. Esto es muy relevante al usar señales verbales y corporales al mismo tiempo."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "Un 'reforzador diferencial de conductas incompatibles' (DRI) es una estrategia que consiste en:",
+        "answers": [
+            { "text": "Reforzar cualquier conducta que no sea la problemática.", "correct": false },
+            { "text": "Reforzar una conducta que es físicamente imposible de realizar al mismo tiempo que la conducta problemática.", "correct": true },
+            { "text": "Reforzar al perro por no hacer nada.", "correct": false },
+            { "text": "Reforzar una conducta alternativa que cumple la misma función.", "correct": false }
+        ],
+        "explanation": "El DRI es una de las herramientas más elegantes y efectivas. Para un perro que salta, se refuerza el 'sentado', porque un perro no puede saltar y estar sentado al mismo tiempo. Al reforzar la conducta incompatible, la conducta problemática disminuye de forma natural sin necesidad de castigo."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "La eficacia del refuerzo positivo depende críticamente de:",
+        "answers": [
+            { "text": "La severidad del castigo si el perro no obedece.", "correct": false },
+            { "text": "La inmediatez (timing), la motivación del perro por el reforzador, y una tasa de refuerzo adecuada.", "correct": true },
+            { "text": "El uso de la misma golosina en todas las sesiones.", "correct": false },
+            { "text": "La raza y la edad del perro exclusivamente.", "correct": false }
+        ],
+        "explanation": "Para que el refuerzo funcione, el perro debe entender qué conducta específica está siendo premiada (timing), debe desear realmente el premio (motivación), y debe recibirlo con la suficiente frecuencia como para mantener el interés (tasa de refuerzo)."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "El aprendizaje por observación o social es más probable que ocurra cuando:",
+        "answers": [
+            { "text": "El perro observador es mucho más viejo que el perro que demuestra la conducta.", "correct": false },
+            { "text": "La conducta demostrada no tiene ninguna consecuencia.", "correct": false },
+            { "text": "El perro observador ve que el demostrador recibe un reforzador por realizar la conducta.", "correct": true },
+            { "text": "El perro observador no tiene ningún vínculo con el demostrador.", "correct": false }
+        ],
+        "explanation": "Los perros no imitan cualquier cosa. Son más propensos a copiar un comportamiento si ven que este resulta en una consecuencia positiva para el individuo que lo realiza. Esto se conoce como 'emulación de objetivos'."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "En el condicionamiento clásico, la 'recuperación espontánea' ocurre cuando:",
+        "answers": [
+            { "text": "Una Respuesta Condicionada (RC) que había sido extinguida, reaparece después de un período de descanso.", "correct": true },
+            { "text": "El perro se recupera físicamente después de un susto.", "correct": false },
+            { "text": "El perro aprende una nueva asociación de forma instantánea.", "correct": false },
+            { "text": "El perro generaliza su respuesta a un nuevo estímulo.", "correct": false }
+        ],
+        "explanation": "La extinción no es 'olvidar', sino un nuevo aprendizaje que inhibe la respuesta original. La recuperación espontánea demuestra que la asociación original no se borró por completo. Por eso, los planes de tratamiento para el miedo a menudo requieren sesiones de 'refuerzo' periódicas."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "La 'ley del efecto' de Thorndike es el precursor del condicionamiento operante y postula que:",
+        "answers": [
+            { "text": "Los comportamientos seguidos de consecuencias satisfactorias tienden a repetirse, mientras que los seguidos de consecuencias insatisfactorias tienden a no repetirse.", "correct": true },
+            { "text": "Todos los comportamientos son reflejos innatos.", "correct": false },
+            { "text": "El aprendizaje solo puede ocurrir durante un período crítico en la infancia.", "correct": false },
+            { "text": "Los animales aprenden principalmente por imitación.", "correct": false }
+        ],
+        "explanation": "Esta simple pero poderosa ley es la base de todo el entrenamiento operante. Los perros, como todos los animales, son hedonistas pragmáticos: hacen lo que funciona para obtener consecuencias agradables y evitar las desagradables."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "El uso de un 'señuelo' (luring) con comida es una técnica útil para enseñar una conducta, pero su principal desventaja es que:",
+        "answers": [
+            { "text": "Es una forma de castigo negativo.", "correct": false },
+            { "text": "Si no se desvanece (fade out) rápidamente, el perro puede volverse dependiente del señuelo y no realizar la conducta sin él.", "correct": true },
+            { "text": "Solo funciona con cachorros muy pequeños.", "correct": false },
+            { "text": "Requiere el uso de un clicker.", "correct": false }
+        ],
+        "explanation": "El señuelo es una forma de 'mostrar' al perro lo que queremos, pero no le enseña a 'pensar' por sí mismo. El objetivo es usarlo para conseguir la conducta unas pocas veces y luego desvanecerlo para que el perro empiece a responder a la señal verbal o gestual."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "El 'contracondicionamiento operante' es una estrategia que implica:",
+        "answers": [
+            { "text": "Cambiar la respuesta emocional de un perro.", "correct": false },
+            { "text": "Entrenar un comportamiento alternativo que es incompatible con el comportamiento problemático (DRI).", "correct": true },
+            { "text": "Asociar un estímulo aversivo con algo agradable.", "correct": false },
+            { "text": "Ignorar por completo el comportamiento del perro.", "correct": false }
+        ],
+        "explanation": "Este término a menudo se usa como sinónimo de Reforzamiento Diferencial de Conductas Incompatibles (DRI). Es un componente clave de la modificación de conducta, ya que se enfoca proactivamente en enseñar al perro QUÉ HACER en lugar de simplemente castigarlo por lo que no debe hacer."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "Un perro ha aprendido a no saltar sobre su dueño, pero sigue saltando sobre las visitas. Esto es un fallo en la:",
+        "answers": [
+            { "text": "Discriminación.", "correct": false },
+            { "text": "Generalización.", "correct": true },
+            { "text": "Habituación.", "correct": false },
+            { "text": "Motivación.", "correct": false }
+        ],
+        "explanation": "Los perros no generalizan bien de forma natural. Aprenden de forma muy específica al contexto. Si se le enseña a no saltar solo en presencia del dueño, el perro puede no entender que la regla se aplica también a otras personas. El entrenamiento debe incluir sesiones planificadas con diferentes personas y en diferentes lugares."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "La 'latencia' de un comportamiento es una medida que se refiere a:",
+        "answers": [
+            { "text": "La duración total del comportamiento.", "correct": false },
+            { "text": "El tiempo que transcurre desde que se da la señal hasta que el perro inicia la respuesta.", "correct": true },
+            { "text": "La intensidad con la que el perro realiza el comportamiento.", "correct": false },
+            { "text": "El número de veces que el perro realiza el comportamiento en un minuto.", "correct": false }
+        ],
+        "explanation": "La latencia es un dato muy útil para medir la fluidez de una conducta. Una latencia corta (respuesta rápida) indica que el perro entiende bien la señal y está motivado. Una latencia larga puede indicar confusión, falta de motivación o conflicto."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "Un 'programa de reforzamiento de intervalo fijo' (p. ej., reforzar la primera respuesta después de cada 30 segundos) a menudo produce un patrón de respuesta llamado:",
+        "answers": [
+            { "text": "Respuesta constante y alta.", "correct": false },
+            { "text": "Una pausa después del refuerzo, seguida de un aumento de la respuesta a medida que se acerca el final del intervalo ('festoneado').", "correct": true },
+            { "text": "Respuesta muy lenta y apática.", "correct": false },
+            { "text": "Explosiones de extinción aleatorias.", "correct": false }
+        ],
+        "explanation": "El perro aprende que responder inmediatamente después de un premio es inútil, por lo que hace una pausa. A medida que se acerca el momento en que el refuerzo estará disponible de nuevo, su tasa de respuesta aumenta. Este patrón de 'parada y arranque' lo hace menos ideal para la mayoría de los entrenamientos."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "El 'condicionamiento de segundo orden' ocurre cuando:",
+        "answers": [
+            { "text": "Un estímulo condicionado (EC1) que ya provoca una respuesta se utiliza como un estímulo incondicionado para condicionar un nuevo estímulo neutro (EC2).", "correct": true },
+            { "text": "El perro necesita dos intentos para aprender una asociación.", "correct": false },
+            { "text": "Se utilizan dos reforzadores diferentes en la misma sesión.", "correct": false },
+            { "text": "Un comportamiento operante es castigado y reforzado al mismo tiempo.", "correct": false }
+        ],
+        "explanation": "Si un clicker (EC1) ya predice la comida, se puede presentar una luz (EC2) seguida del clicker (EC1). Después de varias repeticiones, la luz por sí sola puede empezar a provocar la respuesta condicionada, aunque nunca haya sido pareada directamente con la comida. Así se construyen cadenas de asociaciones."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "La principal diferencia entre el moldeado (shaping) y el encadenamiento (chaining) es que:",
+        "answers": [
+            { "text": "El moldeado construye un único comportamiento, mientras que el encadenamiento une varios comportamientos ya aprendidos en una secuencia.", "correct": true },
+            { "text": "El moldeado solo utiliza refuerzo positivo y el encadenamiento solo refuerzo negativo.", "correct": false },
+            { "text": "El encadenamiento es más rápido que el moldeado.", "correct": false },
+            { "text": "Son dos nombres para la misma técnica.", "correct": false }
+        ],
+        "explanation": "Se utiliza el moldeado para enseñar a un perro a, por ejemplo, abrir una puerta. Se utiliza el encadenamiento para enseñar al perro a ir a la puerta, abrirla, salir y sentarse en el felpudo, uniendo cuatro conductas ya conocidas."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "El 'principio de Premack' establece que:",
+        "answers": [
+            { "text": "Un comportamiento de baja probabilidad puede ser reforzado utilizando la oportunidad de realizar un comportamiento de alta probabilidad.", "correct": true },
+            { "text": "Todos los perros prefieren la comida como reforzador.", "correct": false },
+            { "text": "El castigo es más efectivo que el refuerzo.", "correct": false },
+            { "text": "El aprendizaje solo ocurre antes de la pubertad.", "correct": false }
+        ],
+        "explanation": "También conocido como la 'regla de la abuela' ('primero te comes las verduras, luego puedes comer el postre'). Para un perro que adora olfatear, se le puede pedir que camine unos pasos con la correa floja (baja probabilidad) y luego reforzarlo permitiéndole ir a olfatear un poste (alta probabilidad)."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "La 'captura' (capturing) de un comportamiento consiste en:",
+        "answers": [
+            { "text": "Atrapar físicamente al perro para que no escape.", "correct": false },
+            { "text": "Esperar a que el perro ofrezca un comportamiento de forma espontánea y reforzarlo en el momento exacto en que ocurre.", "correct": true },
+            { "text": "Utilizar una cámara para grabar los comportamientos del perro.", "correct": false },
+            { "text": "Forzar al perro a entrar en una jaula.", "correct": false }
+        ],
+        "explanation": "La captura es ideal para comportamientos que el perro ya hace de forma natural, como estirarse o bostezar. Si se refuerza consistentemente, se puede poner bajo el control de una señal. Es una forma de entrenamiento muy poco intrusiva."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "El término 'saciación' en el contexto del entrenamiento se refiere a cuando:",
+        "answers": [
+            { "text": "El perro ha aprendido un comportamiento a la perfección.", "correct": false },
+            { "text": "Un reforzador, como la comida, pierde su valor porque el perro ha recibido demasiado y ya no está motivado por él.", "correct": true },
+            { "text": "La sesión de entrenamiento ha sido satisfactoria.", "correct": false },
+            { "text": "El perro está lleno de energía.", "correct": false }
+        ],
+        "explanation": "La saciación es una razón común por la que un perro puede 'desconectarse' en una sesión de entrenamiento. Por ello es importante usar reforzadores de alto valor, mantener las sesiones cortas y entrenar cuando el perro tiene algo de hambre."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "La 'discriminación' de estímulos es el proceso opuesto a la generalización. Ocurre cuando un perro:",
+        "answers": [
+            { "text": "Aprende a responder de la misma forma a estímulos similares.", "correct": false },
+            { "text": "Aprende a responder a un estímulo específico pero no a otros estímulos similares.", "correct": true },
+            { "text": "Muestra un comportamiento discriminatorio hacia otros perros.", "correct": false },
+            { "text": "Se niega a aprender nuevas señales.", "correct": false }
+        ],
+        "explanation": "Enseñar a un perro a diferenciar entre la señal para 'tumbado' y la señal para 'sentado' es un entrenamiento de discriminación. Se refuerza la respuesta a una señal, pero no a la otra, hasta que el perro aprende a distinguirlas."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "El uso de la inundación (flooding) para tratar una fobia es muy arriesgado porque:",
+        "answers": [
+            { "text": "Si el perro escapa de la situación mientras todavía tiene miedo, la fobia puede intensificarse dramáticamente (refuerzo negativo del escape).", "correct": true },
+            { "text": "Es una técnica que requiere mucho tiempo.", "correct": false },
+            { "text": "El perro puede disfrutar demasiado de la experiencia.", "correct": false },
+            { "text": "Es ilegal en la mayoría de los países.", "correct": false }
+        ],
+        "explanation": "La inundación solo 'funciona' si el perro es expuesto al estímulo hasta que se agota fisiológicamente y entra en un estado de indefensión aprendida. Pero si se le permite escapar en el punto álgido del pánico, el perro aprende que el escape funciona, reforzando masivamente el comportamiento de huida y empeorando la fobia."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "Un 'programa de reforzamiento continuo' (reforzar cada respuesta correcta) es más útil durante:",
+        "answers": [
+            { "text": "La fase de mantenimiento de una conducta ya aprendida.", "correct": false },
+            { "text": "La fase inicial de adquisición de una nueva conducta.", "correct": true },
+            { "text": "El tratamiento de la agresión canina.", "correct": false },
+            { "text": "Las sesiones de juego libre.", "correct": false }
+        ],
+        "explanation": "Al principio del aprendizaje, es crucial que el perro entienda qué comportamiento exacto está siendo reforzado. El refuerzo continuo crea esta asociación de forma rápida y clara. Una vez que la conducta es fiable, se debe pasar a un programa de refuerzo intermitente para hacerla más resistente."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "Si un perro gruñe cuando se le acercan al hueso y el dueño le castiga, es probable que el perro:",
+        "answers": [
+            { "text": "Aprenda a no gruñir, pero pueda morder la próxima vez sin previo aviso.", "correct": true },
+            { "text": "Deje de proteger sus recursos por completo.", "correct": false },
+            { "text": "Entienda que el dueño es el líder y le respete más.", "correct": false },
+            { "text": "Comparta su hueso voluntariamente en el futuro.", "correct": false }
+        ],
+        "explanation": "Castigar las señales de advertencia como el gruñido es extremadamente peligroso. No se elimina la emoción subyacente (el miedo a perder el recurso), solo se suprime la comunicación. El perro aprende que avisar es castigado, por lo que la próxima vez puede saltarse el aviso y pasar directamente a la mordida."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "La 'latencia de la respuesta' es una medida útil para evaluar el aprendizaje. Una latencia que disminuye con el tiempo indica que:",
+        "answers": [
+            { "text": "El perro está perdiendo la motivación.", "correct": false },
+            { "text": "El perro está respondiendo a la señal cada vez más rápidamente, lo que sugiere que la conducta se está volviendo más fluida.", "correct": true },
+            { "text": "La sesión de entrenamiento es demasiado larga.", "correct": false },
+            { "text": "El perro no entiende la señal.", "correct": false }
+        ],
+        "explanation": "Medir la latencia (el tiempo entre la señal y el inicio de la respuesta) es una forma objetiva de monitorizar el progreso. Si al principio el perro tardaba 5 segundos en sentarse y ahora tarda 1, es un claro indicador de que el aprendizaje ha ocurrido."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "La habituación y la desensibilización son similares, pero una diferencia clave es que:",
+        "answers": [
+            { "text": "La habituación se refiere a estímulos neutros, mientras que la desensibilización se refiere a estímulos que ya provocan una respuesta de miedo o ansiedad.", "correct": true },
+            { "text": "La desensibilización es un proceso natural y la habituación requiere entrenamiento activo.", "correct": false },
+            { "text": "La habituación es permanente y la desensibilización es temporal.", "correct": false },
+            { "text": "No hay ninguna diferencia.", "correct": false }
+        ],
+        "explanation": "Un cachorro se habitúa al sonido de la lavadora (estímulo inicialmente neutro). Un perro con miedo a los coches necesita un protocolo de desensibilización para reducir gradualmente su respuesta de miedo. No se puede 'habituar' a algo que ya se percibe como una amenaza."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "¿Cuál es el principal problema de la 'corrección' o el castigo en el timing?",
+        "answers": [
+            { "text": "Si se aplica demasiado pronto, el perro no sabrá qué se está castigando.", "correct": false },
+            { "text": "Para ser efectivo (aunque no recomendable), un castigo debe ser inmediato (ocurrir en menos de un segundo) y aplicarse cada vez que ocurre la conducta, lo cual es casi imposible de lograr para un dueño promedio.", "correct": true },
+            { "text": "El castigo funciona mejor si se aplica horas después de la conducta.", "correct": false },
+            { "text": "El timing no es importante para el castigo.", "correct": false }
+        ],
+        "explanation": "Un castigo demorado es inútil y cruel. El perro no puede conectar la corrección con una acción que realizó minutos u horas antes. Lo único que aprende es que su dueño es impredecible y una fuente de miedo, lo que daña gravemente el vínculo."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "El aprendizaje vicario es otra forma de llamar a:",
+        "answers": [
+            { "text": "El condicionamiento clásico.", "correct": false },
+            { "text": "El aprendizaje por observación o social.", "correct": true },
+            { "text": "El condicionamiento operante.", "correct": false },
+            { "text": "La habituación.", "correct": false }
+        ],
+        "explanation": "El aprendizaje vicario se refiere específicamente a aprender observando las consecuencias que las acciones de otro individuo tienen para él. Es un componente clave del aprendizaje social."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "El 'targeting' es una técnica que consiste en enseñar a un perro a:",
+        "answers": [
+            { "text": "Morder un objetivo específico en entrenamientos de protección.", "correct": false },
+            { "text": "Tocar una parte de su cuerpo (nariz, pata) a un objeto específico (la mano, un palo de target).", "correct": true },
+            { "text": "Fijar su mirada en el guía durante el paseo.", "correct": false },
+            { "text": "Seleccionar un objetivo de comida entre varias opciones.", "correct": false }
+        ],
+        "explanation": "El targeting es increíblemente versátil. Una vez que el perro sabe seguir un target, se puede usar para guiarlo a nuevas posiciones (subir a una báscula, entrar al coche), para enseñarle a moverse sin usar señuelos, y como una conducta incompatible en muchos escenarios."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "Si un perro tira de la correa y el dueño usa un collar que se aprieta, el perro puede dejar de tirar. Sin embargo, por condicionamiento clásico, el perro podría asociar la sensación de ahogo con:",
+        "answers": [
+            { "text": "El dueño, mejorando su obediencia.", "correct": false },
+            { "text": "Los estímulos que estaban presentes cuando tiró (p. ej., otros perros, niños), desarrollando o empeorando la reactividad hacia ellos.", "correct": true },
+            { "text": "La hora del día a la que pasea.", "correct": false },
+            { "text": "El tipo de pavimento por el que camina.", "correct": false }
+        ],
+        "explanation": "Este es un ejemplo perfecto del 'fallout' y de cómo el condicionamiento clásico y operante siempre ocurren a la vez. Mientras el dueño intenta usar el refuerzo negativo para la conducta de tirar, está aplicando un castigo positivo que se asocia clásicamente con todo lo que rodea al perro, creando un problema mucho peor."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "La 'magnitud del reforzador' es importante. Un perro trabajará más duro y aprenderá más rápido una tarea difícil si el reforzador es:",
+        "answers": [
+            { "text": "Su pienso habitual.", "correct": false },
+            { "text": "Un trozo de salchicha o pollo.", "correct": true },
+            { "text": "Una caricia en la cabeza.", "correct": false },
+            { "text": "Una palabra de ánimo.", "correct": false }
+        ],
+        "explanation": "El valor del reforzador es subjetivo y contextual, pero para tareas nuevas o difíciles, o en entornos con muchas distracciones, usar un reforzador de 'alto valor' aumenta la motivación y la probabilidad de éxito. Hay que 'pagar' al perro de acuerdo a la dificultad del 'trabajo'."
+    },
+    {
+        "asignatura": "Principios Científicos del Aprendizaje",
+        "question": "El 'reflejo de orientación' es la respuesta innata de un animal a:",
+        "answers": [
+            { "text": "Orientarse hacia el norte magnético.", "correct": false },
+            { "text": "Un estímulo novedoso, súbito o significativo, dirigiendo sus órganos sensoriales hacia él para recopilar información.", "correct": true },
+            { "text": "La comida.", "correct": false },
+            { "text": "La voz de su dueño.", "correct": false }
+        ],
+        "explanation": "El reflejo de orientación es la respuesta de '¿Qué es eso?'. Es la base de la atención. En el entrenamiento, a menudo lo capturamos y reforzamos (p. ej., en juegos de atención) para enseñar al perro a orientarse hacia nosotros de forma voluntaria."
+    }
+]

@@ -162,7 +162,7 @@
             { "text": "Establecer jerarquías de dominancia rígidas.", "correct": false },
             { "text": "Un comportamiento anómalo producto de la domesticación.", "correct": false }
         ],
-        "explanation": "(Nivel Intermedio) El juego es un 'gimnasio para la vida'. A través de él, los cachorros desarrollan coordinación, aprenden a inhibir la mordida, a interpretar el lenguaje corporal y a gestionar la excitación, habilidades cruciais para la vida adulta."
+        "explanation": "(Nivel Intermedio) El juego es un 'gimnasio para la vida'. A través de él, los cachorros desarrollan coordinación, aprenden a inhibir la mordida, a interpretar el lenguaje corporal y a gestionar la excitación, habilidades cruciales para la vida adulta."
     },
     {
         "asignatura": "Etología, Evolución y Domesticación del Perro",
@@ -177,7 +177,7 @@
     },
     {
         "asignatura": "Etología, Evolución y Domesticación del Perro",
-        "question": "El 'modelo de la dominancia' para explicar las relaciones sociais caninas ha sido refutado por la etología moderna porque:",
+        "question": "El 'modelo de la dominancia' para explicar las relaciones sociales caninas ha sido refutado por la etología moderna porque:",
         "answers": [
             { "text": "Asume que el objetivo de un perro es ascender en una jerarquía rígida, cuando las relaciones son fluidas y dependientes del contexto.", "correct": true },
             { "text": "Los perros no son capaces de mostrar comportamientos de sumisión.", "correct": false },
@@ -195,7 +195,7 @@
             { "text": "Es una señal de desplazamiento o de estrés, indicando que la situación le genera un leve conflicto o ansiedad.", "correct": true },
             { "text": "Está mostrando dominancia sobre el entrenador.", "correct": false }
         ],
-        "explanation": "(Nivel Fundamental) Aunque un bostezo puede significar cansancio, en contextos sociais o de entrenamiento, a menudo es una 'señal de calma' o una conducta de desplazamiento que el perro utiliza para gestionar un nivel bajo de estrés o conflicto."
+        "explanation": "(Nivel Fundamental) Aunque un bostezo puede significar cansancio, en contextos sociales o de entrenamiento, a menudo es una 'señal de calma' o una conducta de desplazamiento que el perro utiliza para gestionar un nivel bajo de estrés o conflicto."
     },
     {
         "asignatura": "Etología, Evolución y Domesticación del Perro",
@@ -283,7 +283,7 @@
             { "text": "Actuar como el centro de procesamiento de emociones, especialmente el miedo y la formación de memorias asociadas a él.", "correct": true },
             { "text": "Regular el ciclo de sueño y vigilia.", "correct": false }
         ],
-        "explanation": "La amígdala es una estructura clave del sistema límbico. Actúa como una 'alarma' cerebral, evaluando los estímulos del entorno en busca de amenazas potenciais y desencadenando las respuestas fisiológicas y conductuais del miedo."
+        "explanation": "La amígdala es una estructura clave del sistema límbico. Actúa como una 'alarma' cerebral, evaluando los estímulos del entorno en busca de amenazas potenciales y desencadenando las respuestas fisiológicas y conductuales del miedo."
     },
     {
         "asignatura": "Neurobiología y Fisiología del Comportamiento",
@@ -331,7 +331,7 @@
     },
     {
         "asignatura": "Neurobiología y Fisiología del Comportamiento",
-        "question": "Un perro presenta un aumento repentino de la irritabilidad, reactividad e incluso agresión. Un veterinario sospecha de una causa médica subyacente. ¿Qué condición del sistema endocrino es una de las principais sospechosas de causar estos cambios conductuais?",
+        "question": "Un perro presenta un aumento repentino de la irritabilidad, reactividad e incluso agresión. Un veterinario sospecha de una causa médica subyacente. ¿Qué condición del sistema endocrino es una de las principales sospechosas de causar estos cambios conductuales?",
         "answers": [
             { "text": "Hipertiroidismo.", "correct": false },
             { "text": "Hipotiroidismo.", "correct": true },
@@ -349,7 +349,7 @@
             { "text": "Todos los perros de una misma raza tienen cerebros idénticos.", "correct": false },
             { "text": "Las neuronas caninas están hechas de un material elástico.", "correct": false }
         ],
-        "explanation": "La plasticidad neuronal es la base del aprendizaje y la memoria. Cada vez que un perro aprende algo nuevo o vive una experiencia significativa, se crean o fortalecen conexiones neuronais. Es el mecanismo que permite que la modificación de conducta funcione."
+        "explanation": "La plasticidad neuronal es la base del aprendizaje y la memoria. Cada vez que un perro aprende algo nuevo o vive una experiencia significativa, se crean o fortalecen conexiones neuronales. Es el mecanismo que permite que la modificación de conducta funcione."
     },
     {
         "asignatura": "Neurobiología y Fisiología del Comportamiento",
@@ -360,7 +360,7 @@
             { "text": "El cerebro procesa y consolida las memorias y los aprendizajes adquiridos durante el día.", "correct": true },
             { "text": "Se liberan hormonas de crecimiento para el desarrollo físico.", "correct": false }
         ],
-        "explanation": "El sueño no es un proceso pasivo. La fase REM es un período de alta actividad cerebral donde se 'archiva' la información importante, se fortalecen las habilidades aprendidas y se procesan las experiencias emocionais. Un descanso de calidad es fundamental para el éxito de cualquier programa de entrenamiento o modificación de conducta."
+        "explanation": "El sueño no es un proceso pasivo. La fase REM es un período de alta actividad cerebral donde se 'archiva' la información importante, se fortalecen las habilidades aprendidas y se procesan las experiencias emocionales. Un descanso de calidad es fundamental para el éxito de cualquier programa de entrenamiento o modificación de conducta."
     },
     {
         "asignatura": "Neurobiología y Fisiología del Comportamiento",
@@ -371,7 +371,7 @@
             { "text": "Mejora la agudeza visual del perro para que pueda evitar amenazas.", "correct": false },
             { "text": "Reduce la capacidad del perro para oler, por lo que se asusta más fácilmente.", "correct": false }
         ],
-        "explanation": "El dolor crónico y el estrés comparten vías neurológicas. Un perro con dolor vive con un nivel de estrés y malestar de base elevado, lo que le hace tener menos recursos emocionais y fisiológicos para gestionar otros estresores del día a día, reaccionando de forma defensiva mucho antes."
+        "explanation": "El dolor crónico y el estrés comparten vías neurológicas. Un perro con dolor vive con un nivel de estrés y malestar de base elevado, lo que le hace tener menos recursos emocionales y fisiológicos para gestionar otros estresores del día a día, reaccionando de forma defensiva mucho antes."
     },
     {
         "asignatura": "Neurobiología y Fisiología del Comportamiento",
@@ -390,7 +390,7 @@
         "answers": [
             { "text": "La respiración y el ritmo cardíaco.", "correct": false },
             { "text": "La digestión de los alimentos.", "correct": false },
-            { "text": "Funciones ejecutivas como la toma de decisiones, la inhibición de impulsos y la modulación de respuestas emocionais generadas en el sistema límbico.", "correct": true },
+            { "text": "Funciones ejecutivas como la toma de decisiones, la inhibición de impulsos y la modulación de respuestas emocionales generadas en el sistema límbico.", "correct": true },
             { "text": "La percepción de los olores.", "correct": false }
         ],
         "explanation": "El córtex prefrontal es el 'CEO' del cerebro. Cuando un perro aprende a 'esperar' en lugar de lanzarse sobre la comida, es su córtex prefrontal el que está inhibiendo la respuesta impulsiva generada por el sistema límbico. El estrés crónico puede perjudicar su funcionamiento."

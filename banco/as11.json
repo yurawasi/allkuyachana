@@ -1,0 +1,530 @@
+[
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "Un cliente, frustrado, le pide que utilice un collar de descargas porque 'es más rápido'. Según la jerarquía de intervenciones (LIMA), su respuesta profesional debería ser:",
+        "answers": [
+            { "text": "Aceptar, ya que el cliente es quien paga por el servicio.", "correct": false },
+            { "text": "Explicar empáticamente la frustración del cliente, pero mantenerse firme en los principios éticos, detallando los riesgos del castigo positivo y reenfocando la conversación en el plan actual.", "correct": true },
+            { "text": "Derivar inmediatamente el caso a un entrenador que sí utilice esas herramientas.", "correct": false },
+            { "text": "Utilizar el collar, pero sin que el cliente se dé cuenta de que está apagado.", "correct": false }
+        ],
+        "explanation": "La adherencia a un código ético como LIMA no es opcional. El rol del profesional es educar al cliente sobre las prácticas más humanas y efectivas, validando sus emociones pero sin comprometer el bienestar del animal. Ceder a peticiones que violan los principios éticos es una falta grave."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "El concepto de 'fatiga por compasión' (compassion fatigue) se refiere a:",
+        "answers": [
+            { "text": "El cansancio físico después de una larga sesión de entrenamiento.", "correct": false },
+            { "text": "Un estado de agotamiento emocional, físico y mental causado por la exposición prolongada al estrés y al trauma de los animales y sus clientes.", "correct": true },
+            { "text": "La pérdida de interés en la profesión por falta de casos interesantes.", "correct": false },
+            { "text": "Una alergia desarrollada por el contacto con los animales.", "correct": false }
+        ],
+        "explanation": "La fatiga por compasión es un riesgo laboral significativo. Reconocer sus síntomas (cinismo, agotamiento, reducción de la empatía) y tener estrategias de autocuidado es fundamental para mantener la salud mental y la calidad del servicio a largo plazo."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "Durante una consulta, un cliente se derrumba y llora. La habilidad de comunicación más importante que debe emplear en ese momento es:",
+        "answers": [
+            { "text": "Ofrecer inmediatamente una solución técnica para desviar la atención.", "correct": false },
+            { "text": "La escucha activa y la validación emocional: reflejar lo que está escuchando ('Suena como que esta situación es increíblemente dura') sin juzgar ni minimizar.", "correct": true },
+            { "text": "Contarle una historia de un caso peor para poner su situación en perspectiva.", "correct": false },
+            { "text": "Cambiar de tema para hablar de los costes de la sesión.", "correct": false }
+        ],
+        "explanation": "Los clientes necesitan ser escuchados y comprendidos antes de poder asimilar consejos técnicos. La validación emocional crea un espacio de seguridad y confianza, fortaleciendo la alianza terapéutica y haciendo al cliente mucho más receptivo al plan de acción."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "¿Cuál es el límite profesional más importante que un educador canino debe respetar en relación con la salud del perro?",
+        "answers": [
+            { "text": "Puede recomendar suplementos y diagnosticar condiciones médicas si tiene experiencia.", "correct": false },
+            { "text": "Bajo ninguna circunstancia debe ofrecer un diagnóstico médico, prescribir medicación o dar consejos que entren en el ámbito de la práctica veterinaria. Su rol es referir al veterinario.", "correct": true },
+            { "text": "Puede sugerir que el cliente suspenda una medicación prescrita por el veterinario.", "correct": false },
+            { "text": "Puede realizar ajustes quiroprácticos si ha visto vídeos sobre cómo hacerlo.", "correct": false }
+        ],
+        "explanation": "Invadir el campo de la medicina veterinaria no solo es poco ético, sino que es ilegal y peligroso. La colaboración, no la suplantación, es la clave. El profesional del comportamiento es un experto en conducta, y su responsabilidad es trabajar en equipo con el veterinario."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "Al presentar un plan de modificación de conducta, un cliente dice: 'Esto es demasiado complicado'. La mejor estrategia es:",
+        "answers": [
+            { "text": "Simplificar el plan hasta que pierda su efectividad.", "correct": false },
+            { "text": "Explicar la importancia de cada componente, desglosar el plan en pasos muy pequeños y manejables, y enfocarse en la primera acción concreta y fácil que pueden realizar.", "correct": true },
+            { "text": "Decirle al cliente que si no puede seguir el plan, no puede ayudarle.", "correct": false },
+            { "text": "Hacer todo el trabajo usted mismo sin involucrar al cliente.", "correct": false }
+        ],
+        "explanation": "El éxito depende de la adherencia del cliente al plan. Si el cliente se siente abrumado, no lo implementará. El trabajo del profesional es ser un buen 'traductor' y 'entrenador' para el humano, asegurándose de que se sienta competente y apoyado."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "El uso de etiquetas como 'dominante' o 'vengativo' en un informe profesional es inapropiado porque:",
+        "answers": [
+            { "text": "Son términos demasiado científicos para el cliente.", "correct": false },
+            { "text": "Son interpretaciones antropomórficas que no describen el comportamiento objetivamente, obstaculizan un análisis funcional y afectan negativamente la percepción del dueño.", "correct": true },
+            { "text": "Estas etiquetas son siempre correctas.", "correct": false },
+            { "text": "La ley prohíbe el uso de estos adjetivos.", "correct": false }
+        ],
+        "explanation": "Un lenguaje profesional se centra en la descripción observable: 'El perro gruñe cuando se le acerca al plato de comida' en lugar de 'El perro es dominante'. Esto mantiene el foco en el comportamiento que se puede cambiar, en lugar de en un rasgo de carácter supuestamente inmutable."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "Un cliente le confiesa que a veces golpea a su perro por frustración. Usted tiene la obligación ética y, en muchas jurisdicciones, legal de:",
+        "answers": [
+            { "text": "Ignorar el comentario para no dañar la relación con el cliente.", "correct": false },
+            { "text": "Reportar la situación a las autoridades de protección animal correspondientes, documentando la confesión de forma objetiva.", "correct": true },
+            { "text": "Decirle al cliente que usted hará lo mismo si no sigue sus instrucciones.", "correct": false },
+            { "text": "Terminar la relación profesional inmediatamente sin explicación.", "correct": false }
+        ],
+        "explanation": "El bienestar del animal es la prioridad absoluta. Aunque la situación es delicada, el profesional tiene el deber de actuar ante una confesión de maltrato. Es crucial conocer la legislación local sobre el reporte de crueldad animal."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "En su publicidad, un entrenador garantiza 'resultados en 24 horas'. Esta práctica de marketing es:",
+        "answers": [
+            { "text": "Una forma inteligente y competitiva de atraer clientes.", "correct": false },
+            { "text": "Poco ética, ya que crea expectativas poco realistas y las garantías en el comportamiento animal son imposibles de cumplir.", "correct": true },
+            { "text": "El estándar de la industria para la publicidad.", "correct": false },
+            { "text": "Aceptable si el entrenador realmente lo cree.", "correct": false }
+        ],
+        "explanation": "El marketing ético se basa en la honestidad y la transparencia. Prometer curas milagrosas es una señal de alerta y daña la credibilidad de toda la profesión. Un profesional ético educa al cliente sobre la complejidad y los plazos realistas del cambio de comportamiento."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "En un caso de agresión severa con un pronóstico muy reservado, la conversación más difícil pero éticamente necesaria con la familia podría incluir:",
+        "answers": [
+            { "text": "Recomendarles que regalen el perro sin revelar su historial.", "correct": false },
+            { "text": "Presentar de forma objetiva la evaluación de riesgo, las opciones de manejo y, si es apropiado, abrir la discusión sobre la eutanasia conductual como una opción.", "correct": true },
+            { "text": "Negarse a discutir la eutanasia bajo cualquier circunstancia.", "correct": false },
+            { "text": "Asegurarles que todos los perros pueden ser rehabilitados por completo.", "correct": false }
+        ],
+        "explanation": "En casos extremos, la responsabilidad del profesional es proporcionar a la familia toda la información objetiva para que puedan tomar una decisión informada. Evitar esta conversación por incomodidad personal puede poner en riesgo la seguridad y prolongar el sufrimiento de un animal."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "El mantenimiento de la confidencialidad del cliente implica:",
+        "answers": [
+            { "text": "No discutir los detalles de un caso con nadie.", "correct": false },
+            { "text": "Discutir el caso en redes sociales, pero cambiando el nombre del perro.", "correct": false },
+            { "text": "No compartir información identificable del caso con terceros sin el consentimiento explícito del cliente, excepto en casos de consulta profesional o deber legal de informar.", "correct": true },
+            { "text": "Compartir vídeos de las sesiones en su página web para promocionarse.", "correct": false }
+        ],
+        "explanation": "La confidencialidad es la base de la confianza. Los clientes comparten información sensible y esperan que se maneje con la máxima discreción. Las consultas entre profesionales implicados en el caso (p.ej., veterinario) son una excepción necesaria, pero la difusión pública sin permiso es una grave falta de ética."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "El 'scope of practice' (ámbito de competencia) de un educador canino significa:",
+        "answers": [
+            { "text": "Que puede ofrecer consejos sobre cualquier tema relacionado con los perros.", "correct": false },
+            { "text": "Reconocer los límites de su propio conocimiento y habilidades, y saber cuándo referir un caso a otro profesional (veterinario, nutricionista, fisioterapeuta).", "correct": true },
+            { "text": "Que solo puede trabajar con perros de ciertas razas.", "correct": false },
+            { "text": "Que debe intentar resolver todos los problemas por sí mismo para demostrar su valía.", "correct": false }
+        ],
+        "explanation": "Un verdadero profesional conoce los límites de su experiencia. Parte de la práctica ética es tener una red de otros especialistas y saber cuándo un problema (p. ej., una cojera sutil, una posible alergia) está fuera de su ámbito y requiere la experiencia de un veterinario."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "Un cliente le envía un vídeo de su perro realizando una conducta agresiva. ¿Cuál es la forma más ética de usar ese material?",
+        "answers": [
+            { "text": "Subirlo a YouTube para mostrar un caso de estudio interesante.", "correct": false },
+            { "text": "Usarlo para su análisis privado y, solo con el consentimiento explícito y por escrito del cliente, utilizarlo de forma anónima para fines educativos o de consulta.", "correct": true },
+            { "text": "Compartirlo en un grupo de WhatsApp de amigos para pedir opiniones.", "correct": false },
+            { "text": "Publicarlo en su página web como un ejemplo de 'lo que no hay que hacer'.", "correct": false }
+        ],
+        "explanation": "El material del cliente (vídeos, fotos, informes) está protegido por la confidencialidad. Su uso para cualquier fin que no sea el tratamiento directo del caso requiere un permiso informado, específico y documentado por parte del cliente."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "La 'alianza terapéutica' se refiere a la relación de colaboración y confianza entre el profesional y el cliente. Se fortalece mediante:",
+        "answers": [
+            { "text": "La empatía, la escucha activa, la definición de objetivos comunes y la celebración de los pequeños éxitos.", "correct": true },
+            { "text": "Demostrar superioridad intelectual y usar un lenguaje muy técnico.", "correct": false },
+            { "text": "Hacerse amigo del cliente y discutir temas personales.", "correct": false },
+            { "text": "Garantizar resultados rápidos desde la primera sesión.", "correct": false }
+        ],
+        "explanation": "Una alianza terapéutica fuerte es el mejor predictor del éxito en un caso. Si el cliente confía en usted, se siente escuchado y es parte activa en la toma de decisiones, será mucho más propenso a seguir el plan de tratamiento, incluso cuando sea difícil."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "Usted observa que un colega utiliza y promueve métodos basados en el castigo físico. La forma más constructiva de abordar la situación es:",
+        "answers": [
+            { "text": "Denunciarlo públicamente en redes sociales.", "correct": false },
+            { "text": "Enfocarse en educar al público y a sus propios clientes sobre las prácticas basadas en la ciencia, y si es apropiado y posible, tener una conversación privada y respetuosa con el colega.", "correct": true },
+            { "text": "Ignorarlo, ya que no es su problema.", "correct": false },
+            { "text": "Empezar a usar los mismos métodos para no perder clientes.", "correct": false }
+        ],
+        "explanation": "El objetivo es elevar el estándar de la profesión, no iniciar guerras públicas. La educación proactiva del público es la herramienta más poderosa. El ataque directo a menudo genera una reacción defensiva y no promueve el cambio."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "Un cliente cancela una cita 10 minutos antes, por segunda vez. Una política de cancelación profesional y ética debería:",
+        "answers": [
+            { "text": "No tener ninguna política de cancelación para ser flexible.", "correct": false },
+            { "text": "Estar claramente comunicada por escrito desde el inicio de la relación profesional, especificando los plazos y los posibles cargos por cancelación tardía.", "correct": true },
+            { "text": "Cobrar la sesión completa sin ninguna excepción y sin aviso previo.", "correct": false },
+            { "text": "Regañar al cliente por su falta de compromiso.", "correct": false }
+        ],
+        "explanation": "Una política de cancelación clara no es un castigo, es un límite profesional que protege el tiempo y el negocio del profesional. Debe ser comunicada de antemano de forma transparente para que el cliente la conozca y acepte al contratar los servicios."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "El 'consentimiento informado' en el contexto de un plan de modificación de conducta significa:",
+        "answers": [
+            { "text": "Que el cliente simplemente firma un papel al principio.", "correct": false },
+            { "text": "Que el profesional ha explicado claramente el plan, los métodos que se usarán, los posibles resultados, los riesgos, los costes y las alternativas, y el cliente ha dado su acuerdo de forma voluntaria.", "correct": true },
+            { "text": "Que el perro ha dado su consentimiento para ser entrenado.", "correct": false },
+            { "text": "Que el profesional tiene permiso para hacer lo que considere necesario sin consultar al cliente.", "correct": false }
+        ],
+        "explanation": "El consentimiento informado es un proceso continuo de comunicación. El cliente debe ser un socio informado en el tratamiento, entendiendo no solo qué se va a hacer, sino por qué, y cuáles son las expectativas realistas."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "Usted está trabajando con un perro que tiene un historial de mordidas. El cliente se niega a usar un bozal por considerarlo 'cruel'. Su responsabilidad ética es:",
+        "answers": [
+            { "text": "Continuar con el plan sin el bozal para no contrariar al cliente.", "correct": false },
+            { "text": "Educar al cliente sobre cómo el acondicionamiento positivo hace que el bozal sea una herramienta de seguridad no aversiva, y explicar que, por seguridad, no puede proceder con ciertos ejercicios sin él.", "correct": true },
+            { "text": "Usar un bozal a escondidas del cliente.", "correct": false },
+            { "text": "Regañar al cliente por su irresponsabilidad.", "correct": false }
+        ],
+        "explanation": "La seguridad no es negociable. El profesional tiene el deber de protegerse a sí mismo, al cliente y al público. Si no se puede garantizar la seguridad porque el cliente rechaza una medida de gestión fundamental, puede ser éticamente necesario rechazar o terminar el caso."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "Un conflicto de intereses podría surgir si un profesional:",
+        "answers": [
+            { "text": "Recomienda un producto (p. ej., un tipo de pienso o arnés) principalmente porque recibe una alta comisión por su venta, y no porque sea la mejor opción para el perro.", "correct": true },
+            { "text": "Colabora con el veterinario del perro.", "correct": false },
+            { "text": "Se especializa en una raza de perro en particular.", "correct": false },
+            { "text": "Cobra por sus servicios profesionales.", "correct": false }
+        ],
+        "explanation": "La integridad profesional exige que las recomendaciones se basen únicamente en el mejor interés del perro y del cliente. Cualquier incentivo financiero que pueda influir en esa recomendación debe ser, como mínimo, revelado de forma transparente, aunque la mejor práctica es evitarlo."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "El mantenimiento de registros precisos y detallados de cada caso es importante para:",
+        "answers": [
+            { "text": "Tener material para escribir un libro.", "correct": false },
+            { "text": "Monitorizar el progreso de forma objetiva, facilitar la comunicación con otros profesionales (como veterinarios) y como protección legal.", "correct": true },
+            { "text": "Demostrar al cliente cuánto trabajo se está haciendo.", "correct": false },
+            { "text": "Es una pérdida de tiempo que podría dedicarse a entrenar.", "correct": false }
+        ],
+        "explanation": "La documentación profesional es una marca de competencia. Permite un seguimiento sistemático, asegura la continuidad del cuidado si el caso se transfiere y proporciona un registro factual de las recomendaciones y el progreso del caso."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "Un cliente le pide consejo sobre un problema de comportamiento de su vecino. La respuesta ética es:",
+        "answers": [
+            { "text": "Darle un diagnóstico y un plan de tratamiento basado en la descripción del cliente.", "correct": false },
+            { "text": "Explicar que no es profesional ni ético dar consejos sobre un perro que no ha evaluado personalmente, y sugerir que el vecino contacte directamente con un profesional.", "correct": true },
+            { "text": "Ir a casa del vecino y ofrecerle sus servicios sin haber sido invitado.", "correct": false },
+            { "text": "Criticar al vecino por su mal manejo del perro.", "correct": false }
+        ],
+        "explanation": "Un profesional solo puede hacer recomendaciones basadas en una evaluación de primera mano del animal y su entorno. Dar consejos 'de oídas' es irresponsable y puede ser peligroso."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "La educación continua (asistir a seminarios, leer estudios) es una obligación ética para un profesional porque:",
+        "answers": [
+            { "text": "Le permite aumentar sus tarifas cada año.", "correct": false },
+            { "text": "El campo del comportamiento animal está en constante evolución, y es su responsabilidad mantenerse actualizado sobre las últimas investigaciones y las mejores prácticas para ofrecer el mejor servicio posible.", "correct": true },
+            { "text": "Es un requisito para mantener un perfil en redes sociales.", "correct": false },
+            { "text": "Una vez obtenida la certificación inicial, no es necesario seguir estudiando.", "correct": false }
+        ],
+        "explanation": "La competencia profesional no es un estado estático. Un profesional ético está comprometido con un aprendizaje de por vida, reconociendo que nuestro entendimiento sobre el comportamiento canino se profundiza y cambia constantemente."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "El 'efecto placebo del cuidador' puede llevar a un cliente a creer que un tratamiento está funcionando cuando no hay una mejora objetiva. Para manejar esto, el profesional debe:",
+        "answers": [
+            { "text": "Confiar ciegamente en la percepción subjetiva del cliente.", "correct": false },
+            { "text": "Haber establecido desde el principio una forma de medir el comportamiento de forma objetiva (p. ej., un diario de frecuencia de ladridos), para poder comparar los datos con la percepción del cliente.", "correct": true },
+            { "text": "Decirle al cliente que está equivocado y que el tratamiento no funciona.", "correct": false },
+            { "text": "Cambiar el tratamiento inmediatamente, aunque no sea necesario.", "correct": false }
+        ],
+        "explanation": "Los datos objetivos son el mejor antídoto contra el sesgo. Si un cliente dice 'creo que está mejor', una respuesta profesional es '¡Genial! Vamos a mirar el diario que ha estado llevando para ver cómo ha bajado la frecuencia de las reacciones esta semana'."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "Al referir un caso a un veterinario del comportamiento, la comunicación más útil que puede proporcionar es:",
+        "answers": [
+            { "text": "Su opinión personal sobre el cliente.", "correct": false },
+            { "text": "Un informe conciso y objetivo que incluya el historial del comportamiento, las observaciones (idealmente con datos de línea base) y las intervenciones que ya se han intentado.", "correct": true },
+            { "text": "Un diagnóstico conductual definitivo.", "correct": false },
+            { "text": "Solo el número de teléfono del cliente.", "correct": false }
+        ],
+        "explanation": "La colaboración efectiva se basa en una comunicación clara y profesional. Proporcionar un informe bien estructurado le ahorra tiempo al veterinario, le da una imagen completa del caso y posiciona al educador como un colega competente y valioso."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "Un cliente no está siguiendo el plan de gestión de seguridad para su perro agresivo. Su primera acción debería ser:",
+        "answers": [
+            { "text": "Terminar el caso inmediatamente por email.", "correct": false },
+            { "text": "Tener una conversación empática y sin juicios para entender las barreras que impiden al cliente seguir el plan (¿es demasiado difícil?, ¿no entiende la importancia?) y buscar soluciones juntos.", "correct": true },
+            { "text": "Amenazar con reportar al cliente a las autoridades.", "correct": false },
+            { "text": "Ignorar la falta de cumplimiento y seguir con el plan de entrenamiento.", "correct": false }
+        ],
+        "explanation": "La no adherencia a menudo no es por 'mala voluntad', sino por sentirse abrumado o no comprender completamente los riesgos. El primer paso es siempre la comunicación y la resolución de problemas. Si la seguridad sigue siendo un problema insalvable, entonces se deben considerar otras opciones, como terminar la relación profesional."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "El concepto de 'transferencia' en una relación terapéutica ocurre cuando:",
+        "answers": [
+            { "text": "El profesional transfiere el caso a un colega.", "correct": false },
+            { "text": "El cliente proyecta inconscientemente en el profesional sentimientos o actitudes que tiene hacia figuras importantes de su pasado.", "correct": true },
+            { "text": "El perro transfiere su afecto de un dueño a otro.", "correct": false },
+            { "text": "El profesional transfiere dinero de una cuenta a otra.", "correct": false }
+        ],
+        "explanation": "La contratransferencia (cuando el profesional proyecta sus propios sentimientos en el cliente) también es relevante. Ser consciente de estas dinámicas psicológicas es importante para mantener los límites profesionales y asegurar que la relación se mantenga enfocada en el bienestar del perro y el apoyo al cliente."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "Utilizar un lenguaje claro y accesible, evitando la jerga técnica innecesaria, es una habilidad de comunicación clave porque:",
+        "answers": [
+            { "text": "Hace que el profesional parezca menos inteligente.", "correct": false },
+            { "text": "Empodera al cliente, asegurando que entienda verdaderamente el porqué de las intervenciones y se sienta más competente para llevarlas a cabo.", "correct": true },
+            { "text": "La jerga técnica siempre es más precisa y debe usarse en todo momento.", "correct": false },
+            { "text": "Es una forma de simplificar demasiado los problemas complejos.", "correct": false }
+        ],
+        "explanation": "El objetivo de la comunicación no es impresionar, sino educar. Un buen profesional es un buen 'traductor' de la ciencia. Usar analogías y un lenguaje sencillo aumenta la comprensión y la adherencia del cliente al plan."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "Un cliente le pide que entrene a su perro para que sea un 'perro de protección' para su familia. Su primera y más importante pregunta debería ser:",
+        "answers": [
+            { "text": "¿Qué raza es el perro?", "correct": false },
+            { "text": "Explorar en profundidad las motivaciones y expectativas del cliente para entender si realmente necesita un perro de protección o si sus preocupaciones sobre seguridad pueden abordarse con un entrenamiento de alerta y un buen manejo.", "correct": true },
+            { "text": "¿Cuánto está dispuesto a pagar?", "correct": false },
+            { "text": "¿El perro ya sabe morder?", "correct": false }
+        ],
+        "explanation": "El entrenamiento de protección es una disciplina altamente especializada y con enormes riesgos si se hace incorrectamente o con el perro equivocado. La responsabilidad ética del profesional es evaluar si las necesidades del cliente son realistas y si este tipo de entrenamiento es apropiado y seguro para el perro y la comunidad."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "El 'sesgo de optimismo' puede ser un problema en un caso de agresión porque:",
+        "answers": [
+            { "text": "Tanto el dueño como el profesional pueden subestimar el riesgo real y la probabilidad de una mordida, llevando a una gestión de seguridad laxa.", "correct": true },
+            { "text": "El optimismo siempre es beneficioso para el proceso de modificación de conducta.", "correct": false },
+            { "text": "Solo afecta a los profesionales novatos.", "correct": false },
+            { "text": "Hace que el perro se vuelva demasiado confiado.", "correct": false }
+        ],
+        "explanation": "Si bien la esperanza es importante, debe estar anclada en una evaluación de riesgo objetiva. Un optimismo poco realista ('seguro que no lo volverá a hacer') puede llevar a tomar decisiones peligrosas. El profesional debe mantener siempre una perspectiva realista y basada en los datos."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "Un cliente le informa que ha estado usando un collar de descargas y que 'ha funcionado'. Una respuesta empática y educativa sería:",
+        "answers": [
+            { "text": "Regañarle por haber usado una herramienta aversiva.", "correct": false },
+            { "text": "Validar su experiencia ('Entiendo que has visto una reducción del comportamiento y que eso te ha dado alivio'), y luego abrir una conversación sobre los posibles efectos secundarios y explorar alternativas más seguras.", "correct": true },
+            { "text": "Decirle que está mintiendo, porque esas herramientas nunca funcionan.", "correct": false },
+            { "text": "Felicitarle por haber encontrado una solución por su cuenta.", "correct": false }
+        ],
+        "explanation": "La confrontación directa a menudo cierra la comunicación. El objetivo es mantener al cliente receptivo. Al validar su percepción primero, se abre la puerta para educarle sobre los riesgos del 'fallout' (aumento del miedo, agresión redirigida) y presentarle los beneficios de los métodos basados en el refuerzo."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "Establecer 'expectativas realistas' es una de las tareas más importantes de un profesional. Esto incluye explicar al cliente que:",
+        "answers": [
+            { "text": "La modificación de conducta es un proceso a menudo lento, que requiere consistencia, y que el objetivo es la mejora y el manejo, no necesariamente una 'cura' completa.", "correct": true },
+            { "text": "El problema se solucionará por completo en tres sesiones.", "correct": false },
+            { "text": "Una vez que el perro mejore, no volverá a tener una recaída.", "correct": false },
+            { "text": "El éxito depende en un 100% de la habilidad del entrenador.", "correct": false }
+        ],
+        "explanation": "La gestión de expectativas previene la frustración y el abandono. Un cliente informado entiende que habrá altibajos, que su participación es crucial, y que el objetivo es darle a él y a su perro las herramientas para manejar el comportamiento a largo plazo."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "Un perro muestra signos de estrés severo en una clase grupal. La decisión ética del instructor debe ser:",
+        "answers": [
+            { "text": "Forzar al perro a quedarse para que se 'acostumbre'.", "correct": false },
+            { "text": "Recomendar al dueño que trabaje de forma privada con el perro para ayudarle a sentirse más seguro, sugiriendo que el entorno de la clase es actualmente demasiado abrumador para él.", "correct": true },
+            { "text": "Ignorar al perro y continuar con la clase.", "correct": false },
+            { "text": "Expulsar al perro y al dueño de la clase sin ninguna explicación.", "correct": false }
+        ],
+        "explanation": "El principio de 'no dañar' es primordial. Si un perro está por encima de su umbral, no solo no está aprendiendo, sino que la experiencia puede ser traumática. El rol del instructor es proteger el bienestar de todos los perros, y eso a veces significa reconocer que un formato grupal no es el adecuado para un individuo en particular."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "El 'anclaje' es un sesgo cognitivo en el que una persona se basa demasiado en la primera pieza de información que recibe. ¿Cómo puede afectar esto a un caso?",
+        "answers": [
+            { "text": "Si el cliente llega diciendo 'mi perro es dominante', el profesional puede 'anclarse' a ese diagnóstico incorrecto y no investigar otras causas más probables como el miedo.", "correct": true },
+            { "text": "El perro se ancla a su dueño y no quiere separarse.", "correct": false },
+            { "text": "El profesional ancla la correa del perro a un poste.", "correct": false },
+            { "text": "No afecta a los casos de comportamiento.", "correct": false }
+        ],
+        "explanation": "Un buen profesional debe ser consciente de sus propios sesgos cognitivos. Debe escuchar la interpretación del cliente, pero luego debe realizar su propia evaluación objetiva y análisis funcional, estando dispuesto a descartar la información inicial si la evidencia apunta en otra dirección."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "Cuando un plan de modificación de conducta no está funcionando, el primer paso del profesional debería ser:",
+        "answers": [
+            { "text": "Culpar al cliente por no estar implementándolo correctamente.", "correct": false },
+            { "text": "Revisar su propio plan: ¿el diagnóstico funcional era correcto?, ¿los reforzadores son lo suficientemente valiosos?, ¿los criterios son demasiado altos?, ¿hay un factor médico no detectado?", "correct": true },
+            { "text": "Decidir que el perro es 'imposible' de entrenar.", "correct": false },
+            { "text": "Probar con una herramienta de castigo más fuerte.", "correct": false }
+        ],
+        "explanation": "La responsabilidad del resultado recae en el profesional. Si el plan falla, es una oportunidad para reevaluar y resolver problemas. culpar al cliente o al perro es una abdicación de la responsabilidad profesional."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "La 'validación' es una herramienta de comunicación que consiste en:",
+        "answers": [
+            { "text": "Estar de acuerdo con todo lo que dice el cliente.", "correct": false },
+            { "text": "Reconocer y aceptar los sentimientos del cliente como válidos y comprensibles, incluso si no se está de acuerdo con su interpretación de los hechos.", "correct": true },
+            { "text": "Validar el ticket de aparcamiento del cliente.", "correct": false },
+            { "text": "Corregir cada error en la narrativa del cliente.", "correct": false }
+        ],
+        "explanation": "Se puede decir: 'Entiendo perfectamente por qué te sientes tan frustrado y asustado por este comportamiento. Es una situación muy difícil'. Esta frase valida la emoción del cliente sin necesidad de estar de acuerdo con su conclusión de que 'el perro lo hace por despecho'. Es una base para una comunicación respetuosa y efectiva."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "Un cliente quiere trabajar la reactividad de su perro, pero se niega a dejar de llevarlo al parque de perros. Esto representa un problema de:",
+        "answers": [
+            { "text": "Adherencia al plan de gestión.", "correct": true },
+            { "text": "Falta de motivación del perro.", "correct": false },
+            { "text": "Genética.", "correct": false },
+            { "text": "Dominancia.", "correct": false }
+        ],
+        "explanation": "Ir al parque de perros expone constantemente al perro a sus detonantes por encima de su umbral, lo que sabotea cualquier trabajo de DSCC que se haga. El profesional debe explicar cómo esta actividad es contraproducente para los objetivos del cliente y explorar alternativas de ejercicio y socialización."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "Un profesional ético NUNCA debería:",
+        "answers": [
+            { "text": "Referir un caso a un veterinario.", "correct": false },
+            { "text": "Garantizar resultados.", "correct": true },
+            { "text": "Cobrar por sus servicios.", "correct": false },
+            { "text": "Usar refuerzo positivo.", "correct": false }
+        ],
+        "explanation": "El comportamiento es fluido y está influenciado por innumerables variables (genética, salud, entorno, aprendizaje). Es imposible y poco ético garantizar que un problema de comportamiento se 'curará' o se resolverá en un plazo determinado. Un profesional puede garantizar su esfuerzo, su conocimiento y su metodología, pero no el resultado."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "El 'refuerzo social' (elogios, caricias) como única herramienta de recompensa:",
+        "answers": [
+            { "text": "Es siempre más efectivo que la comida.", "correct": false },
+            { "text": "Puede no ser lo suficientemente potente para muchos perros, especialmente en entornos con distracciones o para conductas difíciles. Su valor es subjetivo para cada perro.", "correct": true },
+            { "text": "Es una forma de castigo para la mayoría de los perros.", "correct": false },
+            { "text": "Funciona para todas las razas por igual.", "correct": false }
+        ],
+        "explanation": "Si bien el refuerzo social es importante, asumir que es suficiente para todos los perros en todas las situaciones es un error. Parte del trabajo del profesional es ayudar al cliente a identificar qué es lo que SU perro encuentra realmente reforzante y a construir una 'caja de herramientas' de recompensas variadas."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "La diferencia entre un 'consultor de comportamiento' y un 'entrenador' es que:",
+        "answers": [
+            { "text": "No hay ninguna diferencia.", "correct": false },
+            { "text": "Generalmente, un consultor se enfoca en problemas de comportamiento complejos con raíces emocionales (agresión, ansiedad), mientras que un entrenador se enfoca en enseñar habilidades y obediencia.", "correct": true },
+            { "text": "Los consultores son más caros que los entrenadores.", "correct": false },
+            { "text": "Los entrenadores no necesitan ninguna formación.", "correct": false }
+        ],
+        "explanation": "Aunque los roles a menudo se solapan, la consultoría de comportamiento implica un proceso de diagnóstico más profundo y el tratamiento de problemas que van más allá de la simple falta de entrenamiento. Requiere un conocimiento más profundo de la etología, la fisiología y la modificación de conducta."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "Si un cliente vive en un entorno que es inherentemente perjudicial para el bienestar de su perro (p. ej., un Border Collie en un pequeño apartamento con un dueño que no puede proporcionarle ejercicio ni estimulación), la conversación ética podría tener que incluir:",
+        "answers": [
+            { "text": "La sugerencia de medicar al perro para que esté más tranquilo.", "correct": false },
+            { "text": "La posibilidad de que, si no se pueden satisfacer las necesidades fundamentales del perro, la opción más compasiva podría ser buscar un nuevo hogar más adecuado (rehoming).", "correct": true },
+            { "text": "La recomendación de usar un collar de castigo para suprimir los comportamientos problemáticos.", "correct": false },
+            { "text": "Aceptar que el perro tendrá una mala calidad de vida.", "correct": false }
+        ],
+        "explanation": "Esta es una conversación extremadamente delicada y un último recurso. Sin embargo, si existe un desajuste insalvable entre las necesidades etológicas del perro y lo que el entorno puede ofrecer, y el perro está sufriendo crónicamente, el profesional tiene el deber de plantear todas las opciones que prioricen el bienestar del animal."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "La 'generalización' es un desafío para los perros. Para un cliente, es importante entender que esto significa que:",
+        "answers": [
+            { "text": "El perro es terco si no obedece en el parque.", "correct": false },
+            { "text": "Una habilidad aprendida en el salón debe ser practicada y reforzada de nuevo en el jardín, luego en la acera, y luego en el parque, para que el perro la entienda en todos los contextos.", "correct": true },
+            { "text": "Una vez que el perro aprende algo, lo sabrá en cualquier lugar.", "correct": false },
+            { "text": "La generalización solo es posible para perros muy inteligentes.", "correct": false }
+        ],
+        "explanation": "Educar al cliente sobre la forma en que los perros aprenden (de forma específica al contexto) es clave para manejar sus expectativas. Ayuda a que entiendan por qué su perro 'perfecto en casa' parece 'olvidarlo todo' fuera, y les da las herramientas para trabajar en ello de forma constructiva."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "El 'sesgo de negatividad' puede hacer que un cliente con un perro reactivo:",
+        "answers": [
+            { "text": "Se enfoque exclusivamente en las pocas reacciones que ocurrieron en un paseo, ignorando los muchos momentos de calma y buen comportamiento.", "correct": true },
+            { "text": "Solo vea los aspectos positivos de su perro.", "correct": false },
+            { "text": "Sea negativo con el profesional.", "correct": false },
+            { "text": "No quiera usar refuerzo positivo.", "correct": false }
+        ],
+        "explanation": "El cerebro humano está programado para prestar más atención a las amenazas y a lo negativo. Parte de nuestro trabajo es ayudar al cliente a cambiar su foco, a aprender a ver y a reforzar los pequeños momentos de éxito, lo cual es fundamental para el progreso y para mejorar la propia relación con su perro."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "La colaboración con un veterinario es especialmente crucial cuando se sospecha que un comportamiento está relacionado con:",
+        "answers": [
+            { "text": "Una falta de entrenamiento en la llamada.", "correct": false },
+            { "text": "El dolor, la ansiedad de alto nivel, los trastornos compulsivos o cualquier cambio súbito de comportamiento en un perro adulto.", "correct": true },
+            { "text": "El aburrimiento.", "correct": false },
+            { "text": "La protección de juguetes.", "correct": false }
+        ],
+        "explanation": "Si bien todos los casos se benefician de una buena relación con el veterinario, en estos escenarios la posibilidad de una causa médica es tan alta que la intervención veterinaria no es solo una opción, sino una parte indispensable del tratamiento."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "Un cliente le pregunta si puede entrenar a su perro para que detecte el cáncer. Su respuesta ética sería:",
+        "answers": [
+            { "text": "Sí, puedo hacerlo por una tarifa adicional.", "correct": false },
+            { "text": "Explicar que la biodetección es un campo altamente especializado que requiere un entrenamiento riguroso y científico, y que no es algo que se pueda ofrecer como un servicio de entrenamiento de mascotas.", "correct": true },
+            { "text": "Decirle que eso es imposible para los perros.", "correct": false },
+            { "text": "Aceptar el trabajo y buscar en Google cómo hacerlo.", "correct": false }
+        ],
+        "explanation": "Ser honesto sobre los límites de la propia competencia es una marca de profesionalismo. Aceptar un trabajo para el que no se está cualificado no solo es poco ético, sino que puede ser peligroso y crear falsas esperanzas en el cliente."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "El uso de la 'inundación' (flooding) es éticamente cuestionable principalmente porque:",
+        "answers": [
+            { "text": "Viola el principio de 'no dañar' al exponer deliberadamente a un animal a un nivel de estrés que supera su capacidad de afrontamiento, pudiendo causar un trauma.", "correct": true },
+            { "text": "Es una técnica muy moderna y poco probada.", "correct": false },
+            { "text": "Requiere la presencia de un veterinario.", "correct": false },
+            { "text": "Es demasiado cara de implementar.", "correct": false }
+        ],
+        "explanation": "La ética profesional en el comportamiento animal se basa en minimizar el estrés y el miedo durante la intervención. La inundación hace exactamente lo contrario, por lo que no tiene cabida en una práctica moderna y humana."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "Un profesional debe tener un seguro de responsabilidad civil porque:",
+        "answers": [
+            { "text": "Es una forma de demostrar que es un negocio serio.", "correct": false },
+            { "text": "Protege tanto al profesional como al cliente en el improbable caso de que ocurra un accidente (p. ej., una mordida) durante una sesión.", "correct": true },
+            { "text": "Le permite usar métodos más arriesgados.", "correct": false },
+            { "text": "Es un requisito para tener una página web.", "correct": false }
+        ],
+        "explanation": "Trabajar con animales, especialmente con aquellos que tienen un historial de agresión, conlleva un riesgo inherente. El seguro de responsabilidad civil es una parte esencial de una práctica profesional responsable."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "Un cliente está convencido de que su perro es 'terco'. Una forma de reformular esto de manera más constructiva es:",
+        "answers": [
+            { "text": "Estar de acuerdo y decirle que tiene un perro difícil.", "correct": false },
+            { "text": "Explorar las posibles razones por las que el perro no responde: ¿entiende la señal?, ¿está demasiado estresado?, ¿la motivación no es suficiente? Esto cambia el foco de un rasgo de carácter negativo a un problema de comunicación o motivación que se puede resolver.", "correct": true },
+            { "text": "Sugerir que el perro puede tener un bajo coeficiente intelectual.", "correct": false },
+            { "text": "Ignorar el comentario del cliente.", "correct": false }
+        ],
+        "explanation": "Parte de nuestro trabajo es cambiar la narrativa del cliente sobre su perro. Reemplazar etiquetas negativas y antropomórficas por explicaciones basadas en el comportamiento y el aprendizaje abre la puerta a la empatía y a la solución de problemas."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "Si usted tiene un perro reactivo, ¿es ético usarlo como 'perro ayudante' en sus sesiones?",
+        "answers": [
+            { "text": "Sí, si se mantiene a una distancia segura.", "correct": false },
+            { "text": "No, ya que sometería a su propio perro a un estrés innecesario y constante, lo cual es una violación del deber de bienestar hacia los animales a su cargo.", "correct": true },
+            { "text": "Sí, porque es una buena forma de que se socialice.", "correct": false },
+            { "text": "Solo si el cliente está de acuerdo.", "correct": false }
+        ],
+        "explanation": "El bienestar de un perro ayudante es tan importante como el del perro en tratamiento. Un perro ayudante debe ser, por definición, un perro que se siente cómodo y seguro en esas situaciones. Usar un perro reactivo como 'cebo' es éticamente inaceptable."
+    },
+    {
+        "asignatura": "Ética Profesional y Relación con el Cliente",
+        "question": "Un cliente le pide que le enseñe a su perro a 'dar abrazos'. Usted observa que el perro muestra señales de estrés (orejas hacia atrás, ojo de ballena) cuando lo abrazan. La respuesta ética es:",
+        "answers": [
+            { "text": "Enseñarle la conducta de todas formas usando comida.", "correct": false },
+            { "text": "Educar amablemente al cliente sobre el lenguaje corporal del perro, explicándole que muchos perros encuentran los abrazos amenazantes, y sugerir enseñar una conducta de afecto alternativa que el perro disfrute, como apoyar la cabeza en el regazo.", "correct": true },
+            { "text": "Regañar al cliente por no entender a su perro.", "correct": false },
+            { "text": "Ignorar las señales de estrés y enseñar el abrazo.", "correct": false }
+        ],
+        "explanation": "Nuestro deber principal es hacia el bienestar del perro. Esto a veces significa guiar al cliente hacia objetivos que sean respetuosos con la naturaleza y las preferencias del animal. No se trata de negar el deseo de afecto del cliente, sino de encontrar una forma de expresarlo que sea mutuamente placentera."
+    }
+]

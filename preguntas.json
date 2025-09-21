@@ -273,12 +273,7 @@
             { "text": "Administrar oxitocina a los perros les permite resolver problemas matemáticos complejos.", "correct": false }
         ],
         "explanation": "(Nivel Avanzado) Este descubrimiento es fundamental, ya que demuestra que el vínculo entre perros y humanos utiliza un mecanismo neurohormonal análogo al que fortalece el vínculo entre una madre humana y su bebé, explicando la profundidad de esta relación interespecífica."
-    }
-
-
-<!-- aquí comienza asignatura 2 -->]
-
-
+    },
     {
         "asignatura": "Neurobiología y Fisiología del Comportamiento",
         "question": "¿Cuál es la función principal de la amígdala en el cerebro canino?",
@@ -443,12 +438,7 @@
             { "text": "La memoria gustativa para recordar qué alimentos le gustan.", "correct": false }
         ],
         "explanation": "Mientras la amígdala crea la memoria emocional del miedo ('esto es peligroso'), el hipocampo crea la memoria contextual ('esto es peligroso AQUÍ y AHORA'). Por eso un perro puede tener miedo a los petardos solo en la calle (contexto A) pero no en casa (contexto B)."
-    }
-
-
-
-<!-- aquí comienza asignatura 3   (279, 450) -->]
-
+    },
     {
         "asignatura": "Principios Científicos del Aprendizaje",
         "question": "En el condicionamiento clásico, el sonido de un clicker, después de ser asociado consistentemente con la comida, se convierte en un:",
@@ -613,12 +603,7 @@
             { "text": "Captura (Capturing).", "correct": false }
         ],
         "explanation": "El encadenamiento consiste en enseñar una secuencia de conductas, donde la finalización de un eslabón de la cadena actúa como señal (y reforzador secundario) para iniciar el siguiente, hasta llegar al refuerzo final."
-    }
-
-
-
-<!-- aquí comienza asignatura 4   (279, 450,620,) -->]
-
+    },
     {
         "asignatura": "Comunicación Canina y Zoosemiótica",
         "question": "La reverencia de juego ('play bow') es un ejemplo de meta-comunicación porque:",
@@ -750,120 +735,116 @@
             { "text": "Sentarse en el suelo de lado al perro y esperar a que se acerque.", "correct": false }
         ],
         "explanation": "En el lenguaje canino, la aproximación frontal, la mirada fija y la invasión del espacio superior son señales de amenaza. Los humanos a menudo las realizan con la intención de ser amistosos (p. ej., al saludar a un perro desconocido), lo que puede generar una respuesta de miedo defensivo."
-    }
-
-
-<!-- aquí comienza asignatura 6   (279, 450,620,) -->]
-
+    },
     {
         "asignatura": "Cognición Social y Emociones",
         "question": "La extraordinaria habilidad de los perros para entender el señalamiento humano (gesto de apuntar) es significativa porque:",
         "answers": [
             { "text": "Es una habilidad común en la mayoría de los animales, incluyendo los lobos no socializados.", "correct": false },
-            { "text": "Sugiere una convergencia evolutiva o una selección directa durante la domesticación para atender a las señales comunicativas humanas.", "correct": true },
-            { "text": "Es un comportamiento puramente aprendido a través del condicionamiento.", "correct": false },
+            { "text": "Sugiere una convergencia evolutiva o una selección directa durante la domesticación para atender a las señales comunicativas humanas, una forma de cognición social interespecífica.", "correct": true },
+            { "text": "Es un comportamiento puramente aprendido a través del condicionamiento, sin ninguna predisposición innata.", "correct": false },
             { "text": "Indica que los perros ven a los humanos como simples proveedores de comida.", "correct": false }
         ],
-        "explanation": "Mientras que otros animales inteligentes como los chimpancés a menudo fallan en esta tarea, los perros la resuelven con facilidad. Esto indica una adaptación evolutiva para cooperar y comunicarse con los humanos, un pilar de su cognición social."
+        "explanation": "Mientras que otros animales inteligentes como los chimpancés a menudo fallan en esta tarea, los perros (incluso cachorros con poca experiencia) la resuelven con facilidad. Esto indica una adaptación evolutiva para cooperar y comunicarse con los humanos, un pilar de su cognición social."
     },
     {
         "asignatura": "Cognición Social y Emociones",
-        "question": "Según la neurociencia afectiva de Jaak Panksepp, los 'sistemas emocionales' primarios como BÚSQUEDA (SEEKING) son:",
+        "question": "Según la neurociencia afectiva de Jaak Panksepp, las emociones primarias o 'sistemas emocionales' son:",
         "answers": [
-            { "text": "Circuitos neuronales ancestrales y compartidos por mamíferos, que generan respuestas emocionales básicas.", "correct": true },
-            { "text": "Sentimientos complejos como la culpa o el orgullo, exclusivos de los humanos.", "correct": false },
-            { "text": "Respuestas aprendidas que dependen enteramente de la cultura del perro.", "correct": false },
-            { "text": "Procesos puramente cognitivos sin base biológica.", "correct": false }
+            { "text": "Circuitos neuronales ancestrales y compartidos por muchas especies de mamíferos, que generan respuestas emocionales básicas como MIEDO, IRA, BÚSQUEDA o JUEGO.", "correct": true },
+            { "text": "Sentimientos complejos como la culpa, el orgullo o la vergüenza, que se han demostrado científicamente en perros.", "correct": false },
+            { "text": "Respuestas aprendidas que dependen enteramente de la cultura y el entorno en que vive el perro.", "correct": false },
+            { "text": "Procesos puramente cognitivos que no tienen una base biológica o neuronal.", "correct": false }
         ],
-        "explanation": "El trabajo de Panksepp proporciona una base neurobiológica para las emociones. Identifica los sistemas cerebrales que generan estas respuestas emocionales primarias (MIEDO, IRA, JUEGO, etc.), las cuales sí compartimos con los perros."
+        "explanation": "El trabajo de Panksepp es fundamental porque proporciona una base neurobiológica para las emociones. En lugar de debatir si los perros 'sienten' como nosotros, identifica los sistemas cerebrales que generan estas respuestas emocionales primarias, que sí compartimos."
     },
     {
         "asignatura": "Cognición Social y Emociones",
-        "question": "El 'Test de la Situación Extraña' se utiliza en perros para evaluar:",
+        "question": "El 'Test de la Situación Extraña', adaptado de la psicología infantil, se utiliza en perros para evaluar:",
         "answers": [
-            { "text": "Su nivel de inteligencia lógica.", "correct": false },
-            { "text": "La agresividad hacia personas desconocidas.", "correct": false },
-            { "text": "La naturaleza y seguridad de su vínculo de apego con el dueño.", "correct": true },
-            { "text": "Su capacidad para recordar órdenes complejas.", "correct": false }
+            { "text": "Su nivel de inteligencia y capacidad para resolver problemas lógicos.", "correct": false },
+            { "text": "La agresividad del perro hacia personas desconocidas.", "correct": false },
+            { "text": "La naturaleza y seguridad de su vínculo de apego con el dueño, observando su comportamiento en momentos de separación y reencuentro.", "correct": true },
+            { "text": "Su capacidad para recordar una secuencia de órdenes complejas.", "correct": false }
         ],
-        "explanation": "Este test evalúa si el perro utiliza al dueño como una 'base segura' desde la cual explorar y a la cual regresar en busca de consuelo, permitiendo clasificar el tipo de apego (seguro, inseguro-evitativo, etc.)."
+        "explanation": "Este test evalúa si el perro utiliza al dueño como una 'base segura' desde la cual explorar y a la cual regresar en busca de consuelo. Los patrones de comportamiento (p. ej., si busca al dueño al volver, si se deja consolar) permiten clasificar el tipo de apego (seguro, inseguro-evitativo, etc.)."
     },
     {
         "asignatura": "Cognición Social y Emociones",
-        "question": "Cuando un perro parece 'culpable' después de haber roto algo, los estudios de Alexandra Horowitz han demostrado que este comportamiento es en realidad:",
+        "question": "Cuando un perro parece 'culpable' (orejas gachas, evita la mirada) después de haber roto algo, los estudios de Alexandra Horowitz han demostrado que este comportamiento es en realidad:",
         "answers": [
-            { "text": "Una admisión de culpabilidad y arrepentimiento.", "correct": false },
-            { "text": "Una respuesta de apaciguamiento al regaño o al lenguaje corporal de enfado del dueño.", "correct": true },
+            { "text": "Una admisión de culpabilidad y una muestra de arrepentimiento por la acción cometida.", "correct": false },
+            { "text": "Una respuesta directa al regaño o al lenguaje corporal de enfado del dueño, independientemente de si el perro cometió la travesura o no.", "correct": true },
             { "text": "Una manipulación inteligente para evitar el castigo.", "correct": false },
-            { "text": "Un signo de una condición neurológica.", "correct": false }
+            { "text": "Un signo de una condición neurológica subyacente.", "correct": false }
         ],
-        "explanation": "La 'mirada de culpa' es una respuesta a una amenaza percibida (el dueño enfadado). Los experimentos muestran que los perros la exhiben en respuesta al regaño, incluso si no han hecho nada malo. No es evidencia de una emoción secundaria como la culpa."
+        "explanation": "La 'mirada de culpa' es una respuesta de apaciguamiento a una amenaza percibida (el dueño enfadado). Los experimentos muestran que los perros la exhiben en respuesta al regaño del dueño, incluso si no han hecho nada malo. No es evidencia de una emoción secundaria como la culpa."
     },
     {
         "asignatura": "Cognición Social y Emociones",
-        "question": "El concepto de 'Teoría de la Mente' (ToM) se refiere a la capacidad de atribuir estados mentales a otros. En perros, la evidencia sugiere que:",
+        "question": "El concepto de 'Teoría de la Mente' (ToM) se refiere a la capacidad de atribuir estados mentales (creencias, intenciones, deseos) a otros. En el contexto canino, la evidencia científica actual sugiere que:",
         "answers": [
-            { "text": "Poseen una ToM completa e idéntica a la de un humano adulto.", "correct": false },
-            { "text": "No tienen ninguna capacidad para interpretar las intenciones de los demás.", "correct": false },
-            { "text": "Poseen habilidades precursoras de una ToM; por ejemplo, son sensibles al estado atencional de un humano (saben si les miran).", "correct": true },
-            { "text": "La ToM solo existe en primates.", "correct": false }
+            { "text": "Los perros poseen una ToM completa e idéntica a la de un humano adulto.", "correct": false },
+            { "text": "Los perros no tienen ninguna capacidad para interpretar las intenciones o el estado atencional de los demás.", "correct": false },
+            { "text": "Los perros poseen habilidades precursoras o 'elementos' de una ToM; por ejemplo, son sensibles al estado atencional de un humano (saben si les están mirando o no) y pueden engañar.", "correct": true },
+            { "text": "La ToM solo existe en primates y no es relevante para el estudio de los perros.", "correct": false }
         ],
-        "explanation": "Aunque los perros no tienen una ToM compleja como la nuestra, sí demuestran una notable sensibilidad a las perspectivas de los demás, como preferir robar comida cuando el humano no está mirando."
+        "explanation": "El debate sigue abierto, pero la mayoría de los investigadores coinciden en que, si bien los perros no tienen una ToM compleja como la nuestra, sí demuestran una notable sensibilidad a las perspectivas de los demás, como preferir robar comida cuando el humano no está mirando."
     },
     {
         "asignatura": "Cognición Social y Emociones",
         "question": "La función principal del juego social en perros adultos es:",
         "answers": [
-            { "text": "Determinar de forma violenta quién es el más fuerte.", "correct": false },
-            { "text": "Fortalecer lazos sociales, practicar la comunicación y gestionar la excitación en un entorno seguro.", "correct": true },
-            { "text": "Una pérdida de tiempo sin valor adaptativo.", "correct": false },
-            { "text": "Un comportamiento anómalo de perros mal socializados.", "correct": false }
+            { "text": "Determinar de forma violenta quién es el perro más fuerte del grupo.", "correct": false },
+            { "text": "Fortalecer los lazos sociales, practicar la comunicación, mantener la flexibilidad conductual y gestionar la excitación en un entorno seguro.", "correct": true },
+            { "text": "Una pérdida de tiempo y energía sin ningún valor adaptativo.", "correct": false },
+            { "text": "Un comportamiento anómalo que solo ocurre en perros que no han sido socializados correctamente.", "correct": false }
         ],
-        "explanation": "El juego es una actividad cognitivamente y emocionalmente compleja que actúa como 'pegamento social', permitiendo a los perros mantener y negociar sus relaciones a través de reglas como la auto-inhibición y la inversión de roles."
+        "explanation": "El juego es mucho más que diversión. Es una actividad cognitivamente y emocionalmente compleja que actúa como 'pegamento social'. A través de reglas como la auto-inhibición (morder suavemente) y la inversión de roles, los perros mantienen y negocian sus relaciones sociales."
     },
     {
         "asignatura": "Cognición Social y Emociones",
-        "question": "El estudio sobre la 'aversión a la inequidad' de Friederike Range demostró que un perro dejaba de realizar una tarea si:",
+        "question": "Un estudio clásico de Friederike Range demostró que los perros pueden mostrar 'aversión a la inequidad'. Esto se observó cuando un perro:",
         "answers": [
-            { "text": "La tarea le parecía demasiado difícil.", "correct": false },
-            { "text": "Veía que otro perro recibía una recompensa mejor por la misma tarea, o era recompensado por no hacer nada.", "correct": true },
-            { "text": "No le gustaba la recompensa ofrecida.", "correct": false },
-            { "text": "Estaba demasiado cansado para continuar.", "correct": false }
+            { "text": "Siempre prefería recibir una salchicha en lugar de un trozo de pan.", "correct": false },
+            { "text": "Dejaba de realizar una tarea (dar la pata) si veía que otro perro recibía una recompensa mejor por la misma tarea, o si el otro perro era recompensado por no hacer nada.", "correct": true },
+            { "text": "Compartía voluntariamente su recompensa con otro perro que no había recibido nada.", "correct": false },
+            { "text": "Trabajaba más duro si la recompensa era de mayor calidad.", "correct": false }
         ],
         "explanation": "Este experimento sugiere que los perros tienen un sentido básico de la justicia o, al menos, son sensibles a un trato desigual. Esta capacidad cognitiva es fundamental para la cooperación dentro de un grupo social."
     },
     {
         "asignatura": "Cognición Social y Emociones",
-        "question": "El concepto científico de 'personalidad' en perros se refiere a:",
+        "question": "El concepto de 'personalidad' o 'temperamento' en perros, desde una perspectiva científica, se refiere a:",
         "answers": [
-            { "text": "Una etiqueta arbitraria que ponen los dueños.", "correct": false },
-            { "text": "Diferencias individuales en el comportamiento que son consistentes a lo largo del tiempo y en diferentes situaciones.", "correct": true },
-            { "text": "Rasgos de comportamiento idénticos en todos los miembros de una raza.", "correct": false },
+            { "text": "Una etiqueta arbitraria que los dueños ponen a sus perros sin base real.", "correct": false },
+            { "text": "Diferencias individuales en el comportamiento que son consistentes a lo largo del tiempo y en diferentes situaciones (p. ej., audacia, sociabilidad, reactividad).", "correct": true },
+            { "text": "Rasgos de comportamiento que son idénticos en todos los miembros de una misma raza.", "correct": false },
             { "text": "El estado de ánimo de un perro en un momento concreto.", "correct": false }
         ],
-        "explanation": "La ciencia ha validado que los perros tienen personalidades medibles (p. ej., audacia, sociabilidad). Comprender la personalidad de un perro es clave para adaptar su manejo, entorno y entrenamiento."
+        "explanation": "La ciencia ha validado que los perros tienen personalidades. Estas se pueden medir a través de cuestionarios estandarizados y pruebas de comportamiento, y tienen una base tanto genética como ambiental. Comprender la personalidad de un perro es clave para adaptar su manejo y entrenamiento."
     },
     {
         "asignatura": "Cognición Social y Emociones",
-        "question": "El fenómeno del 'contagio emocional', como cuando un perro bosteza tras ver a su dueño bostezar, es considerado:",
+        "question": "El fenómeno del 'contagio emocional', observado en perros, consiste en:",
         "answers": [
-            { "text": "Una simple coincidencia sin significado.", "correct": false },
-            { "text": "Una forma básica de empatía, donde se 'atrapa' y refleja automáticamente el estado emocional de otro individuo.", "correct": true },
-            { "text": "Un signo de que el perro está intentando imitar todos los comportamientos humanos.", "correct": false },
-            { "text": "Una prueba de que el perro está aburrido.", "correct": false }
+            { "text": "La capacidad de un perro para planificar una respuesta emocional futura.", "correct": false },
+            { "text": "La tendencia a 'atrapar' y reflejar automáticamente el estado emocional de otro individuo, como cuando un perro bosteza después de ver a su dueño bostezar.", "correct": true },
+            { "text": "La transmisión de enfermedades a través del contacto social.", "correct": false },
+            { "text": "La habilidad de un perro para ocultar sus verdaderas emociones a los demás.", "correct": false }
         ],
-        "explanation": "El contagio emocional es una respuesta involuntaria que promueve la sincronización emocional dentro de un grupo social, facilitando la cohesión. Se considera un precursor evolutivo de formas más complejas de empatía."
+        "explanation": "El contagio emocional es una forma básica de empatía. Es una respuesta involuntaria que promueve la sincronización emocional dentro de un grupo social, facilitando la cohesión y las respuestas coordinadas ante una amenaza o una oportunidad."
     },
     {
         "asignatura": "Cognición Social y Emociones",
-        "question": "La habilidad de 'fast mapping' (mapeo rápido), demostrada por perros como Chaser, evidencia:",
+        "question": "Un perro es capaz de encontrar su juguete favorito ('pelota') entre un montón de otros juguetes. Esta habilidad de 'mapeo rápido' o 'fast mapping' demuestra:",
         "answers": [
-            { "text": "Una comprensión completa de la gramática humana.", "correct": false },
-            { "text": "La capacidad de aprender el nombre de un objeto nuevo por exclusión, similar a los niños pequeños.", "correct": true },
-            { "text": "Que simplemente responden al olor del objeto.", "correct": false },
-            { "text": "Una memoria excepcional para las caras.", "correct": false }
+            { "text": "Una comprensión completa de la gramática y la sintaxis del lenguaje humano.", "correct": false },
+            { "text": "Una memoria excepcional para las caras humanas.", "correct": false },
+            { "text": "La capacidad de aprender el nombre de un objeto nuevo por exclusión, un mecanismo de aprendizaje de palabras similar al de los niños pequeños.", "correct": true },
+            { "text": "Que simplemente está respondiendo al olor de la pelota, sin entender la palabra.", "correct": false }
         ],
-        "explanation": "El 'fast mapping' (si conoces A, B, C y te pido 'D', deduces que 'D' es el objeto nuevo) es una de las sofisticadas herramientas cognitivas que utilizan los perros para aprender un vocabulario extenso."
+        "explanation": "Estudios con perros como Chaser o Rico han demostrado que pueden aprender un vocabulario extenso. El 'fast mapping' (si conoces A, B, C y te pido 'D', deduces que 'D' es el objeto nuevo) es una de las sofisticadas herramientas cognitivas que utilizan para lograrlo."
     },
     {
         "asignatura": "Cognición Social y Emociones",
@@ -919,12 +900,7 @@
             { "text": "CUIDADO (CARE).", "correct": false }
         ],
         "explanation": "El sistema del MIEDO está diseñado para aprender muy rápidamente de las experiencias peligrosas para garantizar la supervivencia. Una única experiencia traumática puede crear una asociación de miedo muy fuerte y duradera que requiere intervención a través del contracondicionamiento."
-    }
-
-
-
-<!-- aquí comienza asignatura 7   (279, 450,620,756) -->]
-
+    },
     {
         "asignatura": "Bienestar Animal: Ciencia, Medición y Aplicación",
         "question": "El modelo de los 'Cinco Dominios' del Bienestar Animal es una evolución de las 'Cinco Libertades'. ¿Cuál es su principal diferencia y ventaja?",
@@ -1056,13 +1032,7 @@
             { "text": "El estrés agudo solo afecta a los cachorros y el crónico solo a los adultos.", "correct": false }
         ],
         "explanation": "El sistema de estrés está diseñado para funcionar en ráfagas cortas y volver a la normalidad (homeostasis). El problema surge cuando la respuesta de estrés no se desactiva, lo que lleva al desgaste fisiológico y psicológico (carga alostática)."
-    }
-
-
-
-<!-- aquí comienza asignatura 7   (279, 450,620,756,926,1063) -->]
-
-
+    },
     {
         "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
         "question": "Al enseñar a un perro a meterse en su transportín, un entrenador decide reforzar pequeñas aproximaciones sucesivas: primero por mirar el transportín, luego por acercarse, luego por meter una pata, etc., hasta que el perro entra por completo. Esta técnica se denomina:",
@@ -1172,12 +1142,7 @@
             { "text": "No hay ninguna diferencia, ambos términos se refieren a la misma técnica.", "correct": false }
         ],
         "explanation": "El señuelo es útil para 'mostrar' al perro una conducta rápidamente, pero debe retirarse pronto para que el perro no se vuelva dependiente de él. El moldeado es un proceso más lento pero que crea un perro más implicado, creativo y resiliente en el aprendizaje."
-    }
-
-
-<!-- aquí comienza asignatura 7   (279, 450,620,756,926,1063) -->]
-
-
+    },
     {
         "asignatura": "Diagnóstico y Tratamiento de Problemas de Comportamiento I",
         "question": "Durante la fase de recopilación de información de un caso, ¿cuál es el paso inicial más CRÍTICO antes de formular cualquier hipótesis conductual?",
@@ -1287,13 +1252,7 @@
             { "text": "La falta de ejercicio físico únicamente.", "correct": false }
         ],
         "explanation": "Este es un poderoso ejemplo de auto-refuerzo. La consecuencia funcional es que el estímulo aversivo (el extraño) desaparece, lo que actúa como un refuerzo negativo, fortaleciendo el comportamiento de ladrar en el futuro. Por eso, la gestión (bloquear el acceso visual) es el primer paso indispensable."
-    }
-
-
-
-<!-- aquí comienza asignatura 7   (279, 450,620,756,926,1063,1178) -->]
-
-
+    },
     {
         "asignatura": "Nutrición, Salud y Desarrollo Físico",
         "question": "Un cliente informa que su perro está más apático y menos receptivo al entrenamiento. Un análisis de su dieta, basada en un pienso de baja calidad, revela un bajo contenido de triptófano. ¿Por qué es relevante este dato?",
@@ -1403,11 +1362,7 @@
             { "text": "Una forma de castigar al perro por su mal comportamiento.", "correct": false }
         ],
         "explanation": "Las alergias o intolerancias alimentarias pueden causar malestar crónico, picor e inflamación, lo que a su vez puede llevar a una baja tolerancia al estrés y a una mayor reactividad. Una dieta de eliminación, supervisada por un veterinario, es la herramienta diagnóstica de referencia."
-    }
-
-
-<!-- aquí comienza asignatura 7   (279, 450,620,756,926,1063,1178),1294 -->]
-
+    },
     {
         "asignatura": "Agresividad Canina: Evaluación e Intervención Avanzada",
         "question": "Al realizar un análisis funcional de un comportamiento agresivo, el objetivo principal es:",
@@ -1517,11 +1472,7 @@
             { "text": "Socializar al perro con tantos perros y personas como sea posible para que se acostumbre.", "correct": false }
         ],
         "explanation": "La modificación de conducta no puede ocurrir si el comportamiento agresivo se sigue practicando. La primera prioridad es siempre la seguridad. Esto significa evitar los desencadenantes a toda costa (cruzar la calle, cambiar horarios de paseo, usar barreras visuales) mientras se implementa el plan de tratamiento en un entorno controlado."
-    }
-
-
-<!-- aquí comienza asignatura 7   (279, 450,620,756,926,1063,1178),1294,1409 -->]
-
+    },
     {
         "asignatura": "Ética Profesional y Relación con el Cliente",
         "question": "Un cliente, frustrado por la lentitud del proceso, le pide que utilice un collar de descargas eléctricas porque un programa de televisión asegura que 'soluciona la agresión en una sesión'. Según la jerarquía de intervenciones (LIMA), su respuesta profesional debería ser:",
@@ -1631,13 +1582,7 @@
             { "text": "Compartir vídeos de las sesiones con los clientes en su página web para promocionar su negocio.", "correct": false }
         ],
         "explanation": "La confidencialidad es la base de la confianza. Los clientes comparten información sensible y esperan que se maneje con la máxima discreción. Las consultas entre profesionales implicados en el caso son una excepción necesaria, pero la difusión pública sin permiso es una grave falta de ética."
-    }
-
-
-
-<!-- aquí comienza asignatura 7   (279, 450,620,756,926,1063,1178),1294,1409,1523 -->]
-
-
+    },
     {
         "asignatura": "Fronteras de la Ciencia Canina y Seminario Final",
         "question": "La Antrozoología estudia la interacción humano-animal. Desde esta perspectiva, ¿cómo ha afectado el cambio de rol del perro en la sociedad occidental (de 'herramienta de trabajo' a 'miembro de la familia') al tipo de problemas de comportamiento que vemos hoy en consulta?",
@@ -1727,6 +1672,3 @@
         "explanation": "El futuro es la especialización y la colaboración. Los problemas de comportamiento rara vez tienen una única causa. Un profesional del futuro debe ser capaz de reconocer los límites de su competencia y saber cuándo y cómo colaborar con otros expertos para crear el mejor plan de bienestar posible para el perro y su familia."
     }
 ]
-
-
-

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos de Bienestar Animal | GuíaCanina Abierta</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .prose h2 {
+            font-size: 1.875rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            margin-top: 2.5rem;
+            color: #1e293b; /* slate-800 */
+        }
+        .prose h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+            margin-top: 2rem;
+            color: #334155; /* slate-700 */
+        }
+        .prose strong {
+            color: #0f172a; /* slate-900 */
+        }
+        .prose a {
+            color: #0284c7; /* sky-600 */
+            text-decoration: none;
+        }
+        .prose a:hover {
+            text-decoration: underline;
+        }
+        .prose blockquote {
+            border-left-color: #0ea5e9; /* sky-500 */
+            color: #1e293b;
+        }
+        .prose ul > li::before {
+             background-color: #0284c7; /* sky-600 */
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-700">
+
+    <!-- Header y Navegación -->
+    <header class="bg-white/90 backdrop-blur-lg shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-slate-900">GuíaCanina</a>
+            <div class="hidden md:flex space-x-8 items-center">
+                <a href="guia.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">La Guía</a>
+                <a href="blog.html" class="text-sky-600 font-semibold transition duration-300">Blog Científico</a>
+                <a href="servicios.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">Mis Servicios</a>
+                <a href="sobre-mi.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">Sobre Mí</a>
+                <a href="apoyame.html" class="bg-emerald-500 text-white px-4 py-2 rounded-lg hover:bg-emerald-600 font-semibold transition duration-300 shadow">Apoya el Proyecto</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden text-slate-800">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" /></svg>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 space-y-3">
+             <a href="guia.html" class="block text-slate-600 hover:text-sky-600 font-medium">La Guía</a>
+             <a href="blog.html" class="block text-sky-600 font-semibold">Blog Científico</a>
+             <a href="servicios.html" class="block text-slate-600 hover:text-sky-600 font-medium">Mis Servicios</a>
+             <a href="sobre-mi.html" class="block text-slate-600 hover:text-sky-600 font-medium">Sobre Mí</a>
+             <a href="apoyame.html" class="block bg-emerald-500 text-white px-4 py-2 rounded-lg text-center font-semibold hover:bg-emerald-600">Apoya el Proyecto</a>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 py-12 md:py-16">
+        <article class="max-w-4xl mx-auto bg-white p-8 md:p-12 rounded-xl shadow-lg prose prose-lg">
+            
+            <header>
+                <p class="text-base font-semibold text-sky-600">BIENESTAR ANIMAL</p>
+                <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 mb-4">Más Allá de la Supervivencia: La Evolución del Bienestar Animal</h1>
+                <p class="text-xl text-slate-600">De las 'Cinco Libertades' a una 'Vida Digna de Ser Vivida': cómo la ciencia está redefiniendo lo que significa que un perro esté bien.</p>
+                <p class="mt-4 text-sm text-slate-500">Publicado el 23 de Septiembre, 2025</p>
+            </header>
+            
+            <figure class="mt-8">
+                <img src="https://placehold.co/800x400/e0f2fe/0c4a6e?text=Bienestar+Animal+Cinco+Dominios" alt="Diagrama ilustrando los cinco dominios del bienestar animal" class="rounded-lg w-full">
+                <figcaption class="text-center text-sm text-slate-500 mt-2">Nuestra comprensión del bienestar ha evolucionado de simplemente evitar lo malo a promover activamente lo bueno.</figcaption>
+            </figure>
+
+            <hr class="my-8">
+
+            <p>¿Qué significa realmente que un perro "esté bien"? Durante décadas, la respuesta se centró en asegurar que no sufriera. Sin embargo, la ciencia del bienestar animal ha experimentado una profunda transformación. Hemos pasado de un enfoque centrado en mitigar los estados negativos a uno que busca activamente promover experiencias positivas. Este cambio de paradigma, liderado por científicos como el Dr. David Mellor, nos ha llevado de las icónicas "Cinco Libertades" a un marco más holístico: el "Modelo de los Cinco Dominios" y el objetivo final de asegurar "una vida digna de ser vivida".</p>
+
+            <section id="las-cinco-libertades">
+                <h2>El Punto de Partida: Las Cinco Libertades</h2>
+                <p>Las "Cinco Libertades" fueron un pilar fundamental que dio forma a la legislación y las prácticas de bienestar animal en todo el mundo. Formuladas en la década de 1990, establecían que los animales bajo cuidado humano debían estar:</p>
+                <ul>
+                    <li><strong>Libres de hambre, sed y desnutrición.</strong></li>
+                    <li><strong>Libres de miedos y angustias.</strong></li>
+                    <li><strong>Libres de incomodidades físicas o térmicas.</strong></li>
+                    <li><strong>Libres de dolor, lesiones o enfermedades.</strong></li>
+                    <li><strong>Libres para expresar las pautas propias de comportamiento.</strong></li>
+                </ul>
+                <p>Este marco fue revolucionario y extremadamente influyente. Sin embargo, su principal limitación es su enfoque en la negación. Se concentra en lo que los animales <em>no</em> deben experimentar. La ciencia moderna nos muestra que el bienestar es mucho más que la ausencia de sufrimiento.</p>
+            </section>
+            
+            <section id="cinco-dominios">
+                <h2>Una Nueva Perspectiva: El Modelo de los Cinco Dominios</h2>
+                <p>Para abordar las limitaciones de las Cinco Libertades, el Dr. Mellor y sus colegas desarrollaron el "Modelo de los Cinco Dominios". Este modelo no reemplaza las libertades, sino que las expande, proporcionando una herramienta más detallada para evaluar el bienestar de manera sistemática.</p>
+                <blockquote>
+                    "El Modelo de los Cinco Dominios proporciona una plataforma estructurada para recopilar, organizar e interpretar toda la información relevante para la evaluación del bienestar." - Mellor et al. (2020)
+                </blockquote>
+                <p>El modelo se organiza en cuatro dominios funcionales (físicos) y un dominio central que evalúa el estado mental del animal. La idea clave es que las condiciones en los primeros cuatro dominios influyen directamente en las experiencias subjetivas del quinto dominio.</p>
+                
+                <h3>Los Cinco Dominios son:</h3>
+                <ol>
+                    <li><strong>Nutrición:</strong> Evalúa no solo la suficiencia de comida y agua, sino también el placer asociado con la alimentación.</li>
+                    <li><strong>Entorno:</strong> Considera el alojamiento, el clima, el sustrato y otros factores ambientales que pueden causar confort o malestar.</li>
+                    <li><strong>Salud Física:</strong> Abarca desde la ausencia de enfermedades y lesiones hasta una buena condición física y un funcionamiento corporal óptimo.</li>
+                    <li><strong>Comportamiento:</strong> Examina las oportunidades que tiene el animal para expresar comportamientos importantes, explorar, socializar y tener control sobre su entorno. Las interacciones con los humanos son un factor clave aquí.</li>
+                    <li><strong>Estado Mental:</strong> Este es el dominio central. Integra todas las experiencias negativas y positivas generadas por los otros cuatro dominios para dar una imagen global del estado afectivo del animal. ¿Siente ansiedad, aburrimiento, frustración o, por el contrario, alegría, calma e interés?</li>
+                </ol>
+                <p>Este modelo nos obliga a pensar en términos de un espectro, reconociendo que el bienestar no es un interruptor de "encendido/apagado", sino un estado dinámico y complejo.</p>
+            </section>
+
+            <section id="vida-digna">
+                <h2>El Objetivo Final: Una "Vida Digna de Ser Vivida"</h2>
+                <p>Con el Modelo de los Cinco Dominios como herramienta de evaluación, surge una pregunta más profunda: ¿cuál es el objetivo final? El Dr. Mellor propone el concepto de <strong>"una vida digna de ser vivida" (A Life Worth Living)</strong>.</p>
+                <p>Este concepto se basa en una idea simple pero poderosa: para que un animal tenga un buen bienestar, el balance de sus experiencias a lo largo del tiempo debe ser predominantemente positivo. No se trata de eliminar por completo las experiencias negativas; algunas, como la sed o el frío moderado, son inevitables e incluso necesarias para motivar comportamientos de supervivencia.</p>
+                <blockquote>
+                     "La clave es que las experiencias positivas placenteras, reconfortantes y vitalizantes superen a las negativas inevitables y a las negativas evitables que persisten." - David J. Mellor (2016)
+                </blockquote>
+                <p>Una vida digna de ser vivida no es solo una vida libre de sufrimiento. Es una vida con oportunidades para el juego, la curiosidad, el afecto, la exploración y la satisfacción. Es una vida rica en experiencias positivas.</p>
+            </section>
+
+            <section id="conclusion">
+                <h2>¿Qué Significa Esto para Nuestros Perros?</h2>
+                <p>Esta evolución en el pensamiento científico tiene implicaciones directas para todos los que compartimos nuestra vida con perros. Ya no es suficiente con proporcionar un techo, comida y cuidados veterinarios. Nuestra responsabilidad es ser los arquitectos de una vida feliz.</p>
+                <h3>Puntos Clave para Recordar:</h3>
+                <ul>
+                    <li><strong>Piensa en positivo:</strong> No te centres solo en lo que tu perro <em>no debe</em> hacer o sentir. Pregúntate: ¿Qué puedo hacer hoy para que mi perro sienta alegría, interés o confort?</li>
+                    <li><strong>Fomenta la elección y el control:</strong> Permite que tu perro tome pequeñas decisiones en su día a día. Esto puede ser tan simple como elegir la dirección del paseo o qué juguete morder.</li>
+                    <li><strong>El enriquecimiento es esencial:</strong> Proporciona estimulación mental y oportunidades para que use su cerebro y sus instintos naturales de forma segura.</li>
+                    <li><strong>Observa y escucha:</strong> Aprende a leer el lenguaje corporal de tu perro. Él te está comunicando constantemente cómo se siente. Usa esa información para ajustar su entorno y tus interacciones.</li>
+                </ul>
+                <p>En última instancia, el cambio de las Cinco Libertades a una "vida digna de ser vivida" nos invita a ser más empáticos y proactivos. Nos reta a ver a nuestros perros no solo como seres a los que proteger del mal, sino como individuos con una rica vida emocional que merecen experimentar plenamente.</p>
+            </section>
+            
+            <hr class="my-8">
+            <footer class="text-sm">
+                <p class="text-slate-800 font-semibold">Referencias principales:</p>
+                <p class="text-slate-600 italic">Mellor, D. J. (2016). Updating Animal Welfare Thinking: Moving beyond the “Five Freedoms” towards “A Life Worth Living”. Animals, 6(3), 21.</p>
+                <p class="text-slate-600 italic">Mellor, D. J., Beausoleil, N. J., Littlewood, K. E., McLean, A. N., McGreevy, P. D., Jones, B., & Wilkins, C. (2020). The 2020 Five Domains Model: Including Human–Animal Interactions in Assessments of Animal Welfare. Animals, 10(10), 1870.</p>
+            </footer>
+
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-800 text-slate-300">
+        <div class="container mx-auto px-6 py-12">
+            <!-- Contenido del footer replicado -->
+        </div>
+    </footer>
+
+    <script>
+        // Script para el menú móvil
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+        
+        // Copiar el footer para no repetirlo
+         const mainFooter = document.querySelector('footer.bg-slate-800 .container');
+         if (mainFooter) {
+             const articleFooterContainer = document.querySelector('article + footer .container');
+             if(articleFooterContainer) {
+                 articleFooterContainer.innerHTML = mainFooter.innerHTML;
+             }
+         }
+    </script>
+</body>
+</html>

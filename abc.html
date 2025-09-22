@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis Funcional (ABC) | Guía Canina Abierta</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .hero-bg-abc {
+            background-image: url('https://placehold.co/1920x1080/a5b4fc/ffffff?text=An%C3%A1lisis+Conductual');
+            background-size: cover;
+            background-position: center;
+        }
+        .step-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .step-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-700">
+
+    <header class="bg-white/90 backdrop-blur-lg shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-slate-900">Allku Yachana</a>
+            <div class="hidden md:flex space-x-8 items-center">
+                <a href="guia.html" class="text-sky-600 hover:text-sky-700 font-bold border-b-2 border-sky-600 pb-1">La Guía</a>
+                <a href="blog.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">Blog Científico</a>
+                <a href="servicios.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">Mis Servicios</a>
+                <a href="sobre-mi.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">Sobre Mí</a>
+                <a href="apoyame.html" class="bg-emerald-500 text-white px-4 py-2 rounded-lg hover:bg-emerald-600 font-semibold transition duration-300 shadow">Apoya el Proyecto</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden text-slate-800">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" /></svg>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 space-y-3">
+            <a href="guia.html" class="block text-sky-600 font-bold">La Guía</a>
+            <a href="blog.html" class="block text-slate-600 hover:text-sky-600 font-medium">Blog Científico</a>
+            <a href="servicios.html" class="block text-slate-600 hover:text-sky-600 font-medium">Mis Servicios</a>
+            <a href="sobre-mi.html" class="block text-slate-600 hover:text-sky-600 font-medium">Sobre Mí</a>
+            <a href="apoyame.html" class="block bg-emerald-500 text-white px-4 py-2 rounded-lg text-center font-semibold hover:bg-emerald-600">Apoya el Proyecto</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-bg-abc text-white">
+            <div class="bg-black/60 min-h-[50vh] flex items-center">
+                <div class="container mx-auto px-6 text-center">
+                    <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4">Análisis Funcional de la Conducta (ABC)</h1>
+                    <p class="text-lg md:text-xl max-w-3xl mx-auto mb-8">La herramienta clave para entender el "porqué" de un comportamiento y diseñar planes de modificación de conducta efectivos y empáticos.</p>
+                    <a href="#protocolo" class="bg-sky-500 text-white font-bold py-3 px-8 rounded-lg hover:bg-sky-600 transition duration-300 text-lg">Ver el Protocolo</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Introduction Section -->
+        <section class="py-16 md:py-24 bg-white" id="protocolo">
+            <div class="container mx-auto px-6">
+                <div class="text-center max-w-3xl mx-auto">
+                    <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Más Allá de las Etiquetas</h2>
+                    <p class="text-slate-600 text-lg">En la educación canina moderna, evitamos etiquetas como "dominante", "terco" o "malo". En su lugar, buscamos entender la <span class="font-bold text-sky-600">función</span> que cumple un comportamiento para el perro. El Análisis Funcional de la Conducta (AFC), y su modelo ABC, es nuestro método científico para lograrlo. Nos permite pasar del "¿qué hace?" al "¿por qué lo hace?".</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- The ABC Model Section -->
+        <section class="py-16 md:py-24 bg-slate-100">
+            <div class="container mx-auto px-6">
+                <div class="text-center max-w-3xl mx-auto mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">El Modelo ABC: Las Piezas del Puzzle</h2>
+                    <p class="text-slate-600 text-lg">Todo comportamiento ocurre en un contexto. El modelo ABC nos ayuda a desglosar ese contexto en tres partes secuenciales para encontrar patrones.</p>
+                </div>
+
+                <div class="grid md:grid-cols-1 lg:grid-cols-3 gap-8">
+                    <!-- Antecedent -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-emerald-500">
+                        <h3 class="text-2xl font-bold text-slate-900 mb-3">(A) Antecedente</h3>
+                        <p class="text-slate-600 mb-4 font-semibold">¿Qué ocurre JUSTO ANTES de la conducta?</p>
+                        <p class="text-slate-600">Es el disparador, el gatillo. Puede ser algo en el entorno (un ruido, una persona), una acción (ponerse los zapatos) o incluso un estado interno (dolor, hambre, miedo).</p>
+                        <ul class="mt-4 text-slate-600 list-disc list-inside space-y-2">
+                            <li><strong>Ejemplo 1:</strong> Un perro se acerca corriendo en el parque.</li>
+                            <li><strong>Ejemplo 2:</strong> El tutor coge la correa.</li>
+                            <li><strong>Ejemplo 3:</strong> Suena el timbre de la puerta.</li>
+                        </ul>
+                    </div>
+                    <!-- Behavior -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-sky-500">
+                        <h3 class="text-2xl font-bold text-slate-900 mb-3">(B) Conducta</h3>
+                        <p class="text-slate-600 mb-4 font-semibold">La acción observable y medible.</p>
+                        <p class="text-slate-600">Es fundamental describir la conducta de forma objetiva, sin interpretaciones. ¿Qué hizo el perro exactamente? Evita "se puso agresivo" y usa "gruñó, erizó el lomo y enseñó los dientes".</p>
+                        <ul class="mt-4 text-slate-600 list-disc list-inside space-y-2">
+                            <li><strong>Ejemplo 1:</strong> Se tira al suelo y se queda inmóvil.</li>
+                            <li><strong>Ejemplo 2:</strong> Salta y mueve la cola en círculos.</li>
+                            <li><strong>Ejemplo 3:</strong> Ladra repetidamente hacia la puerta.</li>
+                        </ul>
+                    </div>
+                    <!-- Consequence -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-amber-500">
+                        <h3 class="text-2xl font-bold text-slate-900 mb-3">(C) Consecuencia</h3>
+                        <p class="text-slate-600 mb-4 font-semibold">¿Qué ocurre INMEDIATAMENTE DESPUÉS?</p>
+                        <p class="text-slate-600">La consecuencia determina si la conducta se repetirá en el futuro. ¿El perro obtuvo algo que quería? ¿Logró evitar algo que no le gustaba? Es lo que refuerza (o castiga) la conducta.</p>
+                        <ul class="mt-4 text-slate-600 list-disc list-inside space-y-2">
+                            <li><strong>Ejemplo 1:</strong> El otro perro se detiene y se aleja.</li>
+                            <li><strong>Ejemplo 2:</strong> El tutor le pone la correa para salir.</li>
+                            <li><strong>Ejemplo 3:</strong> El tutor grita "¡Cállate!".</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Methodology Section -->
+        <section class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center max-w-3xl mx-auto mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Protocolo de Aplicación: Paso a Paso</h2>
+                    <p class="text-slate-600 text-lg">Realizar un análisis funcional requiere ser sistemático y objetivo. Sigue estos pasos para obtener información valiosa.</p>
+                </div>
+                
+                <div class="max-w-4xl mx-auto space-y-10">
+                    <!-- Step 1 -->
+                    <div class="flex items-start space-x-6 step-card p-6 rounded-lg">
+                        <div class="bg-sky-500 text-white rounded-full h-12 w-12 flex-shrink-0 flex items-center justify-center font-bold text-xl">1</div>
+                        <div>
+                            <h3 class="text-xl font-bold text-slate-900 mb-2">Definir la Conducta Objetivo</h3>
+                            <p class="text-slate-600">Sé específico. "Agresividad" es muy vago. "Lanza mordiscos al aire cuando un extraño intenta tocarle la cabeza" es una definición operativa, clara y medible.</p>
+                        </div>
+                    </div>
+                    <!-- Step 2 -->
+                    <div class="flex items-start space-x-6 step-card p-6 rounded-lg">
+                        <div class="bg-sky-500 text-white rounded-full h-12 w-12 flex-shrink-0 flex items-center justify-center font-bold text-xl">2</div>
+                        <div>
+                            <h3 class="text-xl font-bold text-slate-900 mb-2">Recopilar Datos (Registro ABC)</h3>
+                            <p class="text-slate-600 mb-4">Observa y anota. Usa un diario, una hoja de cálculo o graba videos. Registra cada vez que ocurra la conducta objetivo, anotando el A, B y C. Sé consistente durante varios días o semanas.</p>
+                            <div class="overflow-x-auto mt-4">
+                                <table class="w-full text-left border-collapse">
+                                    <thead>
+                                        <tr>
+                                            <th class="border-b-2 p-3 bg-slate-100 font-bold text-slate-800">Fecha/Hora</th>
+                                            <th class="border-b-2 p-3 bg-slate-100 font-bold text-slate-800">A - Antecedente</th>
+                                            <th class="border-b-2 p-3 bg-slate-100 font-bold text-slate-800">B - Conducta</th>
+                                            <th class="border-b-2 p-3 bg-slate-100 font-bold text-slate-800">C - Consecuencia</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="border-b p-3">22/09 18:30</td>
+                                            <td class="border-b p-3">Extraño se inclina sobre el perro en la calle.</td>
+                                            <td class="border-b p-3">Gruñe y muestra los dientes.</td>
+                                            <td class="border-b p-3">El extraño retira la mano y se aleja.</td>
+                                        </tr>
+                                         <tr>
+                                            <td class="border-b p-3 bg-slate-50">23/09 09:15</td>
+                                            <td class="border-b p-3 bg-slate-50">El veterinario intenta ponerle una inyección.</td>
+                                            <td class="border-b p-3 bg-slate-50">Intenta morder la mano del veterinario.</td>
+                                            <td class="border-b p-3 bg-slate-50">El veterinario se detiene momentáneamente.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Step 3 Expanded -->
+                    <div class="flex items-start space-x-6 step-card p-6 rounded-lg bg-slate-50 border border-slate-200">
+                        <div class="bg-sky-500 text-white rounded-full h-12 w-12 flex-shrink-0 flex items-center justify-center font-bold text-xl">3</div>
+                        <div>
+                            <h3 class="text-xl font-bold text-slate-900 mb-2">Analizar los Patrones y Formular una Hipótesis Completa</h3>
+                            <p class="text-slate-600 mb-6">Revisa tus registros con mentalidad de detective. Busca patrones consistentes. ¿Qué antecedentes preceden a la conducta? ¿Qué consecuencias la siguen recurrentemente? Una conducta que se repite es una conducta que funciona. Vamos a explorar las funciones principales en profundidad:</p>
+                            
+                            <div class="space-y-8">
+                                <!-- Function 1: Attention -->
+                                <div class="p-4 border-l-4 border-emerald-400 bg-emerald-50 rounded-r-lg">
+                                    <h4 class="font-bold text-lg text-emerald-800">Función 1: Obtención de Atención (Refuerzo Social Positivo)</h4>
+                                    <p class="text-slate-700 mt-2 mb-3">La conducta resulta en obtener cualquier tipo de interacción social. Para un perro que busca atención, la atención "negativa" (gritos, empujones) sigue siendo atención.</p>
+                                    <p class="text-slate-600 font-semibold mb-2">La pregunta clave: <em>¿La conducta provoca que alguien mire, hable o toque al perro?</em></p>
+                                    <ul class="list-disc list-inside text-slate-600 space-y-1">
+                                        <li><strong>A:</strong> Tutor hablando por teléfono. → <strong>B:</strong> Perro trae un juguete y lloriquea. → <strong>C:</strong> Tutor interrumpe la llamada para decirle "ahora no". (¡Atención obtenida!)</li>
+                                        <li><strong>A:</strong> Visitas en casa ignoran al perro. → <strong>B:</strong> Se sube al sofá y rasca los cojines. → <strong>C:</strong> El tutor se levanta a bajarlo. (¡Atención obtenida!)</li>
+                                    </ul>
+                                </div>
+
+                                <!-- Function 2: Tangibles -->
+                                <div class="p-4 border-l-4 border-sky-400 bg-sky-50 rounded-r-lg">
+                                    <h4 class="font-bold text-lg text-sky-800">Función 2: Obtención de Tangibles (Refuerzo Positivo)</h4>
+                                    <p class="text-slate-700 mt-2 mb-3">La conducta resulta en obtener acceso a un objeto, comida, actividad o lugar deseado.</p>
+                                    <p class="text-slate-600 font-semibold mb-2">La pregunta clave: <em>¿La conducta le da al perro acceso a algo que quiere?</em></p>
+                                    <ul class="list-disc list-inside text-slate-600 space-y-1">
+                                        <li><strong>A:</strong> Persona comiendo en la mesa. → <strong>B:</strong> Perro apoya la cabeza en su pierna. → <strong>C:</strong> La persona le da un trozo de comida. (¡Tangible obtenido!)</li>
+                                        <li><strong>A:</strong> La puerta del jardín está cerrada. → <strong>B:</strong> El perro rasca la puerta. → <strong>C:</strong> Alguien le abre la puerta. (¡Actividad deseada obtenida!)</li>
+                                    </ul>
+                                </div>
+
+                                <!-- Function 3: Escape/Avoidance -->
+                                <div class="p-4 border-l-4 border-amber-400 bg-amber-50 rounded-r-lg">
+                                    <h4 class="font-bold text-lg text-amber-800">Función 3: Escape y Evitación (Refuerzo Negativo)</h4>
+                                    <p class="text-slate-700 mt-2 mb-3">La conducta resulta en el cese (escape) o la prevención (evitación) de un estímulo que el perro percibe como aversivo, incómodo o aterrador.</p>
+                                    <p class="text-slate-600 font-semibold mb-2">La pregunta clave: <em>¿La conducta hace que algo "malo" desaparezca o no llegue a ocurrir?</em></p>
+                                    <ul class="list-disc list-inside text-slate-600 space-y-1">
+                                        <li><strong>Escape (el estímulo está presente):</strong> A: Se le cepilla un nudo. → B: Gira la cabeza y gruñe. → C: Se detiene el cepillado. (¡Escape del dolor!)</li>
+                                        <li><strong>Evitación (anticipa el estímulo):</strong> A: Un niño corre hacia él. → B: Ladra cuando el niño está lejos. → C: El niño se detiene y no llega a tocarlo. (¡Evitación del contacto!)</li>
+                                    </ul>
+                                </div>
+
+                                <!-- Function 4: Sensory -->
+                                <div class="p-4 border-l-4 border-violet-400 bg-violet-50 rounded-r-lg">
+                                    <h4 class="font-bold text-lg text-violet-800">Función 4: Autoestimulación / Refuerzo Automático (Sensorial)</h4>
+                                    <p class="text-slate-700 mt-2 mb-3">La conducta en sí misma produce una sensación reforzante o alivia un estado de malestar (aburrimiento, ansiedad). La consecuencia es interna.</p>
+                                    <p class="text-slate-600 font-semibold mb-2">La pregunta clave: <em>¿El perro haría esto si estuviera completamente solo?</em></p>
+                                    <ul class="list-disc list-inside text-slate-600 space-y-1">
+                                         <li><strong>A:</strong> El perro está solo en casa (aburrimiento). → <strong>B:</strong> Se lame una pata de forma compulsiva. → <strong>C:</strong> La acción libera endorfinas y alivia el estrés.</li>
+                                         <li><strong>A:</strong> Tormenta con truenos (miedo). → <strong>B:</strong> Persigue su cola en círculos. → <strong>C:</strong> El comportamiento repetitivo le distrae de su miedo.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="mt-8 bg-white p-4 rounded-lg border border-slate-300">
+                                <h4 class="font-bold text-slate-800">Formulando tu Hipótesis Final</h4>
+                                <p class="text-slate-600 mt-2">Tu hipótesis debe ser una declaración clara: <strong>"Bajo estas condiciones (A), el perro realiza esta conducta (B) para conseguir esta consecuencia (C)."</strong> A menudo, las conductas tienen <span class="font-bold">funciones múltiples</span>. Un perro puede ladrar a las visitas (B) por incomodidad (A - evitación) y recibir atención del tutor (C - atención). Tu hipótesis debe reflejar esta complejidad si es necesario.</p>
+                                <p class="mt-4 text-slate-800 bg-slate-100 p-3 rounded"><strong>Ejemplo de Hipótesis:</strong> "La hipótesis principal es que la conducta de gruñir (B) cuando un extraño se inclina (A) está mantenida por refuerzo negativo, ya que su función es la de <strong>evitar</strong> una interacción física no deseada, lo cual se logra cuando la persona se aleja (C)."</p>
+                            </div>
+                        </div>
+                    </div>
+                     <!-- Step 4 -->
+                    <div class="flex items-start space-x-6 step-card p-6 rounded-lg">
+                        <div class="bg-sky-500 text-white rounded-full h-12 w-12 flex-shrink-0 flex items-center justify-center font-bold text-xl">4</div>
+                        <div>
+                            <h3 class="text-xl font-bold text-slate-900 mb-2">Diseñar un Plan de Intervención</h3>
+                            <p class="text-slate-600">Un buen plan no se centra en castigar la conducta (B), sino en modificar los antecedentes (A) y las consecuencias (C) para hacer que la conducta no sea necesaria ni efectiva.</p>
+                            <ul class="mt-4 text-slate-600 list-disc list-inside space-y-2">
+                                <li><strong>Manejo del Antecedente:</strong> Evitar temporalmente las situaciones que disparan la conducta (ej. pedir a la gente que no se incline sobre el perro).</li>
+                                <li><strong>Enseñar una Conducta Alternativa:</strong> Enseñar al perro una conducta incompatible y más apropiada que cumpla la misma función (ej. enseñar a girarse y alejarse para crear espacio).</li>
+                                <li><strong>Modificar la Consecuencia:</strong> Asegurarse de que la conducta indeseada ya no funcione (no se refuerce) y que la conducta alternativa sí sea reforzada (ej. premiar al perro por alejarse en lugar de gruñir).</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-16 bg-amber-100 border-l-4 border-amber-500 text-amber-800 p-6 rounded-r-lg max-w-4xl mx-auto">
+                    <p class="font-bold">Consideración Ética Importante</p>
+                    <p>Antes de cualquier análisis conductual, es crucial <span class="font-bold">descartar causas médicas</span> con un veterinario. El dolor, el malestar o los desequilibrios hormonales son antecedentes internos muy potentes que pueden causar cambios drásticos en el comportamiento.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <footer class="bg-slate-800 text-slate-300">
+        <div class="container mx-auto px-6 py-12">
+            <div class="mt-8 pt-8 border-t border-slate-700 text-center text-slate-500 text-sm">
+                <p>&copy; 2024 GuíaCanina Abierta. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // --- Mobile Menu Script ---
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
+

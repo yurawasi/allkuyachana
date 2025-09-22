@@ -1,1 +1,23 @@
-texto
+as1.json - Etología, Evolución y Domesticación del Perro
+
+as2.json - Neurobiología y Fisiología del Comportamiento
+
+as3.json - Principios Científicos del Aprendizaje
+
+as4.json - Comunicación Canina y Zoosemiótica
+
+as5.json - Cognición Social y Emociones
+
+as6.json - Bienestar Animal: Ciencia, Medición y Aplicación
+
+as7.json - Metodologías de Entrenamiento y Modificación de Conducta
+
+as8.json - Diagnóstico y Tratamiento de Problemas de Comportamiento I
+
+as9.json - Nutrición, Salud y Desarrollo Físico
+
+as10.json - Agresividad Canina: Evaluación e Intervención Avanzada
+
+as11.json - Ética Profesional y Relación con el Cliente
+
+as12.json - Fronteras de la Ciencia Canina y Seminario Final

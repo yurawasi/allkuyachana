@@ -56,7 +56,8 @@
     },
     {
         "asignatura": "Metodologías de Entrenamiento y Modificación de Conducta",
-        "question": "El principio ético de 'Mínima Invasión y Jerarquía de Intervenciones' (LIMA) establece que un profesional debe:",
+        "question": "El principio ético de 'MM
+        enos Intrusivo, Mínimamente Aversivo' (LIMA) establece que un profesional debe:",
         "answers": [
             { "text": "Utilizar siempre la herramienta más potente y rápida para solucionar el problema.", "correct": false },
             { "text": "Priorizar siempre las estrategias de refuerzo positivo y agotar las opciones menos intrusivas antes de considerar procedimientos aversivos.", "correct": true },

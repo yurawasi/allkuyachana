@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Guía Definitiva del Paseo Canino | Allku Yachana</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .hero-guide-bg {
+            background-image: url('https://images.unsplash.com/photo-1558983196-347a8a0d24bd?q=80&w=2070&auto=format&fit=crop'); /* Imagen de un perro feliz en un paseo */
+            background-size: cover;
+            background-position: center;
+        }
+        .content-section h2 {
+            font-size: 2.25rem; /* 36px */
+            font-weight: 800;
+            color: #1e293b; /* slate-800 */
+            margin-bottom: 1.5rem; /* 24px */
+            border-bottom: 3px solid #0ea5e9; /* sky-500 */
+            padding-bottom: 0.5rem;
+        }
+        .content-section h3 {
+            font-size: 1.5rem; /* 24px */
+            font-weight: 700;
+            color: #334155; /* slate-700 */
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+        .content-section p, .content-section li {
+            font-size: 1.125rem; /* 18px */
+            line-height: 1.75;
+            color: #475569; /* slate-600 */
+            margin-bottom: 1rem;
+        }
+        .content-section ul {
+            list-style-type: disc;
+            padding-left: 2rem;
+        }
+        .highlight-box {
+            background-color: #f0f9ff; /* sky-50 */
+            border-left: 5px solid #0ea5e9; /* sky-500 */
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            margin: 2rem 0;
+        }
+        .tip-box {
+            background-color: #f0fdf4; /* green-50 */
+            border-left: 5px solid #22c55e; /* green-500 */
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            margin: 2rem 0;
+        }
+        .warning-box {
+            background-color: #fffbeb; /* yellow-50 */
+            border-left: 5px solid #f59e0b; /* yellow-500 */
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            margin: 2rem 0;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-700">
+
+    <header class="bg-white/90 backdrop-blur-lg shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-slate-900">Allku Yachana</a>
+            <div class="hidden md:flex space-x-8 items-center">
+                <a href="guia.html" class="text-sky-600 border-b-2 border-sky-600 font-bold">La Guía</a>
+                <a href="blog.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">Blog Científico</a>
+                <a href="servicios.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">Mis Servicios</a>
+                <a href="sobre-mi.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">Sobre Mí</a>
+                <a href="apoyame.html" class="bg-emerald-500 text-white px-4 py-2 rounded-lg hover:bg-emerald-600 font-semibold transition duration-300 shadow">Apoya el Proyecto</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden text-slate-800">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" /></svg>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 space-y-3">
+            <a href="guia.html" class="block text-sky-600 font-bold">La Guía</a>
+            <a href="blog.html" class="block text-slate-600 hover:text-sky-600 font-medium">Blog Científico</a>
+            <a href="servicios.html" class="block text-slate-600 hover:text-sky-600 font-medium">Mis Servicios</a>
+            <a href="sobre-mi.html" class="block text-slate-600 hover:text-sky-600 font-medium">Sobre Mí</a>
+            <a href="apoyame.html" class="block bg-emerald-500 text-white px-4 py-2 rounded-lg text-center font-semibold hover:bg-emerald-600">Apoya el Proyecto</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-guide-bg text-white">
+            <div class="bg-black/60 min-h-[50vh] flex items-center">
+                <div class="container mx-auto px-6">
+                    <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4 max-w-3xl">La Guía Perfecta del Paseo Canino</h1>
+                    <p class="text-lg md:text-xl max-w-3xl">Transforma el paseo en una aventura de bienestar, comunicación y enriquecimiento para tu perro.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16 md:py-24">
+            <div class="container mx-auto px-6 max-w-4xl">
+                
+                <div class="content-section">
+                    <h2>1. Más Allá de la Acera: La Psicología del Paseo</h2>
+                    <p>El paseo es la actividad más crucial para el bienestar de un perro urbano. No es solo ejercicio físico; es su periódico, su red social y su oportunidad de ser perro. Entender esto cambia radicalmente nuestra perspectiva.</p>
+                    
+                    <div class="highlight-box">
+                        <p class="font-bold text-slate-800">Enfoque Científico: La Importancia del Olfato</p>
+                        <p>Los perros "ven" el mundo a través de su nariz. Su bulbo olfatorio es unas 40 veces más grande que el nuestro. Permitirle olfatear es como permitirle leer. El olfateo reduce su ritmo cardíaco y los niveles de cortisol (la hormona del estrés), promoviendo un estado de calma. Un paseo sin olfato es un paseo incompleto.</p>
+                    </div>
+
+                    <h3>Objetivos de un Paseo de Calidad:</h3>
+                    <ul>
+                        <li><strong>Necesidades Físicas:</strong> Ejercicio adecuado y oportunidad para hacer sus necesidades.</li>
+                        <li><strong>Necesidades Mentales:</strong> Estimulación a través del olfato, la vista y el oído.</li>
+                        <li><strong>Necesidades Emocionales:</strong> Reducción de estrés, construcción de confianza y fortalecimiento del vínculo contigo.</li>
+                        <li><strong>Necesidades Sociales:</strong> Aprender a gestionar el entorno y, si es apropiado, interactuar de forma segura.</li>
+                    </ul>
+                </div>
+
+                <div class="content-section">
+                    <h2>2. La Herramienta Adecuada: Bienestar y Seguridad</h2>
+                    <p>El equipo que usamos tiene un impacto directo en la experiencia y la salud de nuestro perro. La clave es elegir herramientas que no causen dolor, miedo ni malestar.</p>
+                    
+                    <h3>Equipamiento Recomendado:</h3>
+                    <ul>
+                        <li><strong>Arnés tipo Y o H:</strong> Distribuye la presión sobre el esternón y los hombros, evitando el delicado cuello (donde se encuentran la tráquea, el esófago, la glándula tiroides y las vértebras cervicales). Permite un movimiento natural de las articulaciones.</li>
+                        <li><strong>Correa Larga (3 a 5 metros):</strong> Ofrece al perro la libertad de explorar y olfatear sin generar tensión constante. Una correa corta es una fuente continua de frustración y tirones.</li>
+                        <li><strong>Premios de Alto Valor:</strong> Trozos pequeños de comida irresistible (pollo, queso, salchicha) para reforzar comportamientos deseados como caminar con la correa floja o gestionar un encuentro difícil.</li>
+                    </ul>
+
+                    <div class="warning-box">
+                        <p class="font-bold text-slate-800">Equipamiento a Evitar: El Riesgo de los Aversivos</p>
+                        <p>Herramientas como <strong>collares de ahogo (castigo), de púas o electrónicos</strong> se basan en la aplicación de dolor y miedo para inhibir un comportamiento. La evidencia científica (AVSAB, Ziv, G., 2017) demuestra que estos métodos pueden provocar:</p>
+                        <ul>
+                            <li>Aumento de la agresividad y reactividad por asociación negativa.</li>
+                            <li>Daño físico en el cuello y la tráquea.</li>
+                            <li>Ansiedad crónica y apatía ("indefensión aprendida").</li>
+                            <li>Deterioro del vínculo perro-humano.</li>
+                        </ul>
+                        <p class="mt-4">El objetivo no es castigar el tirón, sino enseñar al perro que caminar sin tirar es más beneficioso y agradable.</p>
+                    </div>
+                </div>
+
+                <div class="content-section">
+                    <h2>3. Estrategias para un Paseo Exitoso: Antes, Durante y Después</h2>
+                    
+                    <h3>Antes de Salir: Prepara el Terreno</h3>
+                    <p>La calma empieza en casa. Si tu perro se sobreexcita antes de salir, el paseo comenzará con un nivel de energía demasiado alto.</p>
+                    <ul>
+                        <li><strong>Ritual de Calma:</strong> Coge la correa y el arnés con tranquilidad. Si el perro salta o ladra, espera. Quédate quieto y en silencio hasta que ofrezca un comportamiento más tranquilo (sentarse, tumbarse, o simplemente cuatro patas en el suelo). Luego, procede a ponerle el arnés.</li>
+                        <li><strong>Salida Tranquila:</strong> Pide a tu perro que espere antes de abrir la puerta. Tú siempre sales primero. Esto no es por "dominancia", sino por seguridad y para establecer un precedente de calma y cooperación.</li>
+                    </ul>
+
+                    <h3>Durante el Paseo: Las 4 Claves</h3>
+                    <p>Este es el momento de conectar con tu perro y con el entorno.</p>
+                    <ol class="list-decimal pl-8">
+                        <li class="mb-4">
+                            <strong>Permite el Olfateo (La "Nariz-Terapia"):</strong> La mayor parte del paseo debe ser dedicada a que tu perro explore con su nariz. Camina despacio, detente cuando él encuentre un olor interesante. ¡Es su paseo, no tu entrenamiento de cardio!
+                        </li>
+                        <li class="mb-4">
+                            <strong>Mantén la Correa Floja:</strong> Una correa tensa transmite estrés y tensión a tu perro. Si tira, en lugar de dar un tirón, simplemente detente. Quédate quieto como un árbol. Cuando tu perro afloje la tensión y te mire, prémialo verbalmente y reanuda la marcha. Recompensa cada vez que la correa esté floja.
+                        </li>
+                        <li class="mb-4">
+                            <strong>Sé su Abogado:</strong> Aprende a leer el lenguaje corporal de tu perro (bostezos, lamido de nariz, orejas hacia atrás, cola baja). Si ves que está incómodo con una persona, perro u objeto, ¡aumenta la distancia! Cruza la calle, date la vuelta. Protegerlo de situaciones que no puede gestionar construye una confianza inmensa en ti.
+                        </li>
+                        <li class="mb-4">
+                            <strong>Enriquecimiento Ambiental:</strong> Varía las rutas. Un día en el parque, otro por calles tranquilas, una excursión al campo el fin de semana. Nuevos olores y entornos son increíblemente estimulantes.
+                        </li>
+                    </ol>
+
+                    <div class="tip-box">
+                        <p class="font-bold text-slate-800">Consejo Pro para Paseadores y Dueños</p>
+                        <p><strong>Juego del "Check-in":</strong> Durante el paseo, de vez en cuando y de forma aleatoria, di el nombre de tu perro con un tono alegre. Cuando te mire, dale un premio muy sabroso. Esto le enseña que prestarte atención es algo maravilloso y fortalece vuestra conexión incluso cuando está explorando.</p>
+                    </div>
+
+                    <h3>Después del Paseo: Descompresión y Cuidado</h3>
+                    <ul>
+                        <li><strong>Limpieza:</strong> Revisa y limpia sus patas y almohadillas.</li>
+                        <li><strong>Hidratación:</strong> Asegúrate de que tenga agua fresca disponible.</li>
+                        <li><strong>Descanso:</strong> Después de la estimulación del paseo, necesita tiempo para descansar y procesar toda la información. Dale su espacio.</li>
+                    </ul>
+                </div>
+
+                 <div class="content-section">
+                    <h2>4. Guía para Paseadores Profesionales: Excelencia en el Servicio</h2>
+                    <p>Ser un paseador canino es una gran responsabilidad. No solo cuidas de la seguridad del perro, sino de su bienestar emocional. La confianza del perro y de su familia es tu mayor activo.</p>
+                    
+                    <h3>Protocolos Esenciales:</h3>
+                    <ul>
+                        <li><strong>"Meet & Greet" Obligatorio:</strong> Antes de aceptar un cliente, realiza una visita para conocer al perro en su hogar con su dueño presente. Observa su comportamiento, pregunta por sus miedos, sus gustos, historial médico y cualquier detonante de reactividad.</li>
+                        <li><strong>Comunicación Transparente:</strong> Informa a los dueños después de cada paseo. Un breve resumen con una foto, mencionando cómo ha ido, si ha hecho sus necesidades y cualquier observación relevante, marca una gran diferencia.</li>
+                        <li><strong>Paseos Individuales o en Grupos Pequeños y Compatibles:</strong> Los paseos masivos son estresantes e inseguros. Si ofreces paseos en grupo, asegúrate de que los perros sean compatibles en tamaño, nivel de energía y temperamento. Realiza siempre una introducción controlada en territorio neutral.</li>
+                        <li><strong>Kit de Primeros Auxilios:</strong> Lleva siempre contigo un pequeño kit con gasas, desinfectante, pinzas y el contacto del veterinario de cada perro. (Referencia: AAOS Advanced First Aid).</li>
+                        <li><strong>Formación Continua:</strong> El campo de la etología y el comportamiento canino está en constante evolución. Mantente actualizado sobre métodos de entrenamiento basados en el refuerzo positivo y el bienestar animal.</li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+    
+    <footer class="bg-slate-800 text-slate-300">
+        <div class="container mx-auto px-6 py-12">
+            <div class="mt-8 pt-8 border-t border-slate-700 text-center text-slate-500 text-sm">
+                <p>&copy; 2025 Allku Yachana. Creado con ciencia y empatía.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // --- Mobile Menu Script ---
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>

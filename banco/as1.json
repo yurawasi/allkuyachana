@@ -510,7 +510,7 @@
         "question": "La principal ventaja de usar un 'marcador' (como un clicker o una palabra) en el entrenamiento es que:",
         "answers": [
             { "text": "El sonido del clicker es intrínsecamente agradable para los perros.", "correct": false },
-            { "text": "Permite señalar con una precisión temporal exacta el momento en que el perro realiza la conducta correcta, incluso si el premio se entrega unos segundos después.", "correct": true },
+            { "text": "Permite señalar con una precisión temporal exacta la conducta que queremos premiar, incluso si el premio se entrega unos segundos después.", "correct": true },
             { "text": "Sustituye por completo la necesidad de usar premios de comida.", "correct": false },
             { "text": "Solo funciona para enseñar comportamientos complejos, no para los simples.", "correct": false }
         ],

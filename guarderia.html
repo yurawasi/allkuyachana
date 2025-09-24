@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestros Miembros | Guardería Canina</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .dog-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .dog-card:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-700">
+
+    <!-- Header y Navegación (Consistente con las otras páginas) -->
+    <header class="bg-white/90 backdrop-blur-lg shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-slate-900">Allku Yachana</a>
+            <div class="hidden md:flex space-x-8 items-center">
+                <a href="guia.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">La Guía</a>
+                <a href="blog.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">Blog Científico</a>
+                <a href="servicios.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">Mis Servicios</a>
+                <a href="guarderia.html" class="text-sky-600 font-semibold transition duration-300">Guardería</a>
+                <a href="sobre-mi.html" class="text-slate-600 hover:text-sky-600 font-medium transition duration-300">Sobre Mí</a>
+                <a href="apoyame.html" class="bg-emerald-500 text-white px-4 py-2 rounded-lg hover:bg-emerald-600 font-semibold transition duration-300 shadow">Apoya el Proyecto</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden text-slate-800">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" /></svg>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 space-y-3">
+            <a href="guia.html" class="block text-slate-600 hover:text-sky-600 font-medium">La Guía</a>
+            <a href="blog.html" class="block text-slate-600 hover:text-sky-600 font-medium">Blog Científico</a>
+            <a href="servicios.html" class="block text-slate-600 hover:text-sky-600 font-medium">Mis Servicios</a>
+            <a href="guarderia.html" class="block text-sky-600 font-semibold">Guardería</a>
+            <a href="sobre-mi.html" class="block text-slate-600 hover:text-sky-600 font-medium">Sobre Mí</a>
+            <a href="apoyame.html" class="block bg-emerald-500 text-white px-4 py-2 rounded-lg text-center font-semibold hover:bg-emerald-600">Apoya el Proyecto</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Sección de Héroe para la Guardería -->
+        <section class="bg-white">
+            <div class="container mx-auto px-6 py-16 text-center">
+                <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 mb-4">Una Guardería Única, Como Tu Perro</h1>
+                <p class="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto">
+                    Creemos en grupos pequeños y compatibles. Por eso, organizamos nuestras rutas y manadas por zonas, garantizando un ambiente seguro y familiar para todos.
+                </p>
+            </div>
+        </section>
+
+        <!-- Sección de Zonas y Manadas -->
+        <section id="rutas" class="bg-slate-50 py-16 md:py-24">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 mb-4">Nuestras Zonas y sus Manadas</h2>
+                    <p class="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto">
+                        Cada una de nuestras zonas de cobertura tiene su propia manada. Conoce a los miembros y consulta los cupos disponibles.
+                    </p>
+                </div>
+
+                <!-- INICIO ZONA CALDERÓN -->
+                <div class="mb-20">
+                    <!-- Tarjeta de Información de la Zona -->
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden dog-card max-w-4xl mx-auto mb-16">
+                       <div class="md:flex">
+                           <div class="md:flex-shrink-0 md:w-1/2">
+                               <img class="h-64 w-full object-cover md:h-full" src="https://placehold.co/600x500/38bdf8/FFFFFF?text=Mapa+Zona%0ACalderón" alt="Mapa de la Zona Calderón">
+                           </div>
+                           <div class="p-8 md:w-1/2 flex flex-col justify-center text-center">
+                               <h3 class="text-2xl font-bold text-slate-900 mb-3">Zona Calderón</h3>
+                               <p class="text-slate-600 mb-6">Servicio de ruta para los principales barrios del sector.</p>
+                               <div class="mb-6">
+                                   <span class="inline-block bg-emerald-100 text-emerald-800 text-2xl font-bold px-8 py-4 rounded-full shadow-md">
+                                       ¡13 Cupos Disponibles!
+                                   </span>
+                                   <p class="text-sm text-slate-500 mt-2">Capacidad total: 20 perros</p>
+                               </div>
+                               <a href="https://wa.me/593997593272/?text=Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20cupos%20de%20guarder%C3%ADa%20en%20Calder%C3%B3n." target="_blank" rel="noopener noreferrer" class="w-full bg-green-500 text-white font-semibold py-3 px-6 rounded-lg hover:bg-green-600 transition duration-300 flex items-center justify-center space-x-2">
+                                   <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 16 16">
+                                    <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.068-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.Tento 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                                </svg>
+                                   <span>Contactar por WhatsApp</span>
+                               </a>
+                           </div>
+                       </div>
+                    </div>
+
+                    <!-- Galería de la Manada de la Zona -->
+                    <h4 class="text-2xl md:text-3xl font-bold text-slate-800 text-center mb-10">La Manada de Calderón (7 Miembros)</h4>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                        <!-- Tarjeta de Perro 1: Max -->
+                        <div class="bg-white rounded-xl shadow-lg overflow-hidden dog-card flex flex-col">
+                            <img src="https://placehold.co/400x400/38bdf8/FFFFFF?text=Max" alt="Perro llamado Max" class="w-full h-48 object-cover">
+                            <div class="p-5 flex-grow flex flex-col">
+                                <h3 class="text-xl font-bold text-slate-900 mb-2">Max</h3>
+                                <p class="text-slate-600 text-sm flex-grow">El rey de los mimos y experto en siestas.</p>
+                            </div>
+                        </div>
+
+                        <!-- Tarjeta de Perro 2: Luna -->
+                        <div class="bg-white rounded-xl shadow-lg overflow-hidden dog-card flex flex-col">
+                            <img src="https://placehold.co/400x400/a78bfa/FFFFFF?text=Luna" alt="Perro llamado Luna" class="w-full h-48 object-cover">
+                            <div class="p-5 flex-grow flex flex-col">
+                                <h3 class="text-xl font-bold text-slate-900 mb-2">Luna</h3>
+                                <p class="text-slate-600 text-sm flex-grow">Nuestra exploradora incansable y olfateadora profesional.</p>
+                            </div>
+                        </div>
+
+                        <!-- Tarjeta de Perro 3: Rocky -->
+                        <div class="bg-white rounded-xl shadow-lg overflow-hidden dog-card flex flex-col">
+                            <img src="https://placehold.co/400x400/f87171/FFFFFF?text=Rocky" alt="Perro llamado Rocky" class="w-full h-48 object-cover">
+                            <div class="p-5 flex-grow flex flex-col">
+                                <h3 class="text-xl font-bold text-slate-900 mb-2">Rocky</h3>
+                                <p class="text-slate-600 text-sm flex-grow">Amante de las pelotas y campeón de buscar y traer.</p>
+                            </div>
+                        </div>
+
+                        <!-- Tarjeta de Perro 4: Bella -->
+                        <div class="bg-white rounded-xl shadow-lg overflow-hidden dog-card flex flex-col">
+                            <img src="https://placehold.co/400x400/fbbf24/FFFFFF?text=Bella" alt="Perro llamado Bella" class="w-full h-48 object-cover">
+                            <div class="p-5 flex-grow flex flex-col">
+                                <h3 class="text-xl font-bold text-slate-900 mb-2">Bella</h3>
+                                <p class="text-slate-600 text-sm flex-grow">La más fotogénica, siempre lista para posar con su mejor sonrisa.</p>
+                            </div>
+                        </div>
+
+                        <!-- Tarjeta de Perro 5: Coco -->
+                        <div class="bg-white rounded-xl shadow-lg overflow-hidden dog-card flex flex-col">
+                            <img src="https://placehold.co/400x400/34d399/FFFFFF?text=Coco" alt="Perro llamado Coco" class="w-full h-48 object-cover">
+                            <div class="p-5 flex-grow flex flex-col">
+                                <h3 class="text-xl font-bold text-slate-900 mb-2">Coco</h3>
+                                <p class="text-slate-600 text-sm flex-grow">Un grandullón adorable con un corazón de oro.</p>
+                            </div>
+                        </div>
+
+                        <!-- Tarjeta de Perro 6: Toby -->
+                        <div class="bg-white rounded-xl shadow-lg overflow-hidden dog-card flex flex-col">
+                            <img src="https://placehold.co/400x400/60a5fa/FFFFFF?text=Toby" alt="Perro llamado Toby" class="w-full h-48 object-cover">
+                            <div class="p-5 flex-grow flex flex-col">
+                                <h3 class="text-xl font-bold text-slate-900 mb-2">Toby</h3>
+                                <p class="text-slate-600 text-sm flex-grow">El alma de la fiesta, siempre listo para invitar a todos a jugar.</p>
+                            </div>
+                        </div>
+
+                        <!-- Tarjeta de Perro 7: Lola -->
+                        <div class="bg-white rounded-xl shadow-lg overflow-hidden dog-card flex flex-col">
+                            <img src="https://placehold.co/400x400/c084fc/FFFFFF?text=Lola" alt="Perro llamado Lola" class="w-full h-48 object-cover">
+                            <div class="p-5 flex-grow flex flex-col">
+                                <h3 class="text-xl font-bold text-slate-900 mb-2">Lola</h3>
+                                <p class="text-slate-600 text-sm flex-grow">Dulzura con patas a la que le encanta acurrucarse.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- FIN ZONA CALDERÓN -->
+
+                <!-- Aquí se podrían añadir más zonas en el futuro, siguiendo la misma estructura -->
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer (Consistente con las otras páginas) -->
+    <footer class="bg-slate-800 text-slate-300">
+        <div class="container mx-auto px-6 py-12">
+            <div class="border-t border-slate-700 mt-8 pt-6 text-center text-sm">
+                <p>&copy; 2024 GuíaCanina. Un proyecto de Allku Yachana.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Script para el menú móvil
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
+
+
+
+
